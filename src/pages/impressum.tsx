@@ -1,9 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Seo from '../components/SEO'
 
 const ImprintPage = () => (
   <div>
+    <Seo title="Impressum" />
     <Header />
     <main className="px-4 sm:px-12 md:px-18 mx-auto max-w-7xl mb-24">
       <h1 className="text-2xl font-extrabold sm:text-5xl md:text-6xl">Impressum</h1>

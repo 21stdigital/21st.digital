@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const Header = () => (
   <header className="px-4 sm:px-12 md:px-18 max-w-7xl mx-auto flex justify-between items-center">
-    <Link to="/">
+    <Link to="/" aria-label="Logo">
       <svg className="w-40 sm:w-48" viewBox="0 0 441 441" xmlns="http://www.w3.org/2000/svg">
         <path
           fill="currentColor"

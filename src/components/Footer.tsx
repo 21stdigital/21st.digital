@@ -19,10 +19,10 @@ const Footer = () => (
       </div>
       <div className="flex flex-col">
         <div className="flex mt-40 mb-12 flex-row justify-around items-center">
-          <Link to="/impressum" className="font-bold block cursor-pointer text-gray-600 hover:text-white">
+          <Link to="/impressum" className="font-bold block cursor-pointer text-gray-400 hover:text-white">
             Impressum
           </Link>
-          <Link to="/datenschutz" className="font-bold block cursor-pointer text-gray-600 hover:text-white">
+          <Link to="/datenschutz" className="font-bold block cursor-pointer text-gray-400 hover:text-white">
             Datenschutz
           </Link>
         </div>
