@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://21st.digital/sitemap.xml
+Host: https://21st.digital
