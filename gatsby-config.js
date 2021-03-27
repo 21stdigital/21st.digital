@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     defaultTitle: 'Entwicklung von digitalen Produkten im Web',
     titleTemplate: '%s · 21st digital',
-    defaultDescription: 'Spezialeinheit für digitale Produkte aus Hamburg',
+    defaultDescription:
+      'Wir begleiten Dein digitales Produkt. Individuelle Web- und App-Entwicklung. Lass uns sprechen.',
     defaultImage: '/images/og-logo.png',
     siteUrl: 'https://21st.digital'
   },
@@ -30,7 +31,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        policy: [{ userAgent: '*', allow: '/' }]
+        policy: [{ userAgent: '*', allow: '/', disallow: ['/impressum', '/datenschutz'] }]
       }
     }
   ]
