@@ -5,7 +5,9 @@ import Seo from '../components/SEO'
 
 const PrivacyPage = () => (
   <div>
-    <Seo title="Datenschutzerklärung" />
+    <Seo title="Datenschutzerklärung">
+      <meta name="robots" content="noindex, follow" />
+    </Seo>
     <Header />
     <main className="px-4 sm:px-12 md:px-18 mx-auto max-w-7xl mb-24">
       <h1 className="text-2xl font-extrabold sm:text-5xl md:text-6xl">Datenschutzerklärung</h1>

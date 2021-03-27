@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { Helmet } from 'react-helmet'
 import { useLocation } from '@reach/router'
 import { useStaticQuery, graphql } from 'gatsby'
@@ -8,6 +8,7 @@ interface Props {
   title?: string
   description?: string
   image?: string
+  children?: ReactNode
 }
 
 interface SeoData {
@@ -22,7 +23,7 @@ interface SeoData {
   }
 }
 
-const SEO = ({ title, description, image }: Props) => {
+const SEO = ({ title, description, image, children }: Props) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery<SeoData>(query)
 
@@ -65,6 +66,8 @@ const SEO = ({ title, description, image }: Props) => {
       <meta property="og:description" content={seo.description} />
       <meta property="og:image" content={seo.image} />
       <script type="application/ld+json">{JSON.stringify(schemaOrgOrganization)}</script>
+
+      {children}
     </Helmet>
   )
 }

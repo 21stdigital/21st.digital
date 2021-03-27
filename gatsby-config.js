@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -19,6 +20,12 @@ module.exports = {
         theme_color: `#000`,
         display: `standalone`,
         icon: 'src/images/logo.svg'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]
       }
     }
   ]
