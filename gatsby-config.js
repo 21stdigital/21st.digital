@@ -9,7 +9,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/impressum`, `/datenschutz`]
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
