@@ -1,1 +1,1 @@
-# 2021st digital - Temporary Website
+# 2021st digital - a temporary website

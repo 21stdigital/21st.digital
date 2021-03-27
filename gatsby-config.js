@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    defaultTitle: 'Kreative Spezialeinheit für digitale Produkte',
+    defaultTitle: 'Entwicklung von digitalen Produkten im Web',
     titleTemplate: '%s · 21st digital',
-    defaultDescription: 'Spezialeinheit für digitale Produkte im Web aus Hamburg',
+    defaultDescription: 'Spezialeinheit für digitale Produkte aus Hamburg',
     defaultImage: '/images/og-logo.png',
     siteUrl: 'https://21st.digital'
   },

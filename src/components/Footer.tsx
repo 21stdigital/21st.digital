@@ -11,7 +11,8 @@ const Footer = () => (
       </div>
       <div className="flex mt-8 flex-col md:flex-row md:justify-between items-start">
         <p className="w-full md:w-2/3 text-gray-400">
-          Wir helfen Dir nicht einfach nur Features umzusetzen sondern das richtige Produkt mit der richtigen Strategie.
+          Wir helfen Dir nicht nur Features umzusetzen sondern das richtige Produkt mit der richtigen Strategie zu
+          entwickeln.
         </p>
         <div className="w-full md:w-44 pt-6 md:pt-0">
           {typeof window !== 'undefined' ? <ContactButton title="Schreib' uns" /> : null}
