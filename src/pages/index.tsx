@@ -18,7 +18,7 @@ const HomePage = (props: PageProps) => {
               style={{
                 background:
                   'linear-gradient(104deg, rgba(0, 242, 255,0) 0.9%, rgba(0, 242, 255,1.25) 2.4%, rgba(0, 242, 255,0.5) 5.8%, rgba(0, 242, 255,0.1) 93%, rgba(0, 242, 255,0.7) 96%, rgba(0, 242, 2552,0) 98%), linear-gradient(183deg, rgba(0, 242, 255,0) 0%, rgba(0, 242, 255,0.3) 7.9%, rgba(0, 242, 255,0) 15%)',
-                padding: '0.6em 13,7px',
+                padding: '0 0.2em',
                 borderRadius: '7.5px'
               }}
             >
