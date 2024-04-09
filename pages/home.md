@@ -38,16 +38,6 @@ Unsere Erfolgsbeispiele bieten einen Einblick in die vielfältigen Herausforderu
   - HYROX ???
 - Testimonials: Zitate zufriedener Kunden, um Glaubwürdigkeit und Vertrauen zu stärken.
 
-## Arbeitsprozess / Wie wir arbeiten
-
-- Grobe Schritt-für-Schritt-Anleitung / typischer Prozess von der Anfrage bis zum Projektabschlus und darüber hinaus
-- Transparenz und Kommunikation um zu zeigen wie wir in jeder Phase eng mit den Kunden zusammenarbeitet.
-
-<!-- ##
-Technologien und Expertise
-- Vorstellung des Tech Stacks: Kurze Einführung in die Technologien und Werkzeuge, mit denen wir arbeiten
--->
-
 ## Technologien, die wir lieben
 
 Wir legen großen Wert auf qualitativ hochwertige Arbeit, die den Branchenstandards entspricht und garantieren erstklassigen Service durch unser erfahrenes Team von Softwareentwicklern. Unsere Entwickler verfügen über eine breite Palette an technischen Fähigkeiten und Expertisen, einschließlich:
