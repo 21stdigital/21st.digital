@@ -1,5 +1,5 @@
 ---
 name: The Cube
-title:
+teaser:
 client: Deutsche Telekom
 ---
