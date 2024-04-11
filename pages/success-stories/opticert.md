@@ -1,5 +1,8 @@
 ---
 name: OPTICERT
-teaser: Entdecken Sie, wie wir FIEGE Logistik auf dem Weg in ein neues digitales Geschäftsfeld begleitet und zum Erfolg geführt haben
+teaser: Entdecken Sie, wie wir einem Logistikriesen geholfen haben ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.
 client: FIEGE Logistik
+period:
+  start: 2018
+  end: 2022
 ---
