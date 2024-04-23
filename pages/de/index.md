@@ -54,9 +54,9 @@ Wir sind stolz darauf, mit einer Vielzahl von Kunden aus allen Branchen und Unte
 - Miniatur Wunderland
 - PETA
 - Reeperbahn Festival
-- SPORTFIVE
 - Schaeffler
 - Snap
+- SPORTFIVE
 - Thalia Theater
 
 --
