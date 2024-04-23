@@ -1,5 +1,5 @@
 ---
-title: 21st digital
+title: 21st digital – Dein Partner für Digitale Transformation und Produktentwicklung
 ---
 
 # Von Deiner Vision zur digitalen Erfolgsgeschichte
