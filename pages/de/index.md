@@ -31,7 +31,7 @@ Erfahre, wie wir durch eine strategische Neuausrichtung der Website von SPORTFIV
 Profitiere von unserer tiefgreifenden Erfahrung in der Entwicklung und Implementierung erfolgreicher digitaler Produkte. Egal, ob Du Gründer mit einer neuen Idee bist, Produktverantwortlicher in einem großen Unternehmen oder irgendwo dazwischen – 21st digital steht Dir zur Seite.
 
 - Consulting & Strategy
-- UX & UI Design
+- UX, UI & Product Design
 - Web Development
 - DevOps
 - Platform Engineering
@@ -46,6 +46,7 @@ Wir sind stolz darauf, mit einer Vielzahl von Kunden aus allen Branchen und Unte
 - Bayer
 - Butlers
 - Deutsche Telekom
+- Ensemble Resonanz
 - FIEGE
 - G+J
 - HYROX
@@ -57,7 +58,6 @@ Wir sind stolz darauf, mit einer Vielzahl von Kunden aus allen Branchen und Unte
 - Schaeffler
 - Snap
 - Thalia Theater
-- ensemble resonanz
 
 --
 
