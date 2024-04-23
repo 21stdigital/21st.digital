@@ -6,7 +6,7 @@ title: 21st digital
 
 Bei 21st digital dreht sich alles darum, innovative Technologielösungen mit klarer, offener Kommunikation zu verbinden. Wir sind mehr als nur Softwareentwickler - wir sind Dein Partner auf der Reise durch die digitale Transformation. Wir hinterfragen das Bestehende, optimieren Prozesse und setzen die richtigen Strategien ein, um nicht nur digitale Produkte, sondern ganze Geschäftsmodelle erfolgreich zu machen.
 
-→ Bereit für den nächsten Schritt? Kontaktiere uns
+**→ Bereit für den nächsten Schritt? Kontaktiere uns**
 
 --
 
@@ -71,4 +71,4 @@ Wir sind stolz darauf, mit einer Vielzahl von Kunden aus allen Branchen und Unte
 
 Wir helfen Dir nicht nur Features umzusetzen, sondern das richtige Produkt mit der richtigen Strategie zu entwickeln.
 
-→ Jetzt starten
+**→ Jetzt starten**
