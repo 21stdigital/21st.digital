@@ -14,7 +14,7 @@ Bei 21st digital dreht sich alles darum, innovative Technologielösungen mit kla
 
 ## Von Daten zu Taten - Wie ein innovatives Produkt Städten und Ländern die Mobilitätsoptimierung erleichtert
 
-Erfahre, wie wir Mercedes-Benz geholfen haben, ein digitales Produkt aus über einer halben Milliarde Fahrzeugdaten zu erschaffen, um urbane Mobilität und Infrastrukturen weltweit zu verbessern.
+Erfahre, wie wir Mercedes-Benz geholfen haben, aus über einer halben Milliarde Fahrzeugdaten ein digitales Produkt zu erschaffen, das urbane Mobilität und Infrastrukturen weltweit verbessert.
 
 ## Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro
 
@@ -28,26 +28,13 @@ Erfahre, wie wir durch eine strategische Neuausrichtung der Website von SPORTFIV
 
 # Services
 
-## Produkt
+Profitiere von unserer tiefgreifenden Erfahrung in der Entwicklung und Implementierung erfolgreicher digitaler Produkte. Egal, ob Du Gründer mit einer neuen Idee bist, Produktverantwortlicher in einem großen Unternehmen oder irgendwo dazwischen – 21st digital steht Dir zur Seite.
 
-- Research & Strategic Insights
-- Product Design Sprint
-- Product Management
-
-## Design
-
-- Design Research
-- UX, UI, & Product Design
-- Design Systems
-
-## Web
-
-- Next.js
-- React
-- Laravel
+- Consulting & Strategy
+- UX & UI Design
+- Web Development
+- DevOps
 - Platform Engineering
-- Support & Maintenance
-- AI & Machine Learning
 
 --
 
@@ -55,15 +42,22 @@ Erfahre, wie wir durch eine strategische Neuausrichtung der Website von SPORTFIV
 
 Wir sind stolz darauf, mit einer Vielzahl von Kunden aus allen Branchen und Unternehmensgrößen zusammenzuarbeiten und sie auf ihrem Weg der digitalen Transformation zu begleiten.
 
-- HYROX
+- A-COLD-WALL\*
+- Bayer
+- Butlers
 - Deutsche Telekom
 - FIEGE
-- Miniatur Wunderland
+- G+J
+- HYROX
 - Mercedes-Benz
+- Miniatur Wunderland
+- PETA
 - Reeperbahn Festival
-- Schaeffler
-- Bayer
 - SPORTFIVE
+- Schaeffler
+- Snap
+- Thalia Theater
+- ensemble resonanz
 
 --
 
