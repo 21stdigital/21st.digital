@@ -14,15 +14,15 @@ Bei 21st digital dreht sich alles darum, innovative Technologielösungen mit kla
 
 ## Von Daten zu Taten - Wie ein innovatives Produkt Städten und Ländern die Mobilitätsoptimierung erleichtert
 
-Erfahren Sie, wie wir Mercedes-Benz geholfen haben, ein digitales Produkt aus über einer halben Milliarde Fahrzeugdaten zu erschaffen, um urbane Mobilität und Infrastrukturen weltweit zu verbessern.
+Erfahre, wie wir Mercedes-Benz geholfen haben, ein digitales Produkt aus über einer halben Milliarde Fahrzeugdaten zu erschaffen, um urbane Mobilität und Infrastrukturen weltweit zu verbessern.
 
 ## Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro
 
-Entdecken Sie, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.
+Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.
 
 ## Modulares CMS als Schlüssel zur Steigerung der Online-Performance
 
-Erfahren Sie, wie wir durch eine strategische Neuausrichtung der Website von SPORTFIVE nicht nur die Online-Präsenz maximiert, sondern auch die Customer Conversion Rate enorm erhöht haben, wodurch sich direkte und messbare Geschäftserfolge einstellten.
+Erfahre, wie wir durch eine strategische Neuausrichtung der Website von SPORTFIVE nicht nur die Online-Präsenz maximiert, sondern auch die Customer Conversion Rate enorm erhöht haben, wodurch sich direkte und messbare Geschäftserfolge einstellten.
 
 --
 
