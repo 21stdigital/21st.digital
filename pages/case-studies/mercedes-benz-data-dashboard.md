@@ -5,12 +5,14 @@ title: Von Daten zu Taten - Wie ein innovatives Produkt die Mobilitätsoptimieru
 teaser: Erfahre, wie wir Mercedes-Benz geholfen haben, aus über einer halben Milliarde Fahrzeugdaten ein digitales Produkt zu erschaffen, das urbane Mobilität und Infrastrukturen weltweit verbessert.
 ---
 
-In unserer vernetzten Welt generieren Fahrzeuge immense Datenmengen, die — richtig genutzt — wertvolle Einblicke in die urbane Mobilität und Infrastruktur ermöglichen. Als führendes Unternehmen in der Automobilindustrie steht Mercedes-Benz an der Spitze dieser Transformation. Daten aus den Sensoren der weltweiten Fahrzeugflotte werden gesammelt, anonymisiert und konsolidiert, um innovative Datenprodukte zu schaffen. Diese als APIs bereitgestellten Produkte bieten Städten, Gemeinden und Ländern wertvolle Dienste, von der Wartung des Verkehrsnetzes bis zur Identifizierung von Parkplatzverfügbarkeiten und gefährlichen Verkehrspunkten.
+Mercedes-Benz, ein führender Anbieter in der Automobilindustrie, nutzt die umfangreichen Daten seiner globalen Fahrzeugflotte, um innovative Datenprodukte zu entwickeln, die urbane Mobilität und Infrastruktur optimieren. Die Fahrzeugdaten, gesammelt von Sensoren und anonymisiert, bieten wertvolle Einblicke in Verkehrsnetzwerke, Parkraumverfügbarkeit und Sicherheitsaspekte im Straßenverkehr.
 
-Mercedes-Benz hat ein Produkt entwickelt, das es Kunden ermöglicht, Fahrzeugdaten einfach zu analysieren und auszuwerten. Diese Plattform unterstützt auch den Vertrieb bei der Vermarktung der einzelnen Datenprodukte. Mit der Qualität des Prozesses, der Entwicklung und der Ergebnisse zunächst unzufrieden, suchte Mercedes-Benz einen Partner, der die komplette Produktentwicklung übernimmt und das Projekt neu aufsetzt.
+Mercedes-Benz strebte eine Plattform an, die nicht nur die Analyse und Auswertung der Daten ermöglicht, sondern auch den Vertrieb der Datenprodukte unterstützt. Aufgrund von Unzufriedenheit mit dem Fortschritt des Projekts entschied sich Mercedes-Benz für einen Neustart und suchte einen Partner für die vollständige Neuentwicklung des Produkts.
 
-In Zusammenarbeit mit 21st digital erreichte Mercedes-Benz beeindruckende Ergebnisse:
+Durch die Zusammenarbeit mit 21st digital erzielte Mercedes-Benz beeindruckende Ergebnisse:
 
-- Neustart bis Go-Live in nur vier Monaten
+- Neustart bis Go-Live in nur 4 Monaten
 - Internationaler Rollout
-- Schlanker, agiler Prozess mit Scrum-Methodik
+- Effizienter agiler Entwicklungsprozess nach Scrum
+
+--
