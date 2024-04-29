@@ -4,8 +4,8 @@ client: Mercedes-Benz
 title: Von Daten zu Taten - Wie ein innovatives Produkt die Mobilitätsoptimierung für Städte und Länder erleichtert
 teaser: Erfahre, wie wir Mercedes-Benz geholfen haben, aus über einer halben Milliarde Fahrzeugdaten ein digitales Produkt zu erschaffen, das urbane Mobilität und Infrastrukturen weltweit verbessert.
 facts:
-  - 0,5 Milliarden Eventdaten
-  - 200+ Gigabytes an Fahrzeugdaten
+  - 500+ Millionen Eventdaten
+  - 200+ Gigabytes Fahrzeugdaten
   - 40+ Länder
   - 4x schnellere Entwicklung
 ---
