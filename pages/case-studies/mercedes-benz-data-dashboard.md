@@ -28,7 +28,7 @@ Die unterschiedlichen Bedürfnisse der zahlreichen Stakeholder wie Produktmanage
 
 ## Lösung
 
-In Partnerschaft mit 21st digital entwickelte Mercedes-Benz eine benutzerfreundliche Webanwendung, die es Nutzern ermöglicht, Fahrzeugdaten effektiv zu analysieren und Entscheidungen zu treffen.
+21st digital entwickelte in Partnerschaft mit Mercedes-Benz eine benutzerfreundliche Webanwendung, die es Nutzern ermöglicht, Fahrzeugdaten effektiv zu analysieren und Entscheidungen zu treffen.
 
 ### Entwicklungsansatz und Technologie
 
@@ -54,6 +54,6 @@ Die Einführung des Data Dashboards hat die Art und Weise, wie Kunden und Vertri
 
 > "Unsere Kunden, darunter viele Kommunen und Landkreise, profitieren enorm von der einfachen Datennutzung, die ihnen das Data Dashboard bietet", berichtet Danny Truong, Head of Business Development & Internationalization.
 
-Dank der Partnerschaft mit 21st digital konnte der Entwicklungsprozess erheblich beschleunigt und Kosten gespart werden.
+Durch die Zusammenarbeit mit 21st digital wurde der Entwicklungsprozess nicht nur beschleunigt, sondern auch die Projektkosten wurden deutlich reduziert. Ein Schlüsselelement für diesen Erfolg war die transparente Kommunikation während des gesamten Projekts. Dies gewährleistete, dass jeder Beteiligte ständig auf dem Laufenden war, über die aktuellen Entwicklungen informiert wurde und genau wusste, an welchen Punkten gerade gearbeitet wird.
 
 > "21st digital hat nicht nur unsere Entwicklungszeiten verkürzt, sondern auch unsere Prozesse optimiert und effizienter gemacht", betont Gösele.
