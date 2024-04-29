@@ -3,6 +3,11 @@ name: Mercedes-Benz Data Dashboard
 client: Mercedes-Benz
 title: Von Daten zu Taten - Wie ein innovatives Produkt die Mobilitätsoptimierung für Städte und Länder erleichtert
 teaser: Erfahre, wie wir Mercedes-Benz geholfen haben, aus über einer halben Milliarde Fahrzeugdaten ein digitales Produkt zu erschaffen, das urbane Mobilität und Infrastrukturen weltweit verbessert.
+facts:
+  - 0,5 Milliarden Eventdaten
+  - 200+ Gigabytes an Fahrzeugdaten
+  - 40+ Länder
+  - 4x schnellere Entwicklung
 ---
 
 Als Pionier in der Automobilindustrie nutzt Mercedes-Benz die umfangreichen Daten seiner weltweiten Fahrzeugflotte, um wegweisende Lösungen zu entwickeln, die urbane Mobilität und Infrastruktur nachhaltig verbessern. Durch den Einsatz modernster Sensortechnologie werden Fahrzeugdaten anonymisiert erfasst und liefern wertvolle Erkenntnisse über Verkehrsflüsse, Parkplatzverfügbarkeit und Sicherheitsbedingungen im Straßenverkehr.
