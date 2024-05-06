@@ -20,9 +20,9 @@ Erfahre, wie wir Mercedes-Benz geholfen haben, aus über einer halben Milliarde 
 
 Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.
 
-## Modulares CMS als Schlüssel zur Steigerung der Online-Performance
+## Von der Vision zur Konversion - Ein neues digitales Aushängeschild für SPORTFIVE
 
-Erfahre, wie wir durch eine strategische Neuausrichtung der Website von SPORTFIVE nicht nur die Online-Präsenz maximiert, sondern auch die Customer Conversion Rate enorm erhöht haben, wodurch sich direkte und messbare Geschäftserfolge einstellten.
+Erfahre, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.
 
 --
 
