@@ -15,7 +15,7 @@ Die Deutsche Telekom strebte den Wandel von einem Printmagazin zu einer digitale
 
 > "Wir sahen die Notwendigkeit, unser Printmagazin zu einem echten Online-Magazin zu überführen, das die Dynamik und Vielfalt unserer Inhalte widerspiegelt. Unser Ziel war es, eine Plattform zu schaffen, die sowohl unseren redaktionellen Ambitionen gerecht wird als auch eine nahtlose User Experience bietet", erklärt Kathleen Karrer, Senior Manager International Market Communications der Deutschen Telekom
 
-Die Deutsche Telekom suchte nach einem Partner, um das erfolgreiche Musikmagazin in eine zentrale digitale Publishing-Plattform zu verwandeln.
+Die Deutsche Telekom suchte einen Partner, der das erfolgreiche Magazin in eine umfassende digitale Plattform transformieren konnte.
 
 --
 
@@ -43,7 +43,9 @@ Innovative Formate fördern Künstler wie die Gorillaz und Billie Eilish: Ein ei
 
 ### The Cube: 20 Years of Electronic Beats
 
-Seit 20 Jahren prägt Telekom Electronic Beats die europäische Clubkultur. Anlässlich des Jubiläums wurde "The Cube" entwickelt, um die zentralen Themen auf neue Weise zu präsentieren. "The Cube" schafft immersiven Content, der im dreidimensionalen Raum erlebbar wird.
+Anlässlich des 20-jährigen Jubiläums wurde "The Cube" entwickelt – eine immersive 360-Grad-Ausstellung, die eine Reise durch die Geschichte und Gegenwart der Musik und Popkultur ermöglicht. Die Ausstellung nutzt Technologie aus der Gaming-Industrie, um ein intuitives, immersives Erlebnis in 3D zu schaffen. Besucher können musikhistorische Video-Collagen, Beiträge von Künstlern und ein Community-Forum erkunden. "The Cube" soll haptische Kulturerlebnisse in der digitalen Welt ermöglichen und physische Events ergänzen.
+
+> "Die Inhalte und Interaktionen mit der Community werden im Space des Cubes regelrecht berührbar. Die Art und Weise und die Geschwindigkeit, wie Inhalte im Netz rezipiert werden, verändern sich drastisch. Mit dem Cube entwickeln wir digitale Kommunikation weiter. Wir experimentieren mit einer 3D-Umgebung, in der wir Geschichten immersiver und visueller erzählen können", sagt Ulrich Klenke, Markenchef der Deutschen Telekom.
 
 --
 
