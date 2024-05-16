@@ -7,9 +7,9 @@
     "phpstan": "Run PHPStan static analysis (using larastan) against your application."
   },
   "scripts": {
-    "lint": "@php ./vendor/bin/pint -v --dirty --test",
-    "lint:fix": "@php ./vendor/bin/pint -v --dirty",
-    "phpstan": "./vendor/bin/phpstan analyse --ansi --memory-limit 512M",
+    "analyse": "@php vendor/bin/phpstan analyse",
+    "lint": "@php vendor/bin/pint",
+    "test": "@php -d memory_limit=-1 -d max_execution_time=0 ./vendor/bin/pest",
     "pre-update-cmd": [
       "Statamic\\Console\\Composer\\Scripts::preUpdateCmd"
     ],
@@ -37,13 +37,16 @@
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.8.1",
+    "captainhook/captainhook": "^5.23",
+    "captainhook/hook-installer": "^1.0",
     "fakerphp/faker": "^1.23",
-    "larastan/larastan": "^2.0",
+    "larastan/larastan": "^2.9",
     "laravel/pint": "^1.15",
     "laravel/sail": "^1.26",
     "mockery/mockery": "^1.6",
     "nunomaduro/collision": "^8.0",
-    "phpunit/phpunit": "^10.5",
+    "pestphp/pest": "^2.34",
+    "ramsey/conventional-commits": "^1.5",
     "spatie/laravel-ignition": "^2.4"
   },
   "autoload": {
@@ -70,7 +73,8 @@
     "allow-plugins": {
       "pestphp/pest-plugin": true,
       "php-http/discovery": true,
-      "pixelfear/composer-dist-plugin": true
+      "pixelfear/composer-dist-plugin": true,
+      "captainhook/hook-installer": true
     }
   },
   "minimum-stability": "dev",

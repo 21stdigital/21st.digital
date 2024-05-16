@@ -39,4 +39,4 @@ jobs:
           composer update --no-interaction --prefer-dist
 
       - name: Run PHPStan
-        run: composer phpstan
+        run: composer analyse
