@@ -1,0 +1,30 @@
+[data-module] + [data-module] {
+    @apply pt-96;
+}
+
+[data-module="hero_text"] + [data-module="section_header"] {
+    @apply pt-0;
+}
+
+[data-module="section_header"] {
+    .text {
+        @apply text-xl leading-relaxed;
+
+        > *:not(:first-child) {
+            @apply mt-5;
+        }
+    }
+}
+
+[data-module="section_header"]
+    + [data-module]:not([data-module="section_header"]) {
+    @apply pt-24;
+}
+
+[data-module="contact_cta"] {
+    @apply pb-48;
+
+    .text {
+        @apply sm:text-xl;
+    }
+}

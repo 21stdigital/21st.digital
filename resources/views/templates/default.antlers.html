@@ -1,0 +1,7 @@
+{{ if modules }}
+    {{ modules }}
+        <div data-module="{{ type }}">
+            {{ partial:if_exists src="modules/{{ type }}" }}
+        </div>
+    {{ /modules }}
+{{ /if }}

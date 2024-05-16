@@ -1,0 +1,51 @@
+title: Button
+fields:
+  -
+    handle: button_size
+    field:
+      options:
+        default: default
+        xl: XL
+      default: default
+      type: button_group
+      display: 'Button Size'
+  -
+    handle: label
+    field:
+      type: text
+      display: Label
+  -
+    handle: url
+    field:
+      type: link
+      display: URL
+  -
+    handle: add_icon
+    field:
+      type: toggle
+      display: 'Add Icon'
+  -
+    handle: icon
+    field:
+      type: icon
+      display: Icon
+      width: 66
+      validate:
+        - sometimes
+        - required
+      directory: resources/svg/heroicons
+      folder: outline
+      if:
+        add_icon: 'equals true'
+  -
+    handle: icon_position
+    field:
+      options:
+        before: before
+        after: after
+      default: after
+      type: button_group
+      display: 'Icon Position'
+      width: 33
+      if:
+        add_icon: 'equals true'
