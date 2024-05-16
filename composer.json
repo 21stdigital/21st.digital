@@ -12,7 +12,7 @@
       "npm run build",
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
       "@php artisan key:generate",
-      "@php please ssg:generate"
+      "@php please ssg:generate -n"
     ],
     "lint": "@php vendor/bin/pint",
     "test": "@php -d memory_limit=-1 -d max_execution_time=0 ./vendor/bin/pest",
