@@ -21,8 +21,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  # Deploy job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -39,30 +42,29 @@ jobs:
           php-version: '8.3'
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Install Node dependencies
-        run: npm ci
+        uses: actions/configure-pages@v5
 
       - name: Install PHP dependencies
         run: composer install
 
-      - name: Build
-        run: composer build
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Build Frontend
+        run: npm run build
+
+      - name: Build Site
+        run: php please ssg:generate -n
+        env:
+          APP_NAME: 21st digital
+          APP_URL: ${{ vars.APP_URL }}
+          APP_KEY: ${{ secrets.APP_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: storage/app/static
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
