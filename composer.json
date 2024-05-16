@@ -2,9 +2,9 @@
   "name": "tfd/21st.digital",
   "description": "A modern and dynamic corporate website for 21st digital, built using Laravel 11 and Statamic 5 CMS. This project includes advanced PHP linting, static analysis, and automated scripts to ensure code quality and streamline development workflows.",
   "scripts-descriptions": {
-    "lint": "Dry-run PHP linting (using Laravel Pint) against your application.",
-    "lint:fix": "Run PHP linting (using Laravel Pint) against your application.",
-    "phpstan": "Run PHPStan static analysis (using larastan) against your application."
+    "analyse": "Run PHPStan static analysis (using larastan) against your application.",
+    "lint": "Run PHP linting (using Laravel Pint) against your application.",
+    "test": "Run PHP Unit Tests (using Pest) against your application."
   },
   "scripts": {
     "analyse": "@php vendor/bin/phpstan analyse",
