@@ -22,12 +22,34 @@ fields:
               fields:
                 -
                   import: module_hero_text
+            quote:
+              display: Quote
+              icon: text-formatting-quotation
+              fields:
+                -
+                  import: module_quote
             section_header:
               display: 'Section Header'
               icon: layout-header
               fields:
                 -
                   import: module_section_header
+            team_cta:
+              display: 'Team CTA'
+              icon: user-avatar
+              fields:
+                -
+                  import: module_team_cta
+            text:
+              display: Text
+              fields:
+                -
+                  import: module_text
+            tiles:
+              display: Tiles
+              fields:
+                -
+                  import: module_tiles
         teaser:
           display: Teaser
           icon: dashboard-layout
