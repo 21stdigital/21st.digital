@@ -1,11 +1,17 @@
+# Set default behavior for all files
 * text=auto eol=lf
 
+# Define how Git should handle diffs for specific file types
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
+*.js diff=javascript
+*.json diff=json
 
+# Exclude specific files and directories from export
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+.editorconfig export-ignore
