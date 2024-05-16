@@ -1,0 +1,49 @@
+title: Modules
+fields:
+  -
+    handle: modules
+    field:
+      collapse: true
+      type: replicator
+      display: Modules
+      sets:
+        texts:
+          display: Texts
+          icon: text-formatting-initial-letter
+          sets:
+            contact_cta:
+              display: 'Contact CTA'
+              fields:
+                -
+                  import: module_contact_cta
+            hero_text:
+              display: 'Hero Text'
+              icon: text-formatting-initial-letter
+              fields:
+                -
+                  import: module_hero_text
+            section_header:
+              display: 'Section Header'
+              icon: layout-header
+              fields:
+                -
+                  import: module_section_header
+        teaser:
+          display: Teaser
+          icon: dashboard-layout
+          sets:
+            case_study_list:
+              display: 'Case Study List'
+              fields:
+                -
+                  import: module_case_study_list
+            client_list:
+              display: 'Client List'
+              fields:
+                -
+                  import: module_client_list
+            service_list:
+              display: 'Service List'
+              fields:
+                -
+                  import: module_service_list

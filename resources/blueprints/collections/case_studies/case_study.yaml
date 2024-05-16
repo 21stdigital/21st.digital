@@ -1,0 +1,51 @@
+title: 'Case Study'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            import: modules
+  teaser:
+    display: Teaser
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: teaser_text
+            field:
+              type: textarea
+              display: 'Teaser Text'
+              validate:
+                - required
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: client
+            field:
+              max_items: 1
+              mode: typeahead
+              collections:
+                - clients
+              type: entries
+              display: Client
+              validate:
+                - required

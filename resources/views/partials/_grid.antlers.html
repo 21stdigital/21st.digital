@@ -1,0 +1,9 @@
+{{#
+    @name Grid
+    @desc The default grid wrapper that is used throughout the project
+    @param class String. A custom CSS class for the grid wrapper
+#}}
+
+<div class="{{ class }} grid md:grid-cols-12 md:gap-10 lg:gap-20">
+    {{ slot }}
+</div>
