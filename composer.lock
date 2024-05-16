@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2549602410cd442e6c854fef15eb188",
+    "content-hash": "a1881ae64ce1e1c2ab4bcdd8ae1dc918",
     "packages": [
         {
             "name": "ajthinking/archetype",
-            "version": "v1.1.5",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ajthinking/archetype.git",
-                "reference": "cfee02623c784da8ac4004803efed99fc56ead18"
+                "reference": "d2c5cd0f072ebde50dfa8a47a5a672023f561bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ajthinking/archetype/zipball/cfee02623c784da8ac4004803efed99fc56ead18",
-                "reference": "cfee02623c784da8ac4004803efed99fc56ead18",
+                "url": "https://api.github.com/repos/ajthinking/archetype/zipball/d2c5cd0f072ebde50dfa8a47a5a672023f561bdb",
+                "reference": "d2c5cd0f072ebde50dfa8a47a5a672023f561bdb",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^4.11"
+                "nikic/php-parser": "^5.0"
             },
             "require-dev": {
                 "laravel/laravel": "^6.0 || ^7.0 || ^8.0 || ^9.0",
@@ -65,9 +65,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ajthinking/archetype/issues",
-                "source": "https://github.com/ajthinking/archetype/tree/v1.1.5"
+                "source": "https://github.com/ajthinking/archetype/tree/v2.0.0"
             },
-            "time": "2022-08-24T05:52:35+00:00"
+            "time": "2024-05-11T08:05:58+00:00"
         },
         {
             "name": "brick/math",
@@ -2832,25 +2832,27 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.19.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4e1b88d21c69391150ace211e9eaf05810858d0b"
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4e1b88d21c69391150ace211e9eaf05810858d0b",
-                "reference": "4e1b88d21c69391150ace211e9eaf05810858d0b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/139676794dc1e9231bf7bcd123cfc0c99182cb13",
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13",
                 "shasum": ""
             },
             "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
                 "ext-tokenizer": "*",
-                "php": ">=7.1"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -2858,7 +2860,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.9-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -2882,9 +2884,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.19.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.2"
             },
-            "time": "2024-03-17T08:10:35+00:00"
+            "time": "2024-03-05T20:51:40+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -4239,6 +4241,71 @@
             "time": "2024-05-03T15:43:14+00:00"
         },
         {
+            "name": "spatie/fork",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/fork.git",
+                "reference": "c79b4c10ce1c22efb7e90429a5ff30d36c7d8ae3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/fork/zipball/c79b4c10ce1c22efb7e90429a5ff30d36c7d8ae3",
+                "reference": "c79b4c10ce1c22efb7e90429a5ff30d36c7d8ae3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "ext-sockets": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "nesbot/carbon": "^2.66",
+                "pestphp/pest": "^1.23",
+                "phpunit/phpunit": "^9.5",
+                "spatie/ray": "^1.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Fork\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Roose",
+                    "email": "brent@spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A lightweight solution for running code concurrently in PHP",
+            "homepage": "https://github.com/spatie/fork",
+            "keywords": [
+                "fork",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/fork/issues",
+                "source": "https://github.com/spatie/fork/tree/1.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-12-07T16:42:08+00:00"
+        },
+        {
             "name": "spatie/ignition",
             "version": "1.14.1",
             "source": {
@@ -4386,20 +4453,20 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.0.2",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "08cb2b70986e0f9d811a2fabc0d05f0b08a02b3a"
+                "reference": "024aad4c576240c7d354161a3f69d5d2dfa9ca03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/08cb2b70986e0f9d811a2fabc0d05f0b08a02b3a",
-                "reference": "08cb2b70986e0f9d811a2fabc0d05f0b08a02b3a",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/024aad4c576240c7d354161a3f69d5d2dfa9ca03",
+                "reference": "024aad4c576240c7d354161a3f69d5d2dfa9ca03",
                 "shasum": ""
             },
             "require": {
-                "ajthinking/archetype": "^1.0.3",
+                "ajthinking/archetype": "^1.0.3 || ^2.0",
                 "composer/semver": "^3.4",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
@@ -4477,7 +4544,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.0.2"
+                "source": "https://github.com/statamic/cms/tree/v5.2.0"
             },
             "funding": [
                 {
@@ -4485,7 +4552,55 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-10T21:19:02+00:00"
+            "time": "2024-05-15T15:43:10+00:00"
+        },
+        {
+            "name": "statamic/ssg",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/statamic/ssg.git",
+                "reference": "018b695797df95670968a68188bd6e2df1158003"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/statamic/ssg/zipball/018b695797df95670968a68188bd6e2df1158003",
+                "reference": "018b695797df95670968a68188bd6e2df1158003",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^5.0.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.0 || ^9.0"
+            },
+            "suggest": {
+                "spatie/fork": "Required to generate pages concurrently (^0.0.4)."
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Static Site Generator",
+                    "description": "Generate static sites with Statamic."
+                },
+                "laravel": {
+                    "providers": [
+                        "Statamic\\StaticSite\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Statamic\\StaticSite\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Generate static sites with Statamic.",
+            "support": {
+                "issues": "https://github.com/statamic/ssg/issues",
+                "source": "https://github.com/statamic/ssg/tree/3.0.0"
+            },
+            "time": "2024-05-09T13:55:43+00:00"
         },
         {
             "name": "statamic/stringy",

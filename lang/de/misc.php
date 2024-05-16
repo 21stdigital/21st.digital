@@ -2,5 +2,5 @@
 
 return [
     'make_appointment' => 'Termin vereinbaren',
-    'learn_more' => 'mehr erfahren',
+    'learn_more' => 'Mehr erfahren',
 ];
