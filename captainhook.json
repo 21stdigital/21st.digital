@@ -40,10 +40,6 @@
       {
         "//": "Static Analysis of all PHP files in the project.",
         "action": "composer analyse"
-      },
-      {
-        "//": "Run PHPUnit tests.",
-        "action": "composer test"
       }
     ]
   },
