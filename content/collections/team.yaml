@@ -1,8 +1,7 @@
-title: 'Case Studies'
-template: 'case_study'
+title: Team
+template: default
 layout: layout
 revisions: false
-route: 'case-study/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
@@ -12,6 +11,3 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
-structure:
-  root: false
-  max_depth: 1
