@@ -1,8 +1,8 @@
 title: 'Case Studies'
-template: 'case_study'
+template: case_study
 layout: layout
 revisions: false
-route: 'case-study/{slug}'
+route: 'case-studies/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

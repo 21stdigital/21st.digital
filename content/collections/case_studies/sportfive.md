@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Von der Vision zur Konversion'
 teaser_text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
 client: 4e44b30b-df14-4025-9bfa-edc245cc0560
-updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
-updated_at: 1715893152
+updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
+updated_at: 1715938657
 modules:
   -
     id: lw97vzb8
