@@ -1,0 +1,22 @@
+<div class="container">
+  {{ partial:grid class="gap-y-8" }}
+    <div class="relative md:col-span-10 lg:col-span-5 xl:col-span-4">
+      <h2
+        class="{{ headline_appearance === 'default' ? 'pink-gradient-text' : 'text-white' }} {{ headline | length < 20 ? 'lg:text-5xl lg:leading-tight' : '' }} relative hyphens-auto"
+      >
+        {{ headline }}
+        <div
+          class="absolute right-full top-[0.675em] mr-6 hidden h-px w-screen bg-white/30 2xl:block"
+        ></div>
+      </h2>
+    </div>
+
+    <div
+      class="flex flex-col items-start gap-8 md:col-span-full lg:col-span-7 xl:col-span-8"
+    >
+      {{ text }}
+        {{ partial:if_exists src="modules/texts/{{ type }}" }}
+      {{ /text }}
+    </div>
+  {{ /partial:grid }}
+</div>

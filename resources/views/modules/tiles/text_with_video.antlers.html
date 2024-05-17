@@ -1,0 +1,31 @@
+{{#
+  // TODO: Play video only when it is in the viewport (e. g. intersection
+  observer).
+#}}
+
+<div class="col-span-full">
+  {{ partial:grid class="items-center" }}
+    {{ if video_position === 'right' }}
+      {{ partial:modules/tiles/text grid_css="md:col-span-6 md:col-start-1 pr-8 sm:pr-16 -mb-6 md:pr-0 md:mb-0" }}
+    {{ /if }}
+    <div
+      class="{{ video_position === 'right' ? 'pl-8 sm:pl-16 md:col-start-6' : 'pr-8 sm:pr-16 md:col-start-1' }} -z-10 md:col-span-7 md:row-span-full md:px-0"
+    >
+      <div
+        class="aspect-video overflow-hidden rounded-lg border border-zinc-800 bg-black-gradient"
+      >
+        <video
+          src="{{ video }}"
+          autoplay
+          muted
+          loop
+          playsinline
+          class="w-full"
+        ></video>
+      </div>
+    </div>
+    {{ if video_position === 'left' }}
+      {{ partial:modules/tiles/text grid_css="md:col-span-6 md:col-start-7 pl-8 sm:pl-16 -mt-6 md:pl-0 md:mt-0" }}
+    {{ /if }}
+  {{ /partial:grid }}
+</div>

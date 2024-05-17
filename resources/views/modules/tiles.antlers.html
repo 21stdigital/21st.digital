@@ -1,0 +1,7 @@
+<div class="container">
+  {{ partial:grid class="gap-y-12 md:gap-y-32" }}
+    {{ tiles }}
+      {{ partial:if_exists src="modules/tiles/{{ type }}" }}
+    {{ /tiles }}
+  {{ /partial:grid }}
+</div>
