@@ -25,6 +25,7 @@ concurrency:
 jobs:
   # Deploy job
   deploy:
+    name: Build and Deploy Website
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -56,7 +57,7 @@ jobs:
         run: npm run build
 
       - name: Build Site
-        run: php please ssg:generate -n -v
+        run: php please ssg:clear && php please ssg:generate -n -v
         env:
           APP_NAME: 21st digital
           APP_URL: ${{ vars.APP_URL }}
