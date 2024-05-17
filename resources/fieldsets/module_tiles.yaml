@@ -1,0 +1,99 @@
+title: 'Module Tiles'
+fields:
+  -
+    handle: tiles
+    field:
+      collapse: true
+      type: replicator
+      display: Tiles
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            text:
+              display: Text
+              fields:
+                -
+                  handle: headline
+                  field:
+                    type: text
+                    display: Headline
+                -
+                  handle: text
+                  field: common.text
+            text_with_image:
+              display: 'Text With Image'
+              fields:
+                -
+                  handle: headline
+                  field:
+                    type: text
+                    display: Headline
+                -
+                  handle: text
+                  field: common.text
+                -
+                  handle: image
+                  field:
+                    max_files: 1
+                    min_files: 1
+                    mode: grid
+                    type: assets
+                    display: Image
+                    validate:
+                      - sometimes
+                      - required
+                      - image
+                    width: 66
+                -
+                  handle: image_position
+                  field:
+                    options:
+                      left: Left
+                      right: Right
+                    default: right
+                    type: button_group
+                    display: 'Image Position'
+                    width: 33
+                -
+                  handle: image_behavior
+                  field:
+                    options:
+                      cover: cover
+                      scrollable: scrollable
+                    default: cover
+                    type: button_group
+                    display: 'Image Behavior'
+            text_with_video:
+              display: 'Text With Video'
+              fields:
+                -
+                  handle: headline
+                  field:
+                    type: text
+                    display: Headline
+                -
+                  handle: text
+                  field: common.text
+                -
+                  handle: video
+                  field:
+                    max_files: 1
+                    min_files: 1
+                    mode: grid
+                    type: assets
+                    display: Video
+                    width: 66
+                    validate:
+                      - sometimes
+                      - required
+                -
+                  handle: video_position
+                  field:
+                    options:
+                      left: Left
+                      right: Right
+                    default: right
+                    type: button_group
+                    display: 'Video Position'
+                    width: 33

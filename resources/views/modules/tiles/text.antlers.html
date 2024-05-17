@@ -1,0 +1,20 @@
+{{#
+  @name Text Tile
+  @desc A tile for the `tiles` module containing only text
+    @param grid_css String. A custom CSS class specifically for the grid configuration
+#}}
+
+<div class="{{ grid_css ?? 'col-span-6' }}">
+  <div
+    class="flex h-full flex-col items-start gap-y-6 rounded-md border border-zinc-800 bg-black-gradient p-4 sm:p-6 lg:p-8"
+  >
+    {{ if headline }}
+      <h3>{{ headline }}</h3>
+    {{ /if }}
+    {{ if text }}
+      {{ text }}
+        {{ partial:if_exists src="modules/texts/{{ type }}" }}
+      {{ /text }}
+    {{ /if }}
+  </div>
+</div>
