@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715941950
+updated_at: 1715942042
 modules:
   -
     id: lwajbm3z
@@ -54,6 +54,19 @@ modules:
           -
             type: text
             text: 'Die Herausforderung bestand darin, eine Plattform zu schaffen, die es ermöglicht, Dienstleistungen im Bereich der Compliance einfach zu vermitteln und gesetzliche Anforderungen transparent zu machen. Das Konzept von OPTICERT war innovativ, aber bis dato unerprobt und die Akzeptanz bei Dienstleistern und Unternehmen zunächst unsicher.'
+    type: section_header
+    enabled: true
+  -
+    id: lwajkr0g
+    headline: Lösung
+    headline_appearance: default
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'In enger Zusammenarbeit mit FIEGE Logistik entwickelte 21st digital eine benutzerfreundliche Online-Plattform, die speziell darauf ausgerichtet ist, Unternehmen bei der Erfüllung ihrer Compliance-Anforderungen zu unterstützen und passende Dienstleister effizient zu vermitteln.'
     type: section_header
     enabled: true
 ---
