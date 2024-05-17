@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site:short_locale }}">
-    <head>
-        {{ partial:head }}
-    </head>
-    <body class="flex min-h-screen flex-col bg-black">
-        {{ partial:partials/header src="partials/header" }}
-        <main class="flex-1 text-white">
-            {{ template_content }}
-        </main>
+  <head>
+    {{ partial:head }}
+  </head>
+  <body class="flex min-h-screen max-w-screen flex-col bg-black">
+    {{ partial:partials/header src="partials/header" }}
+    <main class="flex-1 text-white">
+      {{ template_content }}
+    </main>
 
-        {{ partial:partials/header src="partials/footer" }}
-    </body>
+    {{ partial:partials/header src="partials/footer" }}
+  </body>
 </html>
