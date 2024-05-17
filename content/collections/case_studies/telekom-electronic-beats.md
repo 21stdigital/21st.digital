@@ -5,7 +5,7 @@ title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715943952
+updated_at: 1715944154
 modules:
   -
     id: lwakgyji
@@ -84,6 +84,78 @@ modules:
                 text: 'Ein flexibles Modulsystem ermöglicht es der Redaktion, für jedes Thema die passende Darstellungsform zu finden.'
         type: text
         enabled: true
+      -
+        id: lwakridu
+        headline: Multi-Kanal-Integration
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Die Integration verschiedener Plattformen und Medienformate war von Anfang an ein zentraler Aspekt. Die Plattform verknüpft Podcasts, Videos und visuelle Features nahtlos mit journalistischen Inhalten. Ein persistenter Music Player wurde entwickelt, um kuratierte Songs von SoundCloud und Deezer seitenübergreifend abzuspielen.'
+        type: text
+        enabled: true
+      -
+        id: lwakrsbb
+        headline: Artist-Kooperationen
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Innovative Formate fördern Künstler wie die Gorillaz und Billie Eilish: Ein eigener Video Player wurde für ein exklusives Konzert der Gorillaz entwickelt, und dynamische Artikel, die Inhalte aus dem Electronic Beats-Universum einbinden, begleiten eine Kampagne mit Billie Eilish.'
+        type: text
+        enabled: true
+      -
+        id: lwaksb3j
+        headline: 'The Cube: 20 Years of Electronic Beats'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Anlässlich des 20-jährigen Jubiläums wurde "The Cube" entwickelt – eine immersive 360-Grad-Ausstellung, die eine Reise durch die Geschichte und Gegenwart der Musik und Popkultur ermöglicht. Die Ausstellung nutzt Technologie aus der Gaming-Industrie, um ein intuitives, immersives Erlebnis in 3D zu schaffen. Besucher können musikhistorische Video-Collagen, Beiträge von Künstlern und ein Community-Forum erkunden. "The Cube" soll haptische Kulturerlebnisse in der digitalen Welt ermöglichen und physische Events ergänzen.'
+        type: text
+        enabled: true
     type: tiles
+    enabled: true
+  -
+    id: lwakt0r4
+    headline: Ergebnisse
+    headline_appearance: default
+    type: section_header
+    enabled: true
+  -
+    id: lwaktbwi
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Transformation von Telekom Electronic Beats in eine digitale Plattform hat signifikante Verbesserungen in mehreren Schlüsselbereichen gebracht. Die Reichweite des Magazins wurde deutlich erweitert, indem die Plattform auf internationale Märkte skaliert wurde. Dieser Prozess hat nicht nur die Reichweite, sondern auch die Flexibilität der Inhaltsdarstellung verbessert, wodurch die Plattform in der Lage ist, medienadäquate Präsentationsmöglichkeiten zu bieten. Zudem wurde der Prozess des digitalen Content Publishings durch das neue System erheblich verschlankt, was der Redaktion ermöglicht, schneller und effizienter auf aktuelle Ereignisse zu reagieren.'
+    grid_position: start
+    type: text
+    enabled: true
+  -
+    id: lwaktprq
+    quote: 'Die neue Plattform hat nicht nur unsere Reichweite und unser Ansehen in der Musikwelt gesteigert, sondern auch die Art und Weise revolutioniert, wie wir mit unserer Community interagieren. Die Flexibilität und die visuelle Qualität unserer digitalen Präsenz haben uns mehrfach Auszeichnungen eingebracht.'
+    author: 'Kathleen Karrer'
+    type: quote
+    enabled: true
+  -
+    id: lwakubmm
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Das verbesserte Ansehen als führender Akteur im elektronischen Musikbereich wird auch durch mehrere Auszeichnungen unterstrichen, darunter die renommierten Lead und German Design Awards. Die innovative Herangehensweise und die hohe Benutzerfreundlichkeit der Plattform haben Telekom Electronic Beats an die Spitze des digitalen Musikpublishings gebracht.'
+    grid_position: start
+    type: text
     enabled: true
 ---
