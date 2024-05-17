@@ -22,6 +22,12 @@ export default {
       zinc: colors.zinc
     },
     extend: {
+      height: (theme) => ({
+        "screen-3/4": '75vh',
+      }),
+      maxWidth: (theme) => ({
+        "screen": '100vw',
+      }),
       backgroundImage: (theme) => ({
         "black-gradient": `linear-gradient(to top right, ${theme.colors.zinc[950]}, ${theme.colors.neutral[900]})`,
         "pink-gradient": `linear-gradient(to top left, #FF00D2, #BF29DD 20%, #7657EA)`
