@@ -5,7 +5,7 @@ title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715943817
+updated_at: 1715943952
 modules:
   -
     id: lwakgyji
@@ -55,5 +55,35 @@ modules:
             type: text
             text: 'Die zentrale Herausforderung bestand darin, das erfolgreiche Print-Magazin Telekom Electronic Beats in eine umfassende Online-Plattform zu transformieren, die nicht nur die Designfreiheit und redaktionelle Flexibilität des gedruckten Formats bietet, sondern auch die dynamischen und multimedialen Möglichkeiten des digitalen Raums voll ausschöpft. Dies erforderte die Entwicklung eines benutzerfreundlichen, jedoch leistungsfähigen Content-Management-Systems, das es ermöglicht, schnell auf aktuelle Entwicklungen zu reagieren und diverse Medienformate wie Podcasts, Videos und DJ-Sets nahtlos zu integrieren. Zudem musste die Plattform so gestaltet werden, dass sie problemlos auf weitere internationale Märkte skalierbar ist, um die globale Reichweite der Marke zu vergrößern.'
     type: section_header
+    enabled: true
+  -
+    id: lwakooqz
+    headline: Lösung
+    headline_appearance: default
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'In enger Zusammenarbeit mit der Redaktion entwickelten wir Telekom Electronic Beats zu einer digitalen Plattform weiter.'
+    type: section_header
+    enabled: true
+  -
+    id: lwakpd2w
+    tiles:
+      -
+        id: lwakpooz
+        headline: 'Modulares Online Publishing'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Ein flexibles Modulsystem ermöglicht es der Redaktion, für jedes Thema die passende Darstellungsform zu finden.'
+        type: text
+        enabled: true
+    type: tiles
     enabled: true
 ---
