@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715942360
+updated_at: 1715942513
 modules:
   -
     id: lwajbm3z
@@ -85,7 +85,7 @@ modules:
         type: text
         enabled: true
       -
-        id: lwajpgsm
+        id: lwajuijf
         headline: 'Nutzerzentriertes Design'
         text:
           -
@@ -94,10 +94,31 @@ modules:
               -
                 type: text
                 text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
-        image: case-studies/sportfive/sportfive-backend-screenshot.jpg
-        image_position: left
-        image_behavior: cover
-        type: text_with_image
+        type: text
+        enabled: true
+      -
+        id: lwajtcb3
+        headline: 'Technologische Exzellenz'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Durch den Einsatz moderner Technologien wie React und PostgreSQL und die Verwendung von Heroku als Hosting-Plattform konnte eine sichere, leistungsfähige und skalierbare Lösung realisiert werden.'
+        type: text
+        enabled: true
+      -
+        id: lwaju0m1
+        headline: 'Integration und Feedback'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Durch die enge Zusammenarbeit mit Dienstleistern und Nutzern wurde die Plattform kontinuierlich verbessert und an die Bedürfnisse der Zielgruppe angepasst.'
+        type: text
         enabled: true
     type: tiles
     enabled: true
