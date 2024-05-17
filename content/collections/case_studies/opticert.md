@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715942109
+updated_at: 1715942183
 modules:
   -
     id: lwajbm3z
@@ -68,5 +68,22 @@ modules:
             type: text
             text: 'In enger Zusammenarbeit mit FIEGE Logistik entwickelte 21st digital eine benutzerfreundliche Online-Plattform, die speziell darauf ausgerichtet ist, Unternehmen bei der Erfüllung ihrer Compliance-Anforderungen zu unterstützen und passende Dienstleister effizient zu vermitteln.'
     type: section_header
+    enabled: true
+  -
+    id: lwajnhqv
+    tiles:
+      -
+        id: lwajnljm
+        headline: 'MVP und agile Entwicklung'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Die Entwicklung eines Minimum Viable Products (MVP) stand im Zentrum des Lösungsansatzes. Ziel war es, schnell eine Basisversion auf den Markt zu bringen, um das Konzept zu testen und Nutzerfeedback zu integrieren. Die agile Entwicklungspraxis Scrum half dem Team, flexibel auf Feedback zu reagieren und das Produkt kontinuierlich zu verbessern.'
+        type: text
+        enabled: true
+    type: tiles
     enabled: true
 ---
