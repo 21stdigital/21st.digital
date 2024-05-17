@@ -5,7 +5,7 @@ title: 'Von der Vision zur Konversion'
 teaser_text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
 client: 4e44b30b-df14-4025-9bfa-edc245cc0560
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715938657
+updated_at: 1715970477
 modules:
   -
     id: lw97vzb8
@@ -161,14 +161,14 @@ modules:
     enabled: true
   -
     id: lw99cshz
-    headline: 'Du willst mehr über das Projekt erfahren?'
+    headline: 'Du willst auch eine Website, die zu deiner Strategie passt?'
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Dann sprich doch mal mit unserem Experten Fabian!'
+            text: 'Wir helfen dir bei deinem Vorhaben.'
     person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
     type: team_cta
     enabled: true

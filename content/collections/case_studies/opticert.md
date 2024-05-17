@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715942990
+updated_at: 1715972944
 modules:
   -
     id: lwajbm3z
@@ -129,6 +129,12 @@ modules:
     type: section_header
     enabled: true
   -
+    id: lwajxx8i
+    quote: 'Die Nutzung von OPTICERT hat zu einem beeindruckenden Anstieg bei den registrierten Dienstleistungen geführt, was unser Vertrauen in die Plattform bestätigt'
+    author: 'Göran Thälker'
+    type: quote
+    enabled: true
+  -
     id: lwajyvwn
     text:
       -
@@ -141,9 +147,9 @@ modules:
     type: text
     enabled: true
   -
-    id: lwajxx8i
-    quote: 'Die Nutzung von OPTICERT hat zu einem beeindruckenden Anstieg bei den registrierten Dienstleistungen geführt, was unser Vertrauen in die Plattform bestätigt'
-    author: 'Göran Thälker'
+    id: lwak15a9
+    quote: 'Durch OPTICERT konnten wir unsere Kosten um über 30% senken und unsere Prozesse wesentlich effizienter gestalten.'
+    author: 'Jan Trulley, Senior Manager Quality bei FIEGE Logistik'
     type: quote
     enabled: true
   -
@@ -159,9 +165,9 @@ modules:
     type: text
     enabled: true
   -
-    id: lwak15a9
-    quote: 'Durch OPTICERT konnten wir unsere Kosten um über 30% senken und unsere Prozesse wesentlich effizienter gestalten.'
-    author: 'Jan Trulley, Senior Manager Quality bei FIEGE Logistik'
+    id: lwak570o
+    quote: 'Die Rückmeldungen unserer Mitarbeiter sind durchweg positiv. Sie finden die Plattform nicht nur einfach zu bedienen, sondern auch äußerst hilfreich, um unsere gesetzlichen Anforderungen effizient zu managen.'
+    author: 'Jan Trulley'
     type: quote
     enabled: true
   -
@@ -177,9 +183,16 @@ modules:
     type: text
     enabled: true
   -
-    id: lwak570o
-    quote: 'Die Rückmeldungen unserer Mitarbeiter sind durchweg positiv. Sie finden die Plattform nicht nur einfach zu bedienen, sondern auch äußerst hilfreich, um unsere gesetzlichen Anforderungen effizient zu managen.'
-    author: 'Jan Trulley'
-    type: quote
+    id: lwb1upax
+    headline: 'Du hast auch eine Idee für ein digitales Geschäftsmodell?'
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Wir helfen Dir mit den richtigen Strategien die richtigen Entscheidungen zu treffen.'
+    person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
+    type: team_cta
     enabled: true
 ---
