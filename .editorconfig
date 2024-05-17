@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://editorconfig.org
+# This file helps maintain consistent coding styles for multiple developers working on the same project.
+
+root = true
+
+# Global settings
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# PHP files: Using 4 spaces for better readability and consistency with common PHP coding standards
+[*.php]
+indent_size = 4
+
+# Markdown files: Preserving trailing whitespace for proper Markdown rendering
+[*.md]
+trim_trailing_whitespace = false
