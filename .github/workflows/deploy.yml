@@ -2,8 +2,10 @@ name: Deploy Site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ['main']
+  # push:
+  #   branches: ['main']
+
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -54,7 +56,7 @@ jobs:
         run: npm run build
 
       - name: Build Site
-        run: php please ssg:generate -n
+        run: php please ssg:generate -n -v
         env:
           APP_NAME: 21st digital
           APP_URL: ${{ vars.APP_URL }}
