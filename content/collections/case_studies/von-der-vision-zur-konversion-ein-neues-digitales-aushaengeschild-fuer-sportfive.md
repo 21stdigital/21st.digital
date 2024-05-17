@@ -1,11 +1,11 @@
 ---
 id: 51b59d61-c1a1-4094-b0f1-a54c242f99dd
 blueprint: case_study
-title: 'Von der Vision zur Konversion - Ein neues digitales Aushängeschild für SPORTFIVE'
-teaser_text: 'Entdecken Sie, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
+title: 'Von der Vision zur Konversion'
+teaser_text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
 client: 4e44b30b-df14-4025-9bfa-edc245cc0560
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715876166
+updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
+updated_at: 1715893152
 modules:
   -
     id: lw97vzb8
@@ -22,7 +22,7 @@ modules:
   -
     id: lw95pbu6
     quote: 'Unser Ziel war es, eine Online-Präsenz zu schaffen, die nicht nur informativ ist, sondern aktiv zur Kundengewinnung beiträgt und unsere Marktführerschaft unterstreicht'
-    author: 'erklärt David Rothenhäuser, Vice President und Head of Global Marketing Communications bei SPORTFIVE'
+    author: 'David Rothenhäuser, Vice President und Head of Global Marketing Communications bei SPORTFIVE'
     type: quote
     enabled: true
   -
@@ -144,7 +144,7 @@ modules:
   -
     id: lw98yh89
     quote: 'Die Website ist weit mehr als eine Visitenkarte – sie ist ein entscheidender Treiber für unser Geschäft. Durch die Neugestaltung konnten wir unsere Markenpräsenz signifikant steigern und effektiv neue Kundenbeziehungen aufbauen'
-    author: 'betont David Rothenhäuser'
+    author: 'David Rothenhäuser'
     type: quote
     enabled: true
   -

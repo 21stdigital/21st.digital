@@ -3,8 +3,8 @@ id: home
 blueprint: pages
 title: Start
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715849050
+updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
+updated_at: 1715892577
 modules:
   -
     id: lw64lo0t
@@ -13,7 +13,7 @@ modules:
     enabled: true
   -
     id: lw69z1jh
-    headline: 'Dein Partner für digitale Transformation und  Produktentwicklung aus Hamburg'
+    headline: 'Dein Partner für digitale Transformation und Produktentwicklung'
     text:
       -
         type: paragraph
@@ -34,7 +34,7 @@ modules:
           values:
             type: button
             label: 'Let’s talk'
-            url: 'https://21st.digital'
+            url: 'https://calendly.com/21stdigital/meeting'
             add_icon: true
             icon: arrow-right
             icon_position: after
@@ -97,7 +97,7 @@ modules:
             type: text
             text: 'Wir helfen Dir nicht nur Features umzusetzen, sondern das richtige Produkt mit der richtigen Strategie zu entwickeln.'
     label: 'Jetzt starten'
-    url: '#'
+    url: 'https://calendly.com/21stdigital/meeting'
     add_icon: true
     icon: arrow-right
     icon_position: after
