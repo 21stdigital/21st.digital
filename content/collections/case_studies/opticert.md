@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715942513
+updated_at: 1715942723
 modules:
   -
     id: lwajbm3z
@@ -121,5 +121,41 @@ modules:
         type: text
         enabled: true
     type: tiles
+    enabled: true
+  -
+    id: lwajxk1k
+    headline: Ergebnisse
+    headline_appearance: default
+    type: section_header
+    enabled: true
+  -
+    id: lwajyvwn
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nach der Einführung von OPTICERT verzeichnete die Plattform signifikante Erfolge in Bezug auf Nutzerzahlen, Anzahl der Dienstleister und das vermittelte Auftragsvolumen. Die registrierten Unternehmer und Dienstleister auf der Plattform stiegen stetig an, was auf die hohe Akzeptanz und den wahrgenommenen Wert von OPTICERT im Markt hinweist. Eines der bemerkenswerten Ergebnisse war das vermittelte Auftragsvolumen, das ein deutliches Zeichen für das Vertrauen in die Plattform und ihre Fähigkeit, effektive Verbindungen zwischen Unternehmen und Dienstleistern herzustellen, darstellt.'
+    grid_position: start
+    type: text
+    enabled: true
+  -
+    id: lwajxx8i
+    quote: 'Die Nutzung von OPTICERT hat zu einem beeindruckenden Anstieg bei den registrierten Dienstleistungen geführt, was unser Vertrauen in die Plattform bestätigt'
+    author: 'Göran Thälker'
+    type: quote
+    enabled: true
+  -
+    id: lwajzbr0
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Die Möglichkeit, Angebote von Dienstleistern direkt auf der Plattform zu vergleichen, führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Darüber hinaus führte die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch die Plattform zu einer erheblichen Zeitersparnis für die Unternehmen.'
+    grid_position: start
+    type: text
     enabled: true
 ---
