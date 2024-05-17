@@ -4,21 +4,8 @@ blueprint: page
 title: Impressum
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715944567
+updated_at: 1715944576
 modules:
-  -
-    id: lwakyykz
-    headline: 'Vertreten durch'
-    headline_appearance: muted
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Geschäftsführer Fabian Pahl, Steffen Rüther, Andres Stennert'
-    type: section_header
-    enabled: true
   -
     id: lwal31bz
     headline: Adresse
@@ -40,6 +27,19 @@ modules:
           -
             type: text
             text: '20097 Hamburg'
+    type: section_header
+    enabled: true
+  -
+    id: lwakyykz
+    headline: 'Vertreten durch'
+    headline_appearance: muted
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Geschäftsführer Fabian Pahl, Steffen Rüther, Andres Stennert'
     type: section_header
     enabled: true
   -
