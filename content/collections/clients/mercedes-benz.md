@@ -1,5 +1,6 @@
 ---
 id: 9e625ab9-0805-41af-8483-c4f6ff1c81df
+published: false
 blueprint: client
 title: Mercedes-Benz
 logo: clients/mercedes-benz.svg
