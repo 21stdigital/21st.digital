@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715942723
+updated_at: 1715942822
 modules:
   -
     id: lwajbm3z
@@ -155,7 +155,13 @@ modules:
           -
             type: text
             text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Die Möglichkeit, Angebote von Dienstleistern direkt auf der Plattform zu vergleichen, führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Darüber hinaus führte die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch die Plattform zu einer erheblichen Zeitersparnis für die Unternehmen.'
-    grid_position: start
+    grid_position: end
     type: text
+    enabled: true
+  -
+    id: lwak15a9
+    quote: 'Durch OPTICERT konnten wir unsere Kosten um über 30% senken und unsere Prozesse wesentlich effizienter gestalten.'
+    author: 'Jan Trulley, Senior Manager Quality bei FIEGE Logistik'
+    type: quote
     enabled: true
 ---
