@@ -5,8 +5,7 @@
         {{ svg sanitize="true" src="21st-digital-logo" class="fill-current h-12 sm:h-16 md:h-24" }}
     </a>
 
-    {{# // TODO: Use correct URL #}}
-    {{ partial:components/button label="{trans:misc.make_appointment}" url="#" class="my-auto" }}
+    {{ partial:components/button label="{trans:misc.make_appointment}" url="https://calendly.com/21stdigital/meeting" class="my-auto" }}
         {{ slot:svg }}
             {{ svg src="heroicons/outline/arrow-right" class="w-4" stroke-width="3" }}
         {{ /slot:svg }}
