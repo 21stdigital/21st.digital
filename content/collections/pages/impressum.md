@@ -3,6 +3,36 @@ id: 9ebb7d6e-9675-4b4a-99da-e4da6ee5444e
 blueprint: page
 title: Impressum
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715616202
+updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
+updated_at: 1715944332
+modules:
+  -
+    id: lwakx2ty
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '21st digital GmbH'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Oberhafenstraße 1'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: '20097 Hamburg'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Geschäftsführer Fabian Pahl, Steffen Rüther, Andres Stennert'
+    grid_position: start
+    type: text
+    enabled: true
+parent: home
 ---
