@@ -31,7 +31,7 @@
     "actions": [
       {
         "//": "Lint and fix all staged files.",
-        "action": "composer lint {$STAGED_FILES|of-type:php}"
+        "action": "vendor/bin/composer lint {$STAGED_FILES|of-type:php}"
       },
       {
         "//": "Add changed files back to the git stage.",
@@ -39,7 +39,7 @@
       },
       {
         "//": "Static Analysis of all PHP files in the project.",
-        "action": "composer analyse"
+        "action": "vendor/bin/composer analyse"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "enabled": true,
     "actions": [
       {
-        "action": "composer install",
+        "action": "vendor/bin/composer install",
         "options": {},
         "conditions": [
           {
