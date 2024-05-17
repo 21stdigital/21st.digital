@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "modules.css";
+@import "typography.css";
+
+@import "components/button.css";
+
+:root {
+    /* A safety spacing between the container and browser window */
+    --w-layout-safety: 4vw;
+
+    /* The maximum width of the default container, including safety spacing */
+    --max-w-container: min(calc(100vw - 2 * var(--w-layout-safety)), 1600px);
+}
+
+/* This is all you. */
+@layer utilities {
+    .container {
+        @apply mx-auto;
+        max-width: var(--max-w-container);
+    }
+}
