@@ -5,7 +5,7 @@ title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715943642
+updated_at: 1715943724
 modules:
   -
     id: lwakgyji
@@ -30,5 +30,17 @@ modules:
     quote: 'Wir sahen die Notwendigkeit, unser Printmagazin zu einem echten Online-Magazin zu überführen, das die Dynamik und Vielfalt unserer Inhalte widerspiegelt. Unser Ziel war es, eine Plattform zu schaffen, die sowohl unseren redaktionellen Ambitionen gerecht wird als auch eine nahtlose User Experience bietet.'
     author: 'Kathleen Karrer, Senior Manager International Market Communications der Deutschen Telekom'
     type: quote
+    enabled: true
+  -
+    id: lwakl3yf
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Deutsche Telekom suchte einen Partner, der das erfolgreiche Magazin in eine umfassende digitale Plattform transformieren konnte.'
+    grid_position: end
+    type: text
     enabled: true
 ---
