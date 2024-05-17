@@ -4,7 +4,7 @@ blueprint: page
 title: Impressum
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715944429
+updated_at: 1715944454
 modules:
   -
     id: lwakx2ty
@@ -31,7 +31,7 @@ modules:
   -
     id: lwakyykz
     headline: 'Vertreten durch'
-    headline_appearance: default
+    headline_appearance: muted
     text:
       -
         type: paragraph
