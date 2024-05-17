@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715942912
+updated_at: 1715942990
 modules:
   -
     id: lwajbm3z
@@ -175,5 +175,11 @@ modules:
             text: 'Neben den quantitativen Erfolgen wurden auch qualitative Verbesserungen festgestellt. Die Benutzerfreundlichkeit von OPTICERT und die intuitive Gestaltung des Unternehmenschecks und der Dienstleistungswizards trugen zu einer positiven Nutzererfahrung bei. Die Plattform erleichterte nicht nur die Einhaltung gesetzlicher Anforderungen, sondern stärkte auch das Compliance-Bewusstsein innerhalb der Unternehmen. Die Einbindung von Illustrationen und benutzerzentriertem Design machte die ansonsten komplexe Materie der Compliance-Anforderungen zugänglich und verständlich.'
     grid_position: start
     type: text
+    enabled: true
+  -
+    id: lwak570o
+    quote: 'Die Rückmeldungen unserer Mitarbeiter sind durchweg positiv. Sie finden die Plattform nicht nur einfach zu bedienen, sondern auch äußerst hilfreich, um unsere gesetzlichen Anforderungen effizient zu managen.'
+    author: 'Jan Trulley'
+    type: quote
     enabled: true
 ---
