@@ -1,0 +1,14 @@
+title: 'Module Text'
+fields:
+  -
+    handle: text
+    field: common.text
+  -
+    handle: grid_position
+    field:
+      options:
+        start: Start
+        end: End
+      default: start
+      type: button_group
+      display: 'Grid Position'

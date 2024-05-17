@@ -1,0 +1,20 @@
+{{#
+    @name Button
+    @desc A single button component.
+    @param* label The button label.
+#}}
+
+<a
+    href="{{ url }}"
+    class="{{ class }} inline-flex items-center gap-2 rounded bg-pink-gradient font-bold antialiased"
+    data-component="button"
+    data-size="{{ button_size ?? 'default' }}"
+>
+    {{ if icon_position === 'before' }}
+        {{ slot:svg }}
+    {{ /if }}
+    {{ label }}
+    {{ if icon_position !== 'before' }}
+        {{ slot:svg }}
+    {{ /if }}
+</a>

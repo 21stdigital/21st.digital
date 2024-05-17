@@ -1,0 +1,12 @@
+title: 'Module Contact CTA'
+fields:
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+  -
+    handle: text
+    field: common.text
+  -
+    import: button

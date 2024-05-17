@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 177.163">
+    <defs>
+        <linearGradient x1="81.607%" y1="90.406%" x2="7.893%" y2="30.364%" id="svg_quote_gradient">
+            <stop stop-color="#FF00D2" offset="0%"/>
+            <stop stop-color="#BF29DD" offset="44.941%"/>
+            <stop stop-color="#7657EA" offset="100%"/>
+        </linearGradient>
+    </defs>
+
+    <path d="M43.137 734.163 0 710.36c15.686-26.916 23.831-56.342 24.434-88.28V557H96.23l-.301 59.958c-.202 19.484-5.028 40.223-14.48 62.218-9.452 21.995-22.222 40.324-38.31 54.987Zm101.358 0-43.138-23.803c17.296-29.728 26.245-59.255 26.848-88.581V557H200l-.302 61.163c-.402 19.283-5.68 39.872-15.837 61.766-10.156 21.894-23.278 39.972-39.366 54.234Z" transform="translate(0 -557)" fill="url(#svg_quote_gradient)" fill-rule="nonzero"/>
+</svg>
