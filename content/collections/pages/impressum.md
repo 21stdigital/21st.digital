@@ -4,8 +4,13 @@ blueprint: page
 title: Impressum
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715944594
+updated_at: 1715944860
 modules:
+  -
+    id: lwal9cki
+    text: Impressum
+    type: hero_text
+    enabled: true
   -
     id: lwal31bz
     headline: Adresse
