@@ -5,7 +5,7 @@ title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715944207
+updated_at: 1715972668
 modules:
   -
     id: lwakgyji
@@ -157,5 +157,18 @@ modules:
             text: 'Das verbesserte Ansehen als führender Akteur im elektronischen Musikbereich wird auch durch mehrere Auszeichnungen unterstrichen, darunter die renommierten Lead und German Design Awards. Die innovative Herangehensweise und die hohe Benutzerfreundlichkeit der Plattform haben Telekom Electronic Beats an die Spitze des digitalen Musikpublishings gebracht.'
     grid_position: end
     type: text
+    enabled: true
+  -
+    id: lwb1o7h6
+    headline: 'Dir schwebt auch eine preisgekrönte Plattform vor?'
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Wir helfen Dir bei Deinem Vorhaben.'
+    person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
+    type: team_cta
     enabled: true
 ---

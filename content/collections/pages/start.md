@@ -3,8 +3,8 @@ id: home
 blueprint: pages
 title: Start
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
-updated_at: 1715892577
+updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
+updated_at: 1715961422
 modules:
   -
     id: lw64lo0t
