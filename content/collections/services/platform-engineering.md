@@ -8,7 +8,7 @@ teaser_text:
     content:
       -
         type: text
-        text: 'Unser Plattform-Engineering-Service konzentriert sich darauf, robuste und skalierbare Architekturen für Ihre digitalen Produkte zu entwickeln. Wir bauen und verwalten maßgeschneiderte Plattformen, die darauf ausgerichtet sind, Leistung, Zuverlässigkeit und Sicherheit zu maximieren. Mit einem tiefen Verständnis für Cloud-Services und -Architekturen ermöglichen wir es Ihnen, Ihre Anwendungen effizient zu betreiben und zu skalieren.'
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715695658
+        text: 'Damit Dein digitales Produkt reibungslos und effizient funktioniert, setzen wir die passende Infrastruktur in der Cloud auf und kümmern uns um deren Wartung. So stellen wir sicher, dass Deine Plattform zuverlässig, skalierbar und sicher ist. Von der Konfiguration bis zur kontinuierlichen Überwachung und Wartung sorgen wir dafür, dass Deine Cloud-Infrastruktur optimal auf Dein digitales Produkt abgestimmt ist.'
+updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
+updated_at: 1716221928
 ---

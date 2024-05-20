@@ -8,7 +8,7 @@ teaser_text:
     content:
       -
         type: text
-        text: 'Unser UX/UI-Design-Service schafft ansprechende, benutzerfreundliche und ästhetisch ansprechende digitale Erlebnisse. Wir konzentrieren uns darauf, Produkte zu gestalten, die nicht nur gut aussehen, sondern auch eine intuitive Benutzerführung bieten. Unser Ziel ist es, durch sorgfältige Recherche und Design-Iterationen die Zufriedenheit und das Engagement der Nutzer zu maximieren.'
-updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
-updated_at: 1715892694
+        text: 'Wir entwickeln nicht nur ansprechende Oberflächen, sondern schaffen intuitive und benutzerfreundliche Erlebnisse. Durch eine durchdachte gestalterische Konzeption und kreatives Design sorgen wir dafür, dass Dein digitales Produkt sowohl funktional als auch ästhetisch überzeugt.'
+updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
+updated_at: 1716221286
 ---

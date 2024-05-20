@@ -4,7 +4,7 @@ blueprint: pages
 title: Start
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715961422
+updated_at: 1716220549
 modules:
   -
     id: lw64lo0t
@@ -20,7 +20,7 @@ modules:
         content:
           -
             type: text
-            text: 'Bei 21st digital dreht sich alles darum, innovative Technologielösungen mit klarer, offener Kommunikation zu verbinden. Wir sind mehr als nur Softwareentwickler - wir sind Dein Partner auf der Reise durch die digitale Transformation. Wir hinterfragen das Bestehende, optimieren Prozesse und setzen die richtigen Strategien ein, um nicht nur digitale Produkte, sondern ganze Geschäftsmodelle erfolgreich zu machen.'
+            text: '21st digital ist Dein Partner für die Entwicklung innovativer digitaler Produkte. Wir sind mehr als nur Softwareentwickler – wir sind Dein Partner auf der Reise durch die digitale Transformation. Wir hinterfragen das Bestehende, optimieren Prozesse und setzen die richtigen Strategien ein, um nicht nur digitale Produkte, sondern auch ganze Geschäftsmodelle erfolgreich zu machen.'
       -
         type: paragraph
         content:

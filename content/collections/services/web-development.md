@@ -8,7 +8,7 @@ teaser_text:
     content:
       -
         type: text
-        text: 'Unser Web-Entwicklungsteam bietet maßgeschneiderte Lösungen für Ihre Website- und Webanwendungsbedürfnisse. Von statischen Websites bis hin zu komplexen dynamischen Webanwendungen verwenden wir moderne Technologien und bewährte Praktiken, um sicherzustellen, dass Ihre Projekte nicht nur leistungsstark, sondern auch sicher und skalierbar sind.'
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715695649
+        text: 'Wir verbinden modernste Technologien mit Best Practices, um leistungsstarke und skalierbare Produkte zu erstellen. Von maßgeschneiderten Webanwendungen bis hin zu responsiven Webseiten stellen wir sicher, dass Dein Online-Auftritt technisch einwandfrei und benutzerfreundlich ist.'
+updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
+updated_at: 1716221514
 ---
