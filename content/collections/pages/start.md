@@ -4,7 +4,7 @@ blueprint: pages
 title: Start
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
 updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1716220549
+updated_at: 1716237682
 modules:
   -
     id: lw64lo0t
@@ -61,7 +61,7 @@ modules:
         content:
           -
             type: text
-            text: 'Profitiere von unserer tiefgreifenden Erfahrung in der Entwicklung und Implementierung erfolgreicher digitaler Produkte. Egal, ob Du Gründer mit einer neuen Idee bist, Produktverantwortlicher in einem großen Unternehmen oder irgendwo dazwischen – 21st digital steht Dir zur Seite.'
+            text: 'Profitiere von unserer tiefgreifenden Erfahrung in der Entwicklung und Implementierung erfolgreicher digitaler Produkte. Egal, ob Du eine neue Idee hast, für ein Produkt in einem großen Unternehmen verantwortlich bist oder irgendwo dazwischen – 21st digital steht Dir zur Seite.'
     type: section_header
     enabled: true
     headline_appearance: default
@@ -96,7 +96,7 @@ modules:
           -
             type: text
             text: 'Wir helfen Dir nicht nur Features umzusetzen, sondern das richtige Produkt mit der richtigen Strategie zu entwickeln.'
-    label: 'Jetzt starten'
+    label: "Let's talk"
     url: 'https://calendly.com/21stdigital/meeting'
     add_icon: true
     icon: arrow-right
