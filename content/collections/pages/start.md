@@ -3,8 +3,8 @@ id: home
 blueprint: pages
 title: Start
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1716237682
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1716805701
 modules:
   -
     id: lw64lo0t
@@ -34,11 +34,12 @@ modules:
           values:
             type: button
             label: 'Let’s talk'
-            url: 'https://calendly.com/21stdigital/meeting'
+            url: 'entry::ff719e3b-8511-44e3-8f43-e7d3d8603990'
             add_icon: true
             icon: arrow-right
             icon_position: after
-            button_size: xl
+            button_size: default
+            open_in_new_window: true
     type: section_header
     enabled: true
     headline_appearance: muted
@@ -104,4 +105,5 @@ modules:
     type: contact_cta
     enabled: true
     button_size: default
+    open_in_new_window: false
 ---
