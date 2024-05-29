@@ -1,17 +1,15 @@
-<div
-    class="mt-auto flex items-center justify-between gap-12 bg-white px-[4vw] py-8 text-black lg:px-12"
->
-    <a href="{{ site:url }}">
-        {{ svg sanitize="true" src="21st-digital-logo" class="fill-current h-12 sm:h-16 md:h-24" }}
-    </a>
+<div class="mt-auto flex items-center justify-between gap-12 bg-white px-[4vw] py-8 text-black lg:px-12">
+  <a href="{{ site:url }}">
+    {{ svg sanitize="true" src="21st-digital-logo" class="fill-current h-12 sm:h-16 md:h-24" }}
+  </a>
 
-    <nav>
-        <ul class="flex gap-8 font-bold">
-            {{ nav:footer }}
-                <li>
-                    <a href="{{ url }}">{{ title }}</a>
-                </li>
-            {{ /nav:footer }}
-        </ul>
-    </nav>
+  <nav>
+    <ul class="flex gap-8 font-bold">
+      {{ nav:footer }}
+        <li>
+          <a href="{{ url }}">{{ title }}</a>
+        </li>
+      {{ /nav:footer }}
+    </ul>
+  </nav>
 </div>

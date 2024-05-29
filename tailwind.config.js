@@ -31,7 +31,13 @@ export default {
       backgroundImage: (theme) => ({
         "black-gradient": `linear-gradient(to top right, ${theme.colors.zinc[950]}, ${theme.colors.neutral[900]})`,
         "pink-gradient": `linear-gradient(to top left, #FF00D2, #BF29DD 20%, #7657EA)`
-      })
+      }),
+      fontSize: {
+        "hero": 'min(10.5vw, 85px)',
+      },
+      padding: {
+        "hero": 'min(9rem, 30vh)',
+      }
     }
   },
   plugins: [

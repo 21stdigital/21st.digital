@@ -19,17 +19,25 @@ fields:
     field:
       type: link
       display: URL
+      width: 66
+  -
+    handle: open_in_new_window
+    field:
+      type: toggle
+      display: 'Open in new window'
+      width: 33
   -
     handle: add_icon
     field:
       type: toggle
       display: 'Add Icon'
+      width: 25
   -
     handle: icon
     field:
       type: icon
       display: Icon
-      width: 66
+      width: 50
       validate:
         - sometimes
         - required
@@ -46,6 +54,6 @@ fields:
       default: after
       type: button_group
       display: 'Icon Position'
-      width: 33
+      width: 25
       if:
         add_icon: 'equals true'
