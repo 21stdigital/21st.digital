@@ -42,6 +42,17 @@ tabs:
               type: text
               display: Phone
               width: 50
+          -
+            handle: calendly_url
+            field:
+              input_type: url
+              placeholder: 'https://calendly.com/...'
+              type: text
+              display: 'Calendly URL'
+              width: 50
+              validate:
+                - url
+                - 'starts_with:https://calendly.com/'
   sidebar:
     display: Sidebar
     sections:

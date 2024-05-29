@@ -4,20 +4,16 @@
 #}}
 
 {{# This first part automatically adds the client and title of the case study. #}}
-<div class="container py-48">
+<div class="container">
   {{ partial:grid }}
-    <div class="col-span-full xl:col-span-10 2xl:col-span-9">
-      <div
-        class="mb-4 inline-block rounded-full bg-gradient-to-tr from-[#F3F3F3] to-[#FAFAFA] px-4 py-2"
-      >
-        <span
-          class="text-sm font-bold pink-gradient-text lg:text-base 2xl:text-lg"
-        >
+    <div class="py-hero col-span-full xl:col-span-10 2xl:col-span-9">
+      <div class="inline-block">
+        <span class="text-sm font-bold text-white lg:text-base 2xl:text-lg">
           {{ client.title }}
         </span>
       </div>
 
-      <h1 class="hyphens-auto pink-gradient-text">
+      <h1 class="text-hero hyphens-auto pink-gradient-text">
         {{ title }}
       </h1>
     </div>

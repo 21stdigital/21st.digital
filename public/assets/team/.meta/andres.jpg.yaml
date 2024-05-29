@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Porträt von Andres'
 size: 38705
-last_modified: 1715864808
+last_modified: 1715954165
 width: 400
 height: 400
 mime_type: image/jpeg
