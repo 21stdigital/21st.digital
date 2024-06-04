@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
 
@@ -24,5 +25,9 @@ class AppServiceProvider extends ServiceProvider
         //     'resources/js/cp.js',
         //     'resources/css/cp.css',
         // ]);
+
+        Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
+            $event->extendSocialite('google', \SocialiteProviders\Google\Provider::class);
+        });
     }
 }
