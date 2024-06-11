@@ -1468,16 +1468,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.9.2",
+            "version": "v11.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c"
+                "reference": "99b4255194912044b75ab72329f8c19e6345720e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/2b3e8d75f10b0ed17416282946355dc026bf326c",
-                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/99b4255194912044b75ab72329f8c19e6345720e",
+                "reference": "99b4255194912044b75ab72329f8c19e6345720e",
                 "shasum": ""
             },
             "require": {
@@ -1669,7 +1669,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-05-30T09:40:11+00:00"
+            "time": "2024-06-04T13:45:55+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4842,16 +4842,16 @@
         },
         {
             "name": "spatie/ignition",
-            "version": "1.14.1",
+            "version": "1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ignition.git",
-                "reference": "c23cc018c5f423d2f413b99f84655fceb6549811"
+                "reference": "5e11c11f675bb5251f061491a493e04a1a571532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ignition/zipball/c23cc018c5f423d2f413b99f84655fceb6549811",
-                "reference": "c23cc018c5f423d2f413b99f84655fceb6549811",
+                "url": "https://api.github.com/repos/spatie/ignition/zipball/5e11c11f675bb5251f061491a493e04a1a571532",
+                "reference": "5e11c11f675bb5251f061491a493e04a1a571532",
                 "shasum": ""
             },
             "require": {
@@ -4921,7 +4921,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-03T15:56:16+00:00"
+            "time": "2024-05-29T08:10:20+00:00"
         },
         {
             "name": "spatie/shiki-php",
@@ -4988,16 +4988,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.5.0",
+            "version": "v5.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "057b0a9d4c1461d13bcc9c6ae260157a3f5f5737"
+                "reference": "295255838f5fa606981f5386fd55c27a15a9f0e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/057b0a9d4c1461d13bcc9c6ae260157a3f5f5737",
-                "reference": "057b0a9d4c1461d13bcc9c6ae260157a3f5f5737",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/295255838f5fa606981f5386fd55c27a15a9f0e0",
+                "reference": "295255838f5fa606981f5386fd55c27a15a9f0e0",
                 "shasum": ""
             },
             "require": {
@@ -5079,7 +5079,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.5.0"
+                "source": "https://github.com/statamic/cms/tree/v5.7.2"
             },
             "funding": [
                 {
@@ -5087,7 +5087,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-22T20:11:44+00:00"
+            "time": "2024-06-06T16:09:09+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -5918,16 +5918,16 @@
         },
         {
             "name": "symfony/lock",
-            "version": "v6.4.7",
+            "version": "v6.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/lock.git",
-                "reference": "c6b3959c418a7c1115c060fab77927ca4bd2546a"
+                "reference": "1387f50285c23607467c1f05b258bde65f1ab276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/lock/zipball/c6b3959c418a7c1115c060fab77927ca4bd2546a",
-                "reference": "c6b3959c418a7c1115c060fab77927ca4bd2546a",
+                "url": "https://api.github.com/repos/symfony/lock/zipball/1387f50285c23607467c1f05b258bde65f1ab276",
+                "reference": "1387f50285c23607467c1f05b258bde65f1ab276",
                 "shasum": ""
             },
             "require": {
@@ -5977,7 +5977,7 @@
                 "semaphore"
             ],
             "support": {
-                "source": "https://github.com/symfony/lock/tree/v6.4.7"
+                "source": "https://github.com/symfony/lock/tree/v6.4.8"
             },
             "funding": [
                 {
@@ -5993,7 +5993,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-05-31T14:49:08+00:00"
         },
         {
             "name": "symfony/mailer",
@@ -7514,16 +7514,16 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v6.4.7",
+            "version": "v6.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "825f9b00c37bbe1c1691cc1aff9b5451fc9b4405"
+                "reference": "792ca836f99b340f2e9ca9497c7953948c49a504"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/825f9b00c37bbe1c1691cc1aff9b5451fc9b4405",
-                "reference": "825f9b00c37bbe1c1691cc1aff9b5451fc9b4405",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/792ca836f99b340f2e9ca9497c7953948c49a504",
+                "reference": "792ca836f99b340f2e9ca9497c7953948c49a504",
                 "shasum": ""
             },
             "require": {
@@ -7571,7 +7571,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v6.4.7"
+                "source": "https://github.com/symfony/var-exporter/tree/v6.4.8"
             },
             "funding": [
                 {
@@ -7587,20 +7587,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-05-31T14:49:08+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.0.7",
+            "version": "v7.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0d3916ae69ea28b59d94b60c4f2b50f4e25adb5c"
+                "reference": "fa34c77015aa6720469db7003567b9f772492bf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0d3916ae69ea28b59d94b60c4f2b50f4e25adb5c",
-                "reference": "0d3916ae69ea28b59d94b60c4f2b50f4e25adb5c",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/fa34c77015aa6720469db7003567b9f772492bf2",
+                "reference": "fa34c77015aa6720469db7003567b9f772492bf2",
                 "shasum": ""
             },
             "require": {
@@ -7642,7 +7642,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.0.7"
+                "source": "https://github.com/symfony/yaml/tree/v7.1.1"
             },
             "funding": [
                 {
@@ -7658,7 +7658,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-28T11:44:19+00:00"
+            "time": "2024-05-31T14:57:53+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -8139,16 +8139,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.11.1",
+            "version": "v15.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "ab4ff2719b101dc3bfc3aaaf800edc21a98c56dc"
+                "reference": "06720d48bfa436bfe68285e4588c6f15f99f893b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/ab4ff2719b101dc3bfc3aaaf800edc21a98c56dc",
-                "reference": "ab4ff2719b101dc3bfc3aaaf800edc21a98c56dc",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/06720d48bfa436bfe68285e4588c6f15f99f893b",
+                "reference": "06720d48bfa436bfe68285e4588c6f15f99f893b",
                 "shasum": ""
             },
             "require": {
@@ -8161,14 +8161,14 @@
                 "amphp/http-server": "^2.1",
                 "dms/phpunit-arraysubset-asserts": "dev-master",
                 "ergebnis/composer-normalize": "^2.28",
-                "friendsofphp/php-cs-fixer": "3.51.0",
+                "friendsofphp/php-cs-fixer": "3.57.1",
                 "mll-lab/php-cs-fixer-config": "^5",
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.10.59",
-                "phpstan/phpstan-phpunit": "1.3.16",
-                "phpstan/phpstan-strict-rules": "1.5.2",
+                "phpstan/phpstan": "1.11.4",
+                "phpstan/phpstan-phpunit": "1.4.0",
+                "phpstan/phpstan-strict-rules": "1.6.0",
                 "phpunit/phpunit": "^9.5 || ^10",
                 "psr/http-message": "^1 || ^2",
                 "react/http": "^1.6",
@@ -8201,7 +8201,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.11.1"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.12.0"
             },
             "funding": [
                 {
@@ -8209,7 +8209,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-03-11T10:21:05+00:00"
+            "time": "2024-06-10T09:55:16+00:00"
         },
         {
             "name": "wilderborn/partyline",
