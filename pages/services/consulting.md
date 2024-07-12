@@ -18,6 +18,10 @@ Wir beraten Dich bei der Auswahl der passenden Technologien und Tools. In der he
 
 Wir entwickeln eine Strategie, die Teams zusammenbringt, um Produkte zu schaffen, die den Nutzerbedürfnissen entsprechen und die Geschäftsziele erreichen. Eine klare Produktstrategie ist der Schlüssel zu einem erfolgreichen Produkt. Wir helfen Dir dabei, eine Vision zu formulieren und eine Roadmap zu erstellen, die alle Schritte von der Ideenfindung bis zur Markteinführung umfasst. Unser Ansatz basiert auf einer umfassenden Nutzerforschung und Marktanalyse, um sicherzustellen, dass das Produkt den Anforderungen und Erwartungen der Zielgruppe entspricht. Wir unterstützen Dich dabei, Prioritäten zu setzen, Ressourcen effizient zu nutzen und eine kohärente Produktentwicklung sicherzustellen.
 
+## Testimonials
+
+[Liste an Zitaten von Kunden, die speziell auf die strategische Beratung eingehen]
+
 ## Vorteile
 
 - Sicherheit: Eliminiere das Rätselraten und gehe mit klaren Produktplänen voran.
@@ -26,3 +30,9 @@ Wir entwickeln eine Strategie, die Teams zusammenbringt, um Produkte zu schaffen
 - Nutzerzentriert: Durch Nutzerforschung und Erkenntnisse stellen wir sicher, dass die richtigen Probleme für die richtigen Menschen gelöst werden.
 - Produktvision: Mit einer klaren Produktvision kannst du Dein Team von Anfang bis Ende ausrichten, sodass großartige Funktionen und Ideen in die Design- und Entwicklungsproduktion umgesetzt werden.
 - Priorisierung: Unterstützung bei der Priorisierung von Kundenanforderungen und Stakeholder-Ideen.
+
+## Case Studies
+
+[Liste an Case Studies, die diese Leistung in Anspruch genommen haben]
+
+## CTA
