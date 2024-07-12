@@ -18,16 +18,16 @@ Wir beraten Dich bei der Auswahl der passenden Technologien und Tools. In der he
 
 Wir entwickeln eine Strategie, die Teams zusammenbringt, um Produkte zu schaffen, die den Nutzerbedürfnissen entsprechen und die Geschäftsziele erreichen. Eine klare Produktstrategie ist der Schlüssel zu einem erfolgreichen Produkt. Wir helfen Dir dabei, eine Vision zu formulieren und eine Roadmap zu erstellen, die alle Schritte von der Ideenfindung bis zur Markteinführung umfasst. Unser Ansatz basiert auf einer umfassenden Nutzerforschung und Marktanalyse, um sicherzustellen, dass das Produkt den Anforderungen und Erwartungen der Zielgruppe entspricht. Wir unterstützen Dich dabei, Prioritäten zu setzen, Ressourcen effizient zu nutzen und eine kohärente Produktentwicklung sicherzustellen.
 
-## Testimonials
-
-[Liste an Zitaten von Kunden, die speziell auf die strategische Beratung eingehen]
-
 ## Unser Ansatz
 
 1. Analyse und Bewertung: Wir analysieren Deine aktuellen Prozesse und bewerten deinen digitalen Reifegrad.
 2. Strategieentwicklung: Gemeinsam mit Dir entwickeln wir eine umfassende digitale Strategie.
 3. Umsetzungsplanung: Wir erstellen einen detaillierten Plan für die Umsetzung Deiner digitalen Projekte.
 4. Begleitung und Unterstützung: Wir begleiten Dich während des gesamten Prozesses und bieten kontinuierliche Unterstützung.
+
+## Testimonials
+
+[Liste an Zitaten von Kunden, die speziell auf die strategische Beratung eingehen]
 
 ## Vorteile
 
