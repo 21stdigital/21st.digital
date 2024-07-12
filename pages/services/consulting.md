@@ -2,7 +2,7 @@
 
 # Strategische Beratung
 
-Unsere strategische Beratung hilft Dir dabei, Deine digitalen Projekte von Anfang an richtig zu planen und umzusetzen. Wir analysieren Deine Anforderungen und entwickeln maßgeschneiderte Strategien, die auf Deine Ziele und Dein Budget abgestimmt sind. Dabei setzen wir auf bewährte Methoden wie Design Thinking und Lean Startup, um innovative und effiziente Lösungen zu finden.
+Unsere strategische Beratung hilft Dir dabei, Dein digitales Projekt von Anfang an richtig zu planen und umzusetzen. Wir analysieren Deine Anforderungen und entwickeln maßgeschneiderte Strategien, die auf Deine Ziele und Dein Budget abgestimmt sind. Dabei setzen wir auf bewährte Methoden wie Design Thinking und Lean Startup, um innovative und effiziente Lösungen zu finden.
 
 ## Leistungen
 
