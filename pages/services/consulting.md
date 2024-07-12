@@ -31,12 +31,12 @@ Wir entwickeln eine Strategie, die Teams zusammenbringt, um Produkte zu schaffen
 
 ## Vorteile
 
-- Sicherheit: Eliminiere das Rätselraten und gehe mit klaren Produktplänen voran.
-- Fokus: Wir konzentrieren uns auf Nutzerbedürfnisse und Geschäftsziele, um eine Strategie zu entwickeln, die Teams aufeinander abstimmt und Produkte schafft, die begeistern.
-- Erfahrung: Profitiere von über einem Jahrzehnt Erfahrung in der Gestaltung, Entwicklung und Bereitstellung maßgeschneiderter Software.
-- Nutzerzentriert: Durch Nutzerforschung und Erkenntnisse stellen wir sicher, dass die richtigen Probleme für die richtigen Menschen gelöst werden.
-- Produktvision: Mit einer klaren Produktvision kannst du Dein Team von Anfang bis Ende ausrichten, sodass großartige Funktionen und Ideen in die Design- und Entwicklungsproduktion umgesetzt werden.
-- Priorisierung: Unterstützung bei der Priorisierung von Kundenanforderungen und Stakeholder-Ideen.
+- Sicherheit für Dein Projekt: Vermeide Unsicherheiten und gehe mit klaren, durchdachten Produktplänen voran. Unsere Beratung gibt Dir die Sicherheit, dass Dein Projekt von Anfang an auf dem richtigen Weg ist.
+- Fokus auf Deine Ziele: Wir richten uns nach Deinen Nutzerbedürfnissen und Geschäftsanforderungen, um eine Strategie zu entwickeln, die Dein Team vereint und Produkte schafft, die Deine Kunden begeistern.
+- Nutze unsere Erfahrung: Profitiere von über einem Jahrzehnt Erfahrung in der Gestaltung, Entwicklung und Bereitstellung maßgeschneiderter Softwarelösungen. Mit uns an Deiner Seite bist Du bestens gerüstet, um Deine digitalen Projekte erfolgreich umzusetzen.
+- Nutzerzentrierte Lösungen: Durch fundierte Nutzerforschung und detaillierte Erkenntnisse stellen wir sicher, dass wir die richtigen Probleme für die richtigen Menschen lösen. So erreichst Du mit Deinem Produkt genau Deine Zielgruppe.
+- Klare Produktvision: Mit einer klaren Produktvision kannst Du Dein Team von Anfang bis Ende ausrichten. So entstehen großartige Funktionen und Ideen, die in die Design- und Entwicklungsproduktion umgesetzt werden.
+- Effiziente Priorisierung: Wir unterstützen Dich bei der Priorisierung von Kundenanforderungen und Stakeholder-Ideen. So stellst Du sicher, dass die wichtigsten Aspekte Deines Projekts im Fokus stehen und optimal umgesetzt werden.
 
 ## Case Studies
 
