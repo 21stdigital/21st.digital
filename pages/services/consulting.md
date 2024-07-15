@@ -31,11 +31,11 @@ Wir entwickeln eine Strategie, die Teams zusammenbringt, um Produkte zu schaffen
 
 ## Vorteile
 
-- Sicherheit für Dein Projekt: Vermeide Unsicherheiten und gehe mit klaren, durchdachten Produktplänen voran. Unsere Beratung gibt Dir die Sicherheit, dass Dein Projekt von Anfang an auf dem richtigen Weg ist.
+- Sicherheit für Dein Projekt: Vermeide Unsicherheiten und gehe mit klaren, durchdachten Projektplänen voran. Unsere Beratung gibt Dir die Sicherheit, dass Dein Projekt von Anfang an auf dem richtigen Weg ist.
 - Fokus auf Deine Ziele: Wir richten uns nach Deinen Nutzerbedürfnissen und Geschäftsanforderungen, um eine Strategie zu entwickeln, die Dein Team vereint und Produkte schafft, die Deine Kunden begeistern.
 - Nutze unsere Erfahrung: Profitiere von über einem Jahrzehnt Erfahrung in der Gestaltung, Entwicklung und Bereitstellung maßgeschneiderter Softwarelösungen. Mit uns an Deiner Seite bist Du bestens gerüstet, um Deine digitalen Projekte erfolgreich umzusetzen.
 - Nutzerzentrierte Lösungen: Durch fundierte Nutzerforschung und detaillierte Erkenntnisse stellen wir sicher, dass wir die richtigen Probleme für die richtigen Menschen lösen. So erreichst Du mit Deinem Produkt genau Deine Zielgruppe.
-- Klare Produktvision: Mit einer klaren Produktvision kannst Du Dein Team von Anfang bis Ende ausrichten. So entstehen großartige Funktionen und Ideen, die in die Design- und Entwicklungsproduktion umgesetzt werden.
+- Klare Vision: Mit einer klaren Vision kannst Du Dein Team von Anfang bis Ende ausrichten. So entstehen großartige Funktionen und Ideen, die in die Design- und Entwicklungsproduktion umgesetzt werden.
 - Effiziente Priorisierung: Wir unterstützen Dich bei der Priorisierung von Kundenanforderungen und Stakeholder-Ideen. So stellst Du sicher, dass die wichtigsten Aspekte Deines Projekts im Fokus stehen und optimal umgesetzt werden.
 
 ## Case Studies
