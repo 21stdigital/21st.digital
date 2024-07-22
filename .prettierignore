@@ -1,0 +1,3 @@
+# Ignore all YAML files; Statamic's modifications on these files would trigger unnecessary rewrites.
+*.yml
+*.yaml

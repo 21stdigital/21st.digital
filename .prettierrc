@@ -4,7 +4,8 @@
     {
       "files": ["*.antlers.html"],
       "options": {
-        "parser": "antlers"
+        "parser": "antlers",
+        "tabWidth": 4
       }
     }
   ],

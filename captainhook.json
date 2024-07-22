@@ -30,16 +30,40 @@
     "enabled": true,
     "actions": [
       {
-        "//": "Lint and fix all staged files.",
+        "//": "Run prettier on all staged files",
+        "action": "npm run prettier:fix {$STAGED_FILES}"
+      },
+      {
+        "//": "Lint and fix all staged PHP files.",
         "action": "vendor/bin/composer lint {$STAGED_FILES|of-type:php}"
       },
       {
         "//": "Add changed files back to the git stage.",
-        "action": "git add {$STAGED_FILES|of-type:php}"
+        "action": "git add {$STAGED_FILES}"
       },
       {
         "//": "Static Analysis of all PHP files in the project.",
         "action": "vendor/bin/composer analyse"
+      },
+      {
+        "//": "Lint all JS/TS files in the project.",
+        "conditions": [
+          {
+            "exec": "\\CaptainHook\\App\\Hook\\Condition\\FileStaged\\OfType",
+            "args": [["ts"]]
+          }
+        ],
+        "action": "npm run lint:js {$STAGED_FILES|of-type:ts}"
+      },
+      {
+        "//": "Lint all CSS files in the project.",
+        "conditions": [
+          {
+            "exec": "\\CaptainHook\\App\\Hook\\Condition\\FileStaged\\OfType",
+            "args": [["css"]]
+          }
+        ],
+        "action": "npm run lint:css {$STAGED_FILES|of-type:css}"
       }
     ]
   },
