@@ -8,12 +8,7 @@
   @apply mt-24 lg:mt-32 xl:mt-48 2xl:mt-52;
 }
 
-[data-module="hero_text"] + [data-module="section_header"] {
-  @apply mt-0;
-}
-
-
-[data-module="section_header"] {
+[data-module='section_header'] {
   .text {
     @apply text-xl leading-relaxed;
 
@@ -23,28 +18,32 @@
   }
 }
 
-[data-module="section_header"] + [data-module] {
+[data-module='hero_text'] + [data-module='section_header'] {
+  @apply mt-0;
+}
+
+[data-module='section_header'] + [data-module] {
   @apply mt-12 2xl:mt-24;
 }
-[data-module="section_header"] + [data-module="section_header"] {
+
+[data-module='section_header'] + [data-module='section_header'] {
   @apply mt-20 2xl:mt-40;
 }
 
-
-[data-module="quote"] + [data-module], 
-[data-module] + [data-module="quote"],
-[data-module="section_header"] + [data-module="quote"] {
+[data-module='quote'] + [data-module],
+[data-module] + [data-module='quote'],
+[data-module='section_header'] + [data-module='quote'] {
   @apply my-20 md:my-36 lg:my-48;
 }
 
-[data-module="contact_cta"] {
+[data-module='contact_cta'] {
   .text {
     @apply sm:text-xl;
   }
 }
 
-[data-module="text"] {
-  & + [data-module="text"] {
+[data-module='text'] {
+  & + [data-module='text'] {
     @apply mt-12 xl:mt-16;
   }
 }
