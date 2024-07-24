@@ -8514,16 +8514,16 @@
         },
         {
             "name": "captainhook/captainhook",
-            "version": "5.23.0",
+            "version": "5.23.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/captainhookphp/captainhook.git",
-                "reference": "08d90e4d98db123ab58826be8e891d7d36c14f2a"
+                "reference": "c9deaefc098dde7f7093b44482b099195442e70d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/captainhookphp/captainhook/zipball/08d90e4d98db123ab58826be8e891d7d36c14f2a",
-                "reference": "08d90e4d98db123ab58826be8e891d7d36c14f2a",
+                "url": "https://api.github.com/repos/captainhookphp/captainhook/zipball/c9deaefc098dde7f7093b44482b099195442e70d",
+                "reference": "c9deaefc098dde7f7093b44482b099195442e70d",
                 "shasum": ""
             },
             "require": {
@@ -8586,7 +8586,7 @@
             ],
             "support": {
                 "issues": "https://github.com/captainhookphp/captainhook/issues",
-                "source": "https://github.com/captainhookphp/captainhook/tree/5.23.0"
+                "source": "https://github.com/captainhookphp/captainhook/tree/5.23.3"
             },
             "funding": [
                 {
@@ -8594,7 +8594,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-12T10:39:21+00:00"
+            "time": "2024-07-07T19:12:59+00:00"
         },
         {
             "name": "captainhook/hook-installer",
@@ -13157,16 +13157,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v7.1.1",
+            "version": "v7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "802e87002f919296c9f606457d9fa327a0b3d6b2"
+                "reference": "92a91985250c251de9b947a14bb2c9390b1a562c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/802e87002f919296c9f606457d9fa327a0b3d6b2",
-                "reference": "802e87002f919296c9f606457d9fa327a0b3d6b2",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/92a91985250c251de9b947a14bb2c9390b1a562c",
+                "reference": "92a91985250c251de9b947a14bb2c9390b1a562c",
                 "shasum": ""
             },
             "require": {
@@ -13203,7 +13203,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v7.1.1"
+                "source": "https://github.com/symfony/filesystem/tree/v7.1.2"
             },
             "funding": [
                 {
@@ -13219,7 +13219,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T14:57:53+00:00"
+            "time": "2024-06-28T10:03:55+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
