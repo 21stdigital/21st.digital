@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Von der Vision zur Konversion'
 teaser_text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
 client: 4e44b30b-df14-4025-9bfa-edc245cc0560
-updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715970477
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1716888409
 modules:
   -
     id: lw97vzb8
@@ -142,12 +142,6 @@ modules:
     type: section_header
     enabled: true
   -
-    id: lw98yh89
-    quote: 'Die Website ist weit mehr als eine Visitenkarte – sie ist ein entscheidender Treiber für unser Geschäft. Durch die Neugestaltung konnten wir unsere Markenpräsenz signifikant steigern und effektiv neue Kundenbeziehungen aufbauen'
-    author: 'David Rothenhäuser'
-    type: quote
-    enabled: true
-  -
     id: lw98ytvb
     text:
       -
@@ -160,15 +154,26 @@ modules:
     type: text
     enabled: true
   -
+    id: lw98yh89
+    quote: 'Die Website ist weit mehr als eine Visitenkarte – sie ist ein entscheidender Treiber für unser Geschäft. Durch die Neugestaltung konnten wir unsere Markenpräsenz signifikant steigern und effektiv neue Kundenbeziehungen aufbauen'
+    author: 'David Rothenhäuser, Vice President und Head of Global Marketing Communications bei SPORTFIVE'
+    type: quote
+    enabled: true
+  -
     id: lw99cshz
-    headline: 'Du willst auch eine Website, die zu deiner Strategie passt?'
+    headline: 'Du willst auch eine Website, die zu Deiner Strategie passt?'
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Wir helfen dir bei deinem Vorhaben.'
+            text: 'Wir helfen Dir bei Deinem Vorhaben. '
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Melde Dich dazu gerne bei unserem CTO Fabian.'
     person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
     type: team_cta
     enabled: true

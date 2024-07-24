@@ -1,13 +1,12 @@
-<div
-    class="sticky inset-0 left-0 top-0 z-20 flex justify-between gap-8 bg-black/80 px-[4vw] py-8 text-white backdrop-blur lg:px-12"
->
-    <a href="{{ site:url }}">
-        {{ svg sanitize="true" src="21st-digital-logo" class="fill-current h-12 sm:h-16 md:h-24" }}
-    </a>
-
-    {{ partial:components/button label="{trans:misc.make_appointment}" url="https://calendly.com/21stdigital/meeting" class="my-auto" }}
-        {{ slot:svg }}
-            {{ svg src="heroicons/outline/arrow-right" class="w-4" stroke-width="3" }}
-        {{ /slot:svg }}
+<div class="flex justify-between gap-8 bg-black/80 px-[4vw] py-8 text-white backdrop-blur lg:px-12">
+  <a href="{{ site:url }}">
+    {{ svg sanitize="true" src="21st-digital-logo" class="fill-current h-12 sm:h-16 md:h-24" }}
+  </a>
+  {{ if calendly:enabled && calendly:url }}
+    {{ partial:components/button label="{trans:misc.make_appointment}" url="{{ calendly:url }}" class="my-auto" open_in_new_window="true" }}
+      {{ slot:svg }}
+        {{ svg src="heroicons/outline/arrow-right" class="w-4" stroke-width="3" }}
+      {{ /slot:svg }}
     {{ /partial:components/button }}
+  {{ /if }}
 </div>

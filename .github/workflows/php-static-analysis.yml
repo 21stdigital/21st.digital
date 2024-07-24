@@ -30,13 +30,13 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.3"
+          php-version: '8.3'
           extensions: dom, curl, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick
           coverage: none
 
       - name: Install dependencies
         run: |
-          composer update --no-interaction --prefer-dist
+          composer install --no-interaction --prefer-dist
 
       - name: Run PHPStan
-        run: composer analyse
+        run: ./vendor/bin/phpstan analyse --error-format=github

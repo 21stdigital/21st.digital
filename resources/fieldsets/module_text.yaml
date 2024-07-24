@@ -3,6 +3,11 @@ fields:
   -
     handle: text
     field: common.text
+    config:
+      antlers: true
+      link_noopener: true
+      link_noreferrer: true
+      target_blank: true
   -
     handle: grid_position
     field:

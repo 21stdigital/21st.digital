@@ -1,16 +1,21 @@
-<div class="container space-y-20 md:space-y-60">
+<div class="container space-y-12 md:space-y-16">
   {{ collection:case_studies }}
     {{ partial:grid class="items-center grid-cols-1 gap-y-6 md:gap-y-0" }}
       <div
         class="{{ switch between='md:col-start-1 | md:col-start-5 2xl:col-start-6' }} col-span-8 flex flex-col items-start gap-4 rounded-md border border-zinc-800 bg-black-gradient p-4 sm:p-6 lg:p-8 2xl:col-span-7"
       >
+        <div class="mb-3 md:hidden">
+          {{ if client.logo_monotone.ratio < 1 }}
+            {{ svg :src="client.logo_monotone" class="h-20 lg:h-28 text-white fill-current" }}
+          {{ else }}
+            {{ svg :src="client.logo_monotone" class="w-40 lg:w-60 text-white fill-current" }}
+          {{ /if }}
+        </div>
         <h3>
           {{ title }}
         </h3>
 
-        <div
-          class="font-thin sm:text-lg sm:leading-normal 2xl:text-xl 2xl:leading-normal"
-        >
+        <div class="font-thin sm:text-lg sm:leading-normal 2xl:text-xl 2xl:leading-normal">
           {{ teaser_text }}
         </div>
 
@@ -24,7 +29,7 @@
       </div>
 
       <div
-        class="{{ switch between='md:col-start-9 md:order-none | md:col-start-1 md:order-first 2xl:col-start-3' }} order-first col-span-full justify-center md:col-span-4 md:flex md:items-center 2xl:col-span-3"
+        class="{{ switch between='md:col-start-9 md:order-none | md:col-start-1 md:order-first 2xl:col-start-3' }} order-first col-span-full hidden justify-center md:col-span-4 md:flex md:items-center 2xl:col-span-3"
       >
         {{ if client.logo_monotone.ratio < 1 }}
           {{ svg :src="client.logo_monotone" class="h-20 lg:h-28 text-white fill-current" }}

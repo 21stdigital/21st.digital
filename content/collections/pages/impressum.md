@@ -3,8 +3,8 @@ id: 9ebb7d6e-9675-4b4a-99da-e4da6ee5444e
 blueprint: page
 title: Impressum
 author: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715944860
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1716883974
 modules:
   -
     id: lwal9cki
@@ -32,6 +32,20 @@ modules:
           -
             type: text
             text: '20097 Hamburg'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:{{ "hello@21st.digital" | obfuscate_email }}'
+                  rel: 'noopener noreferrer'
+                  target: null
+                  title: null
+            text: '{{ "hello@21st.digital" | obfuscate_email  }}'
     type: section_header
     enabled: true
   -
