@@ -16,6 +16,10 @@ trim_trailing_whitespace = true
 [*.php]
 indent_size = 4
 
+# HTML files: Using 4 spaces for better readability and consistency with common HTML coding standards
+[*.html]
+indent_size = 4
+
 # Markdown files: Preserving trailing whitespace for proper Markdown rendering
 [*.md]
 trim_trailing_whitespace = false

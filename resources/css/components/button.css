@@ -1,9 +1,9 @@
-[data-component="button"] {
-    &[data-size="default"] {
-        @apply px-4 py-2;
-    }
+[data-component='button'] {
+  &[data-size='default'] {
+    @apply px-4 py-2;
+  }
 
-    &[data-size="xl"] {
-        @apply px-5 py-3 lg:px-6 lg:py-4 lg:text-xl;
-    }
+  &[data-size='xl'] {
+    @apply px-5 py-3 lg:px-6 lg:py-4 lg:text-xl;
+  }
 }
