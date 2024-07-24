@@ -1,3 +1,5 @@
-# Ignore all YAML files; Statamic's modifications on these files would trigger unnecessary rewrites.
-*.yml
-*.yaml
+# Ignore all Statamic-related YAML files. Statamic's modifications on these files would trigger unnecessary rewrites.
+resources/**/*.yml
+
+# Ignore all markdown files in the content folder to prevent interference with Statamic's file modifications.
+content/**/*.md

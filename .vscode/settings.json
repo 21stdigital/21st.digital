@@ -12,5 +12,5 @@
     "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
 
-  "css.customData": [".vscode/tailwind.json"]
+  "css.lint.unknownAtRules": "ignore"
 }
