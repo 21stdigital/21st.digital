@@ -1,23 +1,23 @@
 {{#
-  @name Case Study
-  @desc The template for all case studies.
+    @name Case Study
+    @desc The template for all case studies.
 #}}
 
 {{# This first part automatically adds the client and title of the case study. #}}
 <div class="container">
-  {{ partial:grid }}
-    <div class="py-hero col-span-full xl:col-span-10 2xl:col-span-9">
-      <div class="inline-block">
-        <span class="text-sm font-bold text-white lg:text-base 2xl:text-lg">
-          {{ client.title }}
-        </span>
-      </div>
+    {{ partial:grid }}
+        <div class="col-span-full py-hero xl:col-span-10 2xl:col-span-9">
+            <div class="inline-block">
+                <span class="text-sm font-bold text-white lg:text-base 2xl:text-lg">
+                    {{ client.title }}
+                </span>
+            </div>
 
-      <h1 class="text-hero hyphens-auto pink-gradient-text">
-        {{ title }}
-      </h1>
-    </div>
-  {{ /partial:grid }}
+            <h1 class="hyphens-auto text-hero pink-gradient-text">
+                {{ title }}
+            </h1>
+        </div>
+    {{ /partial:grid }}
 </div>
 
 {{# This part adds the default dynamic modules #}}
