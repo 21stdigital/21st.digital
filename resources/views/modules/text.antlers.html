@@ -1,11 +1,9 @@
 <div class="container">
-  {{ partial:grid }}
-    <div
-      class="{{ grid_position === 'end' ?= 'lg:col-start-5' }} col-span-full lg:col-span-8"
-    >
-      {{ text }}
-        {{ partial:if_exists src="modules/texts/{{ type }}" }}
-      {{ /text }}
-    </div>
-  {{ /partial:grid }}
+    {{ partial:grid }}
+        <div class="{{ grid_position === 'end' ?= 'lg:col-start-5' }} col-span-full lg:col-span-8">
+            {{ text }}
+                {{ partial:if_exists src="modules/texts/{{ type }}" }}
+            {{ /text }}
+        </div>
+    {{ /partial:grid }}
 </div>

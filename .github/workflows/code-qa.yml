@@ -1,0 +1,93 @@
+name: Code Quality Assurance
+
+on:
+  pull_request:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  detect_changes:
+    name: Detect Changes in Source Files
+    runs-on: ubuntu-latest
+
+    outputs:
+      php: ${{ steps.filter.outputs.php }}
+      js: ${{ steps.filter.outputs.js }}
+      ts: ${{ steps.filter.outputs.ts }}
+      css: ${{ steps.filter.outputs.css }}
+      antlers: ${{ steps.filter.outputs.antlers }}
+      changed: ${{ steps.filter.outputs.changed }}
+
+      php_files: ${{ steps.filter.outputs.php_files }}
+      js_files: ${{ steps.filter.outputs.js_files }}
+      ts_files: ${{ steps.filter.outputs.ts_files }}
+      css_files: ${{ steps.filter.outputs.css_files }}
+      antlers_files: ${{ steps.filter.outputs.antlers_files }}
+      changed_files: ${{ steps.filter.outputs.changed_files }}
+
+    steps:
+      - name: Identify Changed Files
+        uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            php:
+              - added|modified: '*.php'
+            ts:
+              - added|modified: '**/*.ts'
+            js:
+              - added|modified: '**/*.js'
+              - added|modified: '**/*.cjs'
+            css:
+              - added|modified: '**/*.css'
+            antlers:
+              - added|modified: '**/*.antlers.html'
+            changed:
+              - added|modified: '**/*'
+          list-files: shell
+
+  lint_code:
+    name: Perform Code Linting
+    needs: detect_changes
+    if: ${{ needs.detect_changes.outputs.changed == 'true' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.11.0
+
+      - name: Install Node.js Dependencies
+        run: npm ci --prefer-offline
+
+      - name: Check Code Formatting with Prettier
+        if: ${{ needs.detect_changes.outputs.antlers == 'true' }}
+        run: npm run prettier:check ${{ needs.detect_changes.outputs.antlers_files }}
+
+      - name: Lint PHP Files
+        if: ${{ needs.detect_changes.outputs.php == 'true' }}
+        uses: aglipanci/laravel-pint-action@v2
+        with:
+          testMode: true
+          verboseMode: true
+
+      - name: Lint TypeScript Files
+        if: ${{ needs.detect_changes.outputs.ts == 'true' }}
+        run: npm run lint:js ${{ needs.detect_changes.outputs.ts_files }}
+
+      - name: Lint JavaScript Files
+        if: ${{ needs.detect_changes.outputs.js == 'true' }}
+        run: npm run lint:js ${{ needs.detect_changes.outputs.js_files }}
+
+      - name: Lint CSS Files
+        if: ${{ needs.detect_changes.outputs.css == 'true' }}
+        run: npm run lint:css ${{ needs.detect_changes.outputs.css_files }}
+
+      - name: Build Project
+        run: npm run build

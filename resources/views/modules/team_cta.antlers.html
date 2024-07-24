@@ -1,45 +1,45 @@
 <div class="container">
-  <div>
-    <div
-      class="mx-auto max-w-[800px] overflow-hidden rounded-md border border-zinc-800 bg-black-gradient p-4 sm:p-6 lg:p-8"
-    >
-      <div class="gap-8 md:flex">
-        {{ partial:images/team_cta_big }}
-        <div class="flex flex-col items-start gap-4">
-          {{ if headline }}
-            <div class="text-3xl font-bold leading-tight pink-gradient-text lg:text-4xl lg:leading-tight">
-              {{ headline }}
+    <div>
+        <div
+            class="mx-auto max-w-[800px] overflow-hidden rounded-md border border-zinc-800 bg-black-gradient p-4 sm:p-6 lg:p-8"
+        >
+            <div class="gap-8 md:flex">
+                {{ partial:images/team_cta_big }}
+                <div class="flex flex-col items-start gap-4">
+                    {{ if headline }}
+                        <div class="text-3xl font-bold leading-tight pink-gradient-text lg:text-4xl lg:leading-tight">
+                            {{ headline }}
+                        </div>
+                    {{ /if }}
+                    {{ if text }}
+                        {{ text }}
+                            {{ partial:if_exists src="modules/texts/{{ type }}" }}
+                        {{ /text }}
+                    {{ /if }}
+                    <div class="relative flex gap-x-8">
+                        {{ partial:images/team_cta_small }}
+                        <ul class="my-auto grid grid-cols-1 items-center gap-4">
+                            {{ if calendly:enabled && (calendly:url || person.calendly_url) }}
+                                <li>
+                                    {{ partial:components/button label="{trans:misc.make_appointment}" url="{{ person.calendly_url ?? calendly:url }}" class="my-auto" open_in_new_window="true" }}
+                                        {{ slot:svg }}
+                                            {{ svg src="heroicons/outline/arrow-right" class="w-4" stroke-width="3" }}
+                                        {{ /slot:svg }}
+                                    {{ /partial:components/button }}
+                                </li>
+                            {{ /if }}
+                            <li>
+                                <a
+                                    class="text-2xl font-bold underline decoration-[#7657EA] decoration-2 underline-offset-4 max-[480px]:text-lg"
+                                    href="mailto:{{ person.email | obfuscate_email }}"
+                                >
+                                    {{ person.email | obfuscate_email }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          {{ /if }}
-          {{ if text }}
-            {{ text }}
-              {{ partial:if_exists src="modules/texts/{{ type }}" }}
-            {{ /text }}
-          {{ /if }}
-          <div class="relative flex gap-x-8">
-            {{ partial:images/team_cta_small }}
-            <ul class="my-auto grid grid-cols-1 items-center gap-4">
-              {{ if calendly:enabled && (calendly:url || person.calendly_url) }}
-                <li>
-                  {{ partial:components/button label="{trans:misc.make_appointment}" url="{{ person.calendly_url ?? calendly:url }}" class="my-auto" open_in_new_window="true" }}
-                    {{ slot:svg }}
-                      {{ svg src="heroicons/outline/arrow-right" class="w-4" stroke-width="3" }}
-                    {{ /slot:svg }}
-                  {{ /partial:components/button }}
-                </li>
-              {{ /if }}
-              <li>
-                <a
-                  class="text-2xl font-bold underline decoration-[#7657EA] decoration-2 underline-offset-4 max-[480px]:text-lg"
-                  href="mailto:{{ person.email | obfuscate_email }}"
-                >
-                  {{ person.email | obfuscate_email }}
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
