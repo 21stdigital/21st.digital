@@ -1,7 +1,7 @@
 ---
 name: Mercedes-Benz Data Dashboard
 client: Mercedes-Benz
-title: Von Daten zu Taten - Wie ein innovatives Produkt die Mobilitätsoptimierung für Städte und Länder erleichtert
+title: Von Millionen Datenpunkten zur smarteren Mobilität
 teaser: Erfahre, wie wir Mercedes-Benz geholfen haben, aus über einer halben Milliarde Fahrzeugdaten ein digitales Produkt zu erschaffen, das urbane Mobilität und Infrastrukturen weltweit verbessert.
 facts:
   - 500+ Millionen Eventdaten
@@ -56,4 +56,4 @@ Die Einführung des Data Dashboards hat die Art und Weise, wie Kunden und Vertri
 
 Durch die Zusammenarbeit mit 21st digital wurde der Entwicklungsprozess nicht nur beschleunigt, sondern auch die Projektkosten wurden deutlich reduziert. Ein Schlüsselelement für diesen Erfolg war die transparente Kommunikation während des gesamten Projekts. Dies gewährleistete, dass jeder Beteiligte ständig auf dem Laufenden war, über die aktuellen Entwicklungen informiert wurde und genau wusste, an welchen Punkten gerade gearbeitet wird.
 
-> "21st digital hat nicht nur unsere Entwicklungszeiten verkürzt, sondern auch unsere Prozesse optimiert und effizienter gemacht", betont Gösele.
+> "21st digital hat nicht nur unsere Entwicklungszeiten verkürzt, sondern auch unsere Prozesse im Umgang mit dem Data Dashboard optimiert und effizienter gemacht", betont Gösele.
