@@ -1,13 +1,13 @@
 <div class="container">
-  {{ partial:grid }}
-    <div
-      class="col-span-full flex flex-wrap gap-20 rounded-md border border-zinc-800 bg-black-gradient p-6 lg:p-8 xl:col-span-8 xl:col-start-5 xl:p-12"
-    >
-      {{ collection:clients }}
-        <div class="flex aspect-square w-16 items-center justify-center">
-          {{ svg :src="logo_monotone ?? logo" class="w-full h-full fill-current text-white/70" }}
+    {{ partial:grid }}
+        <div
+            class="col-span-full flex flex-wrap gap-20 rounded-md border border-zinc-800 bg-black-gradient p-6 lg:p-8 xl:col-span-8 xl:col-start-5 xl:p-12"
+        >
+            {{ collection:clients }}
+                <div class="flex aspect-square w-16 items-center justify-center">
+                    {{ svg :src="logo_monotone ?? logo" class="w-full h-full fill-current text-white/70" }}
+                </div>
+            {{ /collection:clients }}
         </div>
-      {{ /collection:clients }}
-    </div>
-  {{ /partial:grid }}
+    {{ /partial:grid }}
 </div>
