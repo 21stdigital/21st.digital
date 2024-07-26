@@ -18,7 +18,7 @@ Das Hauptziel des Projekts war die Schaffung einer benutzerfreundlichen Plattfor
 
 ## Herausforderung
 
-Die Verarbeitung und Nutzung von über einer halben Milliarde einzelner Eventdaten stellten eine Herausforderung dar, die eine intuitive und gleichzeitig performante Lösung erforderte. Das Data Dashboard musste sowohl für Kunden als auch für interne Vertriebsmitarbeiter der Automobilherstellers zugänglich sein.
+Die Verarbeitung und Nutzung einer sehr großen Menge einzelner Eventdaten stellten eine Herausforderung dar, die eine intuitive und gleichzeitig performante Lösung erforderte. Das Data Dashboard musste sowohl für Kunden als auch für interne Vertriebsmitarbeiter der Automobilherstellers zugänglich sein.
 
 Die unterschiedlichen Bedürfnisse der zahlreichen Stakeholder wie Produktmanager, Data Scientists und Kunden erforderten eine Plattform, die schnell und effektiv funktionierende Lösungen bieten musste.
 
