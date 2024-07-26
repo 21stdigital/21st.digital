@@ -12,15 +12,13 @@ facts:
 
 Als Pionier in der Automobilindustrie nutzt Mercedes-Benz die umfangreichen Daten seiner weltweiten Fahrzeugflotte, um wegweisende Lösungen zu entwickeln, die urbane Mobilität und Infrastruktur nachhaltig verbessern. Durch den Einsatz modernster Sensortechnologie werden Fahrzeugdaten anonymisiert erfasst und liefern wertvolle Erkenntnisse über Verkehrsflüsse, Parkplatzverfügbarkeit und Sicherheitsbedingungen im Straßenverkehr.
 
-> "Wir wollten einen Weg finden, um riesige Datenmengen aus unseren Fahrzeugen einfach und intuitiv nutzbar zu machen. Das Mercedes-Benz Data Dashboard war unsere Antwort darauf", erklärt Martin Gösele, Manager Digitalization & Data Office MP.
-
-Mercedes-Benz strebte eine Plattform an, die Kunden nicht nur die Analyse und Auswertung der Daten ohne technische Vorkenntnisse ermöglicht, sondern auch den Vertrieb der eigenen Datenprodukte interaktiv unterstützt. Aufgrund von Unzufriedenheit mit den Projektergebnissen entschied sich Mercedes-Benz für einen kompletten Neustart und suchte einen Partner für die vollständige Neuentwicklung des Produkts.
+Das Hauptziel des Projekts war die Schaffung einer benutzerfreundlichen Plattform, die die Analyse und Auswertung umfangreicher Fahrzeugdaten ermöglicht und den Vertrieb der eigenen Datenprodukte interaktiv unterstützt.
 
 --
 
 ## Herausforderung
 
-Die Verarbeitung und Nutzung von über einer halben Milliarde einzelner Eventdaten stellten eine Herausforderung dar, die eine intuitive und gleichzeitig performante Lösung erforderte. Das Data Dashboard musste sowohl für Kunden als auch für interne Vertriebsmitarbeiter von Mercedes-Benz zugänglich sein.
+Die Verarbeitung und Nutzung von über einer halben Milliarde einzelner Eventdaten stellten eine Herausforderung dar, die eine intuitive und gleichzeitig performante Lösung erforderte. Das Data Dashboard musste sowohl für Kunden als auch für interne Vertriebsmitarbeiter der Automobilherstellers zugänglich sein.
 
 Die unterschiedlichen Bedürfnisse der zahlreichen Stakeholder wie Produktmanager, Data Scientists und Kunden erforderten eine Plattform, die schnell und effektiv funktionierende Lösungen bieten musste.
 
@@ -28,7 +26,7 @@ Die unterschiedlichen Bedürfnisse der zahlreichen Stakeholder wie Produktmanage
 
 ## Lösung
 
-21st digital entwickelte in Partnerschaft mit Mercedes-Benz eine benutzerfreundliche Webanwendung, die es Nutzern ermöglicht, Fahrzeugdaten effektiv zu analysieren und Entscheidungen zu treffen.
+21st digital entwickelte in Partnerschaft mit dem Automobilhersteller eine benutzerfreundliche Webanwendung, die es Nutzern ermöglicht, Fahrzeugdaten effektiv zu analysieren und Entscheidungen zu treffen.
 
 ### Entwicklungsansatz und Technologie
 
@@ -36,7 +34,7 @@ Zunächst wurde ein multidisziplinäres Team aus Produktmanagern, UX/UI-Designer
 
 ### Benutzerzentrierte Gestaltung
 
-Die Gestaltung der Benutzeroberfläche erfolgte stark benutzerzentriert. Durch regelmäßige User und Customer Interviews sammelte das Team kontinuierlich Rückmeldungen, die direkt in die Entwicklung einflossen. Dieser Ansatz ermöglichte es, das Produkt genau auf die Bedürfnisse der Endnutzer abzustimmen – von Verkehrsplanern in Kommunen bis hin zu Vertriebsmitarbeitern von Mercedes-Benz. Das implementierte Design System sorgte dabei für eine konsistente und intuitive Nutzererfahrung.
+Die Gestaltung der Benutzeroberfläche erfolgte stark benutzerzentriert. Regelmäßige User und Customer Interviews flossen direkt in die Entwicklung ein, um das Produkt genau auf die Bedürfnisse der Endnutzer abzustimmen. Ein konsistentes Design System sorgte für eine intuitive Nutzererfahrung.
 
 ### MVP und Validierung
 
@@ -50,10 +48,4 @@ Von Beginn an wurde das Dashboard mit Blick auf zukünftige Erweiterungen und de
 
 ## Ergebnisse
 
-Die Einführung des Data Dashboards hat die Art und Weise, wie Kunden und Vertriebsmitarbeiter von Mercedes-Benz mit Fahrzeugdaten umgehen, grundlegend verändert.
-
-> "Unsere Kunden, darunter viele Kommunen und Landkreise, profitieren enorm von der einfachen Datennutzung, die ihnen das Data Dashboard bietet", berichtet Danny Truong, Head of Business Development & Internationalization.
-
-Durch die Zusammenarbeit mit 21st digital wurde der Entwicklungsprozess nicht nur beschleunigt, sondern auch die Projektkosten wurden deutlich reduziert. Ein Schlüsselelement für diesen Erfolg war die transparente Kommunikation während des gesamten Projekts. Dies gewährleistete, dass jeder Beteiligte ständig auf dem Laufenden war, über die aktuellen Entwicklungen informiert wurde und genau wusste, an welchen Punkten gerade gearbeitet wird.
-
-> "21st digital hat nicht nur unsere Entwicklungszeiten verkürzt, sondern auch unsere Prozesse im Umgang mit dem Data Dashboard optimiert und effizienter gemacht", betont Gösele.
+Die Einführung des Data Dashboards hat die Art und Weise, wie Kunden und Vertriebsmitarbeiter des Automobilherstellers mit Fahrzeugdaten umgehen, grundlegend verändert. Durch die Zusammenarbeit mit 21st digital wurde der Entwicklungsprozess beschleunigt und die Projektkosten deutlich reduziert. Ein Schlüsselelement für diesen Erfolg war die transparente Kommunikation während des gesamten Projekts. Eine transparente Kommunikation während des gesamten Projekts stellte sicher, dass alle Beteiligten ständig auf dem Laufenden waren und über die aktuellen Entwicklungen informiert wurden.
