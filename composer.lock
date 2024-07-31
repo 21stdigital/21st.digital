@@ -4709,16 +4709,16 @@
         },
         {
             "name": "spatie/error-solutions",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/error-solutions.git",
-                "reference": "a014da18f2675ea15af0ba97f7e9aee59e13964f"
+                "reference": "ae7393122eda72eed7cc4f176d1e96ea444f2d67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/a014da18f2675ea15af0ba97f7e9aee59e13964f",
-                "reference": "a014da18f2675ea15af0ba97f7e9aee59e13964f",
+                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/ae7393122eda72eed7cc4f176d1e96ea444f2d67",
+                "reference": "ae7393122eda72eed7cc4f176d1e96ea444f2d67",
                 "shasum": ""
             },
             "require": {
@@ -4771,7 +4771,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/error-solutions/issues",
-                "source": "https://github.com/spatie/error-solutions/tree/1.1.0"
+                "source": "https://github.com/spatie/error-solutions/tree/1.1.1"
             },
             "funding": [
                 {
@@ -4779,7 +4779,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-22T08:18:22+00:00"
+            "time": "2024-07-25T11:06:04+00:00"
         },
         {
             "name": "spatie/flare-client-php",
@@ -5063,16 +5063,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.17.0",
+            "version": "v5.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "7ca3b25922fefdd3b3f7c8472a762469c0094c9e"
+                "reference": "7d534e484ad023780110ba74c194bcad26aa7f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/7ca3b25922fefdd3b3f7c8472a762469c0094c9e",
-                "reference": "7ca3b25922fefdd3b3f7c8472a762469c0094c9e",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/7d534e484ad023780110ba74c194bcad26aa7f99",
+                "reference": "7d534e484ad023780110ba74c194bcad26aa7f99",
                 "shasum": ""
             },
             "require": {
@@ -5154,7 +5154,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.17.0"
+                "source": "https://github.com/statamic/cms/tree/v5.18.0"
             },
             "funding": [
                 {
@@ -5162,7 +5162,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-22T13:31:26+00:00"
+            "time": "2024-07-30T16:32:29+00:00"
         },
         {
             "name": "statamic/ssg",
