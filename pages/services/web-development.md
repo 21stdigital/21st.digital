@@ -22,9 +22,10 @@ Unsere Produktentwicklung umfasst die Erstellung von Prototypen und Minimum Viab
 
 ## Unser Ansatz
 
-- Kundenzentriert: Wir arbeiten eng mit Dir zusammen, um Deine spezifischen Bedürfnisse und Ziele zu verstehen.
-- Agil und flexibel: Durch den Einsatz agiler Methoden können wir schnell auf Veränderungen reagieren und kontinuierlich Verbesserungen vornehmen.
-- Qualität und Sicherheit: Wir legen großen Wert auf die Qualität unserer Arbeit und die Sicherheit Deiner Daten und Systeme.
+- Kundenzentriert: Wir arbeiten eng mit Dir zusammen, um Deine spezifischen Bedürfnisse und Ziele zu verstehen. Deine Vision steht im Mittelpunkt unseres Handelns, und wir passen unsere Lösungen an Deine individuellen Anforderungen an.
+- Agil und flexibel: Durch den Einsatz agiler Methoden wie Scrum und Lean Startup können wir schnell auf Veränderungen reagieren und kontinuierlich Verbesserungen vornehmen. Dies ermöglicht es uns, effizient und adaptiv auf neue Anforderungen und Herausforderungen einzugehen.
+- Qualität und Sicherheit: Wir legen großen Wert auf die Qualität unserer Arbeit und die Sicherheit Deiner Daten und Systeme. Durch strenge Qualitätssicherungsprozesse und modernste Sicherheitsmaßnahmen stellen wir sicher, dass unsere Lösungen zuverlässig und geschützt sind.
+- Langfristige Partnerschaft: Auch nach dem Launch betreuen wir Dich weiter, damit Deine Anwendung optimal funktioniert und aktuell bleibt. Dein Erfolg ist unser Erfolg.
 
 ## Testimonials
 
