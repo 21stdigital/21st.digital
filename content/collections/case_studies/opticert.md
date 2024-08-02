@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
-updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715972944
+updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
+updated_at: 1722591672
 modules:
   -
     id: lwajbm3z
@@ -85,6 +85,21 @@ modules:
         type: text
         enabled: true
       -
+        id: lzcikua3
+        headline: 'Nutzerzentriertes Design'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
+        image: case-studies/opticert/opticert-artwork.png
+        image_position: right
+        image_behavior: cover
+        type: text_with_image
+        enabled: true
+      -
         id: lwajuijf
         headline: 'Nutzerzentriertes Design'
         text:
@@ -95,7 +110,7 @@ modules:
                 type: text
                 text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
         type: text
-        enabled: true
+        enabled: false
       -
         id: lwajtcb3
         headline: 'Technologische Exzellenz'
