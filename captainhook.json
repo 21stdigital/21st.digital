@@ -7,15 +7,15 @@
         "action": "\\Ramsey\\CaptainHook\\ValidateConventionalCommit",
         "options": {
           "config": {
-            "typeCase": null,
-            "types": [],
-            "scopeCase": null,
+            "typeCase": "lower",
+            "types": ["build", "chore", "ci", "docs", "feat", "fix", "perf", "refactor", "revert", "style", "test"],
+            "scopeCase": "kebab",
             "scopeRequired": false,
             "scopes": [],
-            "descriptionCase": null,
-            "descriptionEndMark": null,
+            "descriptionCase": "lower",
+            "descriptionEndMark": "",
             "bodyRequired": false,
-            "bodyWrapWidth": null,
+            "bodyWrapWidth": 72,
             "requiredFooters": []
           }
         }
