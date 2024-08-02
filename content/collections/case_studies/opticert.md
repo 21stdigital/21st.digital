@@ -94,7 +94,6 @@ modules:
               -
                 type: text
                 text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
-        image: case-studies/opticert/opticert-illustration.png
         image_position: left
         image_behavior: cover
         type: text_with_image
