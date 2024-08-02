@@ -4,11 +4,9 @@
             <div
                 class="col-span-6 flex flex-col gap-4 rounded-md border border-zinc-800 bg-black-gradient p-4 sm:p-6 lg:p-8"
             >
-                <h3>{{ title }}</h3>
+                <h3 class="text-h3">{{ title }}</h3>
 
-                {{ teaser_text }}
-                    {{ partial:if_exists src="modules/texts/{{ type }}" }}
-                {{ /teaser_text }}
+                {{ partial:if_exists src="partials/copy" :text="teaser_text" }}
             </div>
         {{ /collection:services }}
     {{ /partial:grid }}

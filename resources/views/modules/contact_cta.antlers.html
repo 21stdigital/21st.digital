@@ -9,9 +9,7 @@
                 {{ headline }}
             </h2>
 
-            {{ text }}
-                {{ partial:if_exists src="modules/texts/{{ type }}" }}
-            {{ /text }}
+            {{ partial:if_exists src="partials/copy" }}
             {{ partial:components/button :label="label" open_in_new_window="true" }}
                 {{ slot:svg }}
                     {{ if add_icon }}
