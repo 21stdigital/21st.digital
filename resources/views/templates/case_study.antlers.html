@@ -6,16 +6,37 @@
 {{# This first part automatically adds the client and title of the case study. #}}
 <div class="container">
     {{ partial:grid }}
-        <div class="col-span-full py-hero xl:col-span-10 2xl:col-span-9">
-            <div class="inline-block">
+        <div class="col-span-full grid grid-cols-subgrid py-hero">
+            <div class="col-span-full inline-block lg:col-span-8">
                 <span class="text-sm font-bold text-white lg:text-base 2xl:text-lg">
                     {{ client.title }}
                 </span>
             </div>
 
-            <h1 class="hyphens-auto text-hero pink-gradient-text">
+            <h1 class="col-span-full hyphens-auto text-hero pink-gradient-text lg:col-span-10 xl:col-span-8">
                 {{ title }}
             </h1>
+            {{ if project_url | is_url }}
+                <div
+                    class="col-span-full -col-end-1 row-start-3 mt-7 flex items-center gap-2 xl:col-start-9 xl:flex-col xl:items-start xl:gap-1"
+                >
+                    <p class="text font-thin leading-relaxed">Zum Projekt:</p>
+                    <a
+                        class="border-gradient relative inline-flex items-center gap-3 self-start border-b-2 text-copy"
+                        href="{{ project_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {{ project_url }}
+                        {{ svg:cta-arrow-thin }}
+                    </a>
+                </div>
+            {{ /if }}
+            {{ if intro_text }}
+                <div class="col-span-full mt-7 lg:col-span-8">
+                    {{ partial:if_exists src="partials/copy" :text="intro_text" }}
+                </div>
+            {{ /if }}
         </div>
     {{ /partial:grid }}
 </div>

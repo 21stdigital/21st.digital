@@ -3,6 +3,7 @@
 @import url('tailwindcss/utilities');
 @import url('modules.css');
 @import url('typography.css');
+@import url('components/border.css');
 @import url('components/button.css');
 
 :root {
