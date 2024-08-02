@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1722592555
+updated_at: 1722592661
 modules:
   -
     id: lwajbm3z
@@ -94,6 +94,7 @@ modules:
               -
                 type: text
                 text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
+        image: case-studies/opticert/opticert-artwork.png
         image_position: left
         image_behavior: cover
         type: text_with_image
