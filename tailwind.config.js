@@ -33,7 +33,22 @@ export default {
         "pink-gradient": `linear-gradient(to top left, #FF00D2, #BF29DD 20%, #7657EA)`
       }),
       fontSize: {
-        "hero": 'min(10.5vw, 85px)',
+        "hero": ['min(10.5vw, 85px)', {
+          lineHeight: 1.1875,
+          fontWeight: 'bold'
+        }],
+        "copy": ['18px', {
+          lineHeight: '1.55',
+          fontWeight: '100'
+        }],
+        "copy-small": ['18px', {
+          lineHeight: '1.55',
+          fontWeight: '100'
+        }],
+        "h2":['var(--font-size-h2)', {
+          lineHeight: '1.19',
+          fontWeight: '700'
+        }],
       },
       padding: {
         "hero": 'min(9rem, 30vh)',
@@ -42,7 +57,7 @@ export default {
   },
   plugins: [
     require("@tailwindcss/typography"),
-    plugin(function ({ addUtilities }) {
+    plugin(({ addUtilities }) => {
       addUtilities({
         ".pink-gradient-text": {
           backgroundImage:
