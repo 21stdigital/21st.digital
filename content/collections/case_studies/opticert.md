@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1722850670
+updated_at: 1722871667
 modules:
   -
     id: lwajbm3z
@@ -73,16 +73,19 @@ modules:
     id: lwajnhqv
     tiles:
       -
-        id: lwajnljm
-        headline: 'MVP und agile Entwicklung'
+        id: lzh5a7tm
+        headline: 'Lean Startup-Beratung und Markenentwicklung'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Die Entwicklung eines Minimum Viable Products (MVP) stand im Zentrum des Lösungsansatzes. Ziel war es, schnell eine Basisversion auf den Markt zu bringen, um das Konzept zu testen und Nutzerfeedback zu integrieren. Die agile Entwicklungspraxis Scrum half dem Team, flexibel auf Feedback zu reagieren und das Produkt kontinuierlich zu verbessern.'
-        type: text
+                text: 'Das Beratungsteam von 21st digital unterstützte FIEGE Logistik durch eine umfassende Evaluierung der Geschäftsidee und des Geschäftsmodells mittels der Lean Startup-Methode. Sie entwickelten eine eigenständige Marke für OPTICERT und erarbeiteten ein provisionsbasiertes Geschäftsmodell, das nachhaltig und profitabel ist. Zur Optimierung der Prozesse führten sie effiziente Lösungen für die Verwaltung von Kunden, die Abrechnung und das Dienstleisternetzwerk ein. Ein entscheidender Schritt war der Launch eines Minimum Viable Products (MVP), um die Idee schnell zu validieren und wertvolles Nutzerfeedback zu sammeln, das in die Weiterentwicklung der Plattform einfloss.'
+        image: case-studies/opticert/opticert-hero.png
+        image_position: left
+        image_behavior: cover
+        type: text_with_image
         enabled: true
       -
         id: lzcikua3
@@ -95,7 +98,7 @@ modules:
                 type: text
                 text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
         image: case-studies/opticert/opticert-hero.png
-        image_position: left
+        image_position: right
         image_behavior: cover
         type: text_with_image
         enabled: true
