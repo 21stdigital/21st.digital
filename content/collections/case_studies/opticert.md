@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1722872550
+updated_at: 1722872829
 modules:
   -
     id: lwajbm3z
@@ -103,30 +103,6 @@ modules:
         type: text_with_image
         enabled: true
       -
-        id: lwajtcb3
-        headline: 'Technologische Exzellenz'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Durch den Einsatz moderner Technologien wie React und PostgreSQL und die Verwendung von Heroku als Hosting-Plattform konnte eine sichere, leistungsfähige und skalierbare Lösung realisiert werden.'
-        type: text
-        enabled: true
-      -
-        id: lwaju0m1
-        headline: 'Integration und Feedback'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Durch die enge Zusammenarbeit mit Dienstleistern und Nutzern wurde die Plattform kontinuierlich verbessert und an die Bedürfnisse der Zielgruppe angepasst.'
-        type: text
-        enabled: true
-      -
         id: lzh5o1xn
         headline: 'Robuste und skalierbare Plattformentwicklung'
         text:
@@ -150,6 +126,27 @@ modules:
                 text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
         image: case-studies/opticert/opticert-anamnesis.png
         image_position: left
+        image_behavior: cover
+        type: text_with_image
+        enabled: true
+      -
+        id: lzh5vjo5
+        headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Das Platform Engineering-Team von 21st digital war für den Aufbau der technischen Infrastruktur von OPTICERT verantwortlich. Durch den Einsatz modernster Technologien wurde eine robuste und skalierbare Infrastruktur geschaffen, die den Anforderungen der Plattform gerecht wird und eine hohe Verfügbarkeit sicherstellt.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Darüber hinaus bietet 21st digital fortlaufenden Support und Maintenance, um eine reibungslose Funktionalität der Plattform zu gewährleisten. Dies umfasst die Überwachung der Systeme, regelmäßige Updates und die schnelle Behebung von Problemen, um die Nutzererfahrung kontinuierlich zu optimieren.'
+        image: case-studies/opticert/opticert-wizard.png
+        image_position: right
         image_behavior: cover
         type: text_with_image
         enabled: true
