@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1722871667
+updated_at: 1722872121
 modules:
   -
     id: lwajbm3z
@@ -89,15 +89,15 @@ modules:
         enabled: true
       -
         id: lzcikua3
-        headline: 'Nutzerzentriertes Design'
+        headline: 'Benutzerzentriertes Design und einheitliche Markenwelt'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
-        image: case-studies/opticert/opticert-hero.png
+                text: 'Das UX & UI Design-Team von 21st digital schuf eine benutzerfreundliche und visuell ansprechende Plattform für OPTICERT. Eine einheitliche Marken- und Bildwelt verlieh der Plattform eine starke visuelle Identität. Durch die Erstellung von Prototypen und Durchführung von User Interviews wurde direktes Nutzerfeedback eingeholt und das Design kontinuierlich verbessert. Ein konsistentes Design System sorgte dafür, dass alle Designkomponenten harmonisch zusammenarbeiteten. Detaillierte Illustrationen erleichterten das Verständnis komplexer Prozesse und steigerten die Benutzerfreundlichkeit.'
+        image: case-studies/opticert/opticert-illustration.png
         image_position: right
         image_behavior: cover
         type: text_with_image
