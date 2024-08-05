@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1722872829
+updated_at: 1722872954
 modules:
   -
     id: lwajbm3z
@@ -192,24 +192,6 @@ modules:
             type: text
             text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Die Möglichkeit, Angebote von Dienstleistern direkt auf der Plattform zu vergleichen, führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Darüber hinaus führte die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch die Plattform zu einer erheblichen Zeitersparnis für die Unternehmen.'
     grid_position: end
-    type: text
-    enabled: true
-  -
-    id: lwak570o
-    quote: 'Die Rückmeldungen unserer Mitarbeiter sind durchweg positiv. Sie finden die Plattform nicht nur einfach zu bedienen, sondern auch äußerst hilfreich, um unsere gesetzlichen Anforderungen effizient zu managen.'
-    author: 'Jan Trulley'
-    type: quote
-    enabled: true
-  -
-    id: lwak3njt
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Neben den quantitativen Erfolgen wurden auch qualitative Verbesserungen festgestellt. Die Benutzerfreundlichkeit von OPTICERT und die intuitive Gestaltung des Unternehmenschecks und der Dienstleistungswizards trugen zu einer positiven Nutzererfahrung bei. Die Plattform erleichterte nicht nur die Einhaltung gesetzlicher Anforderungen, sondern stärkte auch das Compliance-Bewusstsein innerhalb der Unternehmen. Die Einbindung von Illustrationen und benutzerzentriertem Design machte die ansonsten komplexe Materie der Compliance-Anforderungen zugänglich und verständlich.'
-    grid_position: start
     type: text
     enabled: true
   -
