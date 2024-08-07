@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1722872954
+updated_at: 1723045362
 modules:
   -
     id: lwajbm3z
@@ -104,7 +104,7 @@ modules:
         enabled: true
       -
         id: lzh5o1xn
-        headline: 'Robuste und skalierbare Plattformentwicklung'
+        headline: 'Robuste und skalierbare Entwicklung'
         text:
           -
             type: paragraph
