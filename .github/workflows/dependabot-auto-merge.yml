@@ -7,5 +7,3 @@ on:
 jobs:
   workflows:
     uses: 21stdigital/workflows/.github/workflows/dependabot-auto-merge.yml@main
-    with:
-      github-token: ${{ secrets.GITHUB_TOKEN }}
