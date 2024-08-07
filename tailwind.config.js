@@ -22,6 +22,23 @@ export default {
       zinc: colors.zinc
     },
     extend: {
+      spacing: {
+        '3xs': 'var(--space-3xs)',
+        '2xs': 'var(--space-2xs)',
+        'xs': 'var(--space-xs)',
+        'sm': 'var(--space-sm)',
+        'md': 'var(--space-md)',
+        'lg': 'var(--space-lg)',
+        'xl': 'var(--space-xl)',
+        '2xl': 'var(--space-2xl)',
+        '3xl': 'var(--space-3xl) ',
+      },
+      gridTemplateColumns: {
+        DEFAULT: 'repeat(12, minmax(0, 1fr))'
+      },
+      gap: {
+        DEFAULT: 'var(--gap-default)'
+      },
       height: (theme) => ({
         "screen-3/4": '75vh',
       }),
@@ -33,7 +50,38 @@ export default {
         "pink-gradient": `linear-gradient(to top left, #FF00D2, #BF29DD 20%, #7657EA)`
       }),
       fontSize: {
-        "hero": 'min(10.5vw, 85px)',
+        "hero": ['min(10.5vw, 85px)', {
+          lineHeight: 1.1875,
+          fontWeight: 'bold'
+        }],
+        "title": ['var(--text-title)', {
+          lineHeight: 'var(--leading-title)',
+          fontWeight: '700'
+        }],
+        "h1": ['var(--text-h1)', {
+          lineHeight: 'var(--leading-h1)',
+          fontWeight: '700'
+        }],
+        "h2": ['var(--text-h2)', {
+          lineHeight: 'var(--leading-h2)',
+          fontWeight: '700'
+        }],
+        "h3": ['var(--text-h3)', {
+          lineHeight: 'var(--leading-h3)',
+          fontWeight: '700'
+        }],
+        "h4": ['var(--text-h4)', {
+          lineHeight: 'var(--leading-h4)',
+          fontWeight: '300'
+        }],
+        "copy": ['var(--text-copy)', {
+          lineHeight: 'var(--leading-copy)',
+          fontWeight: '100',
+        }],
+        "copy-2": ['var(--text-copy-2)', {
+          lineHeight: 'var(--leading-copy-2)',
+          fontWeight: '100'
+        }],
       },
       padding: {
         "hero": 'min(9rem, 30vh)',
@@ -42,7 +90,7 @@ export default {
   },
   plugins: [
     require("@tailwindcss/typography"),
-    plugin(function ({ addUtilities }) {
+    plugin(({ addUtilities }) => {
       addUtilities({
         ".pink-gradient-text": {
           backgroundImage:

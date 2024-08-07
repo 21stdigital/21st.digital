@@ -1,4 +1,4 @@
-[data-module] {
+/* [data-module] {
   &:last-child {
     @apply mb-20 lg:mb-32 xl:mb-48;
   }
@@ -46,10 +46,19 @@
   & + [data-module='text'] {
     @apply mt-12 xl:mt-16;
   }
-}
+} */
 
 /* [data-module="quote"] {
   & + [data-module="text"] {
     @apply mt-12 xl:mt-16;
   }
 } */
+
+/* ------------ */
+[data-module='section_header'] + [data-module='text'] {
+  margin-top: calc(var(--space-md) - var(--space-2xl));
+}
+
+[data-module='section_header'] + [data-module='tiles'] {
+  margin-top: calc(var(--space-md) - var(--space-2xl));
+}

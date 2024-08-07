@@ -5,7 +5,7 @@ title: 'Von der Vision zur Konversion'
 teaser_text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
 client: 4e44b30b-df14-4025-9bfa-edc245cc0560
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1716888409
+updated_at: 1722528810
 modules:
   -
     id: lw97vzb8
@@ -17,7 +17,7 @@ modules:
             type: text
             text: 'Als weltweit führender Sportrechtevermarkter nutzt SPORTFIVE sein vielfältiges Dienstleistungsportfolio, um Marken und Rechteinhaber mit maßgeschneiderten, kreativen Lösungen zusammenzuführen und deren globale Reichweite sowie Sichtbarkeit effektiv zu steigern. Ursprünglich bestand die Webpräsenz von SPORTFIVE aus einer einfachen Single-Page-Website, ergänzt durch diverse themenspezifische Satellitenseiten, die nicht das volle Potenzial des Unternehmens ausschöpften.'
     type: text
-    enabled: true
+    enabled: false
     grid_position: start
   -
     id: lw95pbu6
@@ -177,4 +177,12 @@ modules:
     person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
     type: team_cta
     enabled: true
+intro_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Als weltweit führender Sportrechtevermarkter nutzt SPORTFIVE sein vielfältiges Dienstleistungsportfolio, um Marken und Rechteinhaber mit maßgeschneiderten, kreativen Lösungen zusammenzuführen und deren globale Reichweite sowie Sichtbarkeit effektiv zu steigern. Ursprünglich bestand die Webpräsenz von SPORTFIVE aus einer einfachen Single-Page-Website, ergänzt durch diverse themenspezifische Satellitenseiten, die nicht das volle Potenzial des Unternehmens ausschöpften.'
+project_url: 'https://sportfive.com'
 ---

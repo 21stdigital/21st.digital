@@ -12,9 +12,7 @@
                         </div>
                     {{ /if }}
                     {{ if text }}
-                        {{ text }}
-                            {{ partial:if_exists src="modules/texts/{{ type }}" }}
-                        {{ /text }}
+                        {{ partial:if_exists src="partials/copy" }}
                     {{ /if }}
                     <div class="relative flex gap-x-8">
                         {{ partial:images/team_cta_small }}
