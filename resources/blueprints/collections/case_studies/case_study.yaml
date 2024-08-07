@@ -64,3 +64,16 @@ tabs:
               validate:
                 - url
                 - 'starts_with:https://'
+          -
+            handle: show_facts
+            field:
+              type: toggle
+              display: 'Show Facts'
+          -
+            handle: global_facts
+            field: module_facts.facts
+            config:
+              display: Facts
+              validate:
+                - 'min:3'
+                - 'max:5'

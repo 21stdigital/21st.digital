@@ -1,0 +1,73 @@
+:root {
+  --text-title: 34px;
+  --leading-title: 41px;
+  --text-h1: 28px;
+  --leading-h1: 34px;
+  --text-h2: 22px;
+  --leading-h2: 28px;
+  --text-h3: 20px;
+  --leading-h3: 25px;
+  --text-h4: 17px;
+  --leading-h4: 22px;
+  --text-copy: 17px;
+  --leading-copy: 22px;
+  --text-copy-2: 15px;
+  --leading-copy-2: 20px;
+
+  @screen sm {
+    --text-title: 36px;
+    --leading-title: 43px;
+    --text-h1: 30px;
+    --leading-h1: 37px;
+    --text-h2: 24px;
+    --leading-h2: 30px;
+    --text-h3: 22px;
+    --leading-h3: 28px;
+    --text-h4: 19px;
+    --leading-h4: 24px;
+    --text-copy: 19px;
+    --leading-copy: 24px;
+    --text-copy-2: 17px;
+    --leading-copy-2: 22px;
+  }
+
+  @screen md {
+    --text-title: 38px;
+    --leading-title: 46px;
+    --text-h1: 32px;
+    --leading-h1: 39px;
+    --text-h2: 26px;
+    --leading-h2: 32px;
+    --text-h3: 24px;
+    --leading-h3: 30px;
+    --text-h4: 21px;
+    --leading-h4: 26px;
+    --text-copy: 21px;
+    --leading-copy: 26px;
+    --text-copy-2: 19px;
+    --leading-copy-2: 24px;
+  }
+
+  @screen xl {
+    --text-title: 40px;
+    --leading-title: 48px;
+    --text-h1: 34px;
+    --leading-h1: 41px;
+    --text-h2: 28px;
+    --leading-h2: 34px;
+    --text-h3: 26px;
+    --leading-h3: 32px;
+    --text-h4: 23px;
+    --leading-h4: 29px;
+    --text-copy: 23px;
+    --leading-copy: 29px;
+    --text-copy-2: 21px;
+    --leading-copy-2: 28px;
+  }
+}
+
+.text-copy {
+  * + * {
+    margin-top: 1em;
+  }
+}
