@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
-updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715972944
+updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
+updated_at: 1723045362
 modules:
   -
     id: lwajbm3z
@@ -73,52 +73,82 @@ modules:
     id: lwajnhqv
     tiles:
       -
-        id: lwajnljm
-        headline: 'MVP und agile Entwicklung'
+        id: lzh5a7tm
+        headline: 'Lean Startup-Beratung und Markenentwicklung'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Die Entwicklung eines Minimum Viable Products (MVP) stand im Zentrum des Lösungsansatzes. Ziel war es, schnell eine Basisversion auf den Markt zu bringen, um das Konzept zu testen und Nutzerfeedback zu integrieren. Die agile Entwicklungspraxis Scrum half dem Team, flexibel auf Feedback zu reagieren und das Produkt kontinuierlich zu verbessern.'
-        type: text
+                text: 'Das Beratungsteam von 21st digital unterstützte FIEGE Logistik durch eine umfassende Evaluierung der Geschäftsidee und des Geschäftsmodells mittels der Lean Startup-Methode. Sie entwickelten eine eigenständige Marke für OPTICERT und erarbeiteten ein provisionsbasiertes Geschäftsmodell, das nachhaltig und profitabel ist. Zur Optimierung der Prozesse führten sie effiziente Lösungen für die Verwaltung von Kunden, die Abrechnung und das Dienstleisternetzwerk ein. Ein entscheidender Schritt war der Launch eines Minimum Viable Products (MVP), um die Idee schnell zu validieren und wertvolles Nutzerfeedback zu sammeln, das in die Weiterentwicklung der Plattform einfloss.'
+        image: case-studies/opticert/opticert-hero.png
+        image_position: left
+        image_behavior: cover
+        type: text_with_image
         enabled: true
       -
-        id: lwajuijf
-        headline: 'Nutzerzentriertes Design'
+        id: lzcikua3
+        headline: 'Benutzerzentriertes Design und einheitliche Markenwelt'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Um die komplexe Materie der Compliance-Anforderungen zugänglich zu machen, wurde ein stark benutzerzentriertes Design gewählt. Illustrationen und klare User Interfaces sorgten für eine intuitive Bedienung und halfen, die sonst trockene Materie verständlich darzustellen.'
-        type: text
+                text: 'Das UX & UI Design-Team von 21st digital schuf eine benutzerfreundliche und visuell ansprechende Plattform für OPTICERT. Eine einheitliche Marken- und Bildwelt verlieh der Plattform eine starke visuelle Identität. Durch die Erstellung von Prototypen und Durchführung von User Interviews wurde direktes Nutzerfeedback eingeholt und das Design kontinuierlich verbessert. Ein konsistentes Design System sorgte dafür, dass alle Designkomponenten harmonisch zusammenarbeiteten. Detaillierte Illustrationen erleichterten das Verständnis komplexer Prozesse und steigerten die Benutzerfreundlichkeit.'
+        image: case-studies/opticert/opticert-illustration.png
+        image_position: right
+        image_behavior: cover
+        type: text_with_image
         enabled: true
       -
-        id: lwajtcb3
-        headline: 'Technologische Exzellenz'
+        id: lzh5o1xn
+        headline: 'Robuste und skalierbare Entwicklung'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Durch den Einsatz moderner Technologien wie React und PostgreSQL und die Verwendung von Heroku als Hosting-Plattform konnte eine sichere, leistungsfähige und skalierbare Lösung realisiert werden.'
-        type: text
+                text: 'Das Entwicklungsteam von 21st digital übernahm die vollständige Full Stack Entwicklung für die OPTICERT-Plattform sowie die zugehörige Administrationsanwendung. Durch den Einsatz moderner Technologien für Frontend und Backend wurde eine robuste und skalierbare Plattform geschaffen.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Ein wesentlicher Aspekt der Entwicklung war die Integration von SAP, um die Geschäftsprozesse zu optimieren und eine nahtlose Datenübertragung zu gewährleisten. Zusätzlich wurden APIs entwickelt, die eine einfache Anbindung und Erweiterbarkeit der Plattform ermöglichen.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
+        image: case-studies/opticert/opticert-anamnesis.png
+        image_position: left
+        image_behavior: cover
+        type: text_with_image
         enabled: true
       -
-        id: lwaju0m1
-        headline: 'Integration und Feedback'
+        id: lzh5vjo5
+        headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Durch die enge Zusammenarbeit mit Dienstleistern und Nutzern wurde die Plattform kontinuierlich verbessert und an die Bedürfnisse der Zielgruppe angepasst.'
-        type: text
+                text: 'Das Platform Engineering-Team von 21st digital war für den Aufbau der technischen Infrastruktur von OPTICERT verantwortlich. Durch den Einsatz modernster Technologien wurde eine robuste und skalierbare Infrastruktur geschaffen, die den Anforderungen der Plattform gerecht wird und eine hohe Verfügbarkeit sicherstellt.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Darüber hinaus bietet 21st digital fortlaufenden Support und Maintenance, um eine reibungslose Funktionalität der Plattform zu gewährleisten. Dies umfasst die Überwachung der Systeme, regelmäßige Updates und die schnelle Behebung von Problemen, um die Nutzererfahrung kontinuierlich zu optimieren.'
+        image: case-studies/opticert/opticert-wizard.png
+        image_position: right
+        image_behavior: cover
+        type: text_with_image
         enabled: true
     type: tiles
     enabled: true
@@ -162,24 +192,6 @@ modules:
             type: text
             text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Die Möglichkeit, Angebote von Dienstleistern direkt auf der Plattform zu vergleichen, führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Darüber hinaus führte die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch die Plattform zu einer erheblichen Zeitersparnis für die Unternehmen.'
     grid_position: end
-    type: text
-    enabled: true
-  -
-    id: lwak570o
-    quote: 'Die Rückmeldungen unserer Mitarbeiter sind durchweg positiv. Sie finden die Plattform nicht nur einfach zu bedienen, sondern auch äußerst hilfreich, um unsere gesetzlichen Anforderungen effizient zu managen.'
-    author: 'Jan Trulley'
-    type: quote
-    enabled: true
-  -
-    id: lwak3njt
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Neben den quantitativen Erfolgen wurden auch qualitative Verbesserungen festgestellt. Die Benutzerfreundlichkeit von OPTICERT und die intuitive Gestaltung des Unternehmenschecks und der Dienstleistungswizards trugen zu einer positiven Nutzererfahrung bei. Die Plattform erleichterte nicht nur die Einhaltung gesetzlicher Anforderungen, sondern stärkte auch das Compliance-Bewusstsein innerhalb der Unternehmen. Die Einbindung von Illustrationen und benutzerzentriertem Design machte die ansonsten komplexe Materie der Compliance-Anforderungen zugänglich und verständlich.'
-    grid_position: start
     type: text
     enabled: true
   -
