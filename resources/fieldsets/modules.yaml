@@ -50,6 +50,11 @@ fields:
               fields:
                 -
                   import: module_tiles
+            facts:
+              display: Facts
+              fields:
+                -
+                  import: module_facts
         teaser:
           display: Teaser
           icon: dashboard-layout
