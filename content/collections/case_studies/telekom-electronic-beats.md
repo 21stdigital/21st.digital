@@ -5,7 +5,7 @@ title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1722591492
+updated_at: 1723032799
 modules:
   -
     id: lwakiznh
@@ -167,4 +167,30 @@ intro_text:
         type: text
         text: 'Die Deutsche Telekom strebte den Wandel von einem Printmagazin zu einer digitalen Plattform an, um tagesaktuelle Inhalte mit der redaktionellen Flexibilität und Designfreiheit des Print-Formats zu verbinden. Die bestehende Website basierte jedoch auf einem Blog, der nicht den Ansprüchen gerecht wurde.'
 project_url: 'https://electronicbeats.net'
+global_facts:
+  -
+    id: lzgzxxt3
+    fact: 8.000+
+    description: 'Creators on the platform'
+    type: fact
+    enabled: true
+  -
+    id: lzgzycni
+    fact: 3%
+    description: 'Flat platform fee'
+    type: fact
+    enabled: true
+  -
+    id: lzgzyql8
+    fact: '99,9%'
+    description: 'Uptime gurantee'
+    type: fact
+    enabled: true
+  -
+    id: lzgzz1ll
+    fact: 70M
+    description: 'Paid out to creators'
+    type: fact
+    enabled: true
+show_facts: true
 ---
