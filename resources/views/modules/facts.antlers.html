@@ -1,0 +1,21 @@
+<div class="container">
+    {{ partial:grid }}
+        <div class="col-span-full">
+            <ul class="grid w-full grid-cols-1 justify-between gap-md sm:grid-cols-2 xl:grid-cols-4">
+                {{ if facts | is_empty }}
+                    {{ facts = global_facts }}
+                {{ /if }}
+                {{ facts }}
+                    <li class="flex flex-col border-l border-white pl-md">
+                        <span class="text-h1">
+                            {{ fact }}
+                        </span>
+                        <span class="text-copy-2">
+                            {{ description }}
+                        </span>
+                    </li>
+                {{ /facts }}
+            </ul>
+        </div>
+    {{ /partial:grid }}
+</div>

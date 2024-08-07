@@ -1,0 +1,9 @@
+{{ if modules }}
+    <div class="flex flex-col gap-2xl">
+        {{ modules }}
+            <div data-module="{{ type }}">
+                {{ partial:if_exists src="modules/{{ type }}" }}
+            </div>
+        {{ /modules }}
+    </div>
+{{ /if }}

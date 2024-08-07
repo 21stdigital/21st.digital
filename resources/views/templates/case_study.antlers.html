@@ -6,23 +6,23 @@
 {{# This first part automatically adds the client and title of the case study. #}}
 <div class="container">
     {{ partial:grid }}
-        <div class="col-span-full grid grid-cols-subgrid py-hero">
+        <header class="col-span-full grid grid-cols-subgrid pt-hero">
             <div class="col-span-full inline-block lg:col-span-8">
-                <span class="text-sm font-bold text-white lg:text-base 2xl:text-lg">
+                <span class="text-h2 text-white">
                     {{ client.title }}
                 </span>
             </div>
 
-            <h1 class="col-span-full hyphens-auto text-hero pink-gradient-text lg:col-span-10 xl:col-span-8">
+            <h1 class="col-span-full hyphens-auto text-hero pink-gradient-text xl:col-span-10 2xl:col-span-8">
                 {{ title }}
             </h1>
             {{ if project_url | is_url }}
                 <div
-                    class="col-span-full -col-end-1 row-start-3 mt-7 flex items-center gap-2 xl:col-start-9 xl:flex-col xl:items-start xl:gap-1"
+                    class="col-span-full -col-end-1 row-start-3 mt-7 flex items-center gap-2 xl:col-start-9 xl:flex-col xl:items-start xl:gap-0"
                 >
-                    <p class="text font-thin leading-relaxed">Zum Projekt:</p>
+                    <p class="text-copy font-thin leading-relaxed">Zum Projekt:</p>
                     <a
-                        class="border-gradient relative inline-flex items-center gap-3 self-start border-b-2 text-copy"
+                        class="border-gradient relative inline-flex items-center gap-3 self-center border-b-2 text-copy xl:self-start"
                         href="{{ project_url }}"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -37,9 +37,15 @@
                     {{ partial:if_exists src="partials/copy" :text="intro_text" }}
                 </div>
             {{ /if }}
-        </div>
+        </header>
     {{ /partial:grid }}
 </div>
-
+{{ if show_facts && global_facts }}
+    <div class="mt-xl">
+        {{ partial:if_exists src="modules/facts" :facts="global_facts" }}
+    </div>
+{{ /if }}
 {{# This part adds the default dynamic modules #}}
-{{ partial:templates/default }}
+<div class="mb-2xl mt-2xl">
+    {{ partial src="partials/modules" }}
+</div>

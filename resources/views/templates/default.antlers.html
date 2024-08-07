@@ -2,10 +2,6 @@
     @name Default
     @desc The default template for all pages without explicitely assigned templates.
 #}}
-{{ if modules }}
-    {{ modules }}
-        <div data-module="{{ type }}">
-            {{ partial:if_exists src="modules/{{ type }}" }}
-        </div>
-    {{ /modules }}
-{{ /if }}
+<div class="mb-2xl">
+    {{ partial src="partials/modules" }}
+</div>
