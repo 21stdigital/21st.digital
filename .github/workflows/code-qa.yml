@@ -16,6 +16,7 @@ jobs:
       ts: ${{ steps.filter.outputs.ts }}
       css: ${{ steps.filter.outputs.css }}
       antlers: ${{ steps.filter.outputs.antlers }}
+      dependencies: ${{ steps.filter.outputs.dependencies }}
       changed: ${{ steps.filter.outputs.changed }}
 
       php_files: ${{ steps.filter.outputs.php_files }}
@@ -42,6 +43,11 @@ jobs:
               - added|modified: '**/*.css'
             antlers:
               - added|modified: '**/*.antlers.html'
+            dependencies:
+              - added|modified: 'package.json'
+              - added|modified: 'composer.json'
+              - added|modified: 'package-lock.json'
+              - added|modified: 'composer.lock'
             changed:
               - added|modified: '**/*'
           list-files: shell
@@ -67,26 +73,26 @@ jobs:
         run: npm ci --prefer-offline
 
       - name: Check Code Formatting with Prettier
-        if: ${{ needs.detect_changes.outputs.antlers == 'true' }}
+        if: ${{ needs.detect_changes.outputs.antlers == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
         run: npm run prettier:check ${{ needs.detect_changes.outputs.antlers_files }}
 
       - name: Lint PHP Files
-        if: ${{ needs.detect_changes.outputs.php == 'true' }}
+        if: ${{ needs.detect_changes.outputs.php == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
         uses: aglipanci/laravel-pint-action@v2
         with:
           testMode: true
           verboseMode: true
 
       - name: Lint TypeScript Files
-        if: ${{ needs.detect_changes.outputs.ts == 'true' }}
+        if: ${{ needs.detect_changes.outputs.ts == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
         run: npm run lint:js ${{ needs.detect_changes.outputs.ts_files }}
 
       - name: Lint JavaScript Files
-        if: ${{ needs.detect_changes.outputs.js == 'true' }}
+        if: ${{ needs.detect_changes.outputs.js == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
         run: npm run lint:js ${{ needs.detect_changes.outputs.js_files }}
 
       - name: Lint CSS Files
-        if: ${{ needs.detect_changes.outputs.css == 'true' }}
+        if: ${{ needs.detect_changes.outputs.css == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
         run: npm run lint:css ${{ needs.detect_changes.outputs.css_files }}
 
       - name: Build Project
