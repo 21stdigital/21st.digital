@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
-updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1723045362
+updated_by: 4c551499-2949-4365-b0ac-08e8ac83ec40
+updated_at: 1723119775
 modules:
   -
     id: lwajbm3z
@@ -103,6 +103,32 @@ modules:
         type: text_with_image
         enabled: true
       -
+        id: lzl5zlfd
+        headline: 'Robuste und skalierbare Entwicklung'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Das Entwicklungsteam von 21st digital übernahm die vollständige Full Stack Entwicklung für die OPTICERT-Plattform sowie die zugehörige Administrationsanwendung. Durch den Einsatz moderner Technologien für Frontend und Backend wurde eine robuste und skalierbare Plattform geschaffen.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Ein wesentlicher Aspekt der Entwicklung war die Integration von SAP, um die Geschäftsprozesse zu optimieren und eine nahtlose Datenübertragung zu gewährleisten. Zusätzlich wurden APIs entwickelt, die eine einfache Anbindung und Erweiterbarkeit der Plattform ermöglichen.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
+        video: case-studies/opticert/opticert-page-navigation.mp4
+        video_position: left
+        type: text_with_video
+        enabled: true
+      -
         id: lzh5o1xn
         headline: 'Robuste und skalierbare Entwicklung'
         text:
@@ -128,7 +154,7 @@ modules:
         image_position: left
         image_behavior: cover
         type: text_with_image
-        enabled: true
+        enabled: false
       -
         id: lzh5vjo5
         headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
@@ -206,5 +232,25 @@ modules:
             text: 'Wir helfen Dir mit den richtigen Strategien die richtigen Entscheidungen zu treffen.'
     person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
     type: team_cta
+    enabled: true
+show_facts: false
+global_facts:
+  -
+    id: lzl60mcn
+    fact: '1'
+    description: '1'
+    type: fact
+    enabled: true
+  -
+    id: lzl60sfx
+    fact: '2'
+    description: '2'
+    type: fact
+    enabled: true
+  -
+    id: lzl60vlt
+    fact: '3'
+    description: '3'
+    type: fact
     enabled: true
 ---
