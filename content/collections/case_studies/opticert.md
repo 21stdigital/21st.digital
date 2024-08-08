@@ -5,7 +5,7 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 4c551499-2949-4365-b0ac-08e8ac83ec40
-updated_at: 1723119775
+updated_at: 1723121180
 modules:
   -
     id: lwajbm3z
@@ -124,37 +124,30 @@ modules:
               -
                 type: text
                 text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
-        video: case-studies/opticert/opticert-page-navigation.mp4
+        video: case-studies/opticert/opticert-page-navigation-1.mp4
         video_position: left
         type: text_with_video
         enabled: true
       -
-        id: lzh5o1xn
-        headline: 'Robuste und skalierbare Entwicklung'
+        id: lzl9ua3q
+        headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Das Entwicklungsteam von 21st digital übernahm die vollständige Full Stack Entwicklung für die OPTICERT-Plattform sowie die zugehörige Administrationsanwendung. Durch den Einsatz moderner Technologien für Frontend und Backend wurde eine robuste und skalierbare Plattform geschaffen.'
+                text: 'Das Platform Engineering-Team von 21st digital war für den Aufbau der technischen Infrastruktur von OPTICERT verantwortlich. Durch den Einsatz modernster Technologien wurde eine robuste und skalierbare Infrastruktur geschaffen, die den Anforderungen der Plattform gerecht wird und eine hohe Verfügbarkeit sicherstellt.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Ein wesentlicher Aspekt der Entwicklung war die Integration von SAP, um die Geschäftsprozesse zu optimieren und eine nahtlose Datenübertragung zu gewährleisten. Zusätzlich wurden APIs entwickelt, die eine einfache Anbindung und Erweiterbarkeit der Plattform ermöglichen.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
-        image: case-studies/opticert/opticert-anamnesis.png
-        image_position: left
-        image_behavior: cover
-        type: text_with_image
-        enabled: false
+                text: 'Darüber hinaus bietet 21st digital fortlaufenden Support und Maintenance, um eine reibungslose Funktionalität der Plattform zu gewährleisten. Dies umfasst die Überwachung der Systeme, regelmäßige Updates und die schnelle Behebung von Problemen, um die Nutzererfahrung kontinuierlich zu optimieren.'
+        video: case-studies/opticert/opticert-page-navigation-2.mp4
+        video_position: right
+        type: text_with_video
+        enabled: true
       -
         id: lzh5vjo5
         headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
@@ -175,7 +168,7 @@ modules:
         image_position: right
         image_behavior: cover
         type: text_with_image
-        enabled: true
+        enabled: false
     type: tiles
     enabled: true
   -
