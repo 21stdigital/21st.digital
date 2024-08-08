@@ -5,20 +5,8 @@ title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
 updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1723045362
+updated_at: 1723118044
 modules:
-  -
-    id: lwajbm3z
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Als globaler Logistikdienstleister mit über 25.000 Mitarbeitern und 135 Standorten weltweit, steht FIEGE Logistik täglich vor der Herausforderung, gesetzliche Anforderungen in den Bereichen Arbeitssicherheit, Arbeitsmedizin und Brandschutz effizient und zuverlässig zu erfüllen. Die bisherige Praxis, eigenständig und ohne zentrale Unterstützung Dienstleister zu suchen und zu vergleichen, war zeitaufwendig und ineffizient.'
-    grid_position: start
-    type: text
-    enabled: true
   -
     id: lwajdtfu
     quote: 'Wir brauchten eine Lösung, die es unseren Standortleitern ermöglicht, ohne umständliche Suchprozesse die besten Dienstleister für unsere spezifischen Bedürfnisse schnell und einfach zu finden und zu beauftragen. Da andere Unternehmen vor den gleichen Herausforderungen standen, wurde OPTICERT geschaffen, um genau diese Lücke zu schließen.'
@@ -206,5 +194,38 @@ modules:
             text: 'Wir helfen Dir mit den richtigen Strategien die richtigen Entscheidungen zu treffen.'
     person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
     type: team_cta
+    enabled: true
+intro_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Als globaler Logistikdienstleister mit über 25.000 Mitarbeitern und 135 Standorten weltweit, steht FIEGE Logistik täglich vor der Herausforderung, gesetzliche Anforderungen in den Bereichen Arbeitssicherheit, Arbeitsmedizin und Brandschutz effizient und zuverlässig zu erfüllen. Die bisherige Praxis, eigenständig und ohne zentrale Unterstützung Dienstleister zu suchen und zu vergleichen, war zeitaufwendig und ineffizient.'
+show_facts: true
+global_facts:
+  -
+    id: lzl7w4zq
+    fact: '> 2.000.000'
+    description: 'Euro vermitteltes Auftragsvolumen'
+    type: fact
+    enabled: true
+  -
+    id: lzl7xah3
+    fact: '1000'
+    description: 'Registrierte Unternehmen'
+    type: fact
+    enabled: true
+  -
+    id: lzl7xrv0
+    fact: '200'
+    description: 'Qualifizierte Dienstleister'
+    type: fact
+    enabled: true
+  -
+    id: lzl7yc7g
+    fact: '300'
+    description: Dienstleistungen
+    type: fact
     enabled: true
 ---
