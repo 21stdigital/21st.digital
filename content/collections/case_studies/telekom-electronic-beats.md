@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
-updated_by: 4c551499-2949-4365-b0ac-08e8ac83ec40
-updated_at: 1723107056
+updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
+updated_at: 1723117530
 modules:
   -
     id: lwakiznh
@@ -179,26 +179,20 @@ project_url: 'https://electronicbeats.net'
 global_facts:
   -
     id: lzgzxxt3
-    fact: 8.000+
-    description: 'Creators on the platform'
-    type: fact
-    enabled: true
-  -
-    id: lzgzycni
-    fact: 3%
-    description: 'Flat platform fee'
+    fact: 500.000+
+    description: Community-Mitglieder
     type: fact
     enabled: true
   -
     id: lzgzyql8
-    fact: '99,9%'
-    description: 'Uptime gurantee'
+    fact: '7'
+    description: 'Internationale Märkte'
     type: fact
     enabled: true
   -
-    id: lzgzz1ll
-    fact: 70M
-    description: 'Paid out to creators'
+    id: lzgzycni
+    fact: '14'
+    description: Awards
     type: fact
     enabled: true
 show_facts: true
