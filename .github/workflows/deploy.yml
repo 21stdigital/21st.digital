@@ -13,7 +13,9 @@ jobs:
     if: github.ref == 'refs/heads/main'
     name: Laravel Forge Deploy to Staging
     runs-on: ubuntu-latest
-    environment: staging
+    environment:
+      name: staging
+      url: https://staging.21st.digital
     concurrency:
       group: staging
       cancel-in-progress: true
@@ -43,7 +45,9 @@ jobs:
     if: github.event_name == 'release' && github.event.action == 'published'
     name: Laravel Forge Deploy to Production
     runs-on: ubuntu-latest
-    environment: production
+    environment:
+      name: production
+      url: https://21st.digital
     concurrency:
       group: production
       cancel-in-progress: true
