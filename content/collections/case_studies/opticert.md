@@ -91,7 +91,7 @@ modules:
         type: text_with_image
         enabled: true
       -
-        id: lzh5o1xn
+        id: lzl5zlfd
         headline: 'Robuste und skalierbare Entwicklung'
         text:
           -
@@ -112,10 +112,29 @@ modules:
               -
                 type: text
                 text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
-        image: case-studies/opticert/opticert-anamnesis.png
-        image_position: left
-        image_behavior: cover
-        type: text_with_image
+        video: case-studies/opticert/opticert-page-navigation-1.mp4
+        video_position: left
+        type: text_with_video
+        enabled: true
+      -
+        id: lzl9ua3q
+        headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Das Platform Engineering-Team von 21st digital war für den Aufbau der technischen Infrastruktur von OPTICERT verantwortlich. Durch den Einsatz modernster Technologien wurde eine robuste und skalierbare Infrastruktur geschaffen, die den Anforderungen der Plattform gerecht wird und eine hohe Verfügbarkeit sicherstellt.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Darüber hinaus bietet 21st digital fortlaufenden Support und Maintenance, um eine reibungslose Funktionalität der Plattform zu gewährleisten. Dies umfasst die Überwachung der Systeme, regelmäßige Updates und die schnelle Behebung von Problemen, um die Nutzererfahrung kontinuierlich zu optimieren.'
+        video: case-studies/opticert/opticert-page-navigation-2.mp4
+        video_position: right
+        type: text_with_video
         enabled: true
       -
         id: lzh5vjo5
@@ -137,7 +156,7 @@ modules:
         image_position: right
         image_behavior: cover
         type: text_with_image
-        enabled: true
+        enabled: false
     type: tiles
     enabled: true
   -
