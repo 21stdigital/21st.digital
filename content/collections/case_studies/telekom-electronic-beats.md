@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Vom Musikmagazin zur preisgekrönten digitalen Publishing-Plattform'
 teaser_text: 'Erfahre, wie wir die Deutsche Telekom dabei unterstützt haben, ein traditionelles Printmagazin in eine agile, preisgekrönte digitale Plattform zu transformieren, die die elektronische Musik- und Kulturlandschaft Europas prägt.'
 client: da68ef99-69e2-4d9f-8e60-fc6479c8f12e
-updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1723032799
+updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
+updated_at: 1723117530
 modules:
   -
     id: lwakiznh
@@ -55,7 +55,7 @@ modules:
     id: lwakpd2w
     tiles:
       -
-        id: lwakpooz
+        id: lzjrzcw6
         headline: 'Modulares Online Publishing'
         text:
           -
@@ -64,10 +64,12 @@ modules:
               -
                 type: text
                 text: 'Ein flexibles Modulsystem ermöglicht es der Redaktion, für jedes Thema die passende Darstellungsform zu finden.'
-        type: text
+        video: case-studies/electronicbeats/overview-01.mp4
+        video_position: right
+        type: text_with_video
         enabled: true
       -
-        id: lwakridu
+        id: lzjnjfag
         headline: Multi-Kanal-Integration
         text:
           -
@@ -76,10 +78,12 @@ modules:
               -
                 type: text
                 text: 'Die Integration verschiedener Plattformen und Medienformate war von Anfang an ein zentraler Aspekt. Die Plattform verknüpft Podcasts, Videos und visuelle Features nahtlos mit journalistischen Inhalten. Ein persistenter Music Player wurde entwickelt, um kuratierte Songs von SoundCloud und Deezer seitenübergreifend abzuspielen.'
-        type: text
+        video: case-studies/electronicbeats/persistent-player.mp4
+        video_position: left
+        type: text_with_video
         enabled: true
       -
-        id: lwakrsbb
+        id: lzl1f367
         headline: Artist-Kooperationen
         text:
           -
@@ -88,10 +92,13 @@ modules:
               -
                 type: text
                 text: 'Innovative Formate fördern Künstler wie die Gorillaz und Billie Eilish: Ein eigener Video Player wurde für ein exklusives Konzert der Gorillaz entwickelt, und dynamische Artikel, die Inhalte aus dem Electronic Beats-Universum einbinden, begleiten eine Kampagne mit Billie Eilish.'
-        type: text
+        image: case-studies/electronicbeats/billie-gorillaz.png
+        image_position: right
+        image_behavior: cover
+        type: text_with_image
         enabled: true
       -
-        id: lwaksb3j
+        id: lzjsn86d
         headline: 'The Cube: 20 Years of Electronic Beats'
         text:
           -
@@ -100,7 +107,9 @@ modules:
               -
                 type: text
                 text: 'Anlässlich des 20-jährigen Jubiläums wurde "The Cube" entwickelt – eine immersive 360-Grad-Ausstellung, die eine Reise durch die Geschichte und Gegenwart der Musik und Popkultur ermöglicht. Die Ausstellung nutzt Technologie aus der Gaming-Industrie, um ein intuitives, immersives Erlebnis in 3D zu schaffen. Besucher können musikhistorische Video-Collagen, Beiträge von Künstlern und ein Community-Forum erkunden. "The Cube" soll haptische Kulturerlebnisse in der digitalen Welt ermöglichen und physische Events ergänzen.'
-        type: text
+        video: case-studies/electronicbeats/the-cube.mp4
+        video_position: left
+        type: text_with_video
         enabled: true
     type: tiles
     enabled: true
@@ -170,26 +179,20 @@ project_url: 'https://electronicbeats.net'
 global_facts:
   -
     id: lzgzxxt3
-    fact: 8.000+
-    description: 'Creators on the platform'
-    type: fact
-    enabled: true
-  -
-    id: lzgzycni
-    fact: 3%
-    description: 'Flat platform fee'
+    fact: 500.000+
+    description: Community-Mitglieder
     type: fact
     enabled: true
   -
     id: lzgzyql8
-    fact: '99,9%'
-    description: 'Uptime gurantee'
+    fact: '7'
+    description: 'Internationale Märkte'
     type: fact
     enabled: true
   -
-    id: lzgzz1ll
-    fact: 70M
-    description: 'Paid out to creators'
+    id: lzgzycni
+    fact: '14'
+    description: Awards
     type: fact
     enabled: true
 show_facts: true
