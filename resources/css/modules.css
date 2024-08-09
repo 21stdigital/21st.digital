@@ -59,6 +59,6 @@
   margin-top: calc(var(--space-md) - var(--space-2xl));
 }
 
-[data-module='section_header'] + [data-module='tiles'] {
+/* [data-module='section_header'] + [data-module='tiles'] {
   margin-top: calc(var(--space-md) - var(--space-2xl));
-}
+} */
