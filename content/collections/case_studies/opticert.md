@@ -4,8 +4,8 @@ blueprint: case_study
 title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
 teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
-updated_by: 7958ee79-1ecb-4c0f-8408-a1a858d6b9db
-updated_at: 1723118044
+updated_by: 4c551499-2949-4365-b0ac-08e8ac83ec40
+updated_at: 1723203811
 modules:
   -
     id: lwajdtfu
@@ -85,7 +85,7 @@ modules:
               -
                 type: text
                 text: 'Das UX & UI Design-Team von 21st digital schuf eine benutzerfreundliche und visuell ansprechende Plattform für OPTICERT. Eine einheitliche Marken- und Bildwelt verlieh der Plattform eine starke visuelle Identität. Durch die Erstellung von Prototypen und Durchführung von User Interviews wurde direktes Nutzerfeedback eingeholt und das Design kontinuierlich verbessert. Ein konsistentes Design System sorgte dafür, dass alle Designkomponenten harmonisch zusammenarbeiteten. Detaillierte Illustrationen erleichterten das Verständnis komplexer Prozesse und steigerten die Benutzerfreundlichkeit.'
-        image: case-studies/opticert/opticert-illustration.png
+        image: case-studies/opticert/opticert-layout-collage.png
         image_position: right
         image_behavior: cover
         type: text_with_image
