@@ -89,7 +89,7 @@ jobs:
 
       - name: Lint JavaScript Files
         if: ${{ needs.detect_changes.outputs.js == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        run: npm run lint:js ${{ needs.detect_changes.outputs.js_files || '**/*.js' }}
+        run: npm run lint:js ${{ needs.detect_changes.outputs.js_files || '*.js' }}
 
       - name: Lint CSS Files
         if: ${{ needs.detect_changes.outputs.css == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
