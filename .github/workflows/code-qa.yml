@@ -74,7 +74,7 @@ jobs:
 
       - name: Check Code Formatting with Prettier
         if: ${{ needs.detect_changes.outputs.antlers == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        run: npm run prettier:check ${{ needs.detect_changes.outputs.antlers_files }}
+        run: npm run prettier:check ${{ needs.detect_changes.outputs.antlers_files || '**/*.antlers.html' }}
 
       - name: Lint PHP Files
         if: ${{ needs.detect_changes.outputs.php == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
@@ -85,15 +85,15 @@ jobs:
 
       - name: Lint TypeScript Files
         if: ${{ needs.detect_changes.outputs.ts == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        run: npm run lint:js ${{ needs.detect_changes.outputs.ts_files }}
+        run: npm run lint:js ${{ needs.detect_changes.outputs.ts_files || '**/*.ts' }}
 
       - name: Lint JavaScript Files
         if: ${{ needs.detect_changes.outputs.js == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        run: npm run lint:js ${{ needs.detect_changes.outputs.js_files }}
+        run: npm run lint:js ${{ needs.detect_changes.outputs.js_files || '**/*.js' }}
 
       - name: Lint CSS Files
         if: ${{ needs.detect_changes.outputs.css == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        run: npm run lint:css ${{ needs.detect_changes.outputs.css_files }}
+        run: npm run lint:css ${{ needs.detect_changes.outputs.css_files || '**/*.css' }}
 
       - name: Build Project
         run: npm run build
