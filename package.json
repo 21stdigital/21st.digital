@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint:js": "eslint --max-warnings 0",
+    "lint:js": "eslint --max-warnings 0 --ignore-pattern 'node_modules/'",
     "lint:css": "stylelint --max-warnings 0",
     "prettier:check": "prettier --check --ignore-unknown",
     "prettier:fix": "prettier --write --ignore-unknown"
