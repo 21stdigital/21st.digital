@@ -27,6 +27,8 @@ jobs:
           forge_api_token: ${{ secrets.FORGE_API_KEY }}
           forge_server_id: ${{ secrets.FORGE_SERVER_ID }}
           php_version: php83
+          root_domain: 21st.digital
+          letsencrypt_certificate: false
 
       - name: Post PR Comment
         uses: thollander/actions-comment-pull-request@v2
