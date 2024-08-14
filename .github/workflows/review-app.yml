@@ -1,0 +1,34 @@
+name: Review App
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+jobs:
+  review_app:
+    name: Create or Update Forge Review App
+    runs-on: ubuntu-latest
+    environment:
+      name: development
+
+    steps:
+      - name: Checkout Stub Files
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/workflows/.env.stub
+            .github/workflows/deploy-script.stub
+          sparse-checkout-cone-mode: false
+
+      - name: Deploy Review App
+        uses: web-id-fr/forge-review-app-action@v1.3
+        id: forge-review-app
+        with:
+          forge_api_token: ${{ secrets.FORGE_API_TOKEN }}
+          forge_server_id: ${{ secrets.FORGE_SERVER_ID }}
+          php_version: php83
+
+      - name: Post PR Comment
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: ':rocket: Review app available here: https://${{ steps.forge-review-app.outputs.host }}'
