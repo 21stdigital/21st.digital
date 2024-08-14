@@ -24,7 +24,7 @@ jobs:
         uses: web-id-fr/forge-review-app-action@v1.3
         id: forge-review-app
         with:
-          forge_api_token: ${{ secrets.FORGE_API_TOKEN }}
+          forge_api_token: ${{ secrets.FORGE_API_KEY }}
           forge_server_id: ${{ secrets.FORGE_SERVER_ID }}
           php_version: php83
 
