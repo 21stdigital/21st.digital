@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
+use Stillat\Relationships\Support\Facades\Relate;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -29,5 +30,14 @@ class AppServiceProvider extends ServiceProvider
         Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
             $event->extendSocialite('google', \SocialiteProviders\Google\Provider::class);
         });
+
+        $this->bootRelations();
+    }
+
+    protected function bootRelations()
+    {
+        Relate::oneToMany('case_studies.client', 'clients.case_studies');
+        Relate::oneToMany('case_studies.solution', 'solutions.case_studies');
+        Relate::manyToMany('case_studies.services', 'services.case_studies');
     }
 }

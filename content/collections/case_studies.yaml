@@ -1,0 +1,22 @@
+title: 'Case Studies'
+template: default
+layout: layout
+revisions: false
+route: '/{mount}/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+  -
+    label: Index
+    url: '{mount}'
+    refresh: true
+structure:
+  root: false
+  max_depth: 1

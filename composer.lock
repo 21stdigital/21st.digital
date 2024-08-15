@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9cf99b271a1fea4d4a99eed83ec513f9",
+    "content-hash": "d4c84d6450d566ba2c384f40c12b3668",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5280,6 +5280,74 @@
                 "source": "https://github.com/statamic/Stringy"
             },
             "time": "2022-05-04T18:41:52+00:00"
+        },
+        {
+            "name": "stillat/relationships",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stillat/relationships.git",
+                "reference": "af96e50e0b618ff1d8eca6562662409e9d99b2f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stillat/relationships/zipball/af96e50e0b618ff1d8eca6562662409e9d99b2f6",
+                "reference": "af96e50e0b618ff1d8eca6562662409e9d99b2f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "statamic/cms": "^4.16 || ^5"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2.3",
+                "orchestra/testbench": "^7.0 || ^8.0 || ^9"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Relationships",
+                    "description": "Relationships addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Stillat\\Relationships\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stillat\\Relationships\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Koster",
+                    "email": "john@stillat.com",
+                    "homepage": "https://stillat.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides bi-directional entry relationship automation",
+            "keywords": [
+                "entries",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/Stillat/relationships/issues",
+                "source": "https://github.com/Stillat/relationships/tree/v2.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JohnathonKoster",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-06-29T19:04:29+00:00"
         },
         {
             "name": "symfony/console",

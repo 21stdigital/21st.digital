@@ -1,0 +1,71 @@
+title: 'Case Study'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: client
+            field:
+              max_items: 1
+              mode: select
+              collections:
+                - clients
+              type: entries
+              display: Client
+              listable: true
+              validate:
+                - required
+              duplicate: false
+          -
+            handle: services
+            field:
+              create: false
+              collections:
+                - services
+              type: entries
+              display: Services
+              listable: true
+              sortable: false
+              duplicate: false
+          -
+            handle: solution
+            field:
+              max_items: 1
+              mode: select
+              create: false
+              collections:
+                - solutions
+              type: entries
+              display: Solution
+              listable: true
+              duplicate: false
+              validate:
+                - required

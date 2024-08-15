@@ -35,7 +35,8 @@
     "socialiteproviders/google": "^4.1",
     "spatie/fork": "^1.2",
     "statamic/cms": "^5.0",
-    "statamic/ssg": "^3.0"
+    "statamic/ssg": "^3.0",
+    "stillat/relationships": "^2.2"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.8.1",
