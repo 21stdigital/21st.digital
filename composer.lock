@@ -1931,16 +1931,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.5.1",
+            "version": "2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "ac815920de0eff6de947eac0a6a94e5ed0fb147c"
+                "reference": "b650144166dfa7703e62a22e493b853b58d874b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/ac815920de0eff6de947eac0a6a94e5ed0fb147c",
-                "reference": "ac815920de0eff6de947eac0a6a94e5ed0fb147c",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/b650144166dfa7703e62a22e493b853b58d874b0",
+                "reference": "b650144166dfa7703e62a22e493b853b58d874b0",
                 "shasum": ""
             },
             "require": {
@@ -1953,8 +1953,8 @@
             },
             "require-dev": {
                 "cebe/markdown": "^1.0",
-                "commonmark/cmark": "0.31.0",
-                "commonmark/commonmark.js": "0.31.0",
+                "commonmark/cmark": "0.31.1",
+                "commonmark/commonmark.js": "0.31.1",
                 "composer/package-versions-deprecated": "^1.8",
                 "embed/embed": "^4.4",
                 "erusev/parsedown": "^1.0",
@@ -2033,7 +2033,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-24T12:52:09+00:00"
+            "time": "2024-08-16T11:46:16+00:00"
         },
         {
             "name": "league/config",
@@ -5065,16 +5065,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.20.0",
+            "version": "v5.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "e2730d9c3ce83238b8021dd5eff18887a0968a2b"
+                "reference": "542394951906c9332b645db00a6623762c00ac8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/e2730d9c3ce83238b8021dd5eff18887a0968a2b",
-                "reference": "e2730d9c3ce83238b8021dd5eff18887a0968a2b",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/542394951906c9332b645db00a6623762c00ac8f",
+                "reference": "542394951906c9332b645db00a6623762c00ac8f",
                 "shasum": ""
             },
             "require": {
@@ -5100,7 +5100,7 @@
                 "symfony/lock": "^6.4",
                 "symfony/var-exporter": "^6.0",
                 "symfony/yaml": "^6.0 || ^7.0",
-                "ueberdosis/tiptap-php": "^1.1",
+                "ueberdosis/tiptap-php": "^1.4",
                 "voku/portable-ascii": "^2.0",
                 "wilderborn/partyline": "^1.0"
             },
@@ -5156,7 +5156,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.20.0"
+                "source": "https://github.com/statamic/cms/tree/v5.22.1"
             },
             "funding": [
                 {
@@ -5164,7 +5164,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-08T19:25:14+00:00"
+            "time": "2024-08-19T17:33:39+00:00"
         },
         {
             "name": "statamic/ssg",
