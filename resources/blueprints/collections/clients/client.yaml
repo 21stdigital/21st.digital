@@ -1,31 +1,65 @@
 title: Client
 tabs:
   main:
-    display: Main
+    display: 'Main Information'
     sections:
-      -
-        fields:
-          -
-            handle: title
+      - fields:
+          - handle: title
             field:
               type: text
               required: true
               validate:
                 - required
-  case_studies:
-    display: 'Case Studies'
-    sections:
-      -
-        display: 'New Section'
-        fields:
-          -
-            handle: case_studies
+              display: Name
+              instructions: 'Enter the full name of the client. This will be used as the primary identifier for the client.'
+          - handle: description
             field:
-              create: false
+              type: textarea
+              display: 'Description'
+              instructions: 'Provide a detailed description of the client, including key aspects such as company size, industry focus, and other relevant details.'
+              validate:
+                - required
+  sidebar:
+    display: 'Assets & Relationships'
+    sections:
+      - fields:
+          - handle: logo_original
+            field:
+              type: assets
+              max_files: 1
+              min_files: 1
+              mode: grid
+              container: assets
+              folder: clients/original
+              restrict: true
+              display: 'Original Logo'
+              validate:
+                - required
+              instructions: 'Select the original version of the client’s logo. This should be the main logo used for branding.'
+          - handle: logo_monochrome
+            field:
+              type: assets
+              max_files: 1
+              min_files: 1
+              mode: grid
+              container: assets
+              folder: clients/monochrome
+              restrict: true
+              display: 'Monochrome Logo'
+              validate:
+                - required
+              instructions: 'Select the monochrome (single color) version of the client’s logo. This version is typically used in simpler, single-color applications.'
+          - handle: representatives
+            field:
               collections:
-                - case_studies
+                - client_representatives
               type: entries
-              display: 'Case Studies'
+              display: Representatives
               listable: true
               sortable: false
               duplicate: false
+              instructions: 'Select the representatives associated with this client. These individuals serve as the main points of contact.'
+          - handle: case_studies
+            field: common.case_studies
+            config:
+              instructions: 'Link the case studies that are associated with this client. These case studies will provide detailed insights into the work done for the client.'

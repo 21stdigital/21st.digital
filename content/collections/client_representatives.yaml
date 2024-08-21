@@ -1,8 +1,9 @@
-title: Services
+title: Testimonials
 template: default
 layout: layout
 revisions: false
-route: '/{mount}/{slug}'
+title_format: '{forename} {surname}'
+slugs: false
 sort_dir: asc
 date_behavior:
   past: public
@@ -12,10 +13,3 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
-  -
-    label: Index
-    url: '{mount}'
-    refresh: true
-structure:
-  root: false
-  max_depth: 1

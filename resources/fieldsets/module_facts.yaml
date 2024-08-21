@@ -2,30 +2,8 @@ title: 'Module Facts'
 fields:
   -
     handle: facts
-    field:
-      collapse: true
-      max_sets: 5
-      fullscreen: false
-      button_label: 'Add Fact'
-      type: replicator
-      display: Facts
+    field: common.facts
+    config:
       validate:
-        - 'max:5'
-      sets:
-        new_set_group:
-          display: 'New Set Group'
-          sets:
-            fact:
-              display: Fact
-              icon: file-content-list
-              fields:
-                -
-                  handle: fact
-                  field:
-                    type: text
-                    display: Fact
-                -
-                  handle: description
-                  field:
-                    type: text
-                    display: Description
+        - required
+        - 'min:3'

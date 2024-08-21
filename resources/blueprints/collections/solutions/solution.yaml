@@ -1,7 +1,7 @@
 title: Solution
 tabs:
   main:
-    display: Main
+    display: 'Main Information'
     sections:
       -
         fields:
@@ -12,8 +12,9 @@ tabs:
               required: true
               validate:
                 - required
+              instructions: 'Enter the title of the solution. This is a required field and will be prominently displayed on the site.'
   sidebar:
-    display: Sidebar
+    display: 'Related Information'
     sections:
       -
         fields:
@@ -23,14 +24,14 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+              instructions: 'Enter a URL-friendly slug for this solution. This slug will be used in the solution’s URL and should be unique. Maximum 200 characters.'
           -
             handle: case_studies
-            field:
-              create: false
-              collections:
-                - case_studies
-              type: entries
-              display: 'Case Studies'
-              listable: true
-              sortable: false
-              duplicate: false
+            field: common.case_studies
+            config:
+              instructions: 'Select any case studies related to this solution. These case studies will help showcase the application and success of this solution.'
+          -
+            handle: foundations
+            field: common.foundations
+            config:
+              instructions: 'Select the foundational elements that support this solution. These may include key principles, frameworks, or core technologies that underpin the solution.'

@@ -1,4 +1,4 @@
-title: Services
+title: Foundations
 template: default
 layout: layout
 revisions: false
@@ -16,6 +16,3 @@ preview_targets:
     label: Index
     url: '{mount}'
     refresh: true
-structure:
-  root: false
-  max_depth: 1

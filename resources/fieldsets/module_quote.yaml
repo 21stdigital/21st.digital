@@ -8,7 +8,15 @@ fields:
       validate:
         - required
   -
-    handle: author
+    handle: testimonial
     field:
-      type: text
-      display: Author
+      max_items: 1
+      mode: select
+      create: false
+      collections:
+        - client_representatives
+      type: entries
+      display: Testimonial
+      duplicate: false
+      validate:
+        - required

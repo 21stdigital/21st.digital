@@ -1,7 +1,7 @@
 title: 'Case Study'
 tabs:
   main:
-    display: Main
+    display: 'Main Information'
     sections:
       -
         fields:
@@ -12,8 +12,115 @@ tabs:
               required: true
               validate:
                 - required
+              instructions: 'Enter the internal name for this case study. This field is required but will not be visible to users.'
+              display: Name
+          -
+            handle: headline
+            field:
+              type: text
+              display: Headline
+              instructions: 'Enter the main headline for this case study. This headline will be prominently displayed on the case study page and in overviews and teasers.'
+              validate:
+                - required
+          -
+            handle: teaser_copy
+            field:
+              type: textarea
+              display: Teaser
+              validate:
+                - required
+                - 'max:300'
+              instructions: 'Enter a brief summary or teaser copy for this case study. This text will be used in overviews to encourage users to click on the full case study. Maximum 300 characters.'
+      -
+        display: Intro
+        fields:
+          -
+            handle: introduction
+            field:
+              fullscreen: false
+              border: false
+              type: group
+              display: Introduction
+              fields:
+                -
+                  handle: text
+                  field:
+                    type: textarea
+                    display: Text
+                    validate:
+                      - required
+                -
+                  handle: show_quote
+                  field:
+                    type: toggle
+                    display: 'Show Quote'
+                -
+                  handle: quote
+                  field: common.quote
+                  config:
+                    fields:
+                      -
+                        handle: text
+                        field:
+                          type: text
+                          display: Text
+                          validate:
+                            - sometimes
+                            - required
+                      -
+                        handle: author
+                        field:
+                          max_items: 1
+                          mode: select
+                          create: false
+                          collections:
+                            - client_representatives
+                          type: entries
+                          display: Author
+                          duplicate: false
+                          validate:
+                            - sometimes
+                            - required
+                    always_save: false
+                    if_any:
+                      show_quote: 'equals true'
+      -
+        display: Goals
+        fields:
+          -
+            handle: goals
+            field:
+              collapse: true
+              max_sets: 3
+              button_label: 'Add Goal'
+              type: replicator
+              display: Goals
+              validate:
+                - required
+              fullscreen: false
+              sets:
+                goals:
+                  display: Goals
+                  sets:
+                    goal:
+                      display: Goal
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            validate:
+                              - required
+                        -
+                          handle: description
+                          field:
+                            type: textarea
+                            display: Description
+                            validate:
+                              - required
   sidebar:
-    display: Sidebar
+    display: 'Related Information'
     sections:
       -
         fields:
@@ -23,14 +130,46 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+              instructions: 'Enter a URL-friendly slug for this case study. This slug will be used in the case study’s URL and should be unique. Maximum 200 characters.'
           -
-            handle: date
+            handle: project
             field:
-              type: date
-              required: true
-              default: now
+              fullscreen: false
+              type: group
+              display: Project
+              fields:
+                -
+                  handle: url
+                  field:
+                    input_type: url
+                    type: text
+                    display: URL
+                -
+                  handle: description
+                  field:
+                    type: textarea
+                    display: Description
+                    validate:
+                      - required
+          -
+            handle: project_url
+            field:
+              input_type: url
+              type: text
+              display: 'Project URL'
+              sortable: false
+              placeholder: 'https://'
+              validate:
+                - url
+              instructions: 'Enter the project URL associated with this case study, if applicable.'
+          -
+            handle: facts
+            field: common.facts
+            config:
+              collapse: true
               validate:
                 - required
+                - 'min:3'
           -
             handle: client
             field:
@@ -44,17 +183,7 @@ tabs:
               validate:
                 - required
               duplicate: false
-          -
-            handle: services
-            field:
-              create: false
-              collections:
-                - services
-              type: entries
-              display: Services
-              listable: true
-              sortable: false
-              duplicate: false
+              instructions: 'Select the client associated with this case study. This field is required.'
           -
             handle: solution
             field:
@@ -69,3 +198,14 @@ tabs:
               duplicate: false
               validate:
                 - required
+              instructions: 'Select the primary solution provided in this case study. This field is required.'
+          -
+            handle: services
+            field: common.services
+            config:
+              instructions: 'Select the services involved in this case study. This field is required and should reflect the key services provided.'
+          -
+            handle: foundations
+            field: common.foundations
+            config:
+              instructions: 'Select the foundational elements that underpin this case study. These might include core principles, frameworks, or technologies.'

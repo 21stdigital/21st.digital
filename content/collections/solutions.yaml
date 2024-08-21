@@ -14,5 +14,5 @@ preview_targets:
     refresh: true
   -
     label: Index
-    url: '/{mount}'
+    url: '{mount}'
     refresh: true

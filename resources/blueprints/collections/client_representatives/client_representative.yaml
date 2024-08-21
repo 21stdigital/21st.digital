@@ -1,0 +1,62 @@
+title: 'Client Representative'
+tabs:
+  main:
+    display: 'Main Information'
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: hidden
+              required: false
+              display: 'Full Name'
+              instructions: 'This field will be automatically generated based on the forename and surname.'
+          -
+            handle: forename
+            field: common.forename
+            config:
+              validate:
+                - required
+              instructions: 'Enter the representative’s first name.'
+          -
+            handle: surname
+            field: common.surname
+            config:
+              validate:
+                - required
+              instructions: 'Enter the representative’s last name.'
+          -
+            handle: job_title
+            field:
+              type: text
+              display: 'Job Title'
+              listable: true
+              validate:
+                - required
+              instructions: 'Enter the representative’s job title. This field is required and will be displayed in lists and profiles.'
+              width: 50
+          -
+            handle: linkedin_handle
+            field: common.linkedin_handle
+            config:
+              width: 50
+  sidebar:
+    display: 'Related Information'
+    sections:
+      -
+        fields:
+          -
+            handle: client
+            field:
+              max_items: 1
+              mode: select
+              collections:
+                - clients
+              type: entries
+              display: 'Associated Client'
+              listable: true
+              duplicate: false
+              validate:
+                - required
+              instructions: 'Select the client that this representative is associated with. This is a required field.'
