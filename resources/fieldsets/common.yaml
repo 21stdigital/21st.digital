@@ -19,9 +19,7 @@ fields:
           sets:
             button:
               display: Button
-              fields:
-                -
-                  import: button
+              fields: {  }
   -
     handle: services
     field:
@@ -80,6 +78,14 @@ fields:
       autocomplete: family-name
       type: text
       display: Surname
+      width: 50
+      validate:
+        - required
+  -
+    handle: job_title
+    field:
+      type: text
+      display: 'Job Title'
       width: 50
       validate:
         - required

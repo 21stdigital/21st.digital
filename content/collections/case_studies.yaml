@@ -2,6 +2,7 @@ title: 'Case Studies'
 template: default
 layout: layout
 revisions: false
+title_format: '{project.name}'
 route: '/{mount}/{slug}'
 sort_dir: asc
 date_behavior:

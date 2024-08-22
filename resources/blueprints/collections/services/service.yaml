@@ -13,6 +13,7 @@ tabs:
               validate:
                 - required
               instructions: 'Enter the name of the service. This is a required field and will be prominently displayed throughout the site.'
+              display: Name
   sidebar:
     display: 'Related Information'
     sections:
@@ -25,13 +26,3 @@ tabs:
               localizable: true
               validate: 'max:200'
               instructions: 'Enter a URL-friendly slug for this service. This will be used in the service’s URL and should be unique. Maximum 200 characters.'
-          -
-            handle: case_studies
-            field: common.case_studies
-            config:
-              instructions: 'Select any case studies that highlight this service. These case studies will be linked to showcase how the service has been applied.'
-          -
-            handle: foundations
-            field: common.foundations
-            config:
-              instructions: 'Select the foundational elements that support this service. These could include key principles, frameworks, or core technologies that underlie the service.'

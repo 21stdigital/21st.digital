@@ -1,9 +1,0 @@
-title: 'Module Facts'
-fields:
-  -
-    handle: facts
-    field: common.facts
-    config:
-      validate:
-        - required
-        - 'min:3'

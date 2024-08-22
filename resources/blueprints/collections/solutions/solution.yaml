@@ -29,9 +29,4 @@ tabs:
             handle: case_studies
             field: common.case_studies
             config:
-              instructions: 'Select any case studies related to this solution. These case studies will help showcase the application and success of this solution.'
-          -
-            handle: foundations
-            field: common.foundations
-            config:
-              instructions: 'Select the foundational elements that support this solution. These may include key principles, frameworks, or core technologies that underpin the solution.'
+              create: false

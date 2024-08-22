@@ -8,22 +8,20 @@ tabs:
           -
             handle: title
             field:
-              type: text
-              required: true
-              validate:
-                - required
-              instructions: 'Enter the internal name for this case study. This field is required but will not be visible to users.'
+              type: hidden
+              required: false
               display: Name
+              instructions: 'This field is automatically generated based on the project name.'
           -
             handle: headline
             field:
               type: text
               display: Headline
-              instructions: 'Enter the main headline for this case study. This headline will be prominently displayed on the case study page and in overviews and teasers.'
               validate:
                 - required
+              instructions: 'Enter the main headline for this case study. This headline will be prominently displayed on the case study page and in overviews and teasers.'
           -
-            handle: teaser_copy
+            handle: teaser
             field:
               type: textarea
               display: Teaser
@@ -32,15 +30,53 @@ tabs:
                 - 'max:300'
               instructions: 'Enter a brief summary or teaser copy for this case study. This text will be used in overviews to encourage users to click on the full case study. Maximum 300 characters.'
       -
-        display: Intro
+        display: Project
         fields:
           -
-            handle: introduction
+            handle: project
+            field:
+              fullscreen: false
+              type: group
+              display: Project
+              hide_display: true
+              border: false
+              fields:
+                -
+                  handle: name
+                  field:
+                    type: text
+                    display: Name
+                    instructions: 'Enter the name of the project. This will be used as the primary identifier.'
+                    listable: true
+                    validate:
+                      - required
+                -
+                  handle: description
+                  field:
+                    type: textarea
+                    display: Description
+                    validate:
+                      - required
+                    instructions: 'Provide a short description of the project.'
+                -
+                  handle: url
+                  field:
+                    input_type: url
+                    type: text
+                    display: URL
+                    instructions: 'Enter the project URL associated with this case study, if applicable.'
+                    placeholder: 'https://'
+      -
+        display: Challenge
+        fields:
+          -
+            handle: challenge
             field:
               fullscreen: false
               border: false
               type: group
-              display: Introduction
+              display: Challenge
+              hide_display: true
               fields:
                 -
                   handle: text
@@ -49,61 +85,35 @@ tabs:
                     display: Text
                     validate:
                       - required
+                    instructions: 'Describe the main challenge or problem the client was facing.'
                 -
-                  handle: show_quote
+                  handle: reason_for_engagement
                   field:
-                    type: toggle
-                    display: 'Show Quote'
-                -
-                  handle: quote
-                  field: common.quote
-                  config:
-                    fields:
-                      -
-                        handle: text
-                        field:
-                          type: text
-                          display: Text
-                          validate:
-                            - sometimes
-                            - required
-                      -
-                        handle: author
-                        field:
-                          max_items: 1
-                          mode: select
-                          create: false
-                          collections:
-                            - client_representatives
-                          type: entries
-                          display: Author
-                          duplicate: false
-                          validate:
-                            - sometimes
-                            - required
-                    always_save: false
-                    if_any:
-                      show_quote: 'equals true'
+                    type: textarea
+                    display: 'Reason for Engagement'
+                    validate:
+                      - required
+                    instructions: 'Explain why the client engaged your services to address this challenge.'
       -
         display: Goals
         fields:
           -
             handle: goals
             field:
-              collapse: true
               max_sets: 3
+              fullscreen: false
               button_label: 'Add Goal'
               type: replicator
               display: Goals
-              validate:
-                - required
-              fullscreen: false
+              hide_display: true
               sets:
-                goals:
-                  display: Goals
+                new_goal:
+                  display: 'New Goal'
+                  icon: favorite-award
                   sets:
                     goal:
                       display: Goal
+                      icon: favorite-award
                       fields:
                         -
                           handle: title
@@ -112,13 +122,21 @@ tabs:
                             display: Title
                             validate:
                               - required
+                            instructions: 'Enter a concise title for this goal. The title should clearly summarize the objective of the goal.'
                         -
-                          handle: description
+                          handle: text
                           field:
                             type: textarea
-                            display: Description
+                            display: Text
                             validate:
                               - required
+                            instructions: 'Provide a detailed explanation of this goal.'
+      -
+        display: Solution
+      -
+        display: Result
+      -
+        display: 'Call to Action'
   sidebar:
     display: 'Related Information'
     sections:
@@ -129,63 +147,34 @@ tabs:
             field:
               type: slug
               localizable: true
-              validate: 'max:200'
-              instructions: 'Enter a URL-friendly slug for this case study. This slug will be used in the case study’s URL and should be unique. Maximum 200 characters.'
-          -
-            handle: project
-            field:
-              fullscreen: false
-              type: group
-              display: Project
-              fields:
-                -
-                  handle: url
-                  field:
-                    input_type: url
-                    type: text
-                    display: URL
-                -
-                  handle: description
-                  field:
-                    type: textarea
-                    display: Description
-                    validate:
-                      - required
-          -
-            handle: project_url
-            field:
-              input_type: url
-              type: text
-              display: 'Project URL'
-              sortable: false
-              placeholder: 'https://'
               validate:
-                - url
-              instructions: 'Enter the project URL associated with this case study, if applicable.'
+                - 'max:200'
+              instructions: 'Enter a URL-friendly slug for this case study. This slug will be used in the case study’s URL and should be unique. Maximum 200 characters.'
+              from: project.name
           -
             handle: facts
             field: common.facts
             config:
-              collapse: true
               validate:
-                - required
                 - 'min:3'
+              instructions: 'Enter key facts or data points related to this case study. These could include metrics, milestones, or other significant details that highlight the success or impact of the project. A minimum of three facts is required.'
           -
             handle: client
             field:
               max_items: 1
               mode: select
+              create: false
               collections:
                 - clients
               type: entries
               display: Client
-              listable: true
+              instructions: 'Select the client associated with this case study. This field is required to link the case study to the appropriate client.'
+              duplicate: false
               validate:
                 - required
-              duplicate: false
-              instructions: 'Select the client associated with this case study. This field is required.'
+              listable: true
           -
-            handle: solution
+            handle: solution_type
             field:
               max_items: 1
               mode: select
@@ -193,19 +182,9 @@ tabs:
               collections:
                 - solutions
               type: entries
-              display: Solution
-              listable: true
+              display: 'Solution Type'
               duplicate: false
+              listable: true
               validate:
                 - required
-              instructions: 'Select the primary solution provided in this case study. This field is required.'
-          -
-            handle: services
-            field: common.services
-            config:
-              instructions: 'Select the services involved in this case study. This field is required and should reflect the key services provided.'
-          -
-            handle: foundations
-            field: common.foundations
-            config:
-              instructions: 'Select the foundational elements that underpin this case study. These might include core principles, frameworks, or technologies.'
+              instructions: 'Select the primary solution provided in this case study.'

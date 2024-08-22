@@ -12,8 +12,8 @@ tabs:
               required: true
               validate:
                 - required
-              display: Title
-              instructions: 'Enter the title of the foundation. This is a required field and will be prominently displayed.'
+              display: Name
+              instructions: 'Enter the name of the foundation. This is a required field and will be prominently displayed.'
   sidebar:
     display: 'Related Information'
     sections:
@@ -26,18 +26,3 @@ tabs:
               localizable: true
               validate: 'max:200'
               instructions: 'Enter a URL-friendly slug for this foundation. This slug will be used in the foundation’s URL and should be unique. Maximum 200 characters.'
-          -
-            handle: services
-            field: common.services
-            config:
-              instructions: 'Select the services associated with this foundation. These services leverage or are built upon the principles of this foundation.'
-          -
-            handle: case_studies
-            field: common.case_studies
-            config:
-              instructions: 'Select any case studies that demonstrate the application of this foundation. These case studies will be linked to showcase the foundation’s effectiveness.'
-          -
-            handle: solutions
-            field: common.solutions
-            config:
-              instructions: 'Select solutions that are based on or incorporate this foundation. These solutions will be highlighted as examples of how the foundation is implemented.'
