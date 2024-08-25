@@ -47,12 +47,12 @@ fields:
             validate:
               - required
   -
-    handle: cta
+    handle: expert_cta
     field:
       fullscreen: false
       border: false
       type: group
-      display: CTA
+      display: 'Expert CTA'
       hide_display: true
       fields:
         -

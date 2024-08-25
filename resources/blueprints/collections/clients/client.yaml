@@ -81,11 +81,6 @@ tabs:
                 - required
               instructions: 'Select the monochrome (single color) version of the client’s logo. This version is typically used in simpler, single-color applications.'
           -
-            handle: case_studies
-            field: common.case_studies
-            config:
-              instructions: 'Link the case studies that are associated with this client. These case studies will provide detailed insights into the work done for the client.'
-          -
             handle: representatives
             field:
               create: false
@@ -97,3 +92,8 @@ tabs:
               duplicate: false
               instructions: 'Link the representatives who are associated with this client. These are the main points of contact or key individuals related to the client.'
               listable: true
+          -
+            handle: case_studies
+            field: common.case_studies
+            config:
+              display: 'Related Case Studies'

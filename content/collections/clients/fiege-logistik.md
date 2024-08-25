@@ -12,6 +12,4 @@ updated_at: 1724446614
 representatives:
   - cc28652b-9764-410a-9ca4-4f1cb8715e0d
   - c782dd56-f2dd-49e6-ab55-60f7092bc692
-case_studies:
-  - ca3a06ba-4d20-4d10-8413-ffea8ae489f5
 ---

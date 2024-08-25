@@ -25,26 +25,6 @@ tabs:
         display: Benefits
       -
         display: Testimonials
-        fields:
-          -
-            handle: quotes
-            field: common.quotes
-            config:
-              sets:
-                quote_group:
-                  display: 'Quote Group'
-                  instructions: null
-                  icon: null
-                  sets:
-                    quote:
-                      display: Quote
-                      instructions: 'Configure a new quote and its related details in this set.'
-                      icon: null
-                      fields:
-                        -
-                          handle: quote
-                          field: common.quote
-              hide_display: true
   sidebar:
     display: 'Related Information'
     sections:
@@ -80,5 +60,5 @@ tabs:
         display: CTA
         fields:
           -
-            handle: cta
-            field: common.cta
+            handle: expert_cta
+            field: common.expert_cta

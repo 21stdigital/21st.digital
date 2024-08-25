@@ -35,7 +35,7 @@ tabs:
               collections:
                 - clients
               type: entries
-              display: 'Associated Client'
+              display: Company
               duplicate: false
               validate:
                 - required
