@@ -1,0 +1,65 @@
+{{#
+    @name Case Study
+    @desc The template for all case studies.
+#}}
+
+<div class="prose">
+    <h1>{{ headline }}</h1>
+
+    <section>
+        {{ client }}
+            <span>Kunde</span>
+            <span>{{ title }}</span>
+            <p>{{ description }}</p>
+        {{ /client }}
+    </section>
+
+    <section>
+        <span>Herausforderung</span>
+        <h2>{{ challenge:headline }}</h2>
+        <p>{{ challenge:intro }}</p>
+        <figure>
+            <blockquote>
+                {{ challenge:quote:text }}
+            </blockquote>
+            {{ challenge:quote:testimonial }}
+                <figcaption>{{ forename }} {{ surname }} - {{ job_title }}</figcaption>
+            {{ /challenge:quote:testimonial }}
+        </figure>
+        <p>{{ reason_for_engagement }}</p>
+    </section>
+
+    <section>
+        <ul>
+            {{ goals }}
+                <li>
+                    <strong>{{ title }}</strong>
+                    <p>{{ description }}</p>
+                </li>
+            {{ /goals }}
+        </ul>
+    </section>
+
+    <section>
+        <span>Lösung</span>
+        <h2>{{ solution:headline }}</h2>
+        <aside>
+            <p>{{ project:description }}</p>
+        </aside>
+        <ul>
+            {{ solution:services }}
+                <li>
+                    {{ solution_service:service }}
+                        <h3>{{ title }}</h3>
+                    {{ /solution_service:service }}
+                    <ul>
+                        {{ solution_service:tasks }}
+                            <strong>{{ name }}</strong>
+                            <p>{{ description }}</p>
+                        {{ /solution_service:tasks }}
+                    </ul>
+                </li>
+            {{ /solution:services }}
+        </ul>
+    </section>
+</div>

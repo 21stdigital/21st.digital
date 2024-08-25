@@ -21,6 +21,7 @@ tabs:
               display: Description
               validate:
                 - required
+                - 'max:400'
               instructions: 'Provide a detailed description of the client, including key aspects such as company size, industry focus, and other relevant details.'
           -
             handle: website_url
@@ -35,19 +36,22 @@ tabs:
               width: 50
           -
             handle: industry
-            field:
-              options:
-                fashion: Fashion
-                logistics: Logistics
-              push_tags: true
-              type: select
-              display: Industry
+            field: common.industry
+            config:
               width: 50
+              listable: true
   sidebar:
     display: 'Assets & Relationships'
     sections:
       -
         fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              listable: false
           -
             handle: logo_original
             field:

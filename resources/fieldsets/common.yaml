@@ -3,6 +3,7 @@ fields:
   -
     handle: text
     field:
+      instructions: 'Use this field to add rich text content. You can format the text using the provided tools (headings, bold, italic, links).'
       buttons:
         - h2
         - h3
@@ -21,81 +22,93 @@ fields:
               display: Button
               fields: {  }
   -
-    handle: services
+    handle: teaser
     field:
-      create: false
-      collections:
-        - services
-      type: entries
-      display: Services
-      listable: true
-      sortable: false
-      duplicate: false
+      fullscreen: false
+      border: false
+      type: group
+      display: Teaser
+      hide_display: true
+      fields:
+        -
+          handle: headline
+          field:
+            type: text
+            display: Headline
+            instructions: 'Enter the headline for the teaser. This should be attention-grabbing and summarize the main point.'
+            validate:
+              - required
+        -
+          handle: text
+          field:
+            type: textarea
+            display: Text
+            instructions: 'Enter the main content or summary for the teaser. This should provide a brief overview or highlight key details.'
+            validate:
+              - required
   -
-    handle: foundations
+    handle: cta
     field:
-      create: false
-      collections:
-        - foundations
-      type: entries
-      display: Foundations
-      listable: true
-      sortable: false
-      duplicate: false
+      fullscreen: false
+      border: false
+      type: group
+      display: CTA
+      hide_display: true
+      fields:
+        -
+          handle: headline
+          field:
+            type: text
+            display: Headline
+            instructions: "Enter a compelling headline for the call-to-action. This should grab the audience's attention."
+            validate:
+              - required
+        -
+          handle: text
+          field:
+            type: text
+            display: Text
+            instructions: 'Provide the main text for the call-to-action. This should clearly convey the value proposition and encourage the desired action.'
+            validate:
+              - required
+        -
+          handle: expert
+          field: common.expert
+          config:
+            instructions: 'Select the expert who will be featured in this call-to-action. Ensure the selected expert is relevant to the content and can provide valuable insights.'
+            validate:
+              - required
   -
-    handle: case_studies
+    handle: quote
     field:
-      collections:
-        - case_studies
-      type: entries
-      display: 'Case Studies'
-      listable: true
-      sortable: false
-      duplicate: false
-  -
-    handle: solutions
-    field:
-      create: false
-      collections:
-        - solutions
-      type: entries
-      display: Solutions
-      listable: true
-      sortable: false
-      duplicate: false
-  -
-    handle: forename
-    field:
-      autocomplete: given-name
-      type: text
-      display: Forename
-      width: 50
-      validate:
-        - required
-  -
-    handle: surname
-    field:
-      autocomplete: family-name
-      type: text
-      display: Surname
-      width: 50
-      validate:
-        - required
-  -
-    handle: job_title
-    field:
-      type: text
-      display: 'Job Title'
-      width: 50
-      validate:
-        - required
-  -
-    handle: linkedin_handle
-    field:
-      type: text
-      display: 'LinkedIn Handle'
-      width: 50
-      instructions: 'Enter the LinkedIn username (the part of the URL after "https://www.linkedin.com/in/").'
+      fullscreen: false
+      border: false
+      type: group
+      display: Quote
+      instructions: 'Configure a quote to be displayed prominently within the content. This can be a customer testimonial or a significant statement related to the content.'
+      fields:
+        -
+          handle: text
+          field:
+            type: text
+            display: Text
+            instructions: 'Enter the main text of the quote. This should be a compelling and concise statement.'
+            validate:
+              - required
+        -
+          handle: testimonial
+          field:
+            max_items: 1
+            mode: select
+            create: false
+            collections:
+              - testimonials
+            type: entries
+            display: Testimonial
+            duplicate: false
+            instructions: 'Select the testimonial associated with this quote. Ensure it is accurate and relevant.'
+            validate:
+              - required
   -
     handle: facts
     field:
@@ -105,6 +118,7 @@ fields:
       display: Facts
       sortable: false
       collapse: true
+      instructions: 'Add and configure individual facts related to this content. Each fact typically includes a value and a label.'
       sets:
         facts:
           display: Facts
@@ -117,6 +131,7 @@ fields:
                   field:
                     type: text
                     display: Value
+                    instructions: 'Enter the numeric or descriptive value for this fact.'
                     validate:
                       - required
                 -
@@ -124,33 +139,116 @@ fields:
                   field:
                     type: text
                     display: Label
+                    instructions: 'Provide a brief label or title for the fact.'
                     validate:
                       - required
   -
-    handle: quote
+    handle: quotes
     field:
       fullscreen: false
-      border: false
-      type: group
-      display: Quote
-      fields:
-        -
-          handle: text
-          field:
-            type: text
-            display: Text
-            validate:
-              - required
-        -
-          handle: author
-          field:
-            max_items: 1
-            mode: select
-            create: false
-            collections:
-              - client_representatives
-            type: entries
-            display: Author
-            duplicate: false
-            validate:
-              - required
+      button_label: 'Add Quote'
+      type: replicator
+      display: Quotes
+      sets:
+        quote_group:
+          display: 'Quote Group'
+          sets:
+            quote:
+              display: Quote
+              instructions: 'Configure a new quote and its related details in this set.'
+              fields:
+                -
+                  handle: quote
+                  field: common.quote
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+      validate:
+        - required
+        - 'max:70'
+      instructions: 'Enter the primary headline for this content. This should be clear and concise, typically limited to 70 characters.'
+  -
+    handle: industry
+    field:
+      max_items: 1
+      type: select
+      display: Industry
+      options:
+        automotive: Automotive
+        entertainment: Entertainment
+        fashion: Fashion
+        finance: Finance
+        healthcare: Healthcare
+        logistics: Logistics
+        media: Media
+        music: Music
+        nonprofit: Nonprofit
+        pharmaceuticals: Pharmaceuticals
+        retail: Retail
+        sports: Sports
+        technology: Technology
+        telecommunications: Telecommunications
+        theater: Theater
+        tourism: Tourism
+      instructions: 'Select the relevant industry that best represents the context of this entry.'
+  -
+    handle: case_studies
+    field:
+      collections:
+        - case_studies
+      type: entries
+      display: 'Case Studies'
+      listable: true
+      sortable: false
+      duplicate: false
+      instructions: 'Select the case studies that are relevant to this content. These entries will be linked and displayed accordingly.'
+  -
+    handle: expert
+    field:
+      max_items: 1
+      mode: select
+      create: false
+      collections:
+        - experts
+      type: entries
+      display: Expert
+      duplicate: false
+      instructions: 'Select an expert to feature in this content. This could be someone relevant to the topic being discussed.'
+  -
+    handle: foundations
+    field:
+      create: false
+      collections:
+        - foundations
+      type: entries
+      display: Foundations
+      listable: true
+      sortable: false
+      duplicate: false
+      instructions: 'Select the foundational elements related to this content. These entries will be linked and displayed accordingly.'
+  -
+    handle: services
+    field:
+      create: false
+      collections:
+        - services
+      type: entries
+      display: Services
+      listable: true
+      sortable: false
+      duplicate: false
+      instructions: 'Select the services related to this content. These entries will be linked and displayed accordingly.'
+  -
+    handle: solutions
+    field:
+      create: false
+      collections:
+        - solutions
+      type: entries
+      display: Solutions
+      listable: true
+      sortable: false
+      duplicate: false
+      instructions: 'Select the solutions related to this content. These entries will be linked and displayed accordingly.'

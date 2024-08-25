@@ -1,6 +1,6 @@
 title: 'Case Studies'
-template: default
-layout: layout
+template: templates/case-study
+layout: layouts/layout
 revisions: false
 title_format: '{project.name}'
 route: '/{mount}/{slug}'

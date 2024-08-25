@@ -38,10 +38,10 @@ class AppServiceProvider extends ServiceProvider
     {
         Relate::oneToMany('testimonials.client', 'clients.representatives');
         Relate::oneToMany('case_studies.client', 'clients.case_studies');
-        Relate::oneToMany('case_studies.solution_category', 'solutions.case_studies');
+        // Relate::oneToMany('case_studies.solution_category', 'solutions.case_studies');
         // Relate::manyToMany('foundations.services', 'services.foundations');
         // Relate::manyToMany('foundations.solutions', 'solutions.foundations');
-        // Relate::manyToMany('case_studies.services', 'services.case_studies');
+        // Relate::manyToMany('case_studies.solution.services.solution_service', 'services.case_studies');
         // Relate::manyToMany('case_studies.foundations', 'foundations.case_studies');
     }
 }

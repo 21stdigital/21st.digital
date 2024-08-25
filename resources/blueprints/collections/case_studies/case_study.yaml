@@ -11,105 +11,75 @@ tabs:
               type: hidden
               required: false
               display: Name
-              instructions: 'This field is automatically generated based on the project name.'
+              instructions: 'This field is automatically generated based on the project name and used internally for identification purposes.'
           -
             handle: headline
-            field:
-              type: text
-              display: Headline
+            field: common.headline
+            config:
               validate:
                 - required
-              instructions: 'Enter the main headline for this case study. This headline will be prominently displayed on the case study page and in overviews and teasers.'
-          -
-            handle: teaser
-            field:
-              type: textarea
-              display: Teaser
-              validate:
-                - required
-                - 'max:300'
-              instructions: 'Enter a brief summary or teaser copy for this case study. This text will be used in overviews to encourage users to click on the full case study. Maximum 300 characters.'
-      -
-        display: Project
-        fields:
-          -
-            handle: project
-            field:
-              fullscreen: false
-              type: group
-              display: Project
-              hide_display: true
-              border: false
-              fields:
-                -
-                  handle: name
-                  field:
-                    type: text
-                    display: Name
-                    instructions: 'Enter the name of the project. This will be used as the primary identifier.'
-                    listable: true
-                    validate:
-                      - required
-                -
-                  handle: description
-                  field:
-                    type: textarea
-                    display: Description
-                    validate:
-                      - required
-                    instructions: 'Provide a short description of the project.'
-                -
-                  handle: url
-                  field:
-                    input_type: url
-                    type: text
-                    display: URL
-                    instructions: 'Enter the project URL associated with this case study, if applicable.'
-                    placeholder: 'https://'
+                - 'max:70'
       -
         display: Challenge
+        instructions: 'Describe the main challenge or problem the client was facing, which led to the engagement. Clearly define the issue that needed to be addressed, including any relevant background information.'
         fields:
           -
             handle: challenge
             field:
-              fullscreen: false
-              border: false
               type: group
               display: Challenge
               hide_display: true
+              fullscreen: false
+              border: false
               fields:
                 -
-                  handle: text
+                  handle: headline
                   field:
-                    type: textarea
-                    display: Text
+                    type: text
+                    display: Headline
+                    instructions: 'Enter a headline that succinctly captures the essence of the challenge.'
                     validate:
                       - required
-                    instructions: 'Describe the main challenge or problem the client was facing.'
                 -
-                  handle: reason_for_engagement
+                  handle: intro
                   field:
                     type: textarea
-                    display: 'Reason for Engagement'
+                    display: Introduction
+                    instructions: 'Provide a brief introduction to the challenge. This should set the context and outline the key issues or problems faced.'
                     validate:
                       - required
-                    instructions: 'Explain why the client engaged your services to address this challenge.'
+                -
+                  handle: show_quote
+                  field:
+                    type: toggle
+                    display: 'Include Quote?'
+                    instructions: 'Toggle to include a quote related to this challenge.'
+                -
+                  handle: quote
+                  field: common.quote
+                  config:
+                    instructions: 'Include a relevant quote that encapsulates the essence of the challenge or provides insight from a key stakeholder. Ensure the quote is impactful and directly related to the challenge discussed.'
+                    validate:
+                      - sometimes
+                      - required
+                    if:
+                      show_quote: 'equals true'
       -
         display: Goals
+        instructions: 'Outline the primary goals set for the project. Each goal should be clearly defined and include both a title and a detailed description of what the goal aimed to achieve.'
         fields:
           -
             handle: goals
             field:
+              type: replicator
               max_sets: 3
               fullscreen: false
               button_label: 'Add Goal'
-              type: replicator
               display: Goals
               hide_display: true
               sets:
-                new_goal:
-                  display: 'New Goal'
-                  icon: favorite-award
+                main:
+                  display: Main
                   sets:
                     goal:
                       display: Goal
@@ -124,23 +94,137 @@ tabs:
                               - required
                             instructions: 'Enter a concise title for this goal. The title should clearly summarize the objective of the goal.'
                         -
-                          handle: text
+                          handle: description
                           field:
                             type: textarea
-                            display: Text
+                            display: Description
                             validate:
                               - required
-                            instructions: 'Provide a detailed explanation of this goal.'
+                            instructions: 'Provide a detailed explanation of this goal and its significance to the project.'
       -
         display: Solution
+        instructions: 'Describe the solution implemented to address the client’s challenge. Provide details about the approach, tools, or services used, and how they were applied to solve the problem.'
+        fields:
+          -
+            handle: solution
+            field:
+              type: group
+              display: Solution
+              fullscreen: false
+              hide_display: true
+              border: false
+              fields:
+                -
+                  handle: headline
+                  field:
+                    type: text
+                    display: Headline
+                    instructions: 'Enter the main headline for the solution in this case study.'
+                    validate:
+                      - required
+                -
+                  handle: services
+                  field:
+                    type: replicator
+                    fullscreen: false
+                    button_label: 'Add Service'
+                    display: Services
+                    hide_display: true
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          service:
+                            display: Service
+                            fields:
+                              -
+                                handle: solution_service
+                                field:
+                                  type: group
+                                  display: 'Solution Service'
+                                  fullscreen: false
+                                  border: false
+                                  hide_display: true
+                                  fields:
+                                    -
+                                      handle: service
+                                      field:
+                                        max_items: 1
+                                        mode: select
+                                        create: false
+                                        collections:
+                                          - services
+                                        type: entries
+                                        display: Service
+                                        duplicate: false
+                                        validate:
+                                          - required
+                                    -
+                                      handle: tasks
+                                      field:
+                                        type: replicator
+                                        fullscreen: false
+                                        button_label: 'Add Task'
+                                        display: Tasks
+                                        hide_display: true
+                                        sets:
+                                          new_set_group:
+                                            display: 'New Set Group'
+                                            sets:
+                                              task:
+                                                display: Task
+                                                fields:
+                                                  -
+                                                    handle: name
+                                                    field:
+                                                      type: text
+                                                      display: Name
+                                                      validate:
+                                                        - required
+                                                  -
+                                                    handle: description
+                                                    field:
+                                                      type: textarea
+                                                      display: Description
+                                                      validate:
+                                                        - required
       -
-        display: Result
-      -
-        display: 'Call to Action'
+        display: Results
+        instructions: 'Highlight the results achieved from the implemented solution. Include measurable outcomes, success metrics, and any key benefits that the client experienced.'
+        fields:
+          -
+            handle: result
+            field:
+              type: group
+              display: Result
+              hide_display: true
+              fullscreen: false
+              border: false
+              fields:
+                -
+                  handle: headline
+                  field:
+                    type: text
+                    display: Headline
+                    validate:
+                      - required
+                    instructions: 'Enter a compelling headline that summarizes the key results or achievements from the solution.'
+                -
+                  handle: summary
+                  field:
+                    type: textarea
+                    display: Summary
+                    validate:
+                      - required
+                    instructions: 'Provide a detailed summary of the results. Focus on measurable outcomes, success metrics, and key benefits that clearly demonstrate the impact of the solution.'
+                -
+                  handle: quote
+                  field: common.quote
   sidebar:
     display: 'Related Information'
     sections:
       -
+        instructions: 'Manage additional information related to the case study, such as the URL slug, key facts, the associated client, and links to related case studies.'
         fields:
           -
             handle: slug
@@ -149,24 +233,25 @@ tabs:
               localizable: true
               validate:
                 - 'max:200'
+              display: 'URL Slug'
               instructions: 'Enter a URL-friendly slug for this case study. This slug will be used in the case study’s URL and should be unique. Maximum 200 characters.'
               from: project.name
           -
             handle: facts
             field: common.facts
             config:
+              instructions: 'Enter key facts or data points related to this case study. These could include metrics, milestones, or other significant details that highlight the success or impact of the project. A minimum of three facts is required.'
               validate:
                 - 'min:3'
-              instructions: 'Enter key facts or data points related to this case study. These could include metrics, milestones, or other significant details that highlight the success or impact of the project. A minimum of three facts is required.'
           -
             handle: client
             field:
+              type: entries
               max_items: 1
               mode: select
               create: false
               collections:
                 - clients
-              type: entries
               display: Client
               instructions: 'Select the client associated with this case study. This field is required to link the case study to the appropriate client.'
               duplicate: false
@@ -174,17 +259,88 @@ tabs:
                 - required
               listable: true
           -
-            handle: solution_type
+            handle: case_studies
+            field: common.case_studies
+            config:
+              display: 'Related Case Studies'
+              instructions: 'Link other case studies that are related or relevant to this one. This helps users explore similar projects or solutions.'
+  teaser:
+    display: Teaser
+    sections:
+      -
+        display: Teaser
+        instructions: 'Create a brief teaser that introduces the case study. This text will be used in overviews to encourage users to click through to the full case study.'
+        fields:
+          -
+            handle: teaser
+            field: common.teaser
+  project:
+    display: Project
+    sections:
+      -
+        display: Project
+        instructions: 'Detail the project associated with this case study. Include specifics such as the project name, description, URL, and logo. This provides a clear understanding of the project context.'
+        fields:
+          -
+            handle: project
             field:
-              max_items: 1
-              mode: select
-              create: false
-              collections:
-                - solutions
-              type: entries
-              display: 'Solution Type'
-              duplicate: false
-              listable: true
+              type: group
+              display: Project
+              fullscreen: false
+              hide_display: true
+              border: false
+              fields:
+                -
+                  handle: name
+                  field:
+                    type: text
+                    display: Name
+                    instructions: 'Enter the full name of the project.'
+                    validate:
+                      - required
+                    width: 50
+                -
+                  handle: url
+                  field:
+                    type: text
+                    display: URL
+                    input_type: url
+                    placeholder: 'https://'
+                    instructions: "Enter the project's official URL, if available."
+                    width: 50
+                -
+                  handle: description
+                  field:
+                    type: textarea
+                    display: Description
+                    instructions: "Provide a concise yet informative description of the project. This should highlight the project's purpose, scope, and key objectives."
+                    validate:
+                      - required
+                -
+                  handle: logo
+                  field:
+                    type: assets
+                    display: Logo
+                    max_files: 1
+                    mode: grid
+                    container: assets
+                    folder: projects/logos
+                    instructions: "Upload the project's official logo. This image will represent the project visually in various contexts. Only one logo can be uploaded."
+          -
+            handle: reason_for_engagement
+            field:
+              type: textarea
+              display: 'Reason for Engagement'
+              instructions: 'Explain why the client engaged your services to address their challenges or needs. This sets the context for the solution provided.'
               validate:
                 - required
-              instructions: 'Select the primary solution provided in this case study.'
+  cta:
+    display: CTA
+    sections:
+      -
+        display: 'Call to Action'
+        instructions: 'Conclude the case study with a strong call to action (CTA). This could be an invitation to contact your company.'
+        fields:
+          -
+            handle: cta
+            field: common.cta

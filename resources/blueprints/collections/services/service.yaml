@@ -14,6 +14,37 @@ tabs:
                 - required
               instructions: 'Enter the name of the service. This is a required field and will be prominently displayed throughout the site.'
               display: Name
+          -
+            handle: headline
+            field: common.headline
+            config:
+              validate:
+                - required
+                - 'max:70'
+      -
+        display: Benefits
+      -
+        display: Testimonials
+        fields:
+          -
+            handle: quotes
+            field: common.quotes
+            config:
+              sets:
+                quote_group:
+                  display: 'Quote Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    quote:
+                      display: Quote
+                      instructions: 'Configure a new quote and its related details in this set.'
+                      icon: null
+                      fields:
+                        -
+                          handle: quote
+                          field: common.quote
+              hide_display: true
   sidebar:
     display: 'Related Information'
     sections:
@@ -26,3 +57,28 @@ tabs:
               localizable: true
               validate: 'max:200'
               instructions: 'Enter a URL-friendly slug for this service. This will be used in the service’s URL and should be unique. Maximum 200 characters.'
+          -
+            handle: case_studies
+            field: common.case_studies
+            config:
+              display: 'Related Case Studies'
+              hide_display: true
+  teaser:
+    display: Teaser
+    sections:
+      -
+        display: Teaser
+        instructions: 'Create a brief teaser that introduces the case study. This text will be used in overviews to encourage users to click through to the full case study.'
+        fields:
+          -
+            handle: teaser
+            field: common.teaser
+  cta:
+    display: CTA
+    sections:
+      -
+        display: CTA
+        fields:
+          -
+            handle: cta
+            field: common.cta
