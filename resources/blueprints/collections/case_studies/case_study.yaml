@@ -8,10 +8,10 @@ tabs:
           -
             handle: title
             field:
-              type: hidden
-              required: false
-              display: Title
-              instructions: 'This field is automatically generated based on the project name and used internally for identification purposes.'
+              type: text
+              required: true
+              validate:
+                - required
       -
         display: Challenge
         instructions: 'Describe the main challenge or problem the client was facing, which led to the engagement. Clearly define the issue that needed to be addressed, including any relevant background information.'
@@ -39,7 +39,6 @@ tabs:
                 - 'max:200'
               display: 'URL Slug'
               instructions: 'Enter a URL-friendly slug for this case study. This slug will be used in the case study’s URL and should be unique. Maximum 200 characters.'
-              from: project.name
           -
             handle: client
             field:

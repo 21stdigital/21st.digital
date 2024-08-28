@@ -10,10 +10,6 @@ tabs:
             field:
               type: text
               required: true
-              validate:
-                - required
-              display: Name
-              instructions: 'Enter the name of the foundation. This is a required field and will be prominently displayed.'
   sidebar:
     display: 'Related Information'
     sections:
@@ -24,5 +20,6 @@ tabs:
             field:
               type: slug
               localizable: true
-              validate: 'max:200'
+              validate:
+                - 'max:200'
               instructions: 'Enter a URL-friendly slug for this foundation. This slug will be used in the foundation’s URL and should be unique. Maximum 200 characters.'

@@ -43,6 +43,11 @@ tabs:
             config:
               display: 'Related Case Studies'
               hide_display: true
+          -
+            handle: services
+            field: common.services
+            config:
+              display: 'Related Services'
   teaser:
     display: Teaser
     sections:
