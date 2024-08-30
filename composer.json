@@ -23,6 +23,13 @@
       "@php artisan package:discover --ansi",
       "@php artisan statamic:install --ansi"
     ],
+    "post-install-cmd": [
+      "@php -r \"copy('fixtures/git-hooks/post-checkout', '.git/hooks/post-checkout');\"",
+      "@php -r \"copy('fixtures/git-hooks/post-commit', '.git/hooks/post-commit');\"",
+      "@php -r \"copy('fixtures/git-hooks/post-merge', '.git/hooks/post-merge');\"",
+      "@php -r \"copy('fixtures/git-hooks/pre-push', '.git/hooks/pre-push');\"",
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
     "post-update-cmd": [
       "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
     ]
