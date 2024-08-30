@@ -1,7 +1,8 @@
-title: 'Case Studies'
+title: Testimonials
 template: default
 layout: layout
 revisions: false
+title_format: '{forename} {surname}'
 sort_dir: asc
 date_behavior:
   past: public
