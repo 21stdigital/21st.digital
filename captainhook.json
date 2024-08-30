@@ -23,8 +23,12 @@
     ]
   },
   "pre-push": {
-    "enabled": false,
-    "actions": []
+    "enabled": true,
+    "actions": [
+      {
+        "action": "bin/hooks/pre-push '{$TARGET}' '{$URL}'"
+      }
+    ]
   },
   "pre-commit": {
     "enabled": true,
@@ -92,16 +96,28 @@
     "actions": []
   },
   "post-commit": {
-    "enabled": false,
-    "actions": []
+    "enabled": true,
+    "actions": [
+      {
+        "action": "bin/hooks/post-commit"
+      }
+    ]
   },
   "post-merge": {
-    "enabled": false,
-    "actions": []
+    "enabled": true,
+    "actions": [
+      {
+        "action": "bin/hooks/post-merge {$SQUASH}"
+      }
+    ]
   },
   "post-checkout": {
-    "enabled": false,
-    "actions": []
+    "enabled": true,
+    "actions": [
+      {
+        "action": "bin/hooks/post-checkout {$PREVIOUSHEAD} {$NEWHEAD} {$MODE}"
+      }
+    ]
   },
   "post-rewrite": {
     "enabled": false,
