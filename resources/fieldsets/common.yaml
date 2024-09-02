@@ -1,0 +1,45 @@
+title: Common
+fields:
+  - handle: teaser
+    field:
+      fullscreen: false
+      border: false
+      type: group
+      display: Teaser
+      hide_display: true
+      fields:
+        - handle: title
+          field:
+            type: text
+            display: Title
+            instructions: 'Enter a catchy and concise title for the teaser. This should summarize the main point of the content to draw attention.'
+            validate:
+              - required
+        - handle: text
+          field:
+            type: textarea
+            display: Text
+            instructions: 'Provide a brief summary or key details for the teaser. This text should give a quick overview of the content.'
+            validate:
+              - required
+  - handle: url
+    field:
+      input_type: url
+      type: text
+      display: URL
+      instructions: 'Enter the full URL.'
+      validate:
+        - url
+  - handle: client
+    field:
+      max_items: 1
+      mode: select
+      create: false
+      collections:
+        - clients
+      type: entries
+      display: Client
+      instructions: 'Choose the associated client from the list. Only one client can be selected per entry.'
+      duplicate: false
+      validate:
+        - required
