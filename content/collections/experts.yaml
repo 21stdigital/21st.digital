@@ -1,5 +1,4 @@
 title: Experts
-template: default
 layout: layout
 revisions: false
 title_format: '{forename} {surname}'

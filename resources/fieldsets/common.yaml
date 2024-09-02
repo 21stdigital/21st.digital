@@ -1,0 +1,24 @@
+title: Common
+fields:
+  - handle: teaser
+    field:
+      fullscreen: false
+      border: false
+      type: group
+      display: Teaser
+      hide_display: true
+      fields:
+        - handle: title
+          field:
+            type: text
+            display: Title
+            instructions: 'Enter the title for the teaser. This should be attention-grabbing and summarize the main point.'
+            validate:
+              - required
+        - handle: text
+          field:
+            type: textarea
+            display: Text
+            instructions: 'Enter the main content or summary for the teaser. This should provide a brief overview or highlight key details.'
+            validate:
+              - required
