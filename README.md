@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://21st.digital">
-    <img src="resources/svg/21st-digital-logo.svg" alt="21st digital" width="250">
+    <img src="resources/svg/21st-digital-logo.svg#gh-light-mode-only" alt="21st digital" width="250">
   </a>
 </h1>
 
