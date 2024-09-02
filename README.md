@@ -18,7 +18,7 @@
 
 ## About 21st digital
 
-21st digital is a company dedicated to crafting high-quality digital products that make an impact. Our [website](https://21st.digital), built using the robust and flexible Statamic CMS, showcases our expertise and passion for digital creation, blending creativity with technology to deliver outstanding user experiences.
+21st digital is your partner for developing innovative digital products. We are more than just software developers – we are your allies in navigating the journey of digital transformation. We challenge the status quo, optimize processes, and implement the right strategies to ensure not only the success of digital products but also the transformation of entire business models.
 
 ## Project Overview
 
