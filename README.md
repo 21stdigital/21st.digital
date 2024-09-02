@@ -124,17 +124,6 @@ The `.env` file is crucial for configuring the environment settings for your app
 | `LOG_DEPRECATIONS_CHANNEL` | Where to log deprecation warnings.    | `null`, `log`                                                                   |
 | `LOG_LEVEL`                | The log level threshold.              | `debug`, `info`, `notice`, `warning`, `error`, `critical`, `alert`, `emergency` |
 
-### Database Settings (Commented Out)
-
-| **Setting**     | **Description**                           | **Possible Values / Examples** |
-| --------------- | ----------------------------------------- | ------------------------------ |
-| `DB_CONNECTION` | The database connection type.             | `sqlite`, `mysql`, `pgsql`     |
-| `DB_HOST`       | The hostname for the database connection. | `127.0.0.1`                    |
-| `DB_PORT`       | The port for the database connection.     | `3306`                         |
-| `DB_DATABASE`   | The name of the database.                 | `laravel`                      |
-| `DB_USERNAME`   | The database username.                    | `root`                         |
-| `DB_PASSWORD`   | The database password.                    | `your_password`                |
-
 ### Session Configuration
 
 | **Setting**        | **Description**                                                     | **Possible Values / Examples**        |
