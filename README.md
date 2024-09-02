@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://www.21st.digital">
+  <a href="https://21st.digital">
     <img src="resources/svg/21st-digital-logo.svg" alt="21st digital" width="250">
   </a>
 </h1>
@@ -18,7 +18,7 @@
 
 ## About 21st digital
 
-21st digital is a company dedicated to crafting high-quality digital products that make an impact. Our [website](https://www.21st.digital), built using the robust and flexible Statamic CMS, showcases our expertise and passion for digital creation, blending creativity with technology to deliver outstanding user experiences.
+21st digital is a company dedicated to crafting high-quality digital products that make an impact. Our [website](https://21st.digital), built using the robust and flexible Statamic CMS, showcases our expertise and passion for digital creation, blending creativity with technology to deliver outstanding user experiences.
 
 ## Project Overview
 
