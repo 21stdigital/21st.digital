@@ -1,84 +1,204 @@
-# 21st.digital
+<h1 align="center">
+  <br>
+  <a href="https://www.21st.digital">
+    <img src="resources/svg/21st-digital-logo.svg" alt="21st digital" width="250">
+  </a>
+</h1>
 
-Welcome to the GitHub repository for the 21st digital website! Our aim is to transform our company's online presence with a sleek, modern, and responsive website that reflects our expertise in digital solutions.
+<h4 align="center">We love to create digital products</h4>
 
-## Table of Contents
+<p align="center">
+  <a href="https://github.com/21stdigital/21st.digital/releases">
+    <img src="https://img.shields.io/github/v/release/21stdigital/21st.digital?include_prereleases" alt="Latest Release">
+  </a>
+  <a href="https://github.com/21stdigital/21st.digital/issues">
+    <img src="https://img.shields.io/github/issues/21stdigital/21st.digital" alt="Issues">
+  </a>
+</p>
 
-- [Git LFS](#git-lfs)
-- [Git Automation](#git-automation)
+## About 21st digital
 
-## Git LFS
+21st digital is a company dedicated to crafting high-quality digital products that make an impact. Our [website](https://www.21st.digital), built using the robust and flexible Statamic CMS, showcases our expertise and passion for digital creation, blending creativity with technology to deliver outstanding user experiences.
 
-This repository uses Git Large File Storage (LFS) for managing large files in the `public/assets` directory. The `git lfs` extension is required to handle these files properly.
+## Project Overview
 
-### Installing Git LFS
+This repository contains the source code for the 21st digital company website. The site is powered by [Statamic CMS](https://statamic.com/), a flat-file content management system that provides a flexible, user-friendly interface for managing website content.
 
-To install Git LFS, visit [https://git-lfs.com/](https://git-lfs.com/) for detailed instructions. For macOS users, it is recommended to install Git LFS via Homebrew:
+## Features
+
+- **Statamic CMS**: Utilizes a modern, flat-file CMS that doesn't rely on databases, offering speed and security.
+- **Custom Design**: Features a tailored design that reflects our brand's identity and values.
+- **Responsive Layout**: Optimized for all devices, ensuring a seamless experience across desktops, tablets, and smartphones.
+- **SEO Optimized**: Built with best practices in mind to achieve high search engine rankings.
+
+## Requirements
+
+To run this project, ensure your local environment meets the following requirements:
+
+- **PHP**: Version 8.3 or higher, for compatibility with the latest features and security updates.
+- **Composer**: Version 2.0 or higher, to manage PHP dependencies effectively.
+- **Node.js** and **NPM**: Latest stable versions, to handle frontend dependencies and build processes.
+- **Git LFS**: [Git Large File Storage](https://git-lfs.github.com/) must be installed to handle large media and asset files efficiently.
+
+Make sure all dependencies are installed and properly configured before proceeding with the setup. This ensures a smooth development and deployment process.
+
+## Getting Started
+
+Before setting up the project, ensure you have all the necessary requirements listed in the [Requirements](#requirements) section. Follow these steps to set up the project locally:
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   Use the following command to clone the repository to your local machine:
 
 ```bash
-brew install git-lfs
+ git clone https://github.com/21stdigital/21st.digital.git
+ cd 21st.digital
 ```
 
-### Setting Up Git LFS
+2. **Install Dependencies:**
 
-After installation, you need to set up Git LFS for your user account:
+   Make sure PHP, NPM, and Composer are installed. Then, install the required dependencies by running:
 
 ```bash
-git lfs install
+  composer install
+  npm install
 ```
 
-This setup only needs to be done once per user account.
+3. **Set Up Environment Variables:**
 
-## Git Automation
+   Copy the example environment file to a new .env file and modify it according to your local setup:
 
-It might be necessary to push content changes from a staging or production server back to the Git repository. This mechanism is enabled by Laravel's scheduling system via cron jobs. An appropriate task has already been defined in `routes/console.php`:
-
-```php
-Schedule::command('statamic:git:commit')
-    ->everyTenMinutes();
+```bash
+ cp .env.example .env
 ```
 
-Additionally some [environment variables](#local-environment) have to be set and a [cron job](#cron-job-setup) to execute the scheduler has to be installed.
+4. **Run Local Server:**
 
-### Local Environment
+   Start the Statamic local development server using the command below:
 
-It is important to disable the automatic git commit functionality. The best way for the local environment is to disable the git functionality completely:
-
-| Variable                     | Description                                              |
-| ---------------------------- | -------------------------------------------------------- |
-| `STATAMIC_GIT_ENABLED=false` | Disable Statamic's git system for the local environment. |
-
-This is also the default value so it might not be necessary to explicitely set this variable locally.
-
-### Server Environment
-
-The following environment variables have to be set on production or staging servers:
-
-| Variable                       | Description                                                                                                           |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| `STATAMIC_GIT_ENABLED=true`    | Enable Statamic's git system.                                                                                         |
-| `STATAMIC_GIT_AUTOMATIC=false` | Disable the automatic commit functionality. This allows us to consolidate multiple commit messages into a single one. |
-| `STATAMIC_GIT_PUSH=true`       | Automatically push changes to the repository after a commit has been made.                                            |
-
-### Cron job setup
-
-A cron job has to be set up on the production/staging server to automatically run the scheduled tasks:
-
-```
-* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+```bash
+php please serve
 ```
 
-Further information can be found in [Laravel's Scheduling documentation](https://laravel.com/docs/11.x/scheduling#running-the-scheduler).
+Visit http://localhost:8000 in your browser to view the website.
 
-### Handle commits from server
+## Environment Configuration
 
-The Git setup for production/environment servers collects multiple commits and combines them into a single one. Therefore a generic Git user and email is used (see `config/git.php`). The consolidated commit message from the server starts with the string `chore(cms):`. This can be used in different workflows to enable/disable steps. A common example is the auto deployment feature on services like Laravel Forge:
+The `.env` file is crucial for configuring the environment settings for your application. Below are tables describing each environment setting, grouped by category to help you configure your setup accurately.
 
-```
-if [[ $FORGE_DEPLOY_MESSAGE =~ ^chore\(cms\): ]]; then
-    echo "AUTO-COMMITTED ON PRODUCTION. NOTHING TO DEPLOY."
-    exit 0
-fi
-```
+### Application Settings
 
-This can also be used in github workflows to skip actions or do specific operations.
+| **Setting**           | **Description**                                             | **Possible Values / Examples**              |
+| --------------------- | ----------------------------------------------------------- | ------------------------------------------- |
+| `APP_NAME`            | The name of your application.                               | `21st.digital`                              |
+| `APP_ENV`             | The environment the application is running in.              | `local`, `production`, `staging`, `testing` |
+| `APP_KEY`             | A 32-character base64 string used for encryption.           | `base64:your_generated_key_here`            |
+| `APP_DEBUG`           | Enables or disables debug mode.                             | `true`, `false`                             |
+| `APP_TIMEZONE`        | The timezone for your application.                          | `Europe/Berlin`                             |
+| `APP_URL`             | The base URL of the application.                            | `http://localhost`                          |
+| `APP_LOCALE`          | The default language locale of the application.             | `en`, `de`, `fr`                            |
+| `APP_FALLBACK_LOCALE` | The locale to use when the current locale is not available. | `en`, `de`                                  |
+| `APP_FAKER_LOCALE`    | The locale used by Faker for generating fake data.          | `en_US`, `de_DE`                            |
+
+### Maintenance Mode Settings
+
+| **Setting**              | **Description**                                 | **Possible Values / Examples** |
+| ------------------------ | ----------------------------------------------- | ------------------------------ |
+| `APP_MAINTENANCE_DRIVER` | The driver used for maintenance mode.           | `file`, `redis`                |
+| `APP_MAINTENANCE_STORE`  | The store where maintenance mode data is saved. | `file`, `redis`                |
+
+### Security Settings
+
+| **Setting**     | **Description**                                          | **Possible Values / Examples** |
+| --------------- | -------------------------------------------------------- | ------------------------------ |
+| `BCRYPT_ROUNDS` | The number of rounds to use for Bcrypt password hashing. | `10`, `12`                     |
+
+### Logging Configuration
+
+| **Setting**                | **Description**                       | **Possible Values / Examples**                                                  |
+| -------------------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
+| `LOG_CHANNEL`              | The logging channel to use.           | `stack`, `single`, `daily`                                                      |
+| `LOG_STACK`                | The type of stack driver for logging. | `single`, `daily`                                                               |
+| `LOG_DEPRECATIONS_CHANNEL` | Where to log deprecation warnings.    | `null`, `log`                                                                   |
+| `LOG_LEVEL`                | The log level threshold.              | `debug`, `info`, `notice`, `warning`, `error`, `critical`, `alert`, `emergency` |
+
+### Database Settings (Commented Out)
+
+| **Setting**     | **Description**                           | **Possible Values / Examples** |
+| --------------- | ----------------------------------------- | ------------------------------ |
+| `DB_CONNECTION` | The database connection type.             | `sqlite`, `mysql`, `pgsql`     |
+| `DB_HOST`       | The hostname for the database connection. | `127.0.0.1`                    |
+| `DB_PORT`       | The port for the database connection.     | `3306`                         |
+| `DB_DATABASE`   | The name of the database.                 | `laravel`                      |
+| `DB_USERNAME`   | The database username.                    | `root`                         |
+| `DB_PASSWORD`   | The database password.                    | `your_password`                |
+
+### Session Configuration
+
+| **Setting**        | **Description**                                                     | **Possible Values / Examples**        |
+| ------------------ | ------------------------------------------------------------------- | ------------------------------------- |
+| `SESSION_DRIVER`   | The session driver to use.                                          | `file`, `cookie`, `database`, `redis` |
+| `SESSION_LIFETIME` | The number of minutes the session should be active before expiring. | `120`, `240`                          |
+| `SESSION_ENCRYPT`  | Enables or disables session encryption.                             | `true`, `false`                       |
+| `SESSION_PATH`     | The path for which the session is available.                        | `/`, `/app`                           |
+| `SESSION_DOMAIN`   | The domain that the session cookie is available to.                 | `null`, `.example.com`                |
+
+### Cache and Queue Configuration
+
+| **Setting**            | **Description**                     | **Possible Values / Examples** |
+| ---------------------- | ----------------------------------- | ------------------------------ |
+| `BROADCAST_CONNECTION` | The broadcast connection to use.    | `log`, `pusher`, `redis`       |
+| `FILESYSTEM_DISK`      | The default filesystem disk to use. | `local`, `public`, `s3`        |
+| `QUEUE_CONNECTION`     | The queue connection to use.        | `sync`, `database`, `redis`    |
+| `CACHE_STORE`          | The cache store to use.             | `file`, `redis`                |
+| `CACHE_PREFIX`         | The prefix to use for cache keys.   | `your_prefix_`                 |
+
+### Redis Configuration
+
+| **Setting**      | **Description**                        | **Possible Values / Examples** |
+| ---------------- | -------------------------------------- | ------------------------------ |
+| `MEMCACHED_HOST` | The host for the Memcached connection. | `127.0.0.1`                    |
+| `REDIS_CLIENT`   | The Redis client to use.               | `phpredis`, `predis`           |
+| `REDIS_HOST`     | The Redis server hostname.             | `127.0.0.1`                    |
+| `REDIS_PASSWORD` | The password for the Redis connection. | `null`, `your_password`        |
+| `REDIS_PORT`     | The port number for the Redis server.  | `6379`                         |
+
+### Mail Configuration
+
+| **Setting**         | **Description**                                   | **Possible Values / Examples**              |
+| ------------------- | ------------------------------------------------- | ------------------------------------------- |
+| `MAIL_MAILER`       | The mailer to use for sending emails.             | `smtp`, `sendmail`, `mailgun`, `ses`, `log` |
+| `MAIL_HOST`         | The host for the SMTP server.                     | `127.0.0.1`, `smtp.mailtrap.io`             |
+| `MAIL_PORT`         | The SMTP server port.                             | `2525`, `587`                               |
+| `MAIL_USERNAME`     | The username for the SMTP server.                 | `null`, `your_username`                     |
+| `MAIL_PASSWORD`     | The password for the SMTP server.                 | `null`, `your_password`                     |
+| `MAIL_ENCRYPTION`   | The encryption protocol for the SMTP connection.  | `tls`, `ssl`, `null`                        |
+| `MAIL_FROM_ADDRESS` | The email address to use for sending emails.      | `"hello@example.com"`                       |
+| `MAIL_FROM_NAME`    | The name to use for the `From` address in emails. | `"21st.digital"`                            |
+
+### Additional Settings
+
+| **Setting**     | **Description**                                | **Possible Values / Examples** |
+| --------------- | ---------------------------------------------- | ------------------------------ |
+| `VITE_APP_NAME` | The name of the application for use with Vite. | `"21st.digital"`               |
+
+### Statamic Specific Settings
+
+| **Setting**                        | **Description**                                          | **Possible Values / Examples** |
+| ---------------------------------- | -------------------------------------------------------- | ------------------------------ |
+| `STATAMIC_LICENSE_KEY`             | Your Statamic license key.                               | `your_statamic_license_key`    |
+| `STATAMIC_PRO_ENABLED`             | Enables or disables Statamic Pro features.               | `true`, `false`                |
+| `STATAMIC_STACHE_WATCHER`          | Enables or disables the Stache watcher for auto-updates. | `true`, `false`                |
+| `STATAMIC_STATIC_CACHING_STRATEGY` | The caching strategy to use.                             | `null`, `full`, `partial`      |
+| `STATAMIC_REVISIONS_ENABLED`       | Enables or disables content revisions.                   | `true`, `false`                |
+| `STATAMIC_GRAPHQL_ENABLED`         | Enables or disables GraphQL API.                         | `true`, `false`                |
+| `STATAMIC_API_ENABLED`             | Enables or disables REST API.                            | `true`, `false`                |
+| `STATAMIC_GIT_ENABLED`             | Enables or disables automatic Git integration.           | `true`, `false`                |
+
+## Contact
+
+For any inquiries, please contact us at hello@21st.digital.
+
+Thank you for visiting our repository! We hope you find our work inspiring and useful.
