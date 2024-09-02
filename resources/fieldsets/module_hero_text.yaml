@@ -1,9 +1,0 @@
-title: 'Module Hero Text'
-fields:
-  -
-    handle: text
-    field:
-      type: text
-      display: Text
-      validate:
-        - required
