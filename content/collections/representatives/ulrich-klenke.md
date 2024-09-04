@@ -1,6 +1,6 @@
 ---
 id: 6e8dcd16-0aae-4d65-9094-167037496f65
-blueprint: testimonial
+blueprint: representative
 title: 'Ulrich Klenke'
 forename: Ulrich
 surname: Klenke

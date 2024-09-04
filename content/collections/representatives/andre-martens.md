@@ -1,6 +1,6 @@
 ---
 id: cfd2ff2f-cae8-44cf-bd45-8767d4572e2f
-blueprint: testimonial
+blueprint: representative
 title: 'André Martens'
 forename: André
 surname: Martens

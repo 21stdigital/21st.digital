@@ -1,6 +1,6 @@
 ---
 id: 4521a56d-30f7-41b7-b340-96bce5de8437
-blueprint: testimonial
+blueprint: representative
 title: 'Katharina Wirth'
 forename: Katharina
 surname: Wirth

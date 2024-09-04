@@ -1,6 +1,6 @@
 ---
 id: 4832f2aa-94f5-43e2-be2f-ff04583d074a
-blueprint: testimonial
+blueprint: representative
 title: 'Christian Adelhardt'
 forename: Christian
 surname: Adelhardt

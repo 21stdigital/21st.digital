@@ -1,6 +1,6 @@
 ---
 id: 64439819-1b52-4719-8b49-6cd0884946ba
-blueprint: testimonial
+blueprint: representative
 title: 'Jonathan Pengl'
 forename: Jonathan
 surname: Pengl

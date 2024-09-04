@@ -1,6 +1,6 @@
 ---
 id: c876f808-0ea0-4b97-b220-2d0aa5cda863
-blueprint: testimonial
+blueprint: representative
 title: 'Benjamin Pahnke'
 forename: Benjamin
 surname: Pahnke

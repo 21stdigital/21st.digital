@@ -1,6 +1,6 @@
 ---
 id: d3006882-1f74-47f9-9ed1-1188d53e99a6
-blueprint: testimonial
+blueprint: representative
 title: 'Michael Siebke'
 forename: Michael
 surname: Siebke

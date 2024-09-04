@@ -1,6 +1,6 @@
 ---
 id: 2d7c99c6-b705-4f4a-8ad1-fcc97081a089
-blueprint: testimonial
+blueprint: representative
 title: 'Maren Dey'
 forename: Maren
 surname: Dey
