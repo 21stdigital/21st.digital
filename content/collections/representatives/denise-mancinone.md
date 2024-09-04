@@ -1,6 +1,6 @@
 ---
 id: 63ed9cd4-3f7e-4089-87cc-c3daccc7d1ef
-blueprint: testimonial
+blueprint: representative
 title: 'Denise Mancinone'
 forename: Denise
 surname: Mancinone

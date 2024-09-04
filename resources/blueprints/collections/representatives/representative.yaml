@@ -1,4 +1,4 @@
-title: Testimonial
+title: Representative
 tabs:
   main:
     display: 'Main Information'
@@ -30,7 +30,7 @@ tabs:
             handle: client
             field: common.client
             config:
+              instructions: 'Select the client associated with this representative. This field is required.'
               validate:
                 - required
-              instructions: 'Select the client associated with this testimonial. This field is required.'
               listable: true

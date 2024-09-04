@@ -1,6 +1,6 @@
 ---
 id: 2ff9bd4f-9237-40df-9903-bae68767d41d
-blueprint: testimonial
+blueprint: representative
 title: 'Christian Becker'
 forename: Christian
 surname: Becker

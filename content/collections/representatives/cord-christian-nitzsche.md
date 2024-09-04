@@ -1,6 +1,6 @@
 ---
 id: 6801dc38-9963-43fd-8472-603d621a1321
-blueprint: testimonial
+blueprint: representative
 title: 'Cord-Christian Nitzsche'
 forename: Cord-Christian
 surname: Nitzsche

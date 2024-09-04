@@ -1,6 +1,6 @@
 ---
 id: cc28652b-9764-410a-9ca4-4f1cb8715e0d
-blueprint: testimonial
+blueprint: representative
 title: 'Jan Trulley'
 forename: Jan
 surname: Trulley

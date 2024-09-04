@@ -8,5 +8,5 @@ return [
     'pages_collection_create_entry' => 'Create Page',
     'services_collection_create_entry' => 'Create Service',
     'solutions_collection_create_entry' => 'Create Solution',
-    'testimonials_collection_create_entry' => 'Create Testimonial',
+    'representatives_collection_create_entry' => 'Create Representative',
 ];

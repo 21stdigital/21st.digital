@@ -1,6 +1,6 @@
 ---
 id: 69b8cbe3-883e-41b3-87ef-6792fefc4fb2
-blueprint: testimonial
+blueprint: representative
 title: 'Kathleen Karrer'
 forename: Kathleen
 surname: Karrer

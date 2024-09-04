@@ -1,6 +1,6 @@
 ---
 id: 62f6ddf0-c8be-439a-bb17-47689236ec91
-blueprint: testimonial
+blueprint: representative
 title: 'Stefanie Kahlert'
 forename: Stefanie
 surname: Kahlert

@@ -1,6 +1,6 @@
 ---
 id: 2614919e-60e0-4a09-9b61-c91d78ecccc4
-blueprint: testimonial
+blueprint: representative
 title: 'David Rothenhäuser'
 forename: David
 surname: Rothenhäuser

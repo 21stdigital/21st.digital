@@ -1,6 +1,6 @@
 ---
 id: c782dd56-f2dd-49e6-ab55-60f7092bc692
-blueprint: testimonial
+blueprint: representative
 title: 'Göran Thälker'
 forename: Göran
 surname: Thälker

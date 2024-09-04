@@ -1,6 +1,6 @@
 ---
 id: 26215621-8fa6-49c8-b254-9e528f3c18bb
-blueprint: testimonial
+blueprint: representative
 title: 'Philip Mahler'
 forename: Philip
 surname: Mahler

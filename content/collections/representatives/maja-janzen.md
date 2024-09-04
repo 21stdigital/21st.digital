@@ -1,6 +1,6 @@
 ---
 id: 3356c4ca-f74d-4fbd-9f66-56f7608a5819
-blueprint: testimonial
+blueprint: representative
 title: 'Maja Janzen'
 forename: Maja
 surname: Janzen
