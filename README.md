@@ -175,16 +175,64 @@ The `.env` file is crucial for configuring the environment settings for your app
 
 ### Statamic Specific Settings
 
-| **Setting**                        | **Description**                                          | **Possible Values / Examples** |
-| ---------------------------------- | -------------------------------------------------------- | ------------------------------ |
-| `STATAMIC_LICENSE_KEY`             | Your Statamic license key.                               | `your_statamic_license_key`    |
-| `STATAMIC_PRO_ENABLED`             | Enables or disables Statamic Pro features.               | `true`, `false`                |
-| `STATAMIC_STACHE_WATCHER`          | Enables or disables the Stache watcher for auto-updates. | `true`, `false`                |
-| `STATAMIC_STATIC_CACHING_STRATEGY` | The caching strategy to use.                             | `null`, `full`, `partial`      |
-| `STATAMIC_REVISIONS_ENABLED`       | Enables or disables content revisions.                   | `true`, `false`                |
-| `STATAMIC_GRAPHQL_ENABLED`         | Enables or disables GraphQL API.                         | `true`, `false`                |
-| `STATAMIC_API_ENABLED`             | Enables or disables REST API.                            | `true`, `false`                |
-| `STATAMIC_GIT_ENABLED`             | Enables or disables automatic Git integration.           | `true`, `false`                |
+| **Setting**                        | **Description**                                                 | **Possible Values / Examples** |
+| ---------------------------------- | --------------------------------------------------------------- | ------------------------------ |
+| `STATAMIC_LICENSE_KEY`             | Your Statamic license key.                                      | `your_statamic_license_key`    |
+| `STATAMIC_PRO_ENABLED`             | Enables or disables Statamic Pro features.                      | `true`, `false`                |
+| `STATAMIC_STACHE_WATCHER`          | Enables or disables the Stache watcher for auto-updates.        | `true`, `false`                |
+| `STATAMIC_STATIC_CACHING_STRATEGY` | The caching strategy to use.                                    | `null`, `full`, `partial`      |
+| `STATAMIC_REVISIONS_ENABLED`       | Enables or disables content revisions.                          | `true`, `false`                |
+| `STATAMIC_GRAPHQL_ENABLED`         | Enables or disables GraphQL API.                                | `true`, `false`                |
+| `STATAMIC_API_ENABLED`             | Enables or disables REST API.                                   | `true`, `false`                |
+| `STATAMIC_GIT_ENABLED`             | Enables or disables automatic Git integration.                  | `true`, `false`                |
+| `STATAMIC_GIT_AUTOMATIC`           | Enables or disables automatic Git commits for content changes.  | `true`, `false`                |
+| `STATAMIC_GIT_PUSH`                | Determines if the system should push Git commits automatically. | `true`, `false`                |
+| `STATAMIC_GIT_USER_NAME`           | The Git user name for automated commits.                        | `your_git_username`            |
+| `STATAMIC_GIT_USER_EMAIL`          | The Git user email for automated commits.                       | `your_git_email@example.com`   |
+| `STATAMIC_OAUTH_ENABLED`           | Enables or disables OAuth for authentication.                   | `true`, `false`                |
+| `STATAMIC_EMAIL_LOGIN_ENABLED`     | Enables or disables email login for authentication.             | `true`, `false`                |
+
+### Google OAuth Configuration
+
+| **Setting**            | **Description**                                 | **Possible Values / Examples**          |
+| ---------------------- | ----------------------------------------------- | --------------------------------------- |
+| `GOOGLE_CLIENT_ID`     | The Client ID provided by Google for OAuth.     | `your_google_client_id`                 |
+| `GOOGLE_CLIENT_SECRET` | The Client Secret provided by Google for OAuth. | `your_google_client_secret`             |
+| `GOOGLE_REDIRECT_URI`  | The redirect URI after Google authentication.   | `http://localhost/auth/google/callback` |
+
+## Conventional Commits
+
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for our commit messages. This standard helps maintain a readable commit history and generates change logs automatically.
+
+### Commit Message Format
+
+Each commit message should have the following format:
+
+`[optional scope]: [optional body] [optional footer(s)]`
+
+#### Types
+
+The following types are allowed:
+
+- **feat**: A new feature for the user.
+- **fix**: A bug fix for the user.
+- **docs**: Documentation changes or additions.
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.).
+- **refactor**: A code change that neither fixes a bug nor adds a feature.
+- **perf**: A code change that improves performance.
+- **test**: Adding or updating tests.
+- **build**: Changes that affect the build system or external dependencies (example: `npm`, `composer`).
+- **ci**: Changes to our CI configuration files and scripts.
+- **chore**: Other changes that don’t modify `src` or `test` files.
+- **revert**: Reverts a previous commit.
+
+#### Example Commit Messages
+
+- `feat(auth): add OAuth support for Google and GitHub`
+- `fix(api): handle 500 errors gracefully in user endpoint`
+- `docs(readme): update installation instructions`
+
+By following these conventions, we ensure that our commit history is easy to understand and navigate. This also helps in automating the release process and generating changelogs.
 
 ## Contact
 
