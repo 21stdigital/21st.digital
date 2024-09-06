@@ -1,9 +1,9 @@
 ---
-id: ffc5340c-ec44-4e08-941a-225d47942a64
+id: c8a78e94-5afc-4424-8734-1ff97e9fa716
 blueprint: client
 title: PETA
+url: 'https://www.peta.org'
 logo: clients/peta.svg
-logo_monotone: clients/monotone/peta.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715848816
+updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
+updated_at: 1725542251
 ---

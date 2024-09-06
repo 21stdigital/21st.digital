@@ -1,9 +1,9 @@
 ---
-id: 8f3a3521-264d-4af0-86f4-1426349bd0d9
+id: 3fb97b78-7ff5-4ace-9bd8-b2037668b440
 blueprint: client
 title: 'Gruner + Jahr'
+url: 'https://guj.de'
 logo: clients/gruner-und-jahr.svg
-logo_monotone: clients/monotone/gruner-und-jahr.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715848660
+updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
+updated_at: 1725542205
 ---

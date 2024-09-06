@@ -24,29 +24,23 @@ tabs:
               localizable: true
               validate: 'max:200'
           -
+            handle: url
+            field: common.url
+            config:
+              validate:
+                - required
+                - url
+          -
             handle: logo
             field:
               max_files: 1
-              min_files: 1
               mode: grid
+              container: assets
+              folder: clients
+              restrict: true
               type: assets
               display: Logo
               validate:
                 - required
                 - image
-                - 'mimes:svg'
-              folder: clients
-              restrict: true
-          -
-            handle: logo_monotone
-            field:
-              max_files: 1
-              mode: grid
-              type: assets
-              display: 'Logo Monotone'
-              validate:
-                - image
-                - 'mimes:svg'
-              instructions: 'The monotone version of the logo'
-              folder: clients/monotone
-              restrict: true
+              listable: true

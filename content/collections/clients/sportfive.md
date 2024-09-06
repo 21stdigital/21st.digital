@@ -1,9 +1,9 @@
 ---
-id: 4e44b30b-df14-4025-9bfa-edc245cc0560
+id: ff1001ec-13e2-4e9f-962a-2f0f44e62cd2
 blueprint: client
 title: SPORTFIVE
+url: 'https://sportfive.com'
 logo: clients/sportfive.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715787481
-logo_monotone: clients/monotone/sportfive.svg
+updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
+updated_at: 1725542286
 ---

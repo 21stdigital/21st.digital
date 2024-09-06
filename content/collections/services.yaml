@@ -1,5 +1,4 @@
 title: Services
-template: default
 layout: layout
 revisions: false
 sort_dir: asc
@@ -11,6 +10,3 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
-structure:
-  root: false
-  max_depth: 1

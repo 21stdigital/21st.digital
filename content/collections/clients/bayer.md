@@ -1,9 +1,9 @@
 ---
-id: 2a3c8cad-30cc-4ba7-8ccb-e862c43237e0
+id: 623ec2e5-d971-4c78-ba91-88131f4ed049
 blueprint: client
 title: Bayer
+url: 'https://www.bayer.com'
 logo: clients/bayer.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715701620
-logo_monotone: clients/monotone/bayer.svg
+updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
+updated_at: 1725542157
 ---

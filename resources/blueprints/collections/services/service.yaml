@@ -29,7 +29,5 @@ tabs:
       -
         fields:
           -
-            handle: teaser_text
-            field: common.text
-            config:
-              display: 'Teaser Text'
+            handle: teaser
+            field: common.teaser
