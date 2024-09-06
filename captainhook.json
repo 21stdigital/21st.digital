@@ -26,7 +26,7 @@
     "enabled": true,
     "actions": [
       {
-        "action": "bin/hooks/pre-push '{$TARGET}' '{$URL}'"
+        "action": "echo {$STDIN} | bin/hooks/pre-push '{$TARGET}' '{$URL}'"
       }
     ]
   },
