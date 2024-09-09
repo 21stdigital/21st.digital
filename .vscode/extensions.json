@@ -4,6 +4,7 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "open-southeners.laravel-pint",
+    "stillat-llc.vscode-antlers",
     "stylelint.vscode-stylelint"
   ]
 }
