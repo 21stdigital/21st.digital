@@ -65,6 +65,18 @@ return [
             'throw' => false,
         ],
 
+        'do_spaces' => [
+            'driver' => 's3',
+            'key' => env('DO_SPACES_KEY'),
+            'secret' => env('DO_SPACES_SECRET'),
+            'endpoint' => env('DO_SPACES_ENDPOINT'),
+            'region' => env('DO_SPACES_REGION'),
+            'bucket' => env('DO_SPACES_BUCKET'),
+            'root' => env('DO_SPACES_ROOT'),
+            'url' => env('DO_SPACES_URL'),
+            'visibility' => 'public', // Set this public so the files uploaded are available publically.
+        ],
+
     ],
 
     /*

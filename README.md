@@ -200,6 +200,19 @@ The `.env` file is crucial for configuring the environment settings for your app
 | `GOOGLE_CLIENT_SECRET` | The Client Secret provided by Google for OAuth. | `your_google_client_secret`             |
 | `GOOGLE_REDIRECT_URI`  | The redirect URI after Google authentication.   | `http://localhost/auth/google/callback` |
 
+### DigitalOcean Spaces Configuration
+
+DigitalOcean's object storage is used to store various assets instead of relying on the local drive. This approach reduces the repository size while providing a cost-effective and scalable solution.
+
+| **Setting**          | **Description**                                                               | **Possible Values / Examples**                       |
+| -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------- |
+| `DO_SPACES_KEY`      | Your DO Spaces access key, generated in the API section of the DO dashboard.  | `DO000000000000000000`                               |
+| `DO_SPACES_SECRET`   | Your DO Spaces secret key, generated in the API section of the DO dashboard.  | `0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t`           |
+| `DO_SPACES_ENDPOINT` | The endpoint URL for your DigitalOcean Space (found in the Space's settings). | `https://fra1.digitaloceanspaces.com`                |
+| `DO_SPACES_REGION`   | The region where your DO spaces is hosted.                                    | `fra1`, `sfo2`, `nyc3`                               |
+| `DO_SPACES_BUCKET`   | The unique name of your DO Space.                                             | `my-asset-space`                                     |
+| `DO_SPACES_URL`      | The base URL for accessing assets in your DO Space.                           | `https://my-asset-space.fra1.digitaloceanspaces.com` |
+
 ## Conventional Commits
 
 We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for our commit messages. This standard helps maintain a readable commit history and generates change logs automatically.
