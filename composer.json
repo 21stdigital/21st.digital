@@ -39,6 +39,7 @@
     "laravel/framework": "^11",
     "laravel/socialite": "^5.14",
     "laravel/tinker": "^2.9",
+    "league/flysystem-aws-s3-v3": "^3.28",
     "socialiteproviders/google": "^4.1",
     "spatie/fork": "^1.2",
     "statamic/cms": "^5.0",
