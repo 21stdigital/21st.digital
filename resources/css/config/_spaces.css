@@ -1,0 +1,19 @@
+@layer base {
+  *,
+  ::before,
+  ::after {
+    /* SPACES */
+    --space-1: max(0.1rem, 1px);
+    --space-2: max(0.2rem, 2px);
+    --space-4: 0.4rem;
+    --space-8: 0.8rem;
+    --space-12: 0.12rem;
+    --space-20: 2rem;
+    --space-32: 3.2rem;
+    --space-52: 5.2rem;
+    --space-84: 8.4rem;
+    --space-136: 13.6rem;
+    --space-220: 22rem;
+    --space-356: 35.6rem;
+  }
+}

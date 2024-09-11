@@ -1,3 +1,9 @@
+@import url('config/_init');
+@import url('config/_colors');
+@import url('config/_spaces');
+@import url('config/_sizes');
+@import url('config/_typography');
+@import url('config/_layout');
 @import url('tailwindcss/base');
 @import url('tailwindcss/components');
 @import url('tailwindcss/utilities');

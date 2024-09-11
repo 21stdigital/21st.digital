@@ -1,0 +1,30 @@
+@layer base {
+  *,
+  ::before,
+  ::after {
+    /* container sizes */
+    --container-width: calc(100vw * 393 / 352);
+
+    /* grid sizes */
+    --grid-columms: 12;
+    --grid-gap: 2rem;
+    --grid-gap-sum: calc(var(--grid-gap) * (var(--grid-columms) - 1));
+    --grid-col-width: calc((var(--container-width) - var(--grid-gap-sum)) / var(--grid-columms));
+
+    @screen sm {
+      /* container sizes */
+
+      /* --container-width: 52rem; */
+    }
+
+    @screen lg {
+      /* container sizes */
+      --container-width: 92.8rem;
+    }
+
+    @screen 2xl {
+      /* container sizes */
+      --container-width: 128.8rem;
+    }
+  }
+}
