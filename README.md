@@ -38,7 +38,6 @@ To run this project, ensure your local environment meets the following requireme
 - **PHP**: Version 8.3 or higher, for compatibility with the latest features and security updates.
 - **Composer**: Version 2.0 or higher, to manage PHP dependencies effectively.
 - **Node.js** and **NPM**: Latest stable versions, to handle frontend dependencies and build processes.
-- **Git LFS**: [Git Large File Storage](https://git-lfs.github.com/) must be installed to handle large media and asset files efficiently.
 
 Make sure all dependencies are installed and properly configured before proceeding with the setup. This ensures a smooth development and deployment process.
 
