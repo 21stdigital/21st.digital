@@ -4,15 +4,12 @@ about: Suggest an idea for this project
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 # Problem
 
 > [!NOTE]
-> Welches Problem soll behoben werden? Warum genau brauchen wir eine Lösung? 
-
-
+> Welches Problem soll behoben werden? Warum genau brauchen wir eine Lösung?
 
 # User Story
 
@@ -25,8 +22,6 @@ Als … möchte ich …, damit …
 
 > [!NOTE]
 > Was genau haben wir mit diesem Ticket vor?
-
-
 
 # Abgrenzung
 
