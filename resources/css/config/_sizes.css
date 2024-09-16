@@ -6,10 +6,10 @@
     --container-width: calc(100vw * 393 / 352);
 
     /* grid sizes */
-    --grid-columms: 12;
+    --grid-columns: 12;
     --grid-gap: 2rem;
-    --grid-gap-sum: calc(var(--grid-gap) * (var(--grid-columms) - 1));
-    --grid-col-width: calc((var(--container-width) - var(--grid-gap-sum)) / var(--grid-columms));
+    --grid-gap-sum: calc(var(--grid-gap) * (var(--grid-columns) - 1));
+    --grid-col-width: calc((var(--container-width) - var(--grid-gap-sum)) / var(--grid-columns));
 
     @screen sm {
       /* container sizes */

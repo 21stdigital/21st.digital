@@ -1,18 +1,40 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 
-const addGradientColor = (
-  color: string,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  theme: (path: string, defaultValue?: unknown) => any
-): Record<string, Record<string, string>> => ({
+const generateColor = (color: string, shades: Record<string, string>): Record<string, Record<string, string>> => ({
   [color]: Object.fromEntries(
-    Object.entries(theme('colorGradations') as Record<string, string>).map(([key, value]) => [
-      key,
-      `rgb(var(--color-${color}) / ${value})`
-    ])
+    Object.entries(shades).map(([key, value]) => [key, `rgb(var(--color-${color}) / ${value})`])
   )
 })
+
+const colorShades: Record<string, string> = {
+  DEFAULT: '1',
+  900: '1',
+  800: '0.72',
+  700: '0.48',
+  600: '0.32',
+  500: '0.19',
+  400: '0.13',
+  300: '0.08',
+  200: '0.05',
+  100: '0.03'
+}
+
+const spaces: Record<string, string> = {
+  0: '0',
+  1: 'var(--space-1)',
+  2: 'var(--space-2)',
+  4: 'var(--space-4)',
+  8: 'var(--space-8)',
+  12: 'var(--space-12)',
+  20: 'var(--space-20)',
+  32: 'var(--space-32)',
+  52: 'var(--space-52)',
+  84: 'var(--space-84)',
+  136: 'var(--space-136)',
+  220: 'var(--space-220)',
+  356: 'var(--space-356)'
+}
 
 const config: Config = {
   darkMode: 'selector',
@@ -24,19 +46,7 @@ const config: Config = {
     './content/**/*.md'
   ],
   theme: {
-    colorGradations: {
-      DEFAULT: '1',
-      900: '1',
-      800: '0.72',
-      700: '0.48',
-      600: '0.32',
-      500: '0.19',
-      400: '0.13',
-      300: '0.08',
-      200: '0.05',
-      100: '0.03'
-    },
-
+    colorShades,
     screens: {
       sm: '46.5rem' /* 744px */,
       md: '51.25rem' /* 820px */,
@@ -44,48 +54,34 @@ const config: Config = {
       xl: '86rem' /* 1376px */,
       '2xl': '94.5rem' /* 1512px */
     },
-    colors: ({ theme }) => ({
+    colors: {
       current: 'currentColor',
       transparent: 'transparent',
-      ...addGradientColor('primary', theme),
-      ...addGradientColor('secondary', theme),
-      ...addGradientColor('tertiary', theme),
-      ...addGradientColor('light', theme),
-      ...addGradientColor('dark', theme),
-      ...addGradientColor('highlight-1', theme),
-      ...addGradientColor('highlight-2', theme),
-      ...addGradientColor('highlight-3', theme)
-    }),
-    spaces: {
-      0: 0,
-      1: 'var(--space-1)',
-      2: 'var(--space-2)',
-      4: 'var(--space-4)',
-      8: 'var(--space-8)',
-      12: 'var(--space-12)',
-      20: 'var(--space-20)',
-      32: 'var(--space-32)',
-      52: 'var(--space-52)',
-      84: 'var(--space-84)',
-      136: 'var(--space-136)',
-      220: 'var(--space-220)',
-      356: 'var(--space-356)'
+      ...generateColor('primary', colorShades),
+      ...generateColor('secondary', colorShades),
+      ...generateColor('tertiary', colorShades),
+      ...generateColor('light', colorShades),
+      ...generateColor('dark', colorShades),
+      ...generateColor('highlight-1', colorShades),
+      ...generateColor('highlight-2', colorShades),
+      ...generateColor('highlight-3', colorShades)
     },
-    margin: ({ theme }) => ({
+    spaces,
+    margin: {
       auto: 'auto',
-      ...(theme('spaces') as Record<string, string>)
+      ...spaces
       // ...negative(theme('spaces')) FIXME: negative is not defined
-    }),
-    padding: ({ theme }) => ({
-      ...(theme('spaces') as Record<string, string>)
-    }),
-    inset: ({ theme }) => ({
-      ...(theme('spaces') as Record<string, string>)
-    }),
-    gap: ({ theme }) => ({
+    },
+    padding: {
+      ...spaces
+    },
+    inset: {
+      ...spaces
+    },
+    gap: {
       DEFAULT: 'var(--grid-gap)',
-      ...(theme('spaces') as Record<string, string>)
-    }),
+      ...spaces
+    },
     borderRadius: {
       none: '0',
       sm: '0.8rem',
@@ -190,7 +186,7 @@ const config: Config = {
     },
     extend: {
       gridTemplateColumns: {
-        DEFAULT: 'repeat(var(--grid-columms), minmax(0, 1fr))'
+        DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))'
       },
       textColor: {
         DEFAULT: 'rgb(var(--default-text-color) / <alpha-value>)'
@@ -202,9 +198,6 @@ const config: Config = {
   },
   plugins: [
     plugin(({ matchUtilities, theme }) => {
-      const colorGradations: Record<string, string> = theme('colorGradations')
-      const borderWidth: Record<string, string> = theme('borderWidth')
-
       matchUtilities(
         {
           'text-highlight': value => ({
@@ -222,9 +215,10 @@ const config: Config = {
             backgroundImage: 'var(--gradient-dark)'
           })
         },
-        { values: colorGradations }
+        { values: colorShades }
       )
 
+      const borderWidth: Record<string, string> = theme('borderWidth')
       matchUtilities(
         {
           'border-gradient-highlight': value => ({
