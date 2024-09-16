@@ -2,6 +2,7 @@
   "[php]": {
     "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
+  "css.validate": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -9,9 +10,9 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "css.validate": false,
   "files.exclude": {
     "node_modules": true,
     "vendor": true
-  }
+  },
+  "laravel-pint.enable": true
 }
