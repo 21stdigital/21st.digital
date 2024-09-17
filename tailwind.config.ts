@@ -20,22 +20,6 @@ const colorShades: Record<string, string> = {
   100: '0.03'
 }
 
-const spaces: Record<string, string> = {
-  0: '0',
-  1: 'var(--space-1)',
-  2: 'var(--space-2)',
-  4: 'var(--space-4)',
-  8: 'var(--space-8)',
-  12: 'var(--space-12)',
-  20: 'var(--space-20)',
-  32: 'var(--space-32)',
-  52: 'var(--space-52)',
-  84: 'var(--space-84)',
-  136: 'var(--space-136)',
-  220: 'var(--space-220)',
-  356: 'var(--space-356)'
-}
-
 const config: Config = {
   darkMode: 'selector',
   content: [
@@ -46,7 +30,6 @@ const config: Config = {
     './content/**/*.md'
   ],
   theme: {
-    colorShades,
     screens: {
       sm: '46.5rem' /* 744px */,
       md: '51.25rem' /* 820px */,
@@ -66,21 +49,26 @@ const config: Config = {
       ...generateColor('highlight-2', colorShades),
       ...generateColor('highlight-3', colorShades)
     },
-    spaces,
+    spacing: {
+      0: '0',
+      1: 'var(--space-1)',
+      2: 'var(--space-2)',
+      4: 'var(--space-4)',
+      8: 'var(--space-8)',
+      12: 'var(--space-12)',
+      20: 'var(--space-20)',
+      32: 'var(--space-32)',
+      52: 'var(--space-52)',
+      84: 'var(--space-84)',
+      136: 'var(--space-136)',
+      220: 'var(--space-220)',
+      356: 'var(--space-356)'
+    },
     margin: {
-      auto: 'auto',
-      ...spaces
-      // ...negative(theme('spaces')) FIXME: negative is not defined
-    },
-    padding: {
-      ...spaces
-    },
-    inset: {
-      ...spaces
+      auto: 'auto'
     },
     gap: {
-      DEFAULT: 'var(--grid-gap)',
-      ...spaces
+      DEFAULT: 'var(--grid-gap)'
     },
     borderRadius: {
       none: '0',
