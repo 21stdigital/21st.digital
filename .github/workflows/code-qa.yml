@@ -39,6 +39,7 @@ jobs:
             js:
               - added|modified: '**/*.js'
               - added|modified: '**/*.cjs'
+              - added|modified: '**/*.mjs'
             css:
               - added|modified: '**/*.css'
             antlers:
@@ -73,8 +74,7 @@ jobs:
         run: npm ci --prefer-offline
 
       - name: Check Code Formatting with Prettier
-        if: ${{ needs.detect_changes.outputs.antlers == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        run: npm run prettier:check ${{ needs.detect_changes.outputs.antlers_files || '**/*.antlers.html' }}
+        run: npm run prettier:check ${{ needs.detect_changes.outputs.changed_files }}
 
       - name: Lint PHP Files
         if: ${{ needs.detect_changes.outputs.php == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
