@@ -65,6 +65,14 @@ return [
             'throw' => false,
         ],
 
+        'icons' => [
+            'driver' => 'local',
+            'root' => public_path('icons'),
+            'url' => '/icons',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
         'do_spaces' => [
             'driver' => 's3',
             'key' => env('DO_SPACES_KEY'),
