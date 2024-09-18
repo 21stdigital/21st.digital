@@ -1,0 +1,37 @@
+title: Modules
+fields:
+  -
+    handle: modules
+    field:
+      type: replicator
+      display: Modules
+      collapse: true
+      button_label: 'Add Content'
+      sets:
+        common:
+          display: Common
+          sets:
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  import: module_text
+            sticky_listing:
+              display: 'Sticky Listing'
+              icon: layout-two-columns
+              fields:
+                -
+                  import: module_sticky_listing
+            split_stack:
+              display: 'Split Stack'
+              icon: layout-split-right
+              fields:
+                -
+                  import: module_split_stack
+            section_header:
+              display: 'Section Header'
+              icon: layout-table-row-insert
+              fields:
+                -
+                  import: module_section_header

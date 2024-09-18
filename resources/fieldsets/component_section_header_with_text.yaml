@@ -1,0 +1,9 @@
+title: 'Component | Section Header with Text'
+fields:
+  -
+    import: component_section_header
+  -
+    handle: intro_text
+    field:
+      type: textarea
+      display: 'Intro Text'

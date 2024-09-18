@@ -1,6 +1,7 @@
 title: Common
 fields:
-  - handle: teaser
+  -
+    handle: teaser
     field:
       fullscreen: false
       border: false
@@ -8,21 +9,24 @@ fields:
       display: Teaser
       hide_display: true
       fields:
-        - handle: title
+        -
+          handle: title
           field:
             type: text
             display: Title
             instructions: 'Enter a catchy and concise title for the teaser. This should summarize the main point of the content to draw attention.'
             validate:
               - required
-        - handle: text
+        -
+          handle: text
           field:
             type: textarea
             display: Text
             instructions: 'Provide a brief summary or key details for the teaser. This text should give a quick overview of the content.'
             validate:
               - required
-  - handle: url
+  -
+    handle: url
     field:
       input_type: url
       type: text
@@ -30,7 +34,8 @@ fields:
       instructions: 'Enter the full URL.'
       validate:
         - url
-  - handle: client
+  -
+    handle: client
     field:
       max_items: 1
       mode: select
@@ -43,3 +48,118 @@ fields:
       duplicate: false
       validate:
         - required
+  -
+    handle: section_header
+    field:
+      type: group
+      display: 'Section Header'
+      fields:
+        -
+          handle: meta_title
+          field:
+            type: text
+            display: 'Meta Title'
+        -
+          handle: headline
+          field:
+            type: text
+            display: Headline
+            validate:
+              - required
+  -
+    handle: text_basic
+    field:
+      buttons:
+        - removeformat
+        - anchor
+      remove_empty_nodes: false
+      link_noopener: true
+      link_noreferrer: true
+      target_blank: true
+      type: bard
+      display: 'Text Basic'
+      sets:
+        elements:
+          display: Elements
+          sets:
+            link:
+              display: Link
+              icon: link
+              fields:
+                -
+                  import: component_link
+  -
+    handle: text_default
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      link_noopener: true
+      link_noreferrer: true
+      target_blank: true
+      type: bard
+      display: 'Text Default'
+      sets:
+        components:
+          display: Components
+          icon: link
+          sets:
+            link:
+              display: Link
+              icon: link
+              fields:
+                -
+                  import: component_link
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Image
+      validate:
+        - image
+  -
+    handle: video
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Video
+      validate:
+        - 'mimetypes:video/mp4'
+  -
+    handle: image_with_caption
+    field:
+      type: group
+      display: 'Image with caption'
+      fields:
+        -
+          handle: image
+          field: common.image
+          config:
+            validate:
+              - image
+        -
+          handle: caption
+          field:
+            type: text
+            display: Caption
+  -
+    handle: logo
+    field:
+      directory: public/icons
+      folder: logos
+      type: icon
+      display: Logo

@@ -3,28 +3,36 @@ tabs:
   main:
     display: Main
     sections:
-      - fields:
-          - handle: title
+      -
+        fields:
+          -
+            handle: title
             field:
               type: text
               required: true
               validate:
                 - required
-          - handle: template
+          -
+            handle: template
             field:
               type: template
               display: Template
               localizable: true
+          -
+            import: modules
   sidebar:
     display: Sidebar
     sections:
-      - fields:
-          - handle: slug
+      -
+        fields:
+          -
+            handle: slug
             field:
               type: slug
               localizable: true
               validate: 'max:200'
-          - handle: parent
+          -
+            handle: parent
             field:
               type: entries
               collections:

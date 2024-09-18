@@ -1,0 +1,12 @@
+title: 'Component | Section Header'
+fields:
+  -
+    handle: meta_title
+    field:
+      type: text
+      display: 'Meta Title'
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline

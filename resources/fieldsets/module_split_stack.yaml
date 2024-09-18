@@ -1,0 +1,95 @@
+title: 'Module | Split Stack'
+fields:
+  -
+    import: component_section_header
+  -
+    import: component_section_header_with_text
+  -
+    handle: enable_lead_section
+    field:
+      type: toggle
+      display: 'Enable Lead Section'
+      width: 50
+  -
+    handle: enable_end_section
+    field:
+      type: toggle
+      display: 'Enable End Section'
+      width: 50
+  -
+    handle: lead
+    field:
+      type: section
+      display: 'Lead Section'
+      if:
+        enable_lead_section: 'equals true'
+  -
+    handle: lead_section
+    field:
+      type: replicator
+      display: 'Lead Section'
+      if:
+        enable_lead_section: 'equals true'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            info_box:
+              display: 'Info Box'
+              icon: text-formatting-wrap-around-bounding-box
+              fields:
+                -
+                  handle: logo
+                  field: common.logo
+                -
+                  handle: image
+                  field: common.image
+                  config:
+                    validate:
+                      - image
+                -
+                  handle: text
+                  field: common.text_basic
+                  config:
+                    display: Text
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  handle: text
+                  field: common.text_default
+                  config:
+                    display: Text
+  -
+    handle: main
+    field:
+      type: section
+      display: Main
+  -
+    handle: text
+    field: common.text_default
+    config:
+      display: Text
+  -
+    handle: end
+    field:
+      type: section
+      display: 'End Section'
+  -
+    handle: end_section
+    field:
+      type: replicator
+      display: 'End Section'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            text:
+              display: Text
+              fields:
+                -
+                  handle: text
+                  field: common.text_default
+                  config:
+                    display: Text
