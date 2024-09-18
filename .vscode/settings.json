@@ -1,16 +1,14 @@
 {
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "css.validate": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit",
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "never"
   },
-
-  "laravel-pint.enable": true,
-  "[php]": {
-    "editor.defaultFormatter": "open-southeners.laravel-pint"
-  },
-
-  "css.lint.unknownAtRules": "ignore"
+  "laravel-pint.enable": true
 }

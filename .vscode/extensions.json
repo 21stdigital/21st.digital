@@ -3,8 +3,10 @@
     "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
+    "mikestead.dotenv",
     "open-southeners.laravel-pint",
     "stillat-llc.vscode-antlers",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "vivaxy.vscode-conventional-commits"
   ]
 }
