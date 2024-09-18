@@ -181,6 +181,9 @@ const config: Config = {
       },
       backgroundColor: {
         DEFAULT: 'rgb(var(--default-bg-color) / <alpha-value>)'
+      },
+      height: {
+        button: 'var(--button-height)'
       }
     }
   },
