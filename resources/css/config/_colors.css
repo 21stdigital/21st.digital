@@ -12,6 +12,14 @@
   --default-text-color: var(--color-dark);
   --default-bg-color: var(--color-light);
 
+  &.dark,
+  .dark {
+    --default-text-color: var(--color-light);
+    --default-bg-color: var(--color-dark);
+  }
+}
+
+* {
   /* Gradients */
   --gradient-highlight: linear-gradient(
     -43deg,
@@ -24,10 +32,4 @@
     rgb(var(--color-dark-gradient-1) / var(--color-gradation, 1)) 0%,
     rgb(var(--color-dark-gradient-2) / var(--color-gradation, 1)) 100%
   );
-
-  &.dark,
-  .dark {
-    --default-text-color: var(--color-light);
-    --default-bg-color: var(--color-dark);
-  }
 }

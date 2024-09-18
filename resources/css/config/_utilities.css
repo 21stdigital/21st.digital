@@ -1,0 +1,13 @@
+@layer utilities {
+  .mask-cover {
+    mask-size: cover;
+  }
+
+  .mask-contain {
+    mask-size: contain;
+  }
+
+  .mask-auto {
+    mask-size: auto;
+  }
+}

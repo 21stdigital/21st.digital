@@ -4,6 +4,7 @@
 @import url('config/_sizes');
 @import url('config/_typography');
 @import url('config/_layout');
+@import url('config/_utilities');
 @import url('tailwindcss/base');
 @import url('tailwindcss/components');
 @import url('tailwindcss/utilities');

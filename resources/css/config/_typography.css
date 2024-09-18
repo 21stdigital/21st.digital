@@ -1,9 +1,14 @@
 @layer base {
   :root {
-    --font-weight-bold: 600;
+    --font-weight-black: 900;
+    --font-weight-heavy: 800;
+    --font-weight-bold: 700;
     --font-weight-semibold: 600;
+    --font-weight-medium: 500;
     --font-weight-regular: 400;
+    --font-weight-light: 300;
     --font-weight-thin: 200;
+    --font-weight-ultralight: 100;
 
     /* Text Styles */
 
@@ -158,6 +163,16 @@
       --text-counter: 16.4rem;
       --tracking-counter: -3.97;
       --leading-counter: 11.6rem;
+    }
+  }
+}
+
+@layer utilities {
+  .text-copy {
+    @apply text-c1;
+
+    * + * {
+      margin-top: var(--leading-c1);
     }
   }
 }
