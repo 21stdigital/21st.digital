@@ -16,9 +16,18 @@
 
     /** TRACK SIZES **/
     --layout-full: minmax(var(--minimum-content-padding), 1fr);
-    --layout-popout: minmax(0, calc((var(--layout-popout-max-width) - var(--layout-content-max-width)) * 0.5));
-    --layout-content: minmax(0, calc((var(--layout-content-max-width) - var(--layout-inset-content-max-width)) * 0.5));
-    --layout-inset-content: min(var(--layout-inset-content-max-width), 100% - var(--minimum-content-padding) * 2);
+    --layout-popout: minmax(
+      0,
+      calc((var(--layout-popout-max-width) - var(--layout-content-max-width)) * 0.5)
+    );
+    --layout-content: minmax(
+      0,
+      calc((var(--layout-content-max-width) - var(--layout-inset-content-max-width)) * 0.5)
+    );
+    --layout-inset-content: min(
+      var(--layout-inset-content-max-width),
+      100% - var(--minimum-content-padding) * 2
+    );
 
     display: grid;
     grid-template-columns:

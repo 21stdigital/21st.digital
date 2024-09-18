@@ -1,1 +1,1 @@
-<x-text :text="$text" />  
+<x-text :text="$text" />

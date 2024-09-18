@@ -1,3 +1,3 @@
 <div class="layout-content">
-  <x-section-header />
+    <x-section-header />
 </div>

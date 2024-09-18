@@ -1,7 +1,10 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 
-const generateColor = (color: string, shades: Record<string, string>): Record<string, Record<string, string>> => ({
+const generateColor = (
+  color: string,
+  shades: Record<string, string>
+): Record<string, Record<string, string>> => ({
   [color]: Object.fromEntries(
     Object.entries(shades).map(([key, value]) => [key, `rgb(var(--color-${color}) / ${value})`])
   )

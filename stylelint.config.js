@@ -20,7 +20,8 @@ const config = {
     'selector-class-pattern': [
       '^([a-z][a-z0-9]*)(-?-[a-z0-9]+)*$',
       {
-        message: 'Expected class selector to be custom kebab-case with one or two dashes between words'
+        message:
+          'Expected class selector to be custom kebab-case with one or two dashes between words'
       }
     ],
     // Ignore unknown pseudo-classes with global being an exception (useful for CSS Modules)

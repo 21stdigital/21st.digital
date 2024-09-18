@@ -8,7 +8,19 @@
         "options": {
           "config": {
             "typeCase": "lower",
-            "types": ["build", "chore", "ci", "docs", "feat", "fix", "perf", "refactor", "revert", "style", "test"],
+            "types": [
+              "build",
+              "chore",
+              "ci",
+              "docs",
+              "feat",
+              "fix",
+              "perf",
+              "refactor",
+              "revert",
+              "style",
+              "test"
+            ],
             "scopeCase": "kebab",
             "scopeRequired": false,
             "scopes": [],
