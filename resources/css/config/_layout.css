@@ -65,8 +65,6 @@
   }
 
   .layout-content {
-    @apply grid-cols gap;
-
     grid-column: layout-content;
   }
 
