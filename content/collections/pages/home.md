@@ -79,7 +79,7 @@ modules:
               -
                 type: text
                 text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
-    meta_title: Herausforderung
+    overline: Herausforderung
     headline: 'Effiziente Compliance in einer globalen Logistikstruktur'
     intro_text: 'Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.'
   -
@@ -155,7 +155,7 @@ modules:
   -
     id: m0z6bvgs
     section_header:
-      meta_title: 'Justo Malesuada'
+      overline: 'Justo Malesuada'
       headline: 'Maecenas faucibus mollis interdum'
     items:
       -

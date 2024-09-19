@@ -1,10 +1,10 @@
 title: 'Component | Section Header'
 fields:
   -
-    handle: meta_title
+    handle: overline
     field:
       type: text
-      display: 'Meta Title'
+      display: 'Overline'
   -
     handle: headline
     field:

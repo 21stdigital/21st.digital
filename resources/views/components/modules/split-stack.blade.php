@@ -1,7 +1,7 @@
 <section {{ $attributes->class(['layout-content']) }}>
     @if ($headline)
         <div class="grid-cols gap mb-52 grid">
-            <x-section-header class="col-span-full" :meta_title="$meta_title" :intro_text="$intro_text">
+            <x-section-header class="col-span-full" :overline="$overline" :intro_text="$intro_text">
                 {{ $headline }}
             </x-section-header>
         </div>
