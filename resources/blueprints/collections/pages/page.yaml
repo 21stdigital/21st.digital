@@ -13,11 +13,7 @@ tabs:
               validate:
                 - required
           -
-            handle: template
-            field:
-              type: template
-              display: Template
-              localizable: true
+            import: page_header
           -
             import: modules
   sidebar:
