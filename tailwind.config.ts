@@ -96,7 +96,7 @@ const config: Config = {
         {
           letterSpacing: 'var(--tracking-counter)',
           lineHeight: 'var(--leading-counter)',
-          fontWeight: 'var(--font-weight-semibold)'
+          fontWeight: 'var(--font-weight-bold)'
         }
       ],
       h1: [
@@ -104,7 +104,7 @@ const config: Config = {
         {
           letterSpacing: 'var(--tracking-h1)',
           lineHeight: 'var(--leading-h1)',
-          fontWeight: 'var(--font-weight-semibold)'
+          fontWeight: 'var(--font-weight-bold)'
         }
       ],
       h2: [
