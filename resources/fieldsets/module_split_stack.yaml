@@ -19,42 +19,14 @@ fields:
   -
     handle: lead
     field:
-      type: section
+      type: group
       display: 'Lead Section'
       if:
         enable_lead_section: 'equals true'
-  -
-    handle: lead_section
-    field:
-      type: replicator
-      display: 'Lead Section'
-      if:
-        enable_lead_section: 'equals true'
-      sets:
-        new_set_group:
-          display: 'New Set Group'
-          sets:
-            info_box:
-              display: 'Info Box'
-              icon: text-formatting-wrap-around-bounding-box
-              fields:
-                -
-                  handle: logo
-                  field: common.logo
-                -
-                  handle: text
-                  field: common.text_basic
-                  config:
-                    display: Text
-            text:
-              display: Text
-              icon: form-text-field
-              fields:
-                -
-                  handle: text
-                  field: common.text_default
-                  config:
-                    display: Text
+      always_save: true
+      fields:
+        -
+          import: split_stack_modules
   -
     handle: main
     field:
@@ -71,19 +43,13 @@ fields:
       type: section
       display: 'End Section'
   -
-    handle: end_section
+    handle: end
     field:
-      type: replicator
+      type: group
       display: 'End Section'
-      sets:
-        new_set_group:
-          display: 'New Set Group'
-          sets:
-            text:
-              display: Text
-              fields:
-                -
-                  handle: text
-                  field: common.text_default
-                  config:
-                    display: Text
+      if:
+        enable_end_section: 'equals true'
+      always_save: true
+      fields:
+        -
+          import: split_stack_modules

@@ -182,7 +182,8 @@ const config: Config = {
     },
     extend: {
       gridTemplateColumns: {
-        DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))'
+        DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))',
+        'global-header': 'auto 1fr auto'
       },
       textColor: {
         DEFAULT: 'rgb(var(--default-text-color) / <alpha-value>)'
@@ -208,6 +209,10 @@ const config: Config = {
           'bg-highlight': value => ({
             '--color-gradation': value,
             backgroundImage: 'var(--gradient-highlight)'
+          }),
+          'bg-gradient-light': value => ({
+            '--color-gradation': value,
+            backgroundImage: 'var(--gradient-light)'
           }),
           'bg-gradient-dark': value => ({
             '--color-gradation': value,

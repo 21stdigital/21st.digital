@@ -58,7 +58,7 @@ fields:
           handle: overline
           field:
             type: text
-            display: 'Overline'
+            display: Overline
         -
           handle: headline
           field:
@@ -163,3 +163,19 @@ fields:
       folder: logos
       type: icon
       display: Logo
+  -
+    handle: teaser_collection_selector
+    field:
+      options:
+        -
+          key: case_studies
+          value: 'Case Studies'
+        -
+          key: services
+          value: Services
+        -
+          key: solutions
+          value: Solutions
+      max_items: 1
+      type: select
+      display: 'Teaser Collection Selector'

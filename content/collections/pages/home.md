@@ -3,12 +3,12 @@ id: 763e6082-7a1f-4da4-994b-68f51aff53e5
 blueprint: page
 title: Startseite
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1726744395
+updated_at: 1726775442
 modules:
   -
     id: m16givgw
     enable_lead_section: true
-    enable_end_section: false
+    enable_end_section: true
     text:
       -
         type: paragraph
@@ -18,40 +18,6 @@ modules:
             text: 'Gemeinsam mit FIEGE entwickelten wir OPTICERT, eine digitale Plattform, die es ermöglicht, gesetzliche Compliance-Anforderungen effizient und zentralisiert zu managen. Diese Plattform bietet einen strukturierten Ansatz zur Auswahl und Verwaltung von Dienstleistern und unterstützt die Monetarisierung durch ein neues Geschäftsmodell.'
     type: split_stack
     enabled: true
-    lead_section:
-      -
-        id: m1970enb
-        logo: fiege
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
-          -
-            type: set
-            attrs:
-              id: m1970mul
-              values:
-                type: link
-                cta: 'https:/fiege.com'
-                cta_label: Website
-          -
-            type: paragraph
-        type: info_box
-        enabled: true
-      -
-        id: m16hsjk2
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.'
-        type: text
-        enabled: true
     end_section:
       -
         id: m16iklvc
@@ -77,6 +43,59 @@ modules:
       Donec id elit non mi porta gravida at eget metus.
       Maecenas faucibus mollis interdum.
       Donec id elit non mi porta!
+    lead:
+      modules:
+        -
+          id: m19pi5yz
+          compilation: all
+          type: case_study_teaser
+          enabled: true
+        -
+          id: m19h68c6
+          logo: fiege
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
+            -
+              type: set
+              attrs:
+                id: m19h6qnk
+                values:
+                  type: link
+                  cta: 'https://fiege.com'
+                  cta_label: Website
+            -
+              type: paragraph
+          type: info_box
+          enabled: true
+        -
+          id: m19hc0r1
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.'
+          type: text
+          enabled: true
+    end:
+      modules:
+        -
+          id: m19hfjkc
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+          type: text
+          enabled: true
   -
     id: m0z6b08w
     text:
@@ -291,4 +310,9 @@ modules:
             text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.'
     type: text
     enabled: false
+overline: '21st digital'
+page_title: 'Von Deiner Vision zur digitalen Erfolgsgeschichte'
+intro_text: '21st digital ist Dein Partner für die Entwicklung innovativer digitaler Produkte. Wir begleiten Dich durch die digitale Transformation, hinterfragen bestehende Prozesse und entwickeln maßgeschneiderte Strategien, um sowohl digitale Produkte als auch Geschäftsmodelle erfolgreich zu gestalten.'
+cta: 'https://calendly.com/21stdigital/meeting?month=2024-09'
+cta_label: 'Sprich mit uns'
 ---
