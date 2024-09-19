@@ -12,12 +12,12 @@
                 {{ $overline }}
             </p>
         @endif
-        <h2 class="text-h1 text-highlight col-span-full whitespace-pre-line sm:col-span-10">
-            {{ $headline ?? $slot }}
+        <h2 class="text-h1 text-highlight col-span-full sm:col-span-10">
+            {!! nl2br(e($headline ?? $slot)) !!}
         </h2>
         @if ($intro_text)
-            <p class="text-c1 col-span-full mt-12 whitespace-pre-line sm:col-span-8">
-                {{ $intro_text }}
+            <p class="text-c1 col-span-full mt-12 sm:col-span-8">
+                {!! nl2br(e($intro_text)) !!}
             </p>
         @endif
     </header>
@@ -29,11 +29,11 @@
             </p>
         @endif
         <h2 class="text-h1 text-highlight col-span-full">
-            {{ $headline ?? $slot }}
+            {!! nl2br(e($headline ?? $slot)) !!}
         </h2>
         @if ($intro_text)
             <p class="text-c1 col-span-full mt-12 whitespace-pre-line sm:col-span-8 sm:col-start-3">
-                {{ $intro_text }}
+                {!! nl2br(e($intro_text)) !!}
             </p>
         @endif
     </header>

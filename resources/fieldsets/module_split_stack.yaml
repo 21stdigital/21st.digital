@@ -42,12 +42,6 @@ fields:
                   handle: logo
                   field: common.logo
                 -
-                  handle: image
-                  field: common.image
-                  config:
-                    validate:
-                      - image
-                -
                   handle: text
                   field: common.text_basic
                   config:

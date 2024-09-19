@@ -3,7 +3,7 @@ id: 763e6082-7a1f-4da4-994b-68f51aff53e5
 blueprint: page
 title: Startseite
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1726656842
+updated_at: 1726744395
 modules:
   -
     id: m16givgw
@@ -20,19 +20,8 @@ modules:
     enabled: true
     lead_section:
       -
-        id: m16hpq26
-        image: clients/fiege.svg
-        text_basic:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
-        cta: 'https://fiege.com'
-        cta_label: Website
-        type: info_box
-        enabled: true
+        id: m1970enb
+        logo: fiege
         text:
           -
             type: paragraph
@@ -43,12 +32,15 @@ modules:
           -
             type: set
             attrs:
-              id: m16ic2l9
+              id: m1970mul
               values:
                 type: link
-                cta: 'https://fiege.com'
+                cta: 'https:/fiege.com'
                 cta_label: Website
-        logo: fiege
+          -
+            type: paragraph
+        type: info_box
+        enabled: true
       -
         id: m16hsjk2
         text:
@@ -59,7 +51,7 @@ modules:
                 type: text
                 text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.'
         type: text
-        enabled: false
+        enabled: true
     end_section:
       -
         id: m16iklvc
@@ -81,7 +73,10 @@ modules:
                 text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
     overline: Herausforderung
     headline: 'Effiziente Compliance in einer globalen Logistikstruktur'
-    intro_text: 'Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.'
+    intro_text: |-
+      Donec id elit non mi porta gravida at eget metus.
+      Maecenas faucibus mollis interdum.
+      Donec id elit non mi porta!
   -
     id: m0z6b08w
     text:
