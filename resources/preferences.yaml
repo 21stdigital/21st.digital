@@ -1,0 +1,54 @@
+locale: en
+favorites: {  }
+nav:
+  reorder: true
+  sections:
+    top_level:
+      'top_level::pages':
+        action: '@create'
+        display: Pages
+        url: collections/solutions
+      'top_level::case_studies':
+        action: '@create'
+        display: 'Case Studies'
+        url: collections/case_studies
+      'top_level::services':
+        action: '@create'
+        display: Services
+        url: collections/services
+      'top_level::solutions':
+        action: '@create'
+        display: Solutions
+        url: collections/solutions
+    assets:
+      action: '@create'
+      display: Assets
+      items:
+        'assets::assets':
+          action: '@create'
+          display: Assets
+          url: assets/browse/assets
+          icon: assets
+        'content::assets::icons':
+          action: '@alias'
+          icon: color
+    content:
+      'content::collections':
+        action: '@modify'
+        children:
+          'content::collections::case_studies':
+            action: '@create'
+            display: 'Case Studies'
+            url: collections/case_studies
+          'content::collections::pages':
+            action: '@create'
+            display: Pages
+            url: collections/solutions
+          'content::collections::services':
+            action: '@create'
+            display: Services
+            url: collections/services
+          'content::collections::solutions':
+            action: '@create'
+            display: Solutions
+            url: collections/solutions
