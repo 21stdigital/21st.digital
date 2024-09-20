@@ -72,6 +72,11 @@ const config: Config = {
     spacing,
     margin: {
       auto: 'auto',
+      container: 'var(--container-padding)',
+      ...spacing
+    },
+    padding: {
+      container: 'var(--container-padding)',
       ...spacing
     },
     gap: {
@@ -96,6 +101,14 @@ const config: Config = {
         {
           letterSpacing: 'var(--tracking-counter)',
           lineHeight: 'var(--leading-counter)',
+          fontWeight: 'var(--font-weight-bold)'
+        }
+      ],
+      hero: [
+        'var(--text-hero)',
+        {
+          letterSpacing: 'var(--tracking-hero)',
+          lineHeight: 'var(--leading-hero)',
           fontWeight: 'var(--font-weight-bold)'
         }
       ],

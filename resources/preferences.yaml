@@ -7,19 +7,23 @@ nav:
       'top_level::pages':
         action: '@create'
         display: Pages
-        url: collections/solutions
+        url: collections/pages
+        icon: book-pages
       'top_level::case_studies':
         action: '@create'
         display: 'Case Studies'
         url: collections/case_studies
+        icon: blueprints
       'top_level::services':
         action: '@create'
         display: Services
         url: collections/services
+        icon: duplicate-ids
       'top_level::solutions':
         action: '@create'
         display: Solutions
         url: collections/solutions
+        icon: group
     assets:
       action: '@create'
       display: Assets
@@ -43,7 +47,7 @@ nav:
           'content::collections::pages':
             action: '@create'
             display: Pages
-            url: collections/solutions
+            url: collections/pages
           'content::collections::services':
             action: '@create'
             display: Services
