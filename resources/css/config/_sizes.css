@@ -6,7 +6,8 @@
     --button-height: 4.2rem;
 
     /* container sizes */
-    --container-width: calc(100vw * 393 / 352);
+    --container-width: calc(100vw * 352 / 393);
+    --container-padding: calc((100vw - var(--container-width)) / 2);
 
     /* grid sizes */
     --grid-columns: 12;

@@ -62,6 +62,11 @@
     --tracking-h1: -0.0097rem;
     --leading-h1: 4.8rem;
 
+    /* hero font settings */
+    --text-hero: var(--text-h1);
+    --tracking-hero: var(--tracking-h1);
+    --leading-hero: var(--leading-h1);
+
     /* Counter font settings */
     --text-counter: 7.2rem;
     --tracking-counter: -0.0174rem;
@@ -109,6 +114,11 @@
       --text-h1: 4.8rem;
       --tracking-h1: -0.0116rem;
       --leading-h1: 5.6rem;
+
+      /* hero font settings */
+      --text-hero: 7.2rem;
+      --tracking-hero: -0.0291rem;
+      --leading-hero: 8.4rem;
 
       /* Counter font settings */
       --text-counter: 13.6rem;
@@ -158,6 +168,11 @@
       --text-h1: 8rem;
       --tracking-h1: -0.0194rem;
       --leading-h1: 9.6rem;
+
+      /* hero font settings */
+      --text-hero: 9.6rem;
+      --tracking-hero: -0.0194rem;
+      --leading-hero: 11.5rem;
 
       /* Counter font settings */
       --text-counter: 16.4rem;
