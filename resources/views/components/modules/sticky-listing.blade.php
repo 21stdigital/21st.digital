@@ -1,6 +1,6 @@
 <section {{ $attributes->class(['layout-content grid grid-cols gap']) }}>
     <div
-        class="bg-highlight-500 top-0 col-span-full flex flex-col justify-between px-20 pb-32 pt-20 sm:sticky sm:col-span-6 sm:h-svh">
+        class="bg-highlight-500 -mx-container px-container top-0 col-span-full flex flex-col justify-between p-20 sm:sticky sm:col-span-6 sm:mx-0 sm:h-svh sm:px-20 sm:pb-32 sm:pt-20">
         <h2 class="text-h2 mb-52">
             {{ $headline }}
         </h2>

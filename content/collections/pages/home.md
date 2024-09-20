@@ -3,8 +3,61 @@ id: 763e6082-7a1f-4da4-994b-68f51aff53e5
 blueprint: page
 title: Startseite
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1726775442
+updated_at: 1726829070
 modules:
+  -
+    id: m1ak3lst
+    facts:
+      -
+        id: m1ak3n2j
+        fact: '2,5 Mio. €'
+        description: 'Vermitteltes Auftragsvolumen'
+        type: fact
+        enabled: true
+      -
+        id: m1ak4f4c
+        fact: 30%
+        description: Kostensenkung
+        type: fact
+        enabled: true
+      -
+        id: m1ak4qgo
+        fact: 200+
+        description: 'Qualifizierte Dienstleister'
+        type: fact
+        enabled: true
+      -
+        id: m1ak53v3
+        fact: 1000+
+        description: 'Registrierte Nutzer'
+        type: fact
+        enabled: true
+    type: facts
+    enabled: true
+  -
+    id: m1ahinqw
+    overline: Services
+    headline: 'Digitale Leistungen nach Maß'
+    enable_lead_section: false
+    enable_end_section: true
+    lead:
+      modules: {  }
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Von der Konzeption bis zur Implementierung bieten wir umfassende Dienstleistungen, die Dein Projekt zum Erfolg führen.'
+    end:
+      modules:
+        -
+          id: m1ahjim1
+          compilation: all
+          type: services_teaser
+          enabled: true
+    type: split_stack
+    enabled: true
   -
     id: m16givgw
     enable_lead_section: true
@@ -45,6 +98,35 @@ modules:
       Donec id elit non mi porta!
     lead:
       modules:
+        -
+          id: m1ahhr75
+          facts:
+            -
+              id: m1ahhs0o
+              type: fact
+              enabled: true
+              fact: '2,5 Mio. €'
+              description: 'Vermitteltes Auftragsvolumen'
+            -
+              id: m1aj44x0
+              fact: 30%
+              description: Kostensenkung
+              type: fact
+              enabled: true
+            -
+              id: m1aj4d70
+              fact: 1000+
+              description: 'Registrierte Nutzer'
+              type: fact
+              enabled: true
+            -
+              id: m1aj4n69
+              fact: 200+
+              description: 'Qualifizierte Dienstleister'
+              type: fact
+              enabled: true
+          type: facts
+          enabled: true
         -
           id: m19pi5yz
           compilation: all
@@ -285,8 +367,6 @@ modules:
             type: link
             cta: 'https://test.de'
             cta_label: 'Mehr erfahren'
-      -
-        type: paragraph
   -
     id: m0z6cvb1
     text:

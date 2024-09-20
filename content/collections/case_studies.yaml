@@ -1,6 +1,8 @@
 title: 'Case Studies'
+template: default
 layout: layout
 revisions: false
+route: 'case-studies/{{ slug }}'
 sort_dir: asc
 date_behavior:
   past: public

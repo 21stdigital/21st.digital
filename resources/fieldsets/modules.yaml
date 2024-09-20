@@ -35,3 +35,9 @@ fields:
               fields:
                 -
                   import: module_section_header
+            facts:
+              display: Facts
+              icon: favorite-star
+              fields:
+                -
+                  import: module_facts
