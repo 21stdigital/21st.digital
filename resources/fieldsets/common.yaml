@@ -164,6 +164,13 @@ fields:
       type: icon
       display: Logo
   -
+    handle: icon
+    field:
+      directory: public/icons
+      folder: collection
+      type: icon
+      display: Icon
+  -
     handle: teaser_collection_selector
     field:
       options:
