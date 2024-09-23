@@ -1,0 +1,55 @@
+title: 'Module | Split Stack'
+fields:
+  -
+    import: component_section_header
+  -
+    import: component_section_header_with_text
+  -
+    handle: enable_lead_section
+    field:
+      type: toggle
+      display: 'Enable Lead Section'
+      width: 50
+  -
+    handle: enable_end_section
+    field:
+      type: toggle
+      display: 'Enable End Section'
+      width: 50
+  -
+    handle: lead
+    field:
+      type: group
+      display: 'Lead Section'
+      if:
+        enable_lead_section: 'equals true'
+      always_save: true
+      fields:
+        -
+          import: split_stack_modules
+  -
+    handle: main
+    field:
+      type: section
+      display: Main
+  -
+    handle: text
+    field: common.text_default
+    config:
+      display: Text
+  -
+    handle: end
+    field:
+      type: section
+      display: 'End Section'
+  -
+    handle: end
+    field:
+      type: group
+      display: 'End Section'
+      if:
+        enable_end_section: 'equals true'
+      always_save: true
+      fields:
+        -
+          import: split_stack_modules

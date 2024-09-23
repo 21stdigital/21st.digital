@@ -23,6 +23,9 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+          -
+            handle: logo
+            field: common.logo
   teaser:
     display: Teaser
     sections:

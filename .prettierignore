@@ -8,6 +8,7 @@ content/**/*.yaml
 content/**/*.yml
 public/assets/**/*.yaml
 public/assets/**/*.yml
+**/.meta/*.yaml
 
 # Ignore all Markdown files in the content folder to prevent interference with Statamic's file modifications.
 content/**/*.md

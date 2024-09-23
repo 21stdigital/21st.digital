@@ -2,6 +2,10 @@
   "[php]": {
     "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
+  "[blade]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "blade.format.enable": true,
   "css.validate": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -10,5 +14,6 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never"
   },
+  "emmet.triggerExpansionOnTab": true,
   "laravel-pint.enable": true
 }

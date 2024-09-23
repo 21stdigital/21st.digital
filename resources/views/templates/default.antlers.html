@@ -2,21 +2,5 @@
     @name Default
     @desc The default template for all pages without explicitely assigned templates.
 #}}
-<div class="page-layout">
-    <header class="layout-content my-220 grid grid-cols">
-        <p
-            class="col-start-1 -col-end-1 mb-12 text-center text-h6 sm:col-start-2 sm:-col-end-2 xl:col-start-4 xl:-col-end-4"
-        >
-            Meta Title
-        </p>
-        <h1 class="col-start-1 -col-end-1 text-center text-h1 text-highlight sm:col-start-2 sm:-col-end-2">
-            Page Title
-        </h1>
-        <p
-            class="col-start-1 -col-end-1 mt-32 text-center text-c1 sm:col-start-2 sm:-col-end-2 xl:col-start-3 xl:-col-end-3"
-        >
-            Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-    </header>
-</div>
+
+{{ partial src="components.modules" }}

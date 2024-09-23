@@ -1,7 +1,10 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 
-const generateColor = (color: string, shades: Record<string, string>): Record<string, Record<string, string>> => ({
+const generateColor = (
+  color: string,
+  shades: Record<string, string>
+): Record<string, Record<string, string>> => ({
   [color]: Object.fromEntries(
     Object.entries(shades).map(([key, value]) => [key, `rgb(var(--color-${color}) / ${value})`])
   )
@@ -18,6 +21,23 @@ const colorShades: Record<string, string> = {
   300: '0.08',
   200: '0.05',
   100: '0.03'
+}
+
+const spacing: Record<string, string> = {
+  0: '0',
+  1: 'var(--space-1)',
+  2: 'var(--space-2)',
+  4: 'var(--space-4)',
+  8: 'var(--space-8)',
+  12: 'var(--space-12)',
+  16: 'var(--space-16)',
+  20: 'var(--space-20)',
+  32: 'var(--space-32)',
+  52: 'var(--space-52)',
+  84: 'var(--space-84)',
+  136: 'var(--space-136)',
+  220: 'var(--space-220)',
+  356: 'var(--space-356)'
 }
 
 const config: Config = {
@@ -49,26 +69,19 @@ const config: Config = {
       ...generateColor('highlight-2', colorShades),
       ...generateColor('highlight-3', colorShades)
     },
-    spacing: {
-      0: '0',
-      1: 'var(--space-1)',
-      2: 'var(--space-2)',
-      4: 'var(--space-4)',
-      8: 'var(--space-8)',
-      12: 'var(--space-12)',
-      20: 'var(--space-20)',
-      32: 'var(--space-32)',
-      52: 'var(--space-52)',
-      84: 'var(--space-84)',
-      136: 'var(--space-136)',
-      220: 'var(--space-220)',
-      356: 'var(--space-356)'
-    },
+    spacing,
     margin: {
-      auto: 'auto'
+      auto: 'auto',
+      container: 'var(--container-padding)',
+      ...spacing
+    },
+    padding: {
+      container: 'var(--container-padding)',
+      ...spacing
     },
     gap: {
-      DEFAULT: 'var(--grid-gap)'
+      DEFAULT: 'var(--grid-gap)',
+      ...spacing
     },
     borderRadius: {
       none: '0',
@@ -88,7 +101,15 @@ const config: Config = {
         {
           letterSpacing: 'var(--tracking-counter)',
           lineHeight: 'var(--leading-counter)',
-          fontWeight: 'var(--font-weight-semibold)'
+          fontWeight: 'var(--font-weight-bold)'
+        }
+      ],
+      hero: [
+        'var(--text-hero)',
+        {
+          letterSpacing: 'var(--tracking-hero)',
+          lineHeight: 'var(--leading-hero)',
+          fontWeight: 'var(--font-weight-bold)'
         }
       ],
       h1: [
@@ -96,7 +117,7 @@ const config: Config = {
         {
           letterSpacing: 'var(--tracking-h1)',
           lineHeight: 'var(--leading-h1)',
-          fontWeight: 'var(--font-weight-semibold)'
+          fontWeight: 'var(--font-weight-bold)'
         }
       ],
       h2: [
@@ -174,13 +195,17 @@ const config: Config = {
     },
     extend: {
       gridTemplateColumns: {
-        DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))'
+        DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))',
+        'global-header': 'auto 1fr auto'
       },
       textColor: {
         DEFAULT: 'rgb(var(--default-text-color) / <alpha-value>)'
       },
       backgroundColor: {
         DEFAULT: 'rgb(var(--default-bg-color) / <alpha-value>)'
+      },
+      height: {
+        button: 'var(--button-height)'
       }
     }
   },
@@ -197,6 +222,10 @@ const config: Config = {
           'bg-highlight': value => ({
             '--color-gradation': value,
             backgroundImage: 'var(--gradient-highlight)'
+          }),
+          'bg-gradient-light': value => ({
+            '--color-gradation': value,
+            backgroundImage: 'var(--gradient-light)'
           }),
           'bg-gradient-dark': value => ({
             '--color-gradation': value,

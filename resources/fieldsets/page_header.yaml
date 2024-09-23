@@ -1,0 +1,19 @@
+title: 'General | Page Header'
+fields:
+  -
+    handle: overline
+    field:
+      type: text
+      display: Overline
+  -
+    handle: page_title
+    field:
+      type: text
+      display: 'Page Title'
+  -
+    handle: intro_text
+    field:
+      type: textarea
+      display: 'Intro Text'
+  -
+    import: component_link
