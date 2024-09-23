@@ -51,3 +51,5 @@ fields:
                             fields:
                               -
                                 import: component_video_with_caption
+  -
+    import: building_blocks_sticky_listing

@@ -1,0 +1,5 @@
+title: 'Building Blocks | Sticky Listing'
+fields:
+  -
+    handle: modules
+    field: split_stack_modules.modules

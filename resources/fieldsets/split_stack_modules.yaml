@@ -110,3 +110,9 @@ fields:
               fields:
                 -
                   import: component_facts
+            content_item:
+              display: 'Content Item'
+              icon: file-content-list
+              fields:
+                -
+                  import: component_content_item

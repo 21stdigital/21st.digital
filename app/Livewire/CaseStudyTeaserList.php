@@ -13,19 +13,10 @@ class CaseStudyTeaserList extends Component
      */
     protected array $collections = ['case_studies'];
     public array $entries;
-    public array $test;
 
     public function mount()
     {
         $this->entries = $this->getNewestEntries(2);
-        $this->test = [
-            [
-                'title' => 'Hallo',
-            ],
-            [
-                'title' => 'Moin',
-            ],
-        ];
     }
 
     /**

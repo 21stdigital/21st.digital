@@ -1,1 +1,1 @@
-<livewire:case-study-teaser-list />
+<livewire:case-study-teaser-list lazy />

@@ -1,4 +1,4 @@
-<footer>
+<footer class="mt:52 sm:mt-136">
     <div class="border-highlight-3-600 page-layout border-b border-t">
         <div class="layout-content sm:py-84 grid grid-cols-1 gap-y-52 py-32 xl:grid-cols-3">
             <a href="/" title="21st digital - Deine digitale Spezialeinheit">

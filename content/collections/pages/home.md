@@ -3,37 +3,8 @@ id: 763e6082-7a1f-4da4-994b-68f51aff53e5
 blueprint: page
 title: Startseite
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1726829070
+updated_at: 1727085719
 modules:
-  -
-    id: m1ak3lst
-    facts:
-      -
-        id: m1ak3n2j
-        fact: '2,5 Mio. €'
-        description: 'Vermitteltes Auftragsvolumen'
-        type: fact
-        enabled: true
-      -
-        id: m1ak4f4c
-        fact: 30%
-        description: Kostensenkung
-        type: fact
-        enabled: true
-      -
-        id: m1ak4qgo
-        fact: 200+
-        description: 'Qualifizierte Dienstleister'
-        type: fact
-        enabled: true
-      -
-        id: m1ak53v3
-        fact: 1000+
-        description: 'Registrierte Nutzer'
-        type: fact
-        enabled: true
-    type: facts
-    enabled: true
   -
     id: m1ahinqw
     overline: Services
@@ -60,6 +31,116 @@ modules:
     enabled: true
   -
     id: m16givgw
+    enable_lead_section: false
+    enable_end_section: true
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erfahre mehr über unsere Projekte und wie wir Unternehmen dabei unterstützt haben, ihre digitalen Herausforderungen zu meistern und innovative Lösungen zu finden.'
+    type: split_stack
+    enabled: true
+    end_section:
+      -
+        id: m16iklvc
+        text_default:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+        type: text
+        enabled: true
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+    overline: 'Case Studies'
+    headline: 'Erfolgsgeschichten unserer Kunden'
+    lead:
+      modules:
+        -
+          id: m19pi5yz
+          compilation: all
+          type: case_study_teaser
+          enabled: false
+        -
+          id: m19h68c6
+          logo: fiege
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
+            -
+              type: set
+              attrs:
+                id: m19h6qnk
+                values:
+                  type: link
+                  cta: 'https://fiege.com'
+                  cta_label: Website
+            -
+              type: paragraph
+          type: info_box
+          enabled: false
+        -
+          id: m19hc0r1
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.'
+          type: text
+          enabled: false
+        -
+          id: m1ahhr75
+          facts:
+            -
+              id: m1ahhs0o
+              type: fact
+              enabled: true
+              fact: '2,5 Mio. €'
+              description: 'Vermitteltes Auftragsvolumen'
+            -
+              id: m1aj44x0
+              fact: 30%
+              description: Kostensenkung
+              type: fact
+              enabled: true
+            -
+              id: m1aj4d70
+              fact: 1000+
+              description: 'Registrierte Nutzer'
+              type: fact
+              enabled: true
+            -
+              id: m1aj4n69
+              fact: 200+
+              description: 'Qualifizierte Dienstleister'
+              type: fact
+              enabled: true
+          type: facts
+          enabled: false
+    end:
+      modules:
+        -
+          id: m1aq5dl1
+          compilation: all
+          type: case_study_teaser
+          enabled: true
+  -
+    id: m1aq3xbk
     enable_lead_section: true
     enable_end_section: true
     text:
@@ -92,12 +173,95 @@ modules:
                 text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
     overline: Herausforderung
     headline: 'Effiziente Compliance in einer globalen Logistikstruktur'
-    intro_text: |-
-      Donec id elit non mi porta gravida at eget metus.
-      Maecenas faucibus mollis interdum.
-      Donec id elit non mi porta!
     lead:
       modules:
+        -
+          id: m19h68c6
+          logo: fiege
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
+            -
+              type: set
+              attrs:
+                id: m19h6qnk
+                values:
+                  type: link
+                  cta: 'https://fiege.com'
+                  cta_label: Website
+            -
+              type: paragraph
+          type: info_box
+          enabled: true
+    end:
+      modules:
+        -
+          id: m19hfjkc
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+          type: text
+          enabled: true
+  -
+    id: m1aq0e0q
+    enable_lead_section: false
+    enable_end_section: true
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Gemeinsam mit FIEGE entwickelten wir OPTICERT, eine digitale Plattform, die es ermöglicht, gesetzliche Compliance-Anforderungen effizient und zentralisiert zu managen. Diese Plattform bietet einen strukturierten Ansatz zur Auswahl und Verwaltung von Dienstleistern und unterstützt die Monetarisierung durch ein neues Geschäftsmodell.'
+    type: split_stack
+    enabled: true
+    end_section:
+      -
+        id: m16iklvc
+        text_default:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+        type: text
+        enabled: true
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+    overline: Herausforderung
+    headline: 'Effiziente Compliance in einer globalen Logistikstruktur'
+    lead:
+      modules:
+        -
+          id: m19pi5yz
+          compilation: all
+          type: case_study_teaser
+          enabled: false
+        -
+          id: m19hc0r1
+          text:
+            -
+              type: paragraph
+              content:
+                -
+                  type: text
+                  text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.'
+          type: text
+          enabled: false
         -
           id: m1ahhr75
           facts:
@@ -126,45 +290,7 @@ modules:
               type: fact
               enabled: true
           type: facts
-          enabled: true
-        -
-          id: m19pi5yz
-          compilation: all
-          type: case_study_teaser
-          enabled: true
-        -
-          id: m19h68c6
-          logo: fiege
-          text:
-            -
-              type: paragraph
-              content:
-                -
-                  type: text
-                  text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
-            -
-              type: set
-              attrs:
-                id: m19h6qnk
-                values:
-                  type: link
-                  cta: 'https://fiege.com'
-                  cta_label: Website
-            -
-              type: paragraph
-          type: info_box
-          enabled: true
-        -
-          id: m19hc0r1
-          text:
-            -
-              type: paragraph
-              content:
-                -
-                  type: text
-                  text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.'
-          type: text
-          enabled: true
+          enabled: false
     end:
       modules:
         -
@@ -177,6 +303,35 @@ modules:
                   type: text
                   text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
           type: text
+          enabled: false
+        -
+          id: m1aq8t1k
+          facts:
+            -
+              id: m1aq9jv9
+              fact: '2,5 Mio €'
+              description: 'Vermitteltes Auftragsvolumen'
+              type: fact
+              enabled: true
+            -
+              id: m1aq9c45
+              fact: 30%
+              description: Kostensenkung
+              type: fact
+              enabled: true
+            -
+              id: m1aq92gf
+              fact: 1000+
+              description: 'Registrierte Nutzer'
+              type: fact
+              enabled: true
+            -
+              id: m1aq8we0
+              fact: 200+
+              description: 'Qualifizierte Dienstleister'
+              type: fact
+              enabled: true
+          type: facts
           enabled: true
   -
     id: m0z6b08w
@@ -247,7 +402,36 @@ modules:
             type: text
             text: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
     type: text
-    enabled: false
+    enabled: true
+  -
+    id: m1ak3lst
+    facts:
+      -
+        id: m1ak3n2j
+        fact: '2,5 Mio. €'
+        description: 'Vermitteltes Auftragsvolumen'
+        type: fact
+        enabled: true
+      -
+        id: m1ak4f4c
+        fact: 30%
+        description: Kostensenkung
+        type: fact
+        enabled: true
+      -
+        id: m1ak4qgo
+        fact: 200+
+        description: 'Qualifizierte Dienstleister'
+        type: fact
+        enabled: true
+      -
+        id: m1ak53v3
+        fact: 1000+
+        description: 'Registrierte Nutzer'
+        type: fact
+        enabled: true
+    type: facts
+    enabled: true
   -
     id: m0z6bvgs
     section_header:
@@ -367,6 +551,77 @@ modules:
             type: link
             cta: 'https://test.de'
             cta_label: 'Mehr erfahren'
+    modules:
+      -
+        id: m1eu7jzr
+        headline: 'Item 1 - Inceptos Tortor'
+        text: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+        assets:
+          -
+            id: m1eu82l2
+            image: future-is-female.jpg
+            caption: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+            type: image
+            enabled: true
+          -
+            id: m1eu8dqk
+            image: jon-rahm.jpg
+            caption: 'Tellus Adipiscing Sollicitudin Magna'
+            type: image
+            enabled: true
+          -
+            id: m1eu8orn
+            image: asean_united_fc.jpg
+            type: image
+            enabled: true
+        type: content_item
+        enabled: true
+      -
+        id: m1aplw0v
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla.'
+        type: text
+        enabled: true
+      -
+        id: m1aq1jsg
+        facts:
+          -
+            id: m1aq1kty
+            fact: 'Porta Egestas'
+            description: 'Aenean eu leo quam. Pellentesque'
+            type: fact
+            enabled: true
+          -
+            id: m1aq1ywd
+            fact: 1000%
+            description: 'Tristique Ultricies Quam'
+            type: fact
+            enabled: true
+          -
+            id: m1aq260v
+            fact: '2,5 Mio €'
+            description: 'Lorem Ornare Ligula'
+            type: fact
+            enabled: true
+          -
+            id: m1aq2eug
+            fact: '10x Malesuada Pharet'
+            description: 'Nullam id dolor'
+            type: fact
+            enabled: true
+        type: facts
+        enabled: true
   -
     id: m0z6cvb1
     text:
@@ -389,8 +644,7 @@ modules:
             type: text
             text: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.'
     type: text
-    enabled: false
-overline: '21st digital'
+    enabled: true
 page_title: 'Von Deiner Vision zur digitalen Erfolgsgeschichte'
 intro_text: '21st digital ist Dein Partner für die Entwicklung innovativer digitaler Produkte. Wir begleiten Dich durch die digitale Transformation, hinterfragen bestehende Prozesse und entwickeln maßgeschneiderte Strategien, um sowohl digitale Produkte als auch Geschäftsmodelle erfolgreich zu gestalten.'
 cta: 'https://calendly.com/21stdigital/meeting?month=2024-09'

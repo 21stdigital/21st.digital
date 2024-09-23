@@ -9,20 +9,10 @@
         </div>
     </div>
     <div class="col-span-full space-y-32 sm:col-span-6">
-        @foreach ($items as $item)
-            <section>
-                <h3 class="text-h4">
-                    {{ $item['headline'] }}
-                </h3>
-                <p class="text-c1">
-                    {{ $item['text'] }}
-                </p>
-                @foreach ($item['assets'] as $asset)
-                    <x-figure class="mt-32" :image="$asset['image']" :caption="$asset['caption']">
-                    </x-figure>
-                @endforeach
-
-            </section>
+        @foreach ($modules as $element)
+            <x-dynamic-component :component="'elements.' . $element['type']" :context="$element" :element_id="$element['id']"
+                :type="$element['type']" />
         @endforeach
+
     </div>
 </section>
