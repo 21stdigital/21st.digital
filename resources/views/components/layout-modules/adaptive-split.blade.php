@@ -1,5 +1,5 @@
 @switch($presentation)
-    @case('sticky_box')
+    @case('sticky_column')
         <section {{ $attributes->class(['layout-content']) }}>
             @if ($headline)
                 <div class="grid-cols gap mb-20 grid sm:mb-52">
@@ -32,7 +32,7 @@
         </section>
     @break
 
-    @case('sticky_column')
+    @case('sticky_box')
         <section {{ $attributes->class(['layout-content grid grid-cols gap']) }}>
             <div
                 class="bg-highlight-500 -mx-container px-container top-0 col-span-full flex flex-col justify-between p-20 sm:sticky sm:col-span-6 sm:mx-0 sm:h-svh sm:px-20 sm:pb-32 sm:pt-20">

@@ -196,48 +196,36 @@ fields:
         common:
           display: Common
           sets:
-            text:
-              display: Text
-              icon: form-text-field
-              fields:
-                -
-                  import: layout_module_text
-            sticky_listing:
-              display: 'Sticky Listing'
-              icon: layout-two-columns
-              fields:
-                -
-                  import: layout_module_sticky_listing
-            split_stack:
-              display: 'Split Stack'
-              icon: layout-split-right
-              fields:
-                -
-                  import: layout_module_split_stack
-            section_header:
-              display: 'Section Header'
-              icon: layout-table-row-insert
-              fields:
-                -
-                  import: layout_module_section_header
-            facts:
-              display: Facts
-              icon: favorite-star
-              fields:
-                -
-                  import: layout_module_facts
-            quote:
-              display: Quote
-              icon: text-formatting-quotation
-              fields:
-                -
-                  import: layout_module_quote
             adaptive_split:
               display: 'Adaptive Split'
               icon: layout-two-columns
               fields:
                 -
                   import: layout_module_adaptive_split
+            facts:
+              display: Facts
+              icon: favorite-star
+              fields:
+                -
+                  import: layout_module_facts
+            section_header:
+              display: 'Section Header'
+              icon: layout-table-row-insert
+              fields:
+                -
+                  import: layout_module_section_header
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  import: layout_module_text
+            quote:
+              display: Quote
+              icon: text-formatting-quotation
+              fields:
+                -
+                  import: layout_module_quote
   -
     handle: elements
     field:

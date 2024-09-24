@@ -15,7 +15,10 @@ tabs:
           -
             import: page_header
           -
-            import: modules
+            handle: layout_modules
+            field: common.layout_modules
+            config:
+              display: Content
   sidebar:
     display: Sidebar
     sections:
