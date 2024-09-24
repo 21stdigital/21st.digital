@@ -1,0 +1,13 @@
+title: '02 - Element | Image with Caption'
+fields:
+  -
+    handle: image
+    field: common.image
+    config:
+      validate:
+        - image
+  -
+    handle: caption
+    field:
+      type: text
+      display: Caption

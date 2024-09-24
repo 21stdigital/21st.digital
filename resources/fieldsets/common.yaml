@@ -1,4 +1,4 @@
-title: Common
+title: '01 - Common'
 fields:
   -
     handle: teaser
@@ -87,7 +87,7 @@ fields:
               icon: link
               fields:
                 -
-                  import: component_link
+                  import: element_link
   -
     handle: text_default
     field:
@@ -120,7 +120,7 @@ fields:
               icon: link
               fields:
                 -
-                  import: component_link
+                  import: element_link
   -
     handle: image
     field:
@@ -186,3 +186,97 @@ fields:
       max_items: 1
       type: select
       display: 'Teaser Collection Selector'
+  -
+    handle: layout_modules
+    field:
+      type: replicator
+      display: 'Set | Layout Modules'
+      collapse: true
+      sets:
+        common:
+          display: Common
+          sets:
+            adaptive_split:
+              display: 'Adaptive Split'
+              icon: layout-two-columns
+              fields:
+                -
+                  import: layout_module_adaptive_split
+            facts:
+              display: Facts
+              icon: favorite-star
+              fields:
+                -
+                  import: layout_module_facts
+            section_header:
+              display: 'Section Header'
+              icon: layout-table-row-insert
+              fields:
+                -
+                  import: layout_module_section_header
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  import: layout_module_text
+            quote:
+              display: Quote
+              icon: text-formatting-quotation
+              fields:
+                -
+                  import: layout_module_quote
+  -
+    handle: elements
+    field:
+      type: replicator
+      display: 'Set | Elements'
+      collapse: true
+      sets:
+        common:
+          display: Common
+          sets:
+            info_box:
+              display: 'Info Box'
+              icon: text-formatting-wrap-around-bounding-box
+              fields:
+                -
+                  import: element_info_box
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  handle: text
+                  field: common.text_default
+                  config:
+                    display: Text
+            facts:
+              display: Facts
+              fields:
+                -
+                  import: element_facts
+            content_item:
+              display: 'Content Item'
+              icon: file-content-list
+              fields:
+                -
+                  import: element_content_item
+        teaser:
+          display: Teaser
+          sets:
+            case_study_teaser:
+              display: 'Case Study Teaser List'
+              fields:
+                -
+                  import: element_teaser_list_case_study
+            service_teaser:
+              display: 'Service Teaser List'
+              fields:
+                -
+                  import: element_teaser_list_service
+            solution_teaser:
+              display: 'Solution Teaser List'
+              fields:
+                -
+                  import: element_teaser_list_solution

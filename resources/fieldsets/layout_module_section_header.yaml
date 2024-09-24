@@ -1,0 +1,19 @@
+title: '03 - Layout Module | Section Header'
+fields:
+  -
+    handle: alignment
+    field:
+      options:
+        -
+          key: left
+          value: Left
+        -
+          key: center
+          value: Center
+      max_items: 1
+      default: left
+      type: select
+      display: Alignment
+      width: 50
+  -
+    import: element_section_header_with_text

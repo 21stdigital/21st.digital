@@ -4,11 +4,11 @@
         {{ partial:head }}
     </head>
     <body class="bg text">
-        {{ partial src="components.global-header" }}
+        {{ partial src="components.layout.header" }}
         <main>
-            {{ partial src="components.page-header" }}
+            {{ partial src="components.layout.page-header" }}
             {{ template_content }}
         </main>
-        {{ partial src="components.global-footer" }}
+        {{ partial src="components.layout.footer" }}
     </body>
 </html>

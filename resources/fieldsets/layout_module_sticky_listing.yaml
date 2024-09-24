@@ -1,0 +1,12 @@
+title: '03 - Layout Module | Sticky Listing'
+fields:
+  -
+    import: element_section_header
+  -
+    handle: text
+    field: common.text_default
+    config:
+      display: Text
+  -
+    handle: elements
+    field: common.elements

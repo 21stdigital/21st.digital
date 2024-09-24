@@ -1,0 +1,33 @@
+title: '02 - Element | Content Item'
+fields:
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+  -
+    handle: text
+    field:
+      type: textarea
+      display: Text
+  -
+    handle: assets
+    field:
+      type: replicator
+      display: Assets
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            image:
+              display: Image
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: element_image_with_caption
+            video:
+              display: Video
+              icon: media-webcam-video
+              fields:
+                -
+                  import: element_video_with_caption
