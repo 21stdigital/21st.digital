@@ -1,0 +1,9 @@
+title: '02 - Element | Section Header with Text'
+fields:
+  -
+    import: element_section_header
+  -
+    handle: intro_text
+    field:
+      type: textarea
+      display: 'Intro Text'

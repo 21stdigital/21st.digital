@@ -1,1 +1,1 @@
-<livewire:services-teaser-list />
+<livewire:layout-modules.services-teaser-list />

@@ -1,0 +1,33 @@
+title: '03 - Layout Module | Split Stack'
+fields:
+  -
+    import: element_section_header
+  -
+    import: element_section_header_with_text
+  -
+    handle: enable_lead_section
+    field:
+      type: toggle
+      display: 'Enable Lead Section'
+      width: 50
+  -
+    handle: enable_end_section
+    field:
+      type: toggle
+      display: 'Enable End Section'
+      width: 50
+  -
+    handle: main
+    field:
+      type: section
+      display: Main
+  -
+    handle: text
+    field: common.text_default
+    config:
+      display: Text
+  -
+    handle: end
+    field:
+      type: section
+      display: 'End Section'

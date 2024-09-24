@@ -1,0 +1,7 @@
+title: '03 - Layout Module | Text'
+fields:
+  -
+    handle: text
+    field: common.text_default
+    config:
+      display: Text

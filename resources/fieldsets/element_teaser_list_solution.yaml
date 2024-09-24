@@ -1,0 +1,25 @@
+
+title: '02 - Element | Teaser List - Solution'
+fields:
+  -
+    handle: compilation
+    field:
+      options:
+        -
+          key: by_hand
+          value: 'By Hand'
+        -
+          key: all
+          value: All
+      type: select
+      display: Compilation
+  -
+    handle: entries
+    field:
+      collections:
+        - solutions
+      type: entries
+      display: Entries
+      if:
+        compilation: 'equals by_hand'
+      always_save: true

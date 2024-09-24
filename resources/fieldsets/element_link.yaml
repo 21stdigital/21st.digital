@@ -1,0 +1,14 @@
+title: '02 - Element | Link'
+fields:
+  -
+    handle: cta
+    field:
+      type: link
+      display: CTA
+      width: 66
+  -
+    handle: cta_label
+    field:
+      type: text
+      display: 'CTA Label'
+      width: 33

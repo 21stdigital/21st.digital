@@ -1,0 +1,65 @@
+title: '03 - Layout Module | Adaptive Split'
+fields:
+  -
+    import: element_section_header
+  -
+    handle: presentation
+    field:
+      options:
+        -
+          key: sticky_box
+          value: 'Sticky Box'
+        -
+          key: sticky_column
+          value: 'Sticky Column'
+      type: select
+      display: Presentation
+      width: 33
+      max_items: 1
+      default: sticky_box
+  -
+    handle: enable_head_section
+    field:
+      type: toggle
+      display: 'Enable Head Section'
+      width: 33
+      always_save: true
+      if:
+        presentation: 'equals sticky_column'
+  -
+    handle: enable_tail_section
+    field:
+      type: toggle
+      display: 'Enable Tail Section'
+      width: 33
+      always_save: true
+      if:
+        presentation: 'equals sticky_column'
+  -
+    handle: head_elements
+    field: common.elements
+    config:
+      display: 'Head Elements'
+      if:
+        presentation: 'equals sticky_column'
+        enable_head_section: 'equals true'
+      always_save: true
+  -
+    handle: main
+    field:
+      type: section
+      display: Main
+  -
+    handle: text
+    field: common.text_default
+    config:
+      display: Text
+  -
+    handle: tail_elements
+    field: common.elements
+    config:
+      display: 'Tail Elements'
+      always_save: true
+      unless:
+        presentation: 'equals sticky_column'
+        enable_tail_section: 'not true'

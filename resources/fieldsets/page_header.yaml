@@ -1,4 +1,4 @@
-title: 'General | Page Header'
+title: '04 - Layout Element | Page Header'
 fields:
   -
     handle: overline
@@ -16,4 +16,4 @@ fields:
       type: textarea
       display: 'Intro Text'
   -
-    import: component_link
+    import: element_link
