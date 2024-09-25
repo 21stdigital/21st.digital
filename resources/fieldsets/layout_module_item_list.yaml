@@ -1,0 +1,19 @@
+title: '03 - Layout Module | Item List'
+fields:
+  -
+    import: element_section_header_with_text
+  -
+    handle: items
+    field:
+      type: replicator
+      display: Items
+      collapse: true
+      sets:
+        common:
+          display: Common
+          sets:
+            info_item:
+              display: 'Info Item'
+              fields:
+                -
+                  import: element_info_item

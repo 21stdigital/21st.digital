@@ -226,6 +226,11 @@ fields:
               fields:
                 -
                   import: layout_module_quote
+            item_list:
+              display: 'Item List'
+              fields:
+                -
+                  import: layout_module_item_list
   -
     handle: elements
     field:
