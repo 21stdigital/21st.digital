@@ -196,7 +196,8 @@ const config: Config = {
     extend: {
       gridTemplateColumns: {
         DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))',
-        'global-header': 'auto 1fr auto'
+        'global-header': 'auto 1fr auto',
+        'info-item': 'auto 1fr'
       },
       textColor: {
         DEFAULT: 'rgb(var(--default-text-color) / <alpha-value>)'
