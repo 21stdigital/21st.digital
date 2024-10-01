@@ -34,6 +34,92 @@ layout_modules:
         enabled: true
     type: adaptive_split
     enabled: true
+  -
+    id: m1hp8kx3
+    overline: 'Get the help you need'
+    headline: 'Support center'
+    intro_text: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+    items:
+      -
+        id: m1hpapam
+        headline: 'Sicherheit für Dein Projekt'
+        icon: lock-closed
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Vermeide Unsicherheiten und gehe mit klaren, durchdachten Projektplänen voran. Unsere Beratung gibt Dir die Sicherheit, dass Dein Projekt von Anfang an auf dem richtigen Weg ist.'
+        type: info_item
+        enabled: true
+      -
+        id: m1hpbl6t
+        headline: 'Fokus auf Deine Ziele'
+        icon: viewfinder-circle
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Wir richten uns nach Deinen Nutzerbedürfnissen und Geschäftsanforderungen, um eine Strategie zu entwickeln, die Dein Team vereint und Produkte schafft, die Deine Kunden begeistern.'
+        type: info_item
+        enabled: true
+      -
+        id: m1hpdhc2
+        headline: 'Nutze unsere Erfahrung'
+        icon: user-group
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Profitiere von über einem Jahrzehnt Erfahrung in der Gestaltung, Entwicklung und Bereitstellung maßgeschneiderter Softwarelösungen. Mit uns an Deiner Seite bist Du bestens gerüstet, um Deine digitalen Projekte erfolgreich umzusetzen.'
+        type: info_item
+        enabled: true
+      -
+        id: m1htqgvh
+        headline: 'Nutzerzentrierte Lösungen'
+        icon: arrow-down-on-square
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Durch fundierte Nutzerforschung und detaillierte Erkenntnisse stellen wir sicher, dass wir die richtigen Probleme für die richtigen Menschen lösen. So erreichst Du mit Deinem Produkt genau Deine Zielgruppe.'
+        type: info_item
+        enabled: true
+      -
+        id: m1htsbfv
+        headline: 'Klare Vision'
+        icon: fire
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Mit einer klaren Vision kannst Du Dein Team von Anfang bis Ende ausrichten. So entstehen großartige Funktionen und Ideen, die in die Design- und Entwicklungsproduktion umgesetzt werden.'
+        type: info_item
+        enabled: true
+      -
+        id: m1htt048
+        headline: 'Effiziente Priorisierung'
+        icon: numbered-list
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Wir unterstützen Dich bei der Priorisierung von Kundenanforderungen und Stakeholder-Ideen. So stellst Du sicher, dass die wichtigsten Aspekte Deines Projekts im Fokus stehen und optimal umgesetzt werden.'
+        type: info_item
+        enabled: true
+    type: item_list
+    enabled: true
 page_title: 'Von Deiner Vision zur digitalen Erfolgsgeschichte'
 intro_text: '21st digital ist Dein Partner für die Entwicklung innovativer digitaler Produkte. Wir begleiten Dich durch die digitale Transformation, hinterfragen bestehende Prozesse und entwickeln maßgeschneiderte Strategien, um sowohl digitale Produkte als auch Geschäftsmodelle erfolgreich zu gestalten.'
 cta: 'https://calendly.com/21stdigital/meeting?month=2024-09'

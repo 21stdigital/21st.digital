@@ -16,7 +16,7 @@
             {!! nl2br(e($headline ?? $slot)) !!}
         </h2>
         @if ($intro_text)
-            <p class="text-c1 col-span-full mt-12 sm:col-span-8">
+            <p class="text-c1 col-span-full mt-12 md:col-span-10 lg:col-span-8">
                 {!! nl2br(e($intro_text)) !!}
             </p>
         @endif
@@ -32,7 +32,8 @@
             {!! nl2br(e($headline ?? $slot)) !!}
         </h2>
         @if ($intro_text)
-            <p class="text-c1 col-span-full mt-12 whitespace-pre-line sm:col-span-8 sm:col-start-3">
+            <p
+                class="text-c1 col-span-full mt-12 md:col-span-10 md:col-start-2 lg:col-span-8 lg:col-start-3">
                 {!! nl2br(e($intro_text)) !!}
             </p>
         @endif
