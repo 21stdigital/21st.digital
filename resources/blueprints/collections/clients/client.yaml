@@ -24,23 +24,14 @@ tabs:
               localizable: true
               validate: 'max:200'
           -
-            handle: url
+            handle: client_url
             field: common.url
             config:
+              display: 'Client URL'
               validate:
                 - required
                 - url
+                - 'starts_with:https://'
           -
             handle: logo
-            field:
-              max_files: 1
-              mode: grid
-              container: assets
-              folder: clients
-              restrict: true
-              type: assets
-              display: Logo
-              validate:
-                - required
-                - image
-              listable: true
+            field: common.logo
