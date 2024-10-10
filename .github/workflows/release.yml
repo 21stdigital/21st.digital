@@ -2,6 +2,12 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run for Semantic Release'
+        type: boolean
+        required: false
+        default: true
 
 jobs:
   release:
@@ -18,8 +24,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
         with:
-          semantic_version: 23.1.1
-          extra_plugins: |
-            @semantic-release/changelog@6.0.3
-            @semantic-release/git@10.0.1
-            conventional-changelog-conventionalcommits@7.0.2
+          dry_run: ${{ github.event.inputs.dry_run == 'true' || github.event.inputs.dry_run == true }}
