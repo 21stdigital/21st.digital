@@ -1,5 +1,6 @@
 @aware(['page'])
 <div class="page-layout space-y-84">
+    <x-layout-modules.logo-wall />
     @foreach ($layout_modules as $module)
         <x-dynamic-component :component="'layout-modules.' . $module['type']" :context="$module" :module_id="$module['id']" :type="$module['type']"
             class="mt-84" />
