@@ -13,7 +13,7 @@
             </div>
             @if ($client_logo)
 
-                @if ($client_url == 'D')
+                @if ($client_url)
                     <a href="{{ $client_url }}"
                         class="w-[12rem] sm:flex sm:justify-end md:w-[16.6rem]">
                         <x-utilities.svg :svg="$client_logo"
