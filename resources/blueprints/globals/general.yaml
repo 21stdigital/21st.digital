@@ -1,0 +1,9 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: cta_box
+            field: common.cta_box

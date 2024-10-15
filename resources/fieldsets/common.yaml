@@ -295,3 +295,36 @@ fields:
               fields:
                 -
                   import: element_teaser_list_solution
+  -
+    handle: cta_box
+    field:
+      type: group
+      display: 'CTA Box'
+      fields:
+        -
+          handle: headline
+          field:
+            type: text
+            display: Headline
+        -
+          handle: text
+          field:
+            type: textarea
+            display: Text
+        -
+          handle: expert
+          field:
+            max_items: 1
+            collections:
+              - experts
+            type: entries
+            display: Expert
+            create: false
+  -
+    handle: email
+    field:
+      input_type: email
+      type: text
+      display: Email
+      validate:
+        - email
