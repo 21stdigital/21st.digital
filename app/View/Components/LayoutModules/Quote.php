@@ -10,7 +10,6 @@ class Quote extends Module
 {
     public function data()
     {
-
         $quote_data = [
             'author_name' => $this->context['author']->title,
             'author_job_title' => $this->context['author']->job_title,
@@ -26,7 +25,7 @@ class Quote extends Module
             ]);
         }
 
-        return array_merge(parent::data(), $this->context->toArray(), $quote_data);
+        return array_merge(parent::data(), $quote_data);
     }
 
     /**

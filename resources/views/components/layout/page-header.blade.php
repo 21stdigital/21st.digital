@@ -1,4 +1,4 @@
-@cascade(['overline', 'page_title', 'intro_text'])
+@cascade(['overline', 'page_title', 'intro_text', 'cta', 'cta_label'])
 <header class="page-layout">
     <div class="layout-content my-220 grid-cols grid">
         <p

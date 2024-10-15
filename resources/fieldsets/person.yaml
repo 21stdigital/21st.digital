@@ -41,3 +41,17 @@ fields:
         -
           regex: '^[A-Za-z0-9_-]+$'
           error: 'The LinkedIn handle should only contain letters, numbers, underscores, or hyphens.'
+  -
+    handle: email
+    field: common.email
+    config:
+      validate:
+        - email
+      width: 50
+  -
+    handle: calendly_handle
+    field:
+      type: text
+      display: 'Calendly Handle'
+      instructions: 'Enter the Calendly handle (the part of the URL after https://calendly.com/"). Do not include "https://calendly.com/".'
+      width: 50

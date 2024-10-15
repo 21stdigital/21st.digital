@@ -1,19 +1,20 @@
 <?php
 
-namespace App\View\Components\Layout;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class ModuleWrapper extends Component
+class Layout extends Component
 {
     /**
      * Create a new component instance.
+     *
+     * @return void
      */
     public function __construct(public $context)
     {
-        // dd($context);
         $this->context = $context;
     }
 
@@ -27,6 +28,6 @@ class ModuleWrapper extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.layout.module-wrapper');
+        return view('components.layout');
     }
 }
