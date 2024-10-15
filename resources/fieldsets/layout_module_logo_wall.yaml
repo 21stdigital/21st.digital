@@ -1,0 +1,6 @@
+title: '03 Layout Module | Logo Wall'
+fields:
+  -
+    import: element_section_header_with_text
+  -
+    import: element_logo_wall

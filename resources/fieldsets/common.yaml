@@ -51,6 +51,14 @@ fields:
       validate:
         - required
   -
+    handle: clients
+    field:
+      create: false
+      collections:
+        - clients
+      type: entries
+      display: Clients
+  -
     handle: section_header
     field:
       type: group
