@@ -13,7 +13,6 @@ class ModuleWrapper extends Component
      */
     public function __construct(public $context)
     {
-        // dd($context);
         $this->context = $context;
     }
 

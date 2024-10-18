@@ -3,8 +3,31 @@ id: 763e6082-7a1f-4da4-994b-68f51aff53e5
 blueprint: page
 title: Startseite
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1727878302
+updated_at: 1729082199
 layout_modules:
+  -
+    id: m2budkfk
+    overline: 'Unsere Kunden'
+    headline: 'Vertrauen und Zusammenarbeit'
+    intro_text: 'Diese Unternehmen vertrauen auf unsere Expertise, um ihre digitalen Visionen erfolgreich umzusetzen.'
+    clients:
+      - 825ad067-352d-4721-9adf-3fd577facc0b
+      - 65f4bec1-f1bd-4392-8304-02bfd76c84a6
+      - 623ec2e5-d971-4c78-ba91-88131f4ed049
+      - 9b11926e-08b3-4061-a987-e61a34739051
+      - 5ea2dcd9-ba69-46c9-b80d-05cc1ee39f3e
+      - 397f19e7-0fae-4b86-99c7-2f5da703730d
+      - b2c34847-17a9-487f-bdaa-cc513aba2e04
+      - dfed226e-6457-4bb2-b5b6-98b32fb7eaf6
+      - 3fb97b78-7ff5-4ace-9bd8-b2037668b440
+      - 57eaf692-c94c-454d-a9cf-aabc4a920c0f
+      - 3e0b26d9-b68f-4142-b994-f160926abd98
+      - e1cf77b6-0d15-4dc7-ba94-ac019d078672
+      - f1352951-8235-4e2c-8814-9848530a9698
+      - 9485c457-26e6-4e52-bf32-e951b5c2079a
+      - c8a78e94-5afc-4424-8734-1ff97e9fa716
+    type: logo_wall
+    enabled: true
   -
     id: m1hwi1k4
     quote: 'Wir brauchten eine Lösung, die es unseren Standortleitern ermöglicht, ohne umständliche Suchprozesse die besten Dienstleister für unsere spezifischen Bedürfnisse schnell und einfach zu finden und zu beauftragen. Da andere Unternehmen vor den gleichen Herausforderungen standen, wurde OPTICERT geschaffen, um genau diese Lücke zu schließen.'

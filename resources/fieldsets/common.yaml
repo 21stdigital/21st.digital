@@ -241,6 +241,12 @@ fields:
               fields:
                 -
                   import: layout_module_item_list
+            logo_wall:
+              display: 'Logo Wall'
+              icon: layout-display-split-quarters
+              fields:
+                -
+                  import: layout_module_logo_wall
   -
     handle: elements
     field:

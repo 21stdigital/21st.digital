@@ -11,16 +11,25 @@ class Module extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct(public string $module_id, public string $type, public $context)
+    public function __construct(public ?string $module_id, public ?string $type, public $context)
     {
         $this->module_id = $module_id;
         $this->type = $type;
         $this->context = $context;
+
+    }
+
+    /**
+     * @return array<string, string|array<string, string|array>>
+     */
+    protected function augmentData(): array
+    {
+        return [];
     }
 
     public function data()
     {
-        return array_merge(parent::data(), $this->context->toArray());
+        return array_merge(parent::data(), $this->context->toArray(), $this->augmentData());
     }
 
     /**
