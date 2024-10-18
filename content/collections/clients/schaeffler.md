@@ -3,7 +3,8 @@ id: 0711b0ac-5647-477a-9913-67a69a98266d
 blueprint: client
 title: Schaeffler
 url: 'https://www.schaeffler.com'
-logo: clients/schaeffler.svg
-updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
-updated_at: 1725542270
+logo: schaeffler
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081890
+client_url: 'https://www.schaeffler.de/de/'
 ---

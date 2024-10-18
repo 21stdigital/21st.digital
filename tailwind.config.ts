@@ -194,6 +194,12 @@ const config: Config = {
       ]
     },
     extend: {
+      aspectRatio: {
+        '4/3': '4 / 3',
+        '2/3': '2 / 3',
+        '3/4': '3 / 4',
+        '3/2': '3 / 2'
+      },
       gridTemplateColumns: {
         DEFAULT: 'repeat(var(--grid-columns), minmax(0, 1fr))',
         'global-header': 'auto 1fr auto',

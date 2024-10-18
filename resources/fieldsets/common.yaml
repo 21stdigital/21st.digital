@@ -51,6 +51,14 @@ fields:
       validate:
         - required
   -
+    handle: clients
+    field:
+      create: false
+      collections:
+        - clients
+      type: entries
+      display: Clients
+  -
     handle: section_header
     field:
       type: group
@@ -233,6 +241,12 @@ fields:
               fields:
                 -
                   import: layout_module_item_list
+            logo_wall:
+              display: 'Logo Wall'
+              icon: layout-display-split-quarters
+              fields:
+                -
+                  import: layout_module_logo_wall
   -
     handle: elements
     field:
