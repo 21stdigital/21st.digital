@@ -65,10 +65,10 @@ class LogoWall extends Module
      */
     private function convertClient(Entry $client): array
     {
-        // Use the `get()` method to retrieve field values
+        // dd($client->get('title'), $client->get('logo'), $client->augmentedValue('logo')->value(), $client->logo);
         $title = $client->get('title');
         $url = $client->get('client_url');
-        $logo = $client->get('logo');
+        $logo = $client->augmentedValue('logo')->value();
 
         if (empty($title) || empty($url) || empty($logo)) {
             throw new \InvalidArgumentException('Client data is missing required fields.');
