@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 
 class Quote extends Module
 {
-    public function data()
+    public function augmentData(): array
     {
         $quote_data = [
             'author_name' => $this->context['author']->title,
@@ -25,7 +25,7 @@ class Quote extends Module
             ]);
         }
 
-        return array_merge(parent::data(), $quote_data);
+        return $quote_data;
     }
 
     /**

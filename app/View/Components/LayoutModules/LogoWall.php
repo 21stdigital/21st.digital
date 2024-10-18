@@ -7,24 +7,24 @@ use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use Statamic\Entries\Entry;
 use Statamic\Entries\EntryCollection;
-use Statamic\Facades\Cascade;
 
 class LogoWall extends Module
 {
     public array $clients;
 
-    public function __construct(public ?string $module_id, public ?string $type, public $context)
+    /**
+     * Initializes the client data by setting it through getClients method.
+     */
+    protected function init(): void
     {
-        $this->module_id = $module_id;
-        $this->type = $type;
-        $this->context = $context;
-
         $this->clients = $this->getClients();
-        // $content = Cascade::content();
-        // $clients = Cascade::toArray();
-
     }
 
+    /**
+     * Augments the data passed to the view.
+     *
+     * @return array<string, array<int, array{title: string, url: string, logo: string}>|string>
+     */
     protected function augmentData(): array
     {
         return [
@@ -44,23 +44,15 @@ class LogoWall extends Module
         /**
          * @var EntryCollection<Entry>|null $clients_data
          */
-        $clients_data = $this->context->clients;
+        $clients_data = $this->context?->clients;
 
         if ($clients_data === null) {
             throw new \UnexpectedValueException('$clients_data must not be null');
         }
-        /**
-         * @var array<int, array{title: string, url: string, logo: string}> $clients
-         */
-        $clients = $clients_data->map(function ($client): array {
-            if (! $client instanceof Entry) {
-                throw new \UnexpectedValueException('Client is not an instance of Entry');
-            }
 
+        return $clients_data->map(function (Entry $client): array {
             return $this->convertClient($client);
         })->toArray();
-
-        return $clients;
     }
 
     /**
@@ -73,14 +65,19 @@ class LogoWall extends Module
      */
     private function convertClient(Entry $client): array
     {
-        if (empty($client->title) || empty($client->client_url) || empty($client->logo)) {
+        // Use the `get()` method to retrieve field values
+        $title = $client->get('title');
+        $url = $client->get('client_url');
+        $logo = $client->get('logo');
+
+        if (empty($title) || empty($url) || empty($logo)) {
             throw new \InvalidArgumentException('Client data is missing required fields.');
         }
 
         return [
-            'title' => (string) $client->title,
-            'url' => (string) $client->client_url,
-            'logo' => (string) $client->logo,
+            'title' => (string) $title,
+            'url' => (string) $url,
+            'logo' => (string) $logo,
         ];
     }
 
