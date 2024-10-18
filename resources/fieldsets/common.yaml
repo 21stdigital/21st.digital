@@ -247,6 +247,12 @@ fields:
               fields:
                 -
                   import: layout_module_logo_wall
+            testimonials:
+              display: Testimonials
+              icon: user-multiple
+              fields:
+                -
+                  import: layout_module_testimonials
   -
     handle: elements
     field:
