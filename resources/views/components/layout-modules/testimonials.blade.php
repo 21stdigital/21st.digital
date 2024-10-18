@@ -27,32 +27,32 @@
             </x-section-header>
         </div>
     @endif
-    <ul class="gap grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+    <ul class="gap grid grid-cols-1 sm:grid-cols-2">
 
         @foreach ($testimonials as $testimonial)
             <li class="">
                 <blockquote class="text-h5 relative col-span-10 col-start-2">
-                    {{ $quote }}
+                    {{ $testimonial['quote'] }}
                     <footer
                         class="mt-32 flex gap-12 max-sm:flex-col sm:items-start sm:justify-between sm:gap-32">
                         <div class="max-sm:order-2">
                             <p class="text-h6 row-start-1">
-                                {{ $author_name }}
+                                {{ $testimonial['author_name'] }}
                             </p>
                             <p class="text-c1 col-start-1 row-start-2 mt-4">
-                                {{ $author_job_title }}
+                                {{ $testimonial['author_job_title'] }}
                             </p>
                         </div>
-                        @if ($client_logo)
-                            @if ($client_url)
-                                <a href="{{ $client_url }}"
+                        @if ($testimonial['client_logo'])
+                            @if ($testimonial['client_url'])
+                                <a href="{{ $testimonial['client_url'] }}"
                                     class="w-[12rem] sm:flex sm:justify-end md:w-[16.6rem]">
-                                    <x-utilities.svg :svg="$client_logo"
+                                    <x-utilities.svg :svg="$testimonial['client_logo']"
                                         class="max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]" />
                                 </a>
                             @else
                                 <div class="w-[12rem] sm:flex sm:justify-end md:w-[16.6rem]">
-                                    <x-utilities.svg :svg="$client_logo"
+                                    <x-utilities.svg :svg="$testimonial['client_logo']"
                                         class="max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]" />
                                 </div>
                             @endif

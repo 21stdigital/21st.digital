@@ -3,8 +3,27 @@ id: 763e6082-7a1f-4da4-994b-68f51aff53e5
 blueprint: page
 title: Startseite
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1729082199
+updated_at: 1729265588
 layout_modules:
+  -
+    id: m2ew1zy2
+    headline: Testimonials
+    intro_text: 'Die Meinungen unserer Kunden'
+    testimonials:
+      -
+        id: m2ew2fhe
+        quote: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod.'
+        author: 2ff9bd4f-9237-40df-9903-bae68767d41d
+        type: testimonial
+        enabled: true
+      -
+        id: m2ew2rcm
+        quote: 'Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod.'
+        author: c876f808-0ea0-4b97-b220-2d0aa5cda863
+        type: testimonial
+        enabled: true
+    type: testimonials
+    enabled: true
   -
     id: m2budkfk
     overline: 'Unsere Kunden'

@@ -1,0 +1,18 @@
+title: '03 - Layout Module | Testimonials'
+fields:
+  -
+    import: element_section_header_with_text
+  -
+    handle: testimonials
+    field:
+      type: replicator
+      display: Testimonials
+      sets:
+        testimonials:
+          display: Testimonials
+          sets:
+            testimonial:
+              display: Testimonial
+              fields:
+                -
+                  import: element_quote
