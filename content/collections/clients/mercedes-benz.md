@@ -3,7 +3,8 @@ id: f1352951-8235-4e2c-8814-9848530a9698
 blueprint: client
 title: Mercedes-Benz
 url: 'https://www.mercedes-benz.com'
-logo: clients/mercedes-benz.svg
-updated_by: b7c7f4d4-e810-47c4-8310-994d4d84346a
-updated_at: 1725550946
+logo: mercedes-benz
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081716
+client_url: 'https://mercedes-benz.com'
 ---
