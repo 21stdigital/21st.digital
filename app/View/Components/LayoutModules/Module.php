@@ -5,6 +5,7 @@ namespace App\View\Components\LayoutModules;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
+use Spatie\LaravelData\Data;
 
 class Module extends Component
 {
@@ -31,7 +32,7 @@ class Module extends Component
     /**
      * Augments the data passed to the view.
      *
-     * @return array<string, string|array<string, string|array>> Augmented data array.
+     * @return array<string, mixed> Augmented data array.
      */
     protected function augmentData(): array
     {
