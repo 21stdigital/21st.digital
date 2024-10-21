@@ -2,26 +2,27 @@
 
 namespace App\View\Components\LayoutModules;
 
+use App\Data\LayoutModules\TestimonialsData;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
 class Testimonials extends Module
 {
+    public TestimonialsData $viewData;
+
     /**
      * Initializes the client data by setting it through getClients method.
      */
-    protected function init(): void {}
+    protected function init(): void
+    {
+        $this->viewData = TestimonialsData::fromContext($this->context);
+    }
 
-    /**
-     * Augments the data passed to the view.
-     *
-     * @return array<string, array<int, array{title: string, url: string, logo: string}>|string>
-     */
     protected function augmentData(): array
     {
         return [
-
+            'viewData' => $this->viewData,
         ];
     }
 
