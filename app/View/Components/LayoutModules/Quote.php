@@ -19,7 +19,7 @@ class Quote extends Module
         if ($client = $this->context['author']->client) {
 
             $quote_data = array_merge($quote_data, [
-                'client_url' => $client->client_url,
+                'client_url' => $client->url,
                 'client_logo' => '/icons/logos/'.$client->get('logo'),
                 'client' => $client,
             ]);

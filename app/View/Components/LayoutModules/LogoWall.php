@@ -67,7 +67,7 @@ class LogoWall extends Module
     {
         // dd($client->get('title'), $client->get('logo'), $client->augmentedValue('logo')->value(), $client->logo);
         $title = $client->get('title');
-        $url = $client->get('client_url');
+        $url = $client->get('url');
         // $logo = $client->augmentedValue('logo')->value();
         $logo = $client->get('logo');
 

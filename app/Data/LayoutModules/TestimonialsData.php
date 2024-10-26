@@ -34,7 +34,7 @@ class TestimonialsData extends Data
                 author_name: $testimonial->author->title,
                 author_job_title: $testimonial->author->job_title,
                 client_logo: $testimonial->author->client->augmentedValue('logo'),
-                client_url: $testimonial->author->client->client_url,
+                client_url: $testimonial->author->client->url,
             );
         }
 

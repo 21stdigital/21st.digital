@@ -6,5 +6,4 @@ url: 'https://guj.de'
 logo: gruner-und-jahr
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
 updated_at: 1729081636
-client_url: 'https://company.rtl.com/de/business-units/overview/rtl-deutschland/unternehmen/gruner-jahr-deutschland-gmbh/'
 ---
