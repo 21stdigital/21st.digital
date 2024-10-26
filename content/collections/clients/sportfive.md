@@ -6,5 +6,4 @@ url: 'https://sportfive.com'
 logo: sportfive
 updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
 updated_at: 1727776310
-client_url: 'https://sportfive.com'
 ---

@@ -24,10 +24,10 @@ tabs:
               localizable: true
               validate: 'max:200'
           -
-            handle: client_url
+            handle: url
             field: common.url
             config:
-              display: 'Client URL'
+              display: URL
               validate:
                 - required
                 - url
@@ -35,3 +35,6 @@ tabs:
           -
             handle: logo
             field: common.logo
+            config:
+              validate:
+                - required

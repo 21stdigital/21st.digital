@@ -1,1 +1,0 @@
-@stack('tail_scripts')

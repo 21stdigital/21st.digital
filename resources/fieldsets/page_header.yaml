@@ -5,15 +5,19 @@ fields:
     field:
       type: text
       display: Overline
+      instructions: 'Enter a short overline text.'
+      validate: 'max:50'
   -
-    handle: page_title
+    handle: headline
     field:
       type: text
-      display: 'Page Title'
+      display: Headline
+      instructions: 'Enter the main headline.'
+      validate: 'required|max:100'
   -
-    handle: intro_text
+    handle: copy
     field:
       type: textarea
-      display: 'Intro Text'
-  -
-    import: element_link
+      display: Copy
+      instructions: 'Enter the main content.'
+      validate: required
