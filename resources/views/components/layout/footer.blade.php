@@ -57,7 +57,7 @@
     </div>
     <div class="page-layout">
         <nav class="layout-content flex justify-between py-32">
-            <ul class="text-c3 flex items-center gap-12">
+            <ul class="text-c2 flex items-center gap-12">
                 <li class="flex flex-col gap-12">
                     <a href="/">Kontakt</a>
                 </li>
@@ -68,7 +68,7 @@
                     <a href="/">Impressum</a>
                 </li>
             </ul>
-            <ul class="text-c3 flex gap-12">
+            <ul class="text-c2 flex gap-12">
                 <li class="flex flex-col gap-12">
                     <a href="/">Instagram</a>
                 </li>

@@ -19,12 +19,12 @@
 
     /* Copy 2 font settings */
     --text-c2: 1.5rem;
-    --tracking-c2: 0.0058rem;
-    --leading-c2: 2rem;
+    --tracking-c2: 0rem;
+    --leading-c2: 1.8rem;
 
     /* Copy 1 font settings */
     --text-c1: 1.7rem;
-    --tracking-c1: 0.0065rem;
+    --tracking-c1: -0.015rem;
     --leading-c1: 2.2rem;
 
     /* Button font settings */
@@ -59,8 +59,8 @@
 
     /* h1 font settings */
     --text-h1: 4rem;
-    --tracking-h1: -0.0097rem;
-    --leading-h1: 4.8rem;
+    --tracking-h1: -0.1rem;
+    --leading-h1: 4.4rem;
 
     /* hero font settings */
     --text-hero: var(--text-h1);
@@ -82,13 +82,13 @@
 
       /* Copy 2 font settings */
       --text-c2: 1.7rem;
-      --tracking-c2: 0.0065rem;
-      --leading-c2: 2.2rem;
+      --tracking-c2: 0rem;
+      --leading-c2: 1.8rem;
 
       /* Copy 1 font settings */
       --text-c1: 1.9rem;
-      --tracking-c1: 0.0073rem;
-      --leading-c1: 2.4rem;
+      --tracking-c1: -0.015rem;
+      --leading-c1: 2.8rem;
 
       /* Headline h5 font settings */
       --text-h5: 2.2rem;
@@ -117,67 +117,13 @@
 
       /* hero font settings */
       --text-hero: 7.2rem;
-      --tracking-hero: -0.0291rem;
-      --leading-hero: 8.4rem;
+      --tracking-hero: -0.2rem;
+      --leading-hero: 7.2rem;
 
       /* Counter font settings */
       --text-counter: 13.6rem;
       --tracking-counter: -0.0329rem;
       --leading-counter: 10.6rem;
-    }
-
-    @screen xl {
-      /* Text Styles */
-
-      /* Copy 3 font settings */
-      --text-c3: 1.7rem;
-      --tracking-c3: 0.0065rem;
-      --leading-c3: 2.2rem;
-
-      /* Copy 2 font settings */
-      --text-c2: 2.1rem;
-      --tracking-c2: 0.0081rem;
-      --leading-c2: 2.8rem;
-
-      /* Copy 1 font settings */
-      --text-c1: 2.3rem;
-      --tracking-c1: 0.0088rem;
-      --leading-c1: 2.9rem;
-
-      /* Headline h5 font settings */
-      --text-h5: 2.6rem;
-      --tracking-h5: 0.01rem;
-      --leading-h5: 3.2rem;
-
-      /* Headline h4 font settings */
-      --text-h4: 2.8rem;
-      --tracking-h4: 0.0108rem;
-      --leading-h4: 3.4rem;
-
-      /* Headline h3 font settings */
-      --text-h3: 3.4rem;
-      --tracking-h3: 0.0131rem;
-      --leading-h3: 4.1rem;
-
-      /* Headline h2 font settings */
-      --text-h2: 4rem;
-      --tracking-h2: 0.0154rem;
-      --leading-h2: 4.8rem;
-
-      /* h1 font settings */
-      --text-h1: 8rem;
-      --tracking-h1: -0.0194rem;
-      --leading-h1: 9.6rem;
-
-      /* hero font settings */
-      --text-hero: 9.6rem;
-      --tracking-hero: -0.0194rem;
-      --leading-hero: 11.5rem;
-
-      /* Counter font settings */
-      --text-counter: 16.4rem;
-      --tracking-counter: -0.0397rem;
-      --leading-counter: 11.6rem;
     }
   }
 }
