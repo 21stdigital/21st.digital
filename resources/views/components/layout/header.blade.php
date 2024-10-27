@@ -13,14 +13,8 @@
             <li>
                 Services
             </li>
-            <li>
-                Solutions
-            </li>
-            <li>
-                Foundations
-            </li>
         </ul>
     </nav>
     <x-elements.cta url="https://calendly.com/21stdigital/meeting" target="_blank"
-        rel="noopener noreferrer" label="Termin vereineinbaren" />
+        rel="noopener noreferrer" label="Termin vereinbaren" />
 </header>

@@ -19,7 +19,7 @@
 <body class="bg text">
     <x-layout.header />
     <main>
-        <x-layout.page-header />
+        <x-layout.hero />
 
         {{ $slot }}
 
