@@ -1,0 +1,13 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: icon
+            field: common.social_icon_field
+            config:
+              display: Icon
+              validate:
+                - required
