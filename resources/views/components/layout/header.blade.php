@@ -7,12 +7,13 @@
     </a>
     <nav class="hidden justify-self-center lg:block">
         <ul class="text-button flex gap-32">
-            <li>
-                Case Studies
-            </li>
-            <li>
-                Services
-            </li>
+            @foreach (Statamic::tag('nav:main_primary') as $item)
+                <li>
+                    <a href="{{ $item['url'] }}" title="{{ $item['title'] }}">
+                        {{ $item['title'] }}
+                    </a>
+                </li>
+            @endforeach
         </ul>
     </nav>
     <x-elements.cta url="https://calendly.com/21stdigital/meeting" target="_blank"

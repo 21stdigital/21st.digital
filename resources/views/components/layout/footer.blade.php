@@ -13,44 +13,20 @@
             </a>
             <nav class="xl:col-span-2">
                 <ul class="gap grid grid-cols-2 sm:grid-cols-4">
-                    <li class="flex flex-col gap-12">
-                        <a href="/" class="text-c2 font-semibold">Case Studies</a>
-                        <ul class="text-c2 flex flex-col gap-8">
-                            <li>Mercedes-Benz</li>
-                            <li>Deutsche Telekom</li>
-                            <li>SPORTFIVE</li>
-                            <li>FIEGE Logistik</li>
-                            <li>HYROX</li>
-                            <li>Ensemble Resonanz</li>
-                        </ul>
-                    </li>
-                    <li class="flex flex-col gap-12">
-                        <a href="/" class="text-c2 font-semibold">Services</a>
-                        <ul class="text-c2 flex flex-col gap-8">
-                            <li>Strategische Beratung</li>
-                            <li>UX & UI Design</li>
-                        </ul>
-                    </li>
-                    <li class="flex flex-col gap-12">
-                        <a href="/" class="text-c2 font-semibold">Solutions</a>
-                        <ul class="text-c2 flex flex-col gap-8">
-                            <li>Web Portale & Plattformen</li>
-                            <li>Web Anwendungen</li>
-                            <li>Online Shops & eCommerce</li>
-                            <li>Website</li>
-                        </ul>
-                    </li>
-                    <li class="flex flex-col gap-12">
-                        <a href="/" class="text-c2 font-semibold">Foundations</a>
-                        <ul class="text-c2 flex flex-col gap-8">
-                            <li>Next.js</li>
-                            <li>Reacts</li>
-                            <li>Statamic</li>
-                            <li>Laravel</li>
-                            <li>Design Thinking</li>
-                            <li>Design Systems</li>
-                        </ul>
-                    </li>
+                    @foreach (Statamic::tag('nav:footer_primary') as $item)
+                        <li class="flex flex-col gap-12">
+                            <a href="{{ $item['url'] }}" title="{{ $item['title'] }}"
+                                class="text-c2 font-semibold">{{ $item['title'] }}</a>
+                            @if ($item['children'])
+                                <ul class="flex flex-col gap-8">
+                                    @foreach ($item['children'] as $child)
+                                        <a href="{{ $child['url'] }}" title="{{ $child['title'] }}"
+                                            class="text-c2">{{ $child['title'] }}</a>
+                                    @endforeach
+                                </ul>
+                            @endif
+                        </li>
+                    @endforeach
                 </ul>
             </nav>
         </div>
@@ -58,6 +34,12 @@
     <div class="page-layout">
         <nav class="layout-content flex justify-between py-32">
             <ul class="text-c2 flex items-center gap-12">
+                @foreach (Statamic::tag('nav:footer_secondary') as $item)
+                    <li class="flex flex-col gap-12">
+                        <a href="{{ $item['url'] }}" title="{{ $item['title'] }}"
+                            class="text-c2">{{ $item['title'] }}</a>
+                    </li>
+                @endforeach
                 <li class="flex flex-col gap-12">
                     <a href="/">Kontakt</a>
                 </li>
@@ -68,16 +50,14 @@
                     <a href="/">Impressum</a>
                 </li>
             </ul>
-            <ul class="text-c2 flex gap-12">
-                <li class="flex flex-col gap-12">
-                    <a href="/">Instagram</a>
-                </li>
-                <li class="flex flex-col gap-12">
-                    <a href="/">LinkedIn</a>
-                </li>
-                <li class="flex flex-col gap-12">
-                    <a href="/">GitHub</a>
-                </li>
+            <ul class="text-c2 flex items-center gap-12">
+                @foreach (Statamic::tag('nav:footer_tertiary') as $item)
+                    <li class="flex flex-col gap-12">
+                        <a href="{{ $item['url'] }}" title="{{ $item['title'] }}" class="text-c2">
+                            <x-utilities.svg :svg="$item['icon']" class="h-auto w-32 fill-current" />
+                        </a>
+                    </li>
+                @endforeach
             </ul>
         </nav>
 
