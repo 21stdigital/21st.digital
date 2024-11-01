@@ -181,6 +181,13 @@ fields:
       type: icon
       display: Icon
   -
+    handle: social_icon_field
+    field:
+      directory: public/icons
+      folder: social
+      type: icon
+      display: 'Social Icon'
+  -
     handle: teaser_collection_selector
     field:
       options:
@@ -253,6 +260,14 @@ fields:
               fields:
                 -
                   import: layout_module_testimonials
+        teaser:
+          display: Teaser
+          sets:
+            case_study_teaser:
+              display: 'Case Study Teaser'
+              fields:
+                -
+                  import: layout_module_case_study_teaser
   -
     handle: elements
     field:
