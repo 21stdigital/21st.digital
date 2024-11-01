@@ -1,4 +1,4 @@
-<div wire:init="updateEntries" class="space-y-20 sm:space-y-52">
+<div wire:init="updateEntries" class="{{ $class }}">
     @foreach ($entries as $entry)
         <article class="bg-gradient-dark-900 border-highlight-3-600 border p-20 sm:p-32">
             {!! Statamic::tag('svg')->params([
