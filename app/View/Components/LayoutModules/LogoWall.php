@@ -2,6 +2,7 @@
 
 namespace App\View\Components\LayoutModules;
 
+use App\Data\SvgIconData;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -65,12 +66,9 @@ class LogoWall extends Module
      */
     private function convertClient(Entry $client): array
     {
-        // dd($client->get('title'), $client->get('logo'), $client->augmentedValue('logo')->value(), $client->logo);
         $title = $client->get('title');
         $url = $client->get('url');
-        // $logo = $client->augmentedValue('logo')->value();
-        $logo = $client->get('logo');
-
+        $logo = SvgIconData::fromIconValue($client->augmentedValue('logo'))->path;
         if (empty($title) || empty($url) || empty($logo)) {
             throw new \InvalidArgumentException('Client data is missing required fields.');
         }
