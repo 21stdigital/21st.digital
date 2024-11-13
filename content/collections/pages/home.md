@@ -15,7 +15,7 @@ cta_box:
     text: null
     expert: null
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1731497695
+updated_at: 1731505963
 layout_modules:
   -
     id: m3fr6tlb
@@ -55,7 +55,7 @@ layout_modules:
     enabled: true
   -
     id: m3frhyg8
-    overline: Kunden
+    overline: Clients
     headline: 'Vertrauen und Zusammenarbeit'
     intro_text: 'Diese Unternehmen vertrauen auf unsere Expertise, um ihre digitalen Visionen erfolgreich umzusetzen.'
     clients:

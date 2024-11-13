@@ -16,12 +16,12 @@
         <div
             class="text-c1 gap col-start-5 -col-end-1 flex flex-wrap items-center justify-between gap-y-20 sm:col-start-6 sm:col-end-11 lg:col-start-5">
             <div class="">
-                <h3 id="contact-name" class="text-h6 mb-4">
+                <h3 id="contact-name" class="text-h6">
                     {{ $expert->title }}
                 </h3>
-                <p>
+                <span class="-mt-4 block lg:-mt-8">
                     {{ $expert->job_title }}
-                </p>
+                </span>
                 <address class="not-italic">
                     <a href="mailto:{!! Statamic::modify($expert->email)->obfuscate() !!}">
                         {!! Statamic::modify($expert->email)->obfuscate() !!}
