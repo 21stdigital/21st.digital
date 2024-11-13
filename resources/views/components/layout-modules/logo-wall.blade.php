@@ -17,7 +17,7 @@
         @foreach ($clients as $client)
             @if ($client['logo'])
                 <li>
-                    <a class="aspect-3/2 after:bg-highlight-100 relative isolate flex place-items-center p-[calc(20_/_744_*_100vw)] transition-all after:absolute after:inset-0 after:z-10 after:opacity-0 after:transition-all hover:after:opacity-100 sm:p-32 lg:p-32"
+                    <a class="aspect-3/2 after:bg-highlight-400 relative isolate flex place-items-center p-[calc(20_/_744_*_100vw)] transition-all after:absolute after:inset-0 after:z-10 after:opacity-0 after:transition-all hover:after:opacity-100 sm:p-32 lg:p-32"
                         title="{{ $client['title'] }}" href="{{ $client['url'] }}">
 
                         <x-utilities.svg :svg="$client['logo']"
