@@ -1,0 +1,6 @@
+title: '03 - Layout Module | Services Teaser'
+fields:
+  -
+    import: element_section_header_with_text
+  -
+    import: element_teaser_list_service

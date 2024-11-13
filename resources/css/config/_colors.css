@@ -21,7 +21,9 @@
   }
 }
 
-* {
+*,
+*::before,
+*::after {
   /* Gradients */
   --gradient-highlight: linear-gradient(
     -43deg,

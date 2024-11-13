@@ -169,22 +169,22 @@ fields:
   -
     handle: logo
     field:
-      directory: public/icons
-      folder: logos
+      directory: public
+      folder: icons/logos
       type: icon
       display: Logo
   -
     handle: icon
     field:
-      directory: public/icons
-      folder: collection
+      directory: public
+      folder: icons/collection
       type: icon
       display: Icon
   -
     handle: social_icon_field
     field:
-      directory: public/icons
-      folder: social
+      directory: public
+      folder: icons/social
       type: icon
       display: 'Social Icon'
   -
@@ -213,7 +213,7 @@ fields:
         common:
           display: Common
           sets:
-            adaptive_split:
+            adaptive-split:
               display: 'Adaptive Split'
               icon: layout-two-columns
               fields:
@@ -225,7 +225,7 @@ fields:
               fields:
                 -
                   import: layout_module_facts
-            section_header:
+            section-header:
               display: 'Section Header'
               icon: layout-table-row-insert
               fields:
@@ -243,12 +243,12 @@ fields:
               fields:
                 -
                   import: layout_module_quote
-            item_list:
+            item-list:
               display: 'Item List'
               fields:
                 -
                   import: layout_module_item_list
-            logo_wall:
+            logo-wall:
               display: 'Logo Wall'
               icon: layout-display-split-quarters
               fields:
@@ -263,11 +263,18 @@ fields:
         teaser:
           display: Teaser
           sets:
-            case_study_teaser:
+            case-study-teaser:
               display: 'Case Study Teaser'
+              icon: text-formatting-image-right
               fields:
                 -
                   import: layout_module_case_study_teaser
+            services-teaser:
+              display: 'Services Teaser'
+              icon: text-formatting-image-right
+              fields:
+                -
+                  import: layout_module_services_teaser
   -
     handle: elements
     field:
@@ -278,7 +285,7 @@ fields:
         common:
           display: Common
           sets:
-            info_box:
+            info-box:
               display: 'Info Box'
               icon: text-formatting-wrap-around-bounding-box
               fields:
@@ -298,7 +305,7 @@ fields:
               fields:
                 -
                   import: element_facts
-            content_item:
+            content-item:
               display: 'Content Item'
               icon: file-content-list
               fields:
@@ -307,17 +314,17 @@ fields:
         teaser:
           display: Teaser
           sets:
-            case_study_teaser:
+            case-study-teaser:
               display: 'Case Study Teaser List'
               fields:
                 -
                   import: element_teaser_list_case_study
-            service_teaser:
+            service-teaser:
               display: 'Service Teaser List'
               fields:
                 -
                   import: element_teaser_list_service
-            solution_teaser:
+            solution-teaser:
               display: 'Solution Teaser List'
               fields:
                 -

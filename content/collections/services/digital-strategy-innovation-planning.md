@@ -5,7 +5,7 @@ title: 'Digital Strategy & Innovation Planning'
 teaser:
   title: 'Digital Strategy & Innovation Planning'
   text: 'Wir bringen Dein digitales Projekt auf Erfolgskurs. Durch eine gründliche Analyse Deiner Bedürfnisse und maßgeschneiderte Strategien sorgen wir dafür, dass Du Deine Ziele effizient und innovativ erreichst und langfristig erfolgreich bleibst.'
-updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1726835051
-icon: puzzle-piece
+updated_by: 1b9339be-2128-45e8-8549-606769d5ff32
+updated_at: 1730819909
+icon: plus-small
 ---
