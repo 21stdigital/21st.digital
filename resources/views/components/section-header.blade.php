@@ -12,7 +12,7 @@
                 {{ $overline }}
             </p>
         @endif
-        <h2 class="text-h1 text-highlight col-span-full sm:col-span-10">
+        <h2 class="text-h1 text-highlight col-span-full text-balance sm:col-span-10">
             {!! nl2br(e($headline ?? $slot)) !!}
         </h2>
         @if ($intro_text)
@@ -28,7 +28,7 @@
                 {{ $overline }}
             </p>
         @endif
-        <h2 class="text-h1 text-highlight col-span-full">
+        <h2 class="text-h1 text-highlight col-span-full text-balance">
             {!! nl2br(e($headline ?? $slot)) !!}
         </h2>
         @if ($intro_text)
