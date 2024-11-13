@@ -4,8 +4,8 @@ blueprint: service
 title: 'Digital Strategy & Innovation Planning'
 teaser:
   title: 'Digital Strategy & Innovation Planning'
-  text: 'Wir bringen Dein digitales Projekt auf Erfolgskurs. Durch eine gründliche Analyse Deiner Bedürfnisse und maßgeschneiderte Strategien sorgen wir dafür, dass Du Deine Ziele effizient und innovativ erreichst und langfristig erfolgreich bleibst.'
-updated_by: 1b9339be-2128-45e8-8549-606769d5ff32
-updated_at: 1730819909
-icon: plus-small
+  text: 'Durch eine gründliche Analyse Deiner Bedürfnisse und maßgeschneiderte Strategien sorgen wir dafür, dass Du Deine Ziele effizient und innovativ erreichst und langfristig erfolgreich bleibst.'
+updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
+updated_at: 1731497048
+icon: puzzle-piece
 ---

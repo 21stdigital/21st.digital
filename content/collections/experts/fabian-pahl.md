@@ -4,11 +4,10 @@ blueprint: expert
 title: 'Fabian Pahl'
 forename: Fabian
 surname: Pahl
-job_title: 'Senior Developer'
+job_title: 'Managing Partner'
 linkedin_handle: fabianpahl
 image: experts/fabian-pahl.jpg
-updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1727882559
-email: fabian@21st.digital
+updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
+updated_at: 1731497935
 calendly_handle: 21stdigital/meeting
 ---

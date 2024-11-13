@@ -5,7 +5,7 @@ title: 'Experience & Interface Design'
 teaser:
   title: 'Experience & Interface Design'
   text: 'Wir gestalten digitale Erlebnisse, die sowohl ästhetisch ansprechend als auch intuitiv zu nutzen sind. Durch eine gründliche Analyse der Nutzerbedürfnisse entwickeln wir maßgeschneiderte Designs, die Deine Geschäftsziele optimal unterstützen.'
-updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1726823563
-icon: newspaper
+updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
+updated_at: 1731497130
+icon: users
 ---
