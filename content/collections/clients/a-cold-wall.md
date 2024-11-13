@@ -4,6 +4,6 @@ blueprint: client
 title: 'A-COLD-WALL*'
 url: 'https://a-cold-wall.com'
 logo: a-cold-wall
-updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1729081447
+updated_by: 1b9339be-2128-45e8-8549-606769d5ff32
+updated_at: 1730825516
 ---

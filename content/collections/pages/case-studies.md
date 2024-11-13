@@ -17,7 +17,7 @@ layout_modules:
   -
     id: m2ynieuu
     compilation: all
-    type: case_study_teaser
+    type: case-study-teaser
     enabled: true
 parent: 763e6082-7a1f-4da4-994b-68f51aff53e5
 ---
