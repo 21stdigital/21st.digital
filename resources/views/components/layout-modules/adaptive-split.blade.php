@@ -14,7 +14,7 @@
                     class="top-32 col-span-full self-start sm:sticky sm:col-span-6 sm:col-start-1 sm:row-span-2 sm:row-start-1">
                     @if ($headline)
                         <div class="grid-cols gap mb-20 grid">
-                            <x-section-header class="col-span-full" :overline="$overline">
+                            <x-section-header :$overline alignment="inline">
                                 {{ $headline }}
                             </x-section-header>
                         </div>
