@@ -14,8 +14,8 @@ cta_box:
     headline: null
     text: null
     expert: null
-updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1731497695
+updated_by: 1b9339be-2128-45e8-8549-606769d5ff32
+updated_at: 1731597586
 layout_modules:
   -
     id: m3fr6tlb
@@ -31,14 +31,107 @@ layout_modules:
           -
             type: text
             text: 'Erfahre mehr über unsere Projekte und wie wir Unternehmen dabei unterstützt haben, ihre digitalen Herausforderungen zu meistern und innovative Lösungen zu finden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erfahre mehr über unsere Projekte und wie wir Unternehmen dabei unterstützt haben, ihre digitalen Herausforderungen zu meistern und innovative Lösungen zu finden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erfahre mehr über unsere Projekte und wie wir Unternehmen dabei unterstützt haben, ihre digitalen Herausforderungen zu meistern und innovative Lösungen zu finden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erfahre mehr über unsere Projekte und wie wir Unternehmen dabei unterstützt haben, ihre digitalen Herausforderungen zu meistern und innovative Lösungen zu finden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Et occaecat et elit Lorem pariatur fugiat sunt Lorem veniam nulla cupidatat est velit. Laboris ipsum ipsum ea anim eu tempor cillum laboris enim nisi quis quis. Aute nulla excepteur elit commodo minim minim esse ex excepteur. Ullamco ad fugiat do sint consequat ut amet. Sit amet eu in cupidatat laboris tempor anim veniam cillum. Enim sit nostrud elit do esse. Mollit id pariatur anim enim. Ex ad officia ut amet ipsum cupidatat aute tempor mollit ea culpa.'
     tail_elements:
       -
         id: m3fr7fvw
-        compilation: all
+        compilation: by_hand
         type: case-study-teaser
         enabled: true
+        entries:
+          - 1a0a23a7-a783-4cc1-b188-be2942bf5343
     type: adaptive-split
     enabled: true
+    alignment: left
   -
     id: m3fresx5
     overline: Services
