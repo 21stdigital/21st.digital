@@ -7,7 +7,7 @@
                 <p class="text-h6 row-start-1">
                     {{ $author_name }}
                 </p>
-                <p class="text-c1 col-start-1 row-start-2 mt-4">
+                <p class="text-c1 col-start-1 row-start-2 -mt-4 lg:-mt-8">
                     {{ $author_job_title }}
                 </p>
             </div>
