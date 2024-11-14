@@ -14,7 +14,7 @@ fields:
           value: 'Sticky Column'
       type: select
       display: Presentation
-      width: 33
+      width: 25
       max_items: 1
       default: sticky_box
   -
@@ -22,7 +22,7 @@ fields:
     field:
       type: toggle
       display: 'Enable Head Section'
-      width: 33
+      width: 25
       always_save: true
       if:
         presentation: 'equals sticky_column'
@@ -31,10 +31,25 @@ fields:
     field:
       type: toggle
       display: 'Enable Tail Section'
-      width: 33
+      width: 25
       always_save: true
       if:
         presentation: 'equals sticky_column'
+  -
+    handle: alignment
+    field: layout_module_section_header.alignment
+    config:
+      options:
+        -
+          key: left
+          value: Left
+        -
+          key: center
+          value: Center
+        -
+          key: inline
+          value: Inline
+      width: 25
   -
     handle: head_elements
     field: common.elements

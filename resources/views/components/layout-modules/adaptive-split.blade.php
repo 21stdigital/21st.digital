@@ -1,6 +1,14 @@
 @switch($presentation)
     @case('sticky_column')
         <section {{ $attributes->class(['layout-content']) }}>
+            @if ($headline && $alignment->raw() !== 'inline')
+                <div class="grid-cols gap mb-20 grid sm:mb-52">
+                    <x-section-header class="col-span-full" :$overline :$alignment>
+                        {{ $headline }}
+                    </x-section-header>
+                </div>
+            @endif
+
             <div class="grid-cols gap-x grid gap-y-32">
                 @if ($enable_head_section->value())
                     <div class="col-span-full row-start-1 space-y-32 sm:col-span-6">
@@ -12,9 +20,9 @@
                 @endif
                 <div
                     class="top-32 col-span-full self-start sm:sticky sm:col-span-6 sm:col-start-1 sm:row-span-2 sm:row-start-1">
-                    @if ($headline)
+                    @if ($headline && $alignment->raw() === 'inline')
                         <div class="grid-cols gap mb-20 grid">
-                            <x-section-header class="col-span-full" :overline="$overline">
+                            <x-section-header :$overline :$alignment>
                                 {{ $headline }}
                             </x-section-header>
                         </div>
@@ -22,7 +30,7 @@
                     <x-text :text="$text" />
                 </div>
                 @if ($enable_tail_section->value())
-                    <div class="col-span-full space-y-32 sm:col-span-6">
+                    <div class="top-32 col-span-full space-y-32 sm:sticky sm:col-span-6">
                         @foreach ($tail_elements as $element)
                             <x-dynamic-component :component="'elements.' . $element['type']" :context="$element" :element_id="$element['id']"
                                 :type="$element['type']" />
