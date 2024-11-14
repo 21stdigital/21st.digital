@@ -6,22 +6,22 @@ teaser:
   title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
   text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1731598127
+updated_at: 1731602470
 logo: fiege
 overline: OPTICERT
 headline: 'Die transformative Compliance-Plattform von FIEGE Logistik'
 copy: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro.'
 enable_cta_box: true
 cta_box:
-  override_defaults: false
+  override_defaults: true
   cta_box:
-    headline: null
-    text: null
-    expert: null
+    headline: 'Du hast auch eine Idee für ein digitales Geschäftsmodell?'
+    text: 'Lass uns gemeinsam eine Lösung entwickeln, die Dein Unternehmen voranbringt und Deine Geschäftsziele erreicht.'
+    expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 layout_modules:
   -
     id: m3hf24zf
-    overline: Challenge
+    overline: Herausforderung
     headline: 'Effiziente Compliance in einer globalen Logistikstruktur'
     presentation: sticky_column
     enable_head_section: true
@@ -68,6 +68,7 @@ layout_modules:
                 cta_label: 'Zur Website'
         type: info-box
         enabled: true
+    alignment: left
   -
     id: m3hf7bx2
     quote: 'Wir benötigten eine Lösung, die es unseren Standortleitern ermöglicht, ohne umständliche Suchprozesse die besten Dienstleister für unsere spezifischen Bedürfnisse schnell und einfach zu finden und zu beauftragen.'
@@ -76,7 +77,7 @@ layout_modules:
     enabled: true
   -
     id: m3hfdab3
-    overline: Goals
+    overline: Ziel
     headline: 'Digitale Transformation als Treiber für Effizienz und neue Einnahmequellen'
     intro_text: 'FIEGE Logistik setzte sich zum Ziel, durch Digitalisierung die Effizienz ihrer Compliance-Prozesse zu steigern, ihre Marktposition zu stärken und zusätzliche Einnahmequellen zu erschließen.'
     items:
@@ -153,8 +154,9 @@ layout_modules:
                 cta_label: 'Zur Plattform'
         type: info-box
         enabled: true
-    overline: Solution
+    overline: Lösung
     headline: 'Entwicklung einer innovativen digitalen Plattform zur Compliance-Optimierung'
+    alignment: left
   -
     id: m3hgaom8
     headline: 'Digital Strategy & Innovation Planning'
@@ -205,6 +207,7 @@ layout_modules:
         enabled: true
     type: adaptive-split
     enabled: true
+    alignment: left
   -
     id: m3hgql3o
     headline: 'Experience & Interface Design'
@@ -231,7 +234,7 @@ layout_modules:
     tail_elements:
       -
         id: m3hgcrn3
-        headline: 'Entwicklung der Marke'
+        headline: 'Brand Design'
         text: 'Entwicklung einer visuellen Identität für OPTICERT, einschließlich eines Logos, Farbpaletten und Typografie, um eine starke Markenwiedererkennung zu fördern und die Plattform im Markt zu positionieren.'
         type: content-item
         enabled: true
@@ -266,5 +269,81 @@ layout_modules:
         type: content-item
         enabled: true
     type: adaptive-split
+    enabled: true
+    alignment: left
+  -
+    id: m3hiwowp
+    overline: Ergebnisse
+    headline: 'Erfolgreiche Markteinführung und nachhaltige Effizienzsteigerungen'
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
+    alignment: inline
+    head_elements:
+      -
+        id: m3hixrh1
+        facts:
+          -
+            id: m3hixt33
+            fact: 200+
+            description: 'Qualifizierte Dienstleister'
+            type: fact
+            enabled: true
+          -
+            id: m3hiy3cz
+            fact: 1000+
+            description: 'Registrierte Nutzer'
+            type: fact
+            enabled: true
+          -
+            id: m3hiyccb
+            fact: 30%
+            description: Kostensenkung
+            type: fact
+            enabled: true
+          -
+            id: m3hiyl2l
+            fact: '2,5 Mio. Euro'
+            description: 'Vermitteltes Auftragsvolumen'
+            type: fact
+            enabled: true
+        type: facts
+        enabled: true
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nach der Einführung von OPTICERT verzeichnete die Plattform beeindruckende Erfolge in Bezug auf Nutzerzahlen, Dienstleister und vermitteltes Auftragsvolumen. Die stetig steigenden Registrierungen und das vermittelte Auftragsvolumen von über 2,5 Millionen Euro unterstreichen die hohe Marktakzeptanz von OPTICERT.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Der direkte Vergleich von Dienstleisterangeboten auf der Plattform führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch OPTICERT ermöglichte zudem erhebliche Zeitersparnisse für die Unternehmen. Dies zeigt, dass OPTICERT nicht nur eine Plattform zur Erfüllung gesetzlicher Anforderungen ist, sondern auch ein strategisches Werkzeug zur Effizienzsteigerung und Kostensenkung.'
+    type: adaptive-split
+    enabled: true
+  -
+    id: m3hiv5he
+    quote: 'Durch OPTICERT konnten wir unsere Kosten um über 30% senken und unsere Prozesse wesentlich effizienter gestalten. 21st digital war ein entscheidender Faktor für den Erfolg.'
+    author: c782dd56-f2dd-49e6-ab55-60f7092bc692
+    type: quote
+    enabled: true
+  -
+    id: m3hiri4y
+    alignment: center
+    overline: 'Case Studies'
+    headline: 'Inspiration für Dein nächstes Projekt'
+    intro_text: 'Erfahre mehr darüber, wie wir anderen Unternehmen geholfen haben, ihre digitalen Herausforderungen zu meistern und ihre Geschäftsziele zu erreichen.'
+    type: section-header
+    enabled: true
+  -
+    id: m3hinmnb
+    compilation: by_hand
+    entries:
+      - 804ef3d3-5716-4f29-8f26-06953a23d7ef
+      - 1a0a23a7-a783-4cc1-b188-be2942bf5343
+    type: case-study-teaser
     enabled: true
 ---
