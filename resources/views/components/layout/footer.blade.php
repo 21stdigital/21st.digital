@@ -40,15 +40,6 @@
                             class="text-c2">{{ $item['title'] }}</a>
                     </li>
                 @endforeach
-                <li class="flex flex-col gap-12">
-                    <a href="/">Kontakt</a>
-                </li>
-                <li class="flex flex-col gap-12">
-                    <a href="/">Datenschutz</a>
-                </li>
-                <li class="flex flex-col gap-12">
-                    <a href="/">Impressum</a>
-                </li>
             </ul>
             <ul class="text-c2 flex items-center gap-12">
                 @foreach (Statamic::tag('nav:footer_tertiary') as $item)
