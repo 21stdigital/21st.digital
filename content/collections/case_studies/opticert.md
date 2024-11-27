@@ -6,7 +6,7 @@ teaser:
   title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
   text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1731602470
+updated_at: 1732650020
 logo: fiege
 overline: OPTICERT
 headline: 'Die transformative Compliance-Plattform von FIEGE Logistik'
@@ -136,7 +136,7 @@ layout_modules:
     head_elements:
       -
         id: m3hf4a43
-        logo: fiege
+        logo: opticert
         text:
           -
             type: paragraph
@@ -238,6 +238,12 @@ layout_modules:
         text: 'Entwicklung einer visuellen Identität für OPTICERT, einschließlich eines Logos, Farbpaletten und Typografie, um eine starke Markenwiedererkennung zu fördern und die Plattform im Markt zu positionieren.'
         type: content-item
         enabled: true
+        assets:
+          -
+            id: m3rpkqg9
+            image: case-studies/opticert/opticert-hero.png
+            type: image
+            enabled: true
       -
         id: m3hgf1pr
         headline: 'Gestaltung der Bildwelt'
@@ -264,13 +270,44 @@ layout_modules:
         enabled: true
       -
         id: m3hgt1uj
-        headline: 'Konzeption von Illustrationen'
+        headline: 'Gestaltung von Illustrationen'
         text: 'Gestaltung von maßgeschneiderten Illustrationen, die nicht nur die Benutzeroberfläche bereichern, sondern auch komplexe Informationen klar und ansprechend darstellen, um die Benutzerführung zu verbessern.'
         type: content-item
         enabled: true
+        assets:
+          -
+            id: m3rqdxpm
+            image: case-studies/opticert/opticert-illustration.png
+            type: image
+            enabled: true
     type: adaptive-split
     enabled: true
     alignment: left
+  -
+    id: m3rrb3yf
+    headline: 'Web Development'
+    presentation: sticky_box
+    enable_head_section: false
+    enable_tail_section: false
+    alignment: left
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Mit unseren maßgeschneiderten Weblösungen bieten wir Dir genau das, was Dein Unternehmen braucht. Von der Konzeption über die Entwicklung bis zur Optimierung stellen wir sicher, dass Deine Webanwendung nicht nur funktional, sondern auch zukunftssicher ist.'
+      -
+        type: set
+        attrs:
+          id: m3rre78t
+          values:
+            type: link
+            cta_label: 'Mehr erfahren'
+      -
+        type: paragraph
+    type: adaptive-split
+    enabled: true
   -
     id: m3hiwowp
     overline: Ergebnisse
