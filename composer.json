@@ -41,6 +41,7 @@
     "socialiteproviders/google": "^4.1",
     "spatie/fork": "^1.2",
     "spatie/laravel-data": "^4.10",
+    "spatie/laravel-ray": "^1.37",
     "statamic/cms": "^5.0",
     "statamic/ssg": "^3.0",
     "stillat/relationships": "^2.2"

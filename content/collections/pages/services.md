@@ -11,6 +11,12 @@ cta_box:
     headline: null
     text: null
     expert: null
-updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732699853
+updated_by: 1b9339be-2128-45e8-8549-606769d5ff32
+updated_at: 1732703301
+layout_modules:
+  -
+    id: m3zpvqeg
+    compilation: all
+    type: services-teaser
+    enabled: true
 ---
