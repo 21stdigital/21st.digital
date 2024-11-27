@@ -6,7 +6,7 @@ teaser:
   title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
   text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732650020
+updated_at: 1732704362
 logo: fiege
 overline: OPTICERT
 headline: 'Die transformative Compliance-Plattform von FIEGE Logistik'
@@ -169,7 +169,13 @@ layout_modules:
         content:
           -
             type: text
-            text: 'Von der Marktanalyse bis zur Konzeptvalidierung – wir entwickelten eine umfassende digitale Strategie, um die Compliance-Herausforderungen zu bewältigen und neue Geschäftsmodelle zu etablieren.'
+            text: 'Wir entwickelten eine passgenaue digitale Strategie, die FIEGE dabei unterstützte, komplexe Compliance-Anforderungen zu bewältigen und gleichzeitig neue, zukunftsfähige Geschäftsmodelle erfolgreich zu etablieren.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erfahre, wie unsere Expertise auch Dein Projekt zum Erfolg führen kann.'
       -
         type: set
         attrs:
