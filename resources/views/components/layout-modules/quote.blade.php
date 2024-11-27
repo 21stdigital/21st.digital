@@ -1,4 +1,4 @@
-<div class="layout-content gap grid-cols grid">
+<div class="layout-content gap grid-cols mt-84 grid">
     <blockquote class="text-h5 relative col-span-10 col-start-2">
         {{ $quote }}
         <footer
