@@ -14,11 +14,13 @@ class CaseStudyTeaserList extends Component
     protected array $collections = ['case_studies'];
     public array $entries;
     public string $class;
+    public string $compilation;
 
-    public function mount($class)
+    public function mount($class, $compilation, $entries)
     {
         $this->class = $class;
-        $this->entries = $this->getNewestEntries();
+        $this->compilation = $compilation;
+        $this->entries = $this->compilation === 'by_hand' ? $entries : $this->getNewestEntries();
     }
 
     /**
@@ -45,7 +47,9 @@ class CaseStudyTeaserList extends Component
 
     public function updateEntries()
     {
-        $this->entries = $this->getNewestEntries();
+        if ($this->compilation !== 'by_hand') {
+            $this->entries = $this->getNewestEntries();
+        }
     }
 
     public function render()

@@ -3,9 +3,11 @@
 namespace App\Data\LayoutModules;
 
 use App\Enums\ServicesTeaserCompilation;
+use InvalidArgumentException;
 use Spatie\LaravelData\Data;
 use Statamic\Entries\EntryCollection;
 use Statamic\Facades\Entry;
+use Statamic\Fields\LabeledValue;
 use Statamic\Fields\Values;
 use Statamic\Stache\Query\EntryQueryBuilder;
 
@@ -23,8 +25,8 @@ final class ServicesTeaserData extends Data
      * @param  ServicesTeaserItemData[]  $entries  Array of entries to be displayed.
      */
     public function __construct(
-        public string $headline,
-        public string $intro_text,
+        public ?string $headline,
+        public ?string $intro_text,
         public ?string $overline,
         public array $entries,
     ) {}
@@ -48,8 +50,14 @@ final class ServicesTeaserData extends Data
         $headline = $context->headline;
         $intro_text = $context->intro_text;
 
+        /** @var LabeledValue $c */
+        $c = $context->compilation;
         /** @var ServicesTeaserCompilation|null $compilation */
-        $compilation = $context->compilation ?? ServicesTeaserCompilation::ALL;
+        $compilation = match ($c->value()) {
+            'all' => ServicesTeaserCompilation::ALL,
+            'by_hand' => ServicesTeaserCompilation::BY_HAND,
+            default => throw new InvalidArgumentException('Ungültiger Wert für Compilation: '.$c->value()),
+        };
 
         /** @var EntryCollection $raw_entries */
         $raw_entries = $context->entries;
@@ -72,11 +80,12 @@ final class ServicesTeaserData extends Data
      */
     private static function getAllPublishedServiceEntries(): EntryCollection
     {
+
         /** @var EntryQueryBuilder $query */
         $query = Entry::query();
 
-        $query = $query()
-            ->where('collection', ['services'])
+        $query = $query
+            ->where('collection', 'services')
             ->where('published', true)
             ->orderBy('date', 'desc');
 
