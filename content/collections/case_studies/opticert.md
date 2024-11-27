@@ -6,7 +6,7 @@ teaser:
   title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
   text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732704362
+updated_at: 1732718580
 logo: fiege
 overline: OPTICERT
 headline: 'Die transformative Compliance-Plattform von FIEGE Logistik'
@@ -32,19 +32,19 @@ layout_modules:
         content:
           -
             type: text
-            text: 'In der globalisierten Wirtschaftswelt stehen Unternehmen unter dem Druck, eine Vielzahl von gesetzlichen und normativen Anforderungen zu erfüllen. FIEGE Logistik, mit seinen 135 Standorten weltweit, musste sicherstellen, dass diese Anforderungen in den Bereichen Arbeitssicherheit, Brandschutz, Gefahrstoffe, Arbeitsmedizin und Gefahrgut an jedem Standort erfüllt werden.'
+            text: 'FIEGE Logistik musste an über 135 Standorten weltweit komplexe gesetzliche und normative Anforderungen in den Bereichen Arbeitssicherheit, Brandschutz, Gefahrstoffe, Arbeitsmedizin und Gefahrgut erfüllen. Dezentralisierte Prozesse führten jedoch zu ineffizienten Abläufen, uneinheitlicher Qualität und erhöhten Kosten.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Die Verantwortung lag jedoch bei den einzelnen Standortleitern, die selbst die passenden Dienstleister zur Unterstützung auswählen und beauftragen mussten. Diese dezentrale Organisation führte zu ineffizienten Prozessen, da nicht immer die besten Dienstleister ausgewählt wurden und den Standortleitern oft nicht alle verfügbaren Anbieter bekannt waren. Zudem war die Suche nach geeigneten Dienstleistern zeitaufwändig, und die Transparenz in Bezug auf Preis und Qualität der Anbieter fehlte weitgehend.'
+            text: 'Die Standortleiter waren für die Auswahl und Beauftragung geeigneter Dienstleister verantwortlich – ein zeitaufwändiger Prozess, der oft mangelnde Transparenz und suboptimale Ergebnisse mit sich brachte.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Aufgrund der starken Abhängigkeit von externen Dienstleistern zur Erfüllung der gesetzlichen Anforderungen waren die Standorte mit Herausforderungen wie uneinheitlicher Qualität und höheren Kosten konfrontiert. FIEGE suchte nach Möglichkeiten, diese Probleme zu überwinden und die Effizienz und Qualität ihrer Compliance-Prozesse zu steigern.'
+            text: 'Eine zentrale Plattform sollte diese Herausforderungen überwinden und Effizienz sowie Qualität in den Compliance-Prozessen steigern.'
     type: adaptive-split
     enabled: true
     head_elements:
@@ -226,7 +226,13 @@ layout_modules:
         content:
           -
             type: text
-            text: 'Durch ein nutzerzentriertes Interface-Design und ein umfassendes Corporate Design sorgten wir dafür, dass die Plattform intuitiv bedienbar ist und den Bedürfnissen verschiedener Benutzergruppen entspricht, was zu einer hohen Akzeptanz und Nutzung führte.'
+            text: 'Für OPTICERT entwickelten wir ein nutzerzentriertes Design, das die Marke stärkt und die Nutzererfahrung optimiert. Von einer klaren visuellen Identität und ansprechenden Illustrationen bis hin zu interaktiven Prototypen und einem Design System haben wir alles geschaffen, um eine konsistente, intuitive und überzeugende Plattform zu realisieren.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lass Dich inspirieren, wie nutzerzentriertes Design auch Dein Projekt bereichern kann.'
       -
         type: set
         attrs:
@@ -313,7 +319,28 @@ layout_modules:
       -
         type: paragraph
     type: adaptive-split
-    enabled: true
+    enabled: false
+  -
+    id: m3zssv4b
+    headline: 'Infrastructure & DevOps'
+    presentation: sticky_box
+    enable_head_section: false
+    enable_tail_section: false
+    alignment: left
+    text:
+      -
+        type: paragraph
+      -
+        type: set
+        attrs:
+          id: m3rre78t
+          values:
+            type: link
+            cta_label: 'Mehr erfahren'
+      -
+        type: paragraph
+    type: adaptive-split
+    enabled: false
   -
     id: m3hiwowp
     overline: Ergebnisse
