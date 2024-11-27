@@ -12,6 +12,7 @@
             <p class="text-c1">
                 {{ $entry['teaser']['text'] }}
             </p>
+
             <x-elements.cta url="{{ $entry['url'] }}" label="Mehr erfahren" class="mt-20" />
         </article>
     @endforeach
