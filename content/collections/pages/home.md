@@ -15,12 +15,12 @@ cta_box:
     text: null
     expert: null
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1731599144
+updated_at: 1732653442
 layout_modules:
   -
     id: m3fr6tlb
     overline: 'Case Studies'
-    headline: 'Erfolgsgeschichten unserer Kunden'
+    headline: 'Unsere digitalen Erfolgsgeschichten'
     presentation: sticky_column
     enable_head_section: false
     enable_tail_section: true
@@ -39,6 +39,8 @@ layout_modules:
         enabled: true
         entries:
           - 1a0a23a7-a783-4cc1-b188-be2942bf5343
+          - 16b4f2fb-640b-4915-adfb-8f8b99e0bd2f
+          - 804ef3d3-5716-4f29-8f26-06953a23d7ef
     type: adaptive-split
     enabled: true
     alignment: inline
@@ -46,7 +48,7 @@ layout_modules:
     id: m3fresx5
     overline: Services
     headline: 'Digitale Leistungen nach Maß'
-    intro_text: 'Von der Konzeption bis zur Implementierung bieten wir umfassende Dienstleistungen, die Dein Projekt zum Erfolg führen.'
+    intro_text: 'Von der ersten Idee bis zur erfolgreichen Umsetzung – wir bieten Dir alle Services, die Du für den Erfolg Deines Projekts benötigst.'
     compilation: by_hand
     entries:
       - 85f83d7c-f891-411a-ac89-7d03dcf58b44
@@ -59,8 +61,8 @@ layout_modules:
   -
     id: m3frhyg8
     overline: Clients
-    headline: 'Vertrauen und Zusammenarbeit'
-    intro_text: 'Diese Unternehmen vertrauen auf unsere Expertise, um ihre digitalen Visionen erfolgreich umzusetzen.'
+    headline: 'Erfolg durch Zusammenarbeit'
+    intro_text: 'Unternehmen aus unterschiedlichsten Branchen vertrauen uns, um digitale Herausforderungen zu meistern und innovative Wege zu gehen.'
     clients:
       - 825ad067-352d-4721-9adf-3fd577facc0b
       - 65f4bec1-f1bd-4392-8304-02bfd76c84a6
