@@ -23,6 +23,8 @@
                                 {{ $entry['headline'] }}
                             </h3>
                             <x-text :text="$entry['text']" />
+                            <x-elements.cta url="{{ $entry['url'] }}" label="Mehr erfahren"
+                                class="mt-20" />
                         </div>
                     </section>
                 </li>
