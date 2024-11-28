@@ -4,33 +4,33 @@ blueprint: service
 title: 'Digital Strategy & Innovation Planning'
 teaser:
   title: 'Digital Strategy & Innovation Planning'
-  text: 'Mit einem klaren Fokus auf Deine Bedürfnisse und Ziele entwickeln wir innovative Strategien, die Dein digitales Projekt auf Erfolgskurs bringen. Durch bewährte Methoden wie Design Thinking und Lean Startup schaffen wir flexible Lösungen, die zukunftssicher, effizient und exakt auf Dein Budget abgestimmt sind.'
+  text: 'Wir entwickeln digitale Strategien, die Deine Ziele in den Mittelpunkt stellen. Mit Methoden wie Design Thinking und Lean Startup schaffen wir flexible, zukunftssichere Lösungen – effizient und budgetgerecht.'
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732649851
+updated_at: 1732726307
 icon: puzzle-piece
-headline: 'Maßgeschneiderte digitale Strategien für nachhaltiges Wachstum und Innovation'
-copy: 'Wir helfen Dir dabei, Dein digitales Projekt von Anfang an richtig zu planen und umzusetzen. Mit bewährten Methoden wie Design Thinking und Lean Startup entwickeln wir Strategien, die exakt auf Deine Ziele und Dein Budget abgestimmt sind. So findest Du innovative und effiziente Lösungen, die Deinen Erfolg langfristig sichern.'
+headline: 'Dein Fahrplan für erfolgreiche digitale Projekte'
+copy: 'Von der Planung bis zur Umsetzung begleiten wir Dich bei Deinem digitalen Projekt. Mit Design Thinking und Lean Startup entwickeln wir Strategien, die Deine Ziele erreichen und Dein Budget optimal einsetzen. Gemeinsam schaffen wir innovative und effiziente Lösungen für nachhaltigen Erfolg.'
 overline: 'Digital Strategy & Innovation Planning'
 enable_cta_box: true
 cta_box:
-  override_defaults: false
+  override_defaults: true
   cta_box:
-    headline: null
-    text: null
-    expert: null
+    headline: 'Starte jetzt Deine digitale Transformation'
+    text: 'Vereinbare ein kostenloses Beratungsgespräch und entdecke, wie wir Dich zu Deinen Zielen führen.'
+    expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 layout_modules:
   -
     id: m3ixyjav
     alignment: left
-    overline: Challenges
+    overline: 'Herausforderungen'
     headline: 'Die Herausforderungen der digitalen Transformation'
-    intro_text: 'Wie entwickelst Du eine Strategie, die sowohl flexibel als auch effektiv ist? Wie wählst Du die richtigen Technologien, die Dein Wachstum unterstützen? Und wie stellst Du sicher, dass Dein digitales Projekt auf die Bedürfnisse Deiner Nutzer abgestimmt ist und gleichzeitig die Geschäftsziele erfüllt? Wir helfen Dir, diese Fragen zu beantworten und bieten Dir eine klare Richtung für Deine digitale Zukunft.'
+    intro_text: 'Wie entwickelst Du eine flexible und effektive Strategie? Welche Technologien fördern Dein Wachstum? Und wie sicherst Du, dass Dein digitales Projekt den Nutzerbedürfnissen entspricht und gleichzeitig Deine Geschäftsziele erreicht? Wir geben Dir Antworten – und eine klare Richtung für Deine digitale Zukunft.'
     type: section-header
     enabled: false
   -
     id: m3iy1d2x
-    overline: Ansatz
-    headline: 'Unser Ansatz für Deinen Erfolg'
+    overline: 'Ansatz'
+    headline: 'So machen wir Dein Projekt erfolgreich'
     presentation: sticky_column
     enable_head_section: false
     enable_tail_section: true
@@ -41,43 +41,43 @@ layout_modules:
         content:
           -
             type: text
-            text: 'Unser Ansatz basiert auf einem tiefen Verständnis Deiner Bedürfnisse und einem strukturierten Prozess, der sicherstellt, dass alle Aspekte Deines Projekts sorgfältig geplant und ausgeführt werden. Wir kombinieren strategische Planung mit technologischer Beratung und nutzerzentrierter Produktentwicklung.'
+            text: 'Unser Ansatz kombiniert strategische Planung mit technologischer Beratung und nutzerzentrierter Produktentwicklung. So stellen wir sicher, dass alle Aspekte Deines Projekts durchdacht und effektiv umgesetzt werden.'
     tail_elements:
       -
         id: m3iy3hy3
-        headline: Bedarfsanalyse
-        text: 'Gemeinsam ermitteln wir den konkreten Bedarf und die Ziele Deines Projekts. Durch intensive Gespräche und Workshops identifizieren wir die wichtigsten Anforderungen und Herausforderungen, um eine solide Grundlage für die Projektplanung zu schaffen.'
+        headline: 'Bedarfsanalyse'
+        text: 'Wir identifizieren die Ziele und Anforderungen Deines Projekts durch Workshops und intensive Gespräche, um eine solide Basis für die Planung zu schaffen.'
         type: content-item
         enabled: true
       -
         id: m3iy4v2u
-        headline: 'Technologische Beratung'
-        text: 'Unsere Experten unterstützen Dich bei der Auswahl der passenden Technologien und Tools. Wir helfen Dir, die besten Lösungen zu identifizieren, die Deine spezifischen Anforderungen erfüllen und zukunftssicher sind.'
+        headline: 'Technologieberatung'
+        text: 'Wir helfen Dir bei der Auswahl der richtigen Technologien und Tools, die zukunftssicher sind und Deine Anforderungen optimal erfüllen.'
         type: content-item
         enabled: true
       -
         id: m3iy56kl
-        headline: Produktstrategie
-        text: 'Wir entwickeln eine Produktstrategie, die Teams zusammenbringt, um Produkte zu schaffen, die den Nutzerbedürfnissen entsprechen und die Geschäftsziele erreichen.'
+        headline: 'Produktstrategie'
+        text: 'Wir entwickeln eine Produktstrategie, die Dein Team zusammenbringt und Produkte schafft, die Nutzer begeistern und Geschäftsziele erreichen.'
         type: content-item
         enabled: true
       -
         id: m3iy5lja
-        headline: 'Begleitung und Unterstützung'
-        text: 'Wir begleiten Dich während des gesamten Prozesses und bieten kontinuierliche Unterstützung, um sicherzustellen, dass Dein Projekt erfolgreich ist.'
+        headline: 'Begleitung und Support'
+        text: 'Während des gesamten Projekts stehen wir an Deiner Seite und unterstützen Dich bei jedem Schritt.'
         type: content-item
         enabled: true
     type: adaptive-split
     enabled: true
   -
     id: m3iy8xx1
-    overline: Vorteile
+    overline: 'Vorteile'
     headline: 'Deine Vorteile auf einen Blick'
-    intro_text: 'Unsere Beratung und Unterstützung bieten Dir zahlreiche Vorteile, um Dein digitales Projekt erfolgreich zu machen.'
+    intro_text: 'Entdecke, welche Vorteile unsere Zusammenarbeit Dir bietet und wie wir Dein Projekt zum Erfolg führen.'
     items:
       -
         id: m3iyah1e
-        headline: 'Sicherheit für Dein Projekt'
+        headline: 'Sicherheit und Orientierung'
         icon: shield-check
         text:
           -
@@ -85,9 +85,75 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Mit klaren, durchdachten Projektplänen vermeidest Du Unsicherheiten und gehst mit Vertrauen in die Zukunft.'
+                text: 'Mit durchdachten Projektplänen geben wir Dir Sicherheit und klare Orientierung für die Zukunft.'
+        type: info_item
+        enabled: true
+      -
+        id: m4028312
+        headline: 'Zielgerichtete Strategien'
+        icon: cursor-arrow-ripple
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Unsere Strategien fokussieren sich auf Deine Geschäftsziele und Nutzerbedürfnisse, um Ergebnisse zu schaffen, die überzeugen.'
+        type: info_item
+        enabled: true
+      -
+        id: m402pvh9
+        headline: 'Erfahrung, die zählt'
+        icon: star
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Mit über 15 Jahren Erfahrung in der Softwareentwicklung und Strategieplanung bringen wir das Know-how, das Du brauchst.'
+        type: info_item
+        enabled: true
+      -
+        id: m402qjk5
+        headline: 'Nutzerzentrierte Lösungen'
+        icon: user-circle
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Durch fundierte Nutzerforschung schaffen wir Produkte, die genau die Probleme Deiner Zielgruppe lösen.'
         type: info_item
         enabled: true
     type: item-list
+    enabled: true
+  -
+    id: m402vy8w
+    overline: 'Kundenstimmen'
+    headline: 'Das sagen unsere Kunden'
+    intro_text: 'Unsere Kunden vertrauen uns. Erfahre, wie wir sie bei der digitalen Transformation unterstützt haben.'
+    testimonials:
+      -
+        id: m402wz3y
+        quote: 'Die Beratung von 21st digital hat unser digitales Wachstum maßgeblich vorangebracht. Ein unschätzbarer Partner in der digitalen Transformation.'
+        author: c782dd56-f2dd-49e6-ab55-60f7092bc692
+        type: testimonial
+        enabled: true
+    type: testimonials
+    enabled: false
+  -
+    id: m402t7sx
+    alignment: center
+    overline: 'Case Studies'
+    headline: 'Erfolgsprojekte, die überzeugen'
+    intro_text: 'Lerne aus erfolgreichen Projekten, wie wir Unternehmen dabei helfen, digitale Herausforderungen zu meistern.'
+    type: section-header
+    enabled: true
+  -
+    id: m402slid
+    compilation: all
+    type: case-study-teaser
     enabled: true
 ---

@@ -15,7 +15,7 @@ cta_box:
     text: null
     expert: null
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732653442
+updated_at: 1732795571
 layout_modules:
   -
     id: m3fr6tlb
@@ -49,13 +49,7 @@ layout_modules:
     overline: Services
     headline: 'Digitale Leistungen nach Maß'
     intro_text: 'Von der ersten Idee bis zur erfolgreichen Umsetzung – wir bieten Dir alle Services, die Du für den Erfolg Deines Projekts benötigst.'
-    compilation: by_hand
-    entries:
-      - 85f83d7c-f891-411a-ac89-7d03dcf58b44
-      - ec7551c3-3731-48fd-b3de-d1f13f591538
-      - f8b66829-2f35-458d-b159-759ac54b0793
-      - 07fafa0f-79e9-4374-a221-d814dc35e619
-      - abe0527c-bb8a-496a-8669-bdc28d6dc2c2
+    compilation: all
     type: services-teaser
     enabled: true
   -
