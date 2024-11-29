@@ -1,3 +1,9 @@
+## [2.0.2](https://github.com/21stdigital/21st.digital/compare/v2.0.1...v2.0.2) (2024-11-29)
+
+### Bug Fixes
+
+* svg handling in safari ([#395](https://github.com/21stdigital/21st.digital/issues/395)) ([0445c34](https://github.com/21stdigital/21st.digital/commit/0445c348c95ec8db22720cb93505a3313927b8b3))
+
 ## [2.0.1](https://github.com/21stdigital/21st.digital/compare/v2.0.0...v2.0.1) (2024-11-29)
 
 ### Bug Fixes
