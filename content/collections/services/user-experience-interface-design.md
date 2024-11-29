@@ -5,10 +5,10 @@ title: 'User Experience & Interface Design'
 teaser:
   title: 'User Experience & Interface Design'
   text: 'Wir gestalten digitale Erlebnisse, die intuitiv und ansprechend sind. Durch detaillierte Nutzeranalysen schaffen wir Designs, die sowohl Deine Geschäftsziele als auch die Bedürfnisse Deiner Nutzer optimal unterstützen.'
-updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732799899
+updated_by: 6d9131f3-00d6-4705-b497-ce1e18f650fc
+updated_at: 1732897394
 icon: user-circle
-headline: 'Nutzerzentrierte Designs für Deine digitale Erfolgsgeschichte'
+headline: 'Nutzerzentrierte Designs, die Deine digitale Präsenz stärken'
 copy: 'Wir entwickeln einzigartige Designs, die Benutzerfreundlichkeit und Ästhetik vereinen. Unser Ansatz fokussiert sich auf Deine Nutzer, ihre Bedürfnisse und ihre Erwartungen. Mit modernen UX- und UI-Methoden sorgen wir für digitale Erlebnisse, die überzeugen und begeistern.'
 overline: 'User Experience & Interface Design'
 enable_cta_box: true
@@ -22,7 +22,7 @@ layout_modules:
   -
     id: m3iy1d2x
     overline: 'Unser Prozess'
-    headline: 'Unser Ansatz für eine optimierte IT-Infrastruktur und DevOps'
+    headline: 'Unser Ansatz für außergewöhnliches Design'
     presentation: sticky_column
     enable_head_section: false
     enable_tail_section: true
@@ -33,30 +33,30 @@ layout_modules:
         content:
           -
             type: text
-            text: 'Unser Ansatz kombiniert eine detaillierte Analyse Deiner aktuellen Infrastruktur mit der Implementierung moderner DevOps-Praktiken. Wir setzen auf Automatisierung, kontinuierliche Integration und Bereitstellung sowie regelmäßige Überprüfungen, um sicherzustellen, dass Deine Systeme immer optimal funktionieren.'
+            text: 'Unser Designprozess kombiniert Kreativität mit tiefem Nutzerverständnis, um Designs zu entwickeln, die sowohl optisch als auch funktional überzeugen. Wir setzen auf moderne Designmethoden und arbeiten eng mit Dir zusammen, um sicherzustellen, dass das Endergebnis genau Deinen Vorstellungen und den Anforderungen Deiner Nutzer entspricht.'
     tail_elements:
       -
         id: m3iy3hy3
-        headline: 'Infrastruktur-Analyse und Planung'
-        text: 'Wir beginnen mit einer gründlichen Analyse Deiner bestehenden IT-Infrastruktur, um Schwachstellen zu identifizieren und eine maßgeschneiderte Strategie für die Optimierung zu entwickeln.'
+        headline: 'Nutzerforschung und Analyse'
+        text: 'Wir beginnen mit einer gründlichen Untersuchung der Bedürfnisse und Verhaltensweisen Deiner Nutzer, um sicherzustellen, dass das Design deren Erwartungen entspricht und ihre Probleme löst.'
         type: content-item
         enabled: true
       -
         id: m3iy4v2u
-        headline: 'Cloud-Migration und -Optimierung'
-        text: 'Wir unterstützen Dich bei der Migration Deiner Systeme in die Cloud und optimieren bestehende Cloud-Infrastrukturen für bessere Leistung und Kosteneffizienz.'
+        headline: 'Informationsarchitektur und Wireframing'
+        text: 'Wir erstellen eine klare Struktur und Benutzerführung für Deine digitalen Produkte, um eine intuitive Navigation und ein angenehmes Nutzererlebnis zu gewährleisten.'
         type: content-item
         enabled: true
       -
         id: m3iy56kl
-        headline: 'Automatisierung und Orchestrierung'
-        text: 'Durch den Einsatz von Automatisierungstools und -prozessen steigern wir die Effizienz und reduzieren menschliche Fehler, wodurch Entwicklungs- und Betriebsprozesse beschleunigt werden.'
+        headline: UI-Design
+        text: 'Basierend auf den gewonnenen Erkenntnissen entwickeln wir visuell ansprechende Benutzeroberflächen, die Deine Marke repräsentieren und Deine Nutzer begeistern.'
         type: content-item
         enabled: true
       -
         id: m3iy5lja
-        headline: 'Continuous Integration & Delivery'
-        text: 'Wir implementieren CI/CD-Pipelines, die eine schnellere und zuverlässigere Software-Bereitstellung ermöglichen und so die Time-to-Market verkürzen.'
+        headline: 'Prototyping und Testing'
+        text: 'Mit interaktiven Prototypen testen wir das Design mit echten Nutzern, um wertvolles Feedback zu sammeln und das Design weiter zu optimieren.'
         type: content-item
         enabled: true
     type: adaptive-split
@@ -68,7 +68,7 @@ layout_modules:
     items:
       -
         id: m3iyah1e
-        headline: 'Verbesserte Effizienz und Geschwindigkeit'
+        headline: 'Höhere Benutzerzufriedenheit'
         icon: arrow-trending-up
         text:
           -
@@ -76,12 +76,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Durch Automatisierung und optimierte Prozesse beschleunigen wir die Entwicklungs- und Bereitstellungszyklen, was zu schnelleren Release-Zeiten führt.'
+                text: 'Durch nutzerzentrierte Designs stellen wir sicher, dass Deine digitalen Produkte intuitiv und angenehm zu bedienen sind.'
         type: info_item
         enabled: true
       -
         id: m4028312
-        headline: Kosteneinsparungen
+        headline: 'Erhöhte Conversion-Raten'
         icon: cursor-arrow-ripple
         text:
           -
@@ -89,12 +89,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Eine optimierte Infrastruktur und automatisierte Prozesse helfen, Betriebskosten zu senken und Ressourcen effizienter zu nutzen.'
+                text: 'Ein ansprechendes und gut durchdachtes Design kann die Benutzererfahrung verbessern und die Conversion-Raten steigern.'
         type: info_item
         enabled: true
       -
         id: m402pvh9
-        headline: 'Höhere Zuverlässigkeit und Verfügbarkeit'
+        headline: Markenstärkung
         icon: star
         text:
           -
@@ -102,12 +102,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Wir sorgen dafür, dass Deine Systeme stabil und zuverlässig laufen, was die Ausfallzeiten reduziert und die Kundenzufriedenheit erhöht.'
+                text: 'Mit einem konsistenten und hochwertigen Design stärkst Du die Wahrnehmung Deiner Marke und hebst Dich von der Konkurrenz ab.'
         type: info_item
         enabled: true
       -
         id: m402qjk5
-        headline: 'Zukunftssichere Lösungen'
+        headline: 'Effiziente Produktentwicklung'
         icon: user-circle
         text:
           -
@@ -115,12 +115,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Mit modernen Tools und Methoden stellen wir sicher, dass Deine IT-Infrastruktur und DevOps-Prozesse auch in Zukunft den wachsenden Anforderungen gerecht werden.'
+                text: 'Durch die frühzeitige Einbindung von Nutzern und das Testen von Prototypen können wir Designprobleme frühzeitig erkennen und beheben, was Zeit und Kosten spart.'
         type: info_item
         enabled: true
     type: item-list
     enabled: true
-    intro_text: 'Mit unseren Infrastructure & DevOps-Dienstleistungen profitierst Du von einer leistungsstarken und skalierbaren IT-Infrastruktur sowie effizienteren Entwicklungsprozessen.'
+    intro_text: 'Unsere UX- und UI-Design-Dienstleistungen bieten Dir zahlreiche Vorteile, die zur Verbesserung Deiner digitalen Produkte beitragen.'
   -
     id: m402vy8w
     overline: Kundenstimmen
@@ -129,8 +129,8 @@ layout_modules:
     testimonials:
       -
         id: m402wz3y
-        quote: 'Durch die Unterstützung von 21st digital konnten wir unsere DevOps-Prozesse erheblich verbessern und die Effizienz unserer Entwicklungsteams steigern.'
-        author: 26215621-8fa6-49c8-b254-9e528f3c18bb
+        quote: 'Dank des neuen Designs von 21st digital konnten wir unsere Nutzerinteraktion verbessern und unsere Conversion-Raten erheblich steigern.'
+        author: c782dd56-f2dd-49e6-ab55-60f7092bc692
         type: testimonial
         enabled: true
     type: testimonials
@@ -140,7 +140,7 @@ layout_modules:
     alignment: center
     overline: 'Case Studies'
     headline: 'Erfolgsgeschichten, die begeistern'
-    intro_text: 'Erfahre, wie unsere Infrastructure & DevOps-Lösungen Unternehmen geholfen haben, ihre IT-Infrastruktur zu optimieren und effizienter zu arbeiten.'
+    intro_text: 'Sieh Dir an, wie unsere UX- und UI-Design-Strategien Unternehmen geholfen haben, herausragende digitale Erlebnisse zu schaffen.'
     type: section-header
     enabled: true
   -
