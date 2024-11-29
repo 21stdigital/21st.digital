@@ -3,7 +3,7 @@
         <article class="bg-gradient-dark-900 border-highlight-3-600 border p-20 sm:p-32">
             {!! Statamic::tag('svg')->params([
                 'src' => $entry['logo'],
-                'class' => 'max-w-[12rem] mb-20 max-h-[4.2rem]'
+                'class' => 'max-w-[12rem] mb-20 max-h-[4.2rem] h-full'
             ]) !!}
 
             <h3 class="text-h5 mb-12 text-balance">
