@@ -4,19 +4,19 @@ blueprint: service
 title: 'Digital Strategy & Innovation Planning'
 teaser:
   title: 'Digital Strategy & Innovation Planning'
-  text: 'Wir entwickeln digitale Strategien, die Deine Ziele in den Mittelpunkt stellen. Mit Methoden wie Design Thinking und Lean Startup schaffen wir flexible, zukunftssichere Lösungen – effizient und budgetgerecht.'
+  text: 'Wir entwickeln digitale Strategien, die nicht nur Deine Ziele in den Mittelpunkt stellen, sondern auch nachhaltige Ergebnisse liefern. Mit erprobten Methoden und innovativen Ansätzen begleiten wir Dich auf dem Weg zu Deinem digitalen Erfolg.'
 updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
 updated_at: 1732726307
 icon: puzzle-piece
 headline: 'Dein Fahrplan für erfolgreiche digitale Projekte'
-copy: 'Von der Planung bis zur Umsetzung begleiten wir Dich bei Deinem digitalen Projekt. Mit Design Thinking und Lean Startup entwickeln wir Strategien, die Deine Ziele erreichen und Dein Budget optimal einsetzen. Gemeinsam schaffen wir innovative und effiziente Lösungen für nachhaltigen Erfolg.'
+copy: 'Von der Planung bis zur Umsetzung – wir entwickeln Strategien, die digitale Innovationen vorantreiben und gleichzeitig Deine Geschäftsziele erreichen. Unsere Mission: Zukunftssichere Lösungen, die effizient und auf Dein Budget zugeschnitten sind.'
 overline: 'Digital Strategy & Innovation Planning'
 enable_cta_box: true
 cta_box:
   override_defaults: true
   cta_box:
-    headline: 'Starte jetzt Deine digitale Transformation'
-    text: 'Vereinbare ein kostenloses Beratungsgespräch und entdecke, wie wir Dich zu Deinen Zielen führen.'
+    headline: 'Starte Deine digitale Erfolgsgeschichte'
+    text: 'Lass uns gemeinsam die Grundlage für Deine digitale Zukunft schaffen. Buche ein kostenloses Beratungsgespräch und erfahre, wie wir Deine Vision Realität werden lassen.'
     expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 layout_modules:
   -
@@ -24,13 +24,13 @@ layout_modules:
     alignment: left
     overline: 'Herausforderungen'
     headline: 'Die Herausforderungen der digitalen Transformation'
-    intro_text: 'Wie entwickelst Du eine flexible und effektive Strategie? Welche Technologien fördern Dein Wachstum? Und wie sicherst Du, dass Dein digitales Projekt den Nutzerbedürfnissen entspricht und gleichzeitig Deine Geschäftsziele erreicht? Wir geben Dir Antworten – und eine klare Richtung für Deine digitale Zukunft.'
+    intro_text: 'Wie sicherst Du, dass Deine digitale Strategie zukunftsfähig ist? Welche Technologien fördern Dein Wachstum? Und wie bringst Du Nutzerbedürfnisse und Geschäftsziele in Einklang? Wir liefern Antworten – und eine klare Roadmap für Deine digitale Reise.'
     type: section-header
     enabled: false
   -
     id: m3iy1d2x
     overline: 'Ansatz'
-    headline: 'So machen wir Dein Projekt erfolgreich'
+    headline: 'So gestalten wir Deinen Erfolg'
     presentation: sticky_column
     enable_head_section: false
     enable_tail_section: true
@@ -41,43 +41,43 @@ layout_modules:
         content:
           -
             type: text
-            text: 'Unser Ansatz kombiniert strategische Planung mit technologischer Beratung und nutzerzentrierter Produktentwicklung. So stellen wir sicher, dass alle Aspekte Deines Projekts durchdacht und effektiv umgesetzt werden.'
+            text: 'Unser Ansatz vereint strategische Planung mit technologischer Expertise und nutzerzentrierter Entwicklung. Gemeinsam entwickeln wir innovative Lösungen, die Dein Unternehmen voranbringen.'
     tail_elements:
       -
         id: m3iy3hy3
-        headline: 'Bedarfsanalyse'
-        text: 'Wir identifizieren die Ziele und Anforderungen Deines Projekts durch Workshops und intensive Gespräche, um eine solide Basis für die Planung zu schaffen.'
+        headline: 'Gemeinsame Zieldefinition'
+        text: 'In Workshops identifizieren wir die Prioritäten Deines Projekts und schaffen so eine fundierte Basis für alle weiteren Schritte.'
         type: content-item
         enabled: true
       -
         id: m3iy4v2u
-        headline: 'Technologieberatung'
-        text: 'Wir helfen Dir bei der Auswahl der richtigen Technologien und Tools, die zukunftssicher sind und Deine Anforderungen optimal erfüllen.'
+        headline: 'Technologie- und Marktanalyse'
+        text: 'Wir beraten Dich bei der Auswahl moderner Technologien, die optimal zu Deinen Anforderungen passen und auf die Bedürfnisse Deines Marktes abgestimmt sind.'
         type: content-item
         enabled: true
       -
         id: m3iy56kl
-        headline: 'Produktstrategie'
-        text: 'Wir entwickeln eine Produktstrategie, die Dein Team zusammenbringt und Produkte schafft, die Nutzer begeistern und Geschäftsziele erreichen.'
+        headline: 'Strategische Umsetzung'
+        text: 'Mit einer klaren Produktstrategie setzen wir Ideen in nutzerorientierte, marktfähige Produkte um, die langfristigen Erfolg garantieren.'
         type: content-item
         enabled: true
       -
         id: m3iy5lja
-        headline: 'Begleitung und Support'
-        text: 'Während des gesamten Projekts stehen wir an Deiner Seite und unterstützen Dich bei jedem Schritt.'
+        headline: 'Langfristiger Support'
+        text: 'Auch nach der Implementierung stehen wir Dir mit Rat und Tat zur Seite und begleiten Dich auf Deinem Weg.'
         type: content-item
         enabled: true
     type: adaptive-split
     enabled: true
   -
     id: m3iy8xx1
-    overline: 'Vorteile'
-    headline: 'Deine Vorteile auf einen Blick'
-    intro_text: 'Entdecke, welche Vorteile unsere Zusammenarbeit Dir bietet und wie wir Dein Projekt zum Erfolg führen.'
+    overline: 'Deine Vorteile'
+    headline: 'Unser Beitrag zu Deinem Erfolg'
+    intro_text: 'Erfahre, warum Unternehmen auf unsere Expertise setzen und welche Vorteile unsere Zusammenarbeit für Dich bietet.'
     items:
       -
         id: m3iyah1e
-        headline: 'Sicherheit und Orientierung'
+        headline: 'Klarheit und Orientierung'
         icon: shield-check
         text:
           -
@@ -85,12 +85,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Mit durchdachten Projektplänen geben wir Dir Sicherheit und klare Orientierung für die Zukunft.'
+                text: 'Mit detaillierten Roadmaps und durchdachten Plänen erhältst Du eine klare Struktur für Dein Projekt – von der Idee bis zur Umsetzung.'
         type: info_item
         enabled: true
       -
         id: m4028312
-        headline: 'Zielgerichtete Strategien'
+        headline: 'Ergebnisorientierte Strategien'
         icon: cursor-arrow-ripple
         text:
           -
@@ -98,12 +98,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Unsere Strategien fokussieren sich auf Deine Geschäftsziele und Nutzerbedürfnisse, um Ergebnisse zu schaffen, die überzeugen.'
+                text: 'Unsere Arbeit ist darauf ausgerichtet, echte Ergebnisse zu liefern, die Deine Geschäftsziele und Nutzerbedürfnisse vereinen.'
         type: info_item
         enabled: true
       -
         id: m402pvh9
-        headline: 'Erfahrung, die zählt'
+        headline: '15+ Jahre Erfahrung'
         icon: star
         text:
           -
@@ -111,12 +111,12 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Mit über 15 Jahren Erfahrung in der Softwareentwicklung und Strategieplanung bringen wir das Know-how, das Du brauchst.'
+                text: 'Wir bringen tiefes Fachwissen in Strategie, Technologie und Produktentwicklung mit, um Dein Projekt erfolgreich zu machen.'
         type: info_item
         enabled: true
       -
         id: m402qjk5
-        headline: 'Nutzerzentrierte Lösungen'
+        headline: 'Nachhaltige Lösungen'
         icon: user-circle
         text:
           -
@@ -124,7 +124,7 @@ layout_modules:
             content:
               -
                 type: text
-                text: 'Durch fundierte Nutzerforschung schaffen wir Produkte, die genau die Probleme Deiner Zielgruppe lösen.'
+                text: 'Mit fundierter Nutzerforschung entwickeln wir Produkte, die nicht nur kurzfristig, sondern auch langfristig überzeugen.'
         type: info_item
         enabled: true
     type: item-list
