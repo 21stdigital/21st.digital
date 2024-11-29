@@ -4,25 +4,25 @@ blueprint: service
 title: 'User Experience & Interface Design'
 teaser:
   title: 'User Experience & Interface Design'
-  text: 'Wir gestalten digitale Erlebnisse, die intuitiv und ansprechend sind. Durch detaillierte Nutzeranalysen schaffen wir Designs, die sowohl Deine Geschäftsziele als auch die Bedürfnisse Deiner Nutzer optimal unterstützen.'
+  text: 'Wir schaffen digitale Erlebnisse, die benutzerfreundlich, visuell überzeugend und auf die Bedürfnisse Deiner Zielgruppe zugeschnitten sind. Mit datenbasierten Insights und kreativen Ansätzen steigern wir Deine digitale Präsenz.'
 updated_by: 6d9131f3-00d6-4705-b497-ce1e18f650fc
 updated_at: 1732897394
 icon: user-circle
 headline: 'Nutzerzentrierte Designs, die Deine digitale Präsenz stärken'
-copy: 'Wir entwickeln einzigartige Designs, die Benutzerfreundlichkeit und Ästhetik vereinen. Unser Ansatz fokussiert sich auf Deine Nutzer, ihre Bedürfnisse und ihre Erwartungen. Mit modernen UX- und UI-Methoden sorgen wir für digitale Erlebnisse, die überzeugen und begeistern.'
+copy: 'Unsere Designs vereinen Ästhetik und Funktionalität. Mit einem klaren Fokus auf Nutzerbedürfnisse und innovative UX/UI-Methoden entwickeln wir digitale Produkte, die beeindrucken und nachhaltig erfolgreich sind.'
 overline: 'User Experience & Interface Design'
 enable_cta_box: true
 cta_box:
   override_defaults: true
   cta_box:
-    headline: 'Optimiere Deine Nutzererfahrung'
-    text: 'Buche ein unverbindliches Beratungsgespräch und lass uns gemeinsam Dein digitales Produkt optimieren.'
+    headline: 'Dein Design auf ein neues Level heben'
+    text: 'Vereinbare ein unverbindliches Beratungsgespräch, um zu erfahren, wie wir Dein digitales Produkt gemeinsam optimieren können.'
     expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 layout_modules:
   -
     id: m3iy1d2x
     overline: 'Unser Prozess'
-    headline: 'Unser Ansatz für außergewöhnliches Design'
+    headline: 'Von der Idee zur Interaktion'
     presentation: sticky_column
     enable_head_section: false
     enable_tail_section: true
@@ -33,30 +33,26 @@ layout_modules:
         content:
           -
             type: text
-            text: 'Unser Designprozess kombiniert Kreativität mit tiefem Nutzerverständnis, um Designs zu entwickeln, die sowohl optisch als auch funktional überzeugen. Wir setzen auf moderne Designmethoden und arbeiten eng mit Dir zusammen, um sicherzustellen, dass das Endergebnis genau Deinen Vorstellungen und den Anforderungen Deiner Nutzer entspricht.'
+            text: 'Unsere Arbeit beginnt mit einem tiefen Verständnis Deiner Zielgruppe. Mithilfe von Daten, Forschung und innovativen Designmethoden entwickeln wir Produkte, die begeistern und funktionieren.'
     tail_elements:
-      -
-        id: m3iy3hy3
-        headline: 'Nutzerforschung und Analyse'
-        text: 'Wir beginnen mit einer gründlichen Untersuchung der Bedürfnisse und Verhaltensweisen Deiner Nutzer, um sicherzustellen, dass das Design deren Erwartungen entspricht und ihre Probleme löst.'
+      - id: m3iy3hy3
+        headline: 'Nutzerforschung und Insights'
+        text: 'Wir analysieren Verhaltensweisen und Erwartungen Deiner Nutzer und nutzen diese Erkenntnisse, um ein Design zu entwickeln, das echte Mehrwerte schafft.'
         type: content-item
         enabled: true
-      -
-        id: m3iy4v2u
-        headline: 'Informationsarchitektur und Wireframing'
-        text: 'Wir erstellen eine klare Struktur und Benutzerführung für Deine digitalen Produkte, um eine intuitive Navigation und ein angenehmes Nutzererlebnis zu gewährleisten.'
+      - id: m3iy4v2u
+        headline: 'Struktur und Navigation'
+        text: 'Eine klare Informationsarchitektur sorgt für intuitive Benutzerführung und eine angenehme Navigation.'
         type: content-item
         enabled: true
-      -
-        id: m3iy56kl
-        headline: UI-Design
-        text: 'Basierend auf den gewonnenen Erkenntnissen entwickeln wir visuell ansprechende Benutzeroberflächen, die Deine Marke repräsentieren und Deine Nutzer begeistern.'
+      - id: m3iy56kl
+        headline: 'Visuelles Design'
+        text: 'Mit einem Design, das Deine Marke widerspiegelt und Nutzer begeistert, setzen wir Maßstäbe für digitale Ästhetik.'
         type: content-item
         enabled: true
-      -
-        id: m3iy5lja
-        headline: 'Prototyping und Testing'
-        text: 'Mit interaktiven Prototypen testen wir das Design mit echten Nutzern, um wertvolles Feedback zu sammeln und das Design weiter zu optimieren.'
+      - id: m3iy5lja
+        headline: 'Iteratives Testing'
+        text: 'Durch Prototyping und Nutzertests stellen wir sicher, dass das Endprodukt überzeugt und Deine Ziele erreicht.'
         type: content-item
         enabled: true
     type: adaptive-split
@@ -64,72 +60,60 @@ layout_modules:
   -
     id: m3iy8xx1
     overline: 'Deine Vorteile'
-    headline: 'Was Du von uns erwarten kannst'
+    headline: 'Auf einen Blick'
+    intro_text: 'Mit unserer UX- und UI-Expertise profitierst Du von Designs, die echte Ergebnisse liefern.'
     items:
-      -
-        id: m3iyah1e
-        headline: 'Höhere Benutzerzufriedenheit'
+      - id: m3iyah1e
+        headline: 'Steigerung der Benutzerfreundlichkeit'
         icon: arrow-trending-up
         text:
-          -
-            type: paragraph
+          - type: paragraph
             content:
-              -
-                type: text
-                text: 'Durch nutzerzentrierte Designs stellen wir sicher, dass Deine digitalen Produkte intuitiv und angenehm zu bedienen sind.'
+              - type: text
+                text: 'Unsere nutzerzentrierten Designs machen Deine digitalen Produkte einfacher, klarer und angenehmer zu bedienen.'
         type: info_item
         enabled: true
-      -
-        id: m4028312
-        headline: 'Erhöhte Conversion-Raten'
+      - id: m4028312
+        headline: 'Verbesserte Conversion-Raten'
         icon: cursor-arrow-ripple
         text:
-          -
-            type: paragraph
+          - type: paragraph
             content:
-              -
-                type: text
-                text: 'Ein ansprechendes und gut durchdachtes Design kann die Benutzererfahrung verbessern und die Conversion-Raten steigern.'
+              - type: text
+                text: 'Durch optimierte Benutzererfahrungen erhöhen wir die Wahrscheinlichkeit, dass Nutzer Deine Ziele – sei es ein Kauf, eine Anfrage oder eine Registrierung – erreichen.'
         type: info_item
         enabled: true
-      -
-        id: m402pvh9
-        headline: Markenstärkung
+      - id: m402pvh9
+        headline: 'Markenpositionierung'
         icon: star
         text:
-          -
-            type: paragraph
+          - type: paragraph
             content:
-              -
-                type: text
-                text: 'Mit einem konsistenten und hochwertigen Design stärkst Du die Wahrnehmung Deiner Marke und hebst Dich von der Konkurrenz ab.'
+              - type: text
+                text: 'Ein konsistentes und hochwertiges Design stärkt die Wahrnehmung Deiner Marke und hebt Dich von der Konkurrenz ab.'
         type: info_item
         enabled: true
-      -
-        id: m402qjk5
-        headline: 'Effiziente Produktentwicklung'
+      - id: m402qjk5
+        headline: 'Zeit- und Kostenersparnis'
         icon: user-circle
         text:
-          -
-            type: paragraph
+          - type: paragraph
             content:
-              -
-                type: text
-                text: 'Durch die frühzeitige Einbindung von Nutzern und das Testen von Prototypen können wir Designprobleme frühzeitig erkennen und beheben, was Zeit und Kosten spart.'
+              - type: text
+                text: 'Frühzeitiges Prototyping und Nutzertests vermeiden kostspielige Fehler in der späteren Produktentwicklung.'
         type: info_item
         enabled: true
     type: item-list
     enabled: true
-    intro_text: 'Unsere UX- und UI-Design-Dienstleistungen bieten Dir zahlreiche Vorteile, die zur Verbesserung Deiner digitalen Produkte beitragen.'
   -
     id: m402vy8w
     overline: Kundenstimmen
     headline: 'Was unsere Kunden sagen'
-    intro_text: 'Unsere Kunden schätzen unsere umfassenden Infrastructure & DevOps-Lösungen. Lies, was sie über unsere Zusammenarbeit zu sagen haben.'
+    intro_text: 'Unsere Kunden schätzen unsere Expertise im UX- und UI-Design. Erfahre, wie wir sie unterstützt haben, ihre digitalen Ziele zu erreichen.'
     testimonials:
       -
         id: m402wz3y
-        quote: 'Dank des neuen Designs von 21st digital konnten wir unsere Nutzerinteraktion verbessern und unsere Conversion-Raten erheblich steigern.'
+        quote: 'Mit den Designs von 21st digital konnten wir nicht nur unsere Nutzerzahlen steigern, sondern auch die Zufriedenheit unserer Bestandskunden verbessern.'
         author: c782dd56-f2dd-49e6-ab55-60f7092bc692
         type: testimonial
         enabled: true
