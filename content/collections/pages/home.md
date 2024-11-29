@@ -20,7 +20,7 @@ layout_modules:
   -
     id: m3fr6tlb
     overline: 'Case Studies'
-    headline: 'Unsere digitalen Erfolgsgeschichten'
+    headline: 'Erfolgsgeschichten unserer Kunden'
     presentation: sticky_column
     enable_head_section: false
     enable_tail_section: true
@@ -47,16 +47,16 @@ layout_modules:
   -
     id: m3fresx5
     overline: Services
-    headline: 'Digitale Leistungen nach Maß'
-    intro_text: 'Von der ersten Idee bis zur erfolgreichen Umsetzung – wir bieten Dir alle Services, die Du für den Erfolg Deines Projekts benötigst.'
+    headline: 'Von der ersten Idee bis zur erfolgreichen Umsetzung'
+    intro_text: 'Wir bieten umfassende Services, die Deine digitalen Projekte voranbringen und nachhaltigen Erfolg sichern.'
     compilation: all
     type: services-teaser
     enabled: true
   -
     id: m3frhyg8
     overline: Clients
-    headline: 'Erfolg durch Zusammenarbeit'
-    intro_text: 'Unternehmen aus unterschiedlichsten Branchen vertrauen uns, um digitale Herausforderungen zu meistern und innovative Wege zu gehen.'
+    headline: 'Vertrauen von führenden Unternehmen'
+    intro_text: 'Unsere Kunden aus verschiedensten Branchen vertrauen uns, um digitale Herausforderungen zu meistern und neue Wege zu beschreiten.'
     clients:
       - 825ad067-352d-4721-9adf-3fd577facc0b
       - 65f4bec1-f1bd-4392-8304-02bfd76c84a6
