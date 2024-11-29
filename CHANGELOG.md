@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/21stdigital/21st.digital/compare/v2.0.0...v2.0.1) (2024-11-29)
+
+### Bug Fixes
+
+* use correct psr4 compliant name in custom view model ([#394](https://github.com/21stdigital/21st.digital/issues/394)) ([5e31080](https://github.com/21stdigital/21st.digital/commit/5e31080fe5f732be77ea262abb7c2f223663e285))
+
 ## [2.0.0](https://github.com/21stdigital/21st.digital/compare/v1.0.0...v2.0.0) (2024-11-29)
 
 ### ⚠ BREAKING CHANGES
