@@ -8,7 +8,19 @@
         "options": {
           "config": {
             "typeCase": "lower",
-            "types": ["build", "chore", "ci", "docs", "feat", "fix", "perf", "refactor", "revert", "style", "test"],
+            "types": [
+              "build",
+              "chore",
+              "ci",
+              "docs",
+              "feat",
+              "fix",
+              "perf",
+              "refactor",
+              "revert",
+              "style",
+              "test"
+            ],
             "scopeCase": "kebab",
             "scopeRequired": false,
             "scopes": [],
@@ -30,30 +42,14 @@
     "enabled": true,
     "actions": [
       {
-        "//": "Run prettier on all staged files",
-        "action": "npm run prettier:fix {$STAGED_FILES|in-dir:resources/views|of-type:html}"
-      },
-      {
-        "//": "Lint and fix all staged PHP files.",
-        "action": "vendor/bin/composer lint {$STAGED_FILES|of-type:php}"
-      },
-      {
-        "//": "Add changed files back to the git stage.",
-        "action": "git add {$STAGED_FILES}"
-      },
-      {
-        "//": "Static Analysis of all PHP files in the project.",
-        "action": "vendor/bin/composer analyse"
-      },
-      {
-        "//": "Lint all TS files in the project.",
+        "//": "Lint all CSS files in the project.",
         "conditions": [
           {
             "exec": "\\CaptainHook\\App\\Hook\\Condition\\FileStaged\\OfType",
-            "args": [["ts"]]
+            "args": [["css"]]
           }
         ],
-        "action": "npm run lint:js {$STAGED_FILES|of-type:ts}"
+        "action": "npm run lint:css {$STAGED_FILES|of-type:css}"
       },
       {
         "//": "Lint all JS files in the project.",
@@ -66,24 +62,30 @@
         "action": "npm run lint:js {$STAGED_FILES|of-type:js}"
       },
       {
-        "//": "Lint all CJS files in the project.",
+        "//": "Lint all TS files in the project.",
         "conditions": [
           {
             "exec": "\\CaptainHook\\App\\Hook\\Condition\\FileStaged\\OfType",
-            "args": [["cjs"]]
+            "args": [["ts"]]
           }
         ],
-        "action": "npm run lint:js {$STAGED_FILES|of-type:cjs}"
+        "action": "npm run lint:js {$STAGED_FILES|of-type:ts}"
       },
       {
-        "//": "Lint all CSS files in the project.",
-        "conditions": [
-          {
-            "exec": "\\CaptainHook\\App\\Hook\\Condition\\FileStaged\\OfType",
-            "args": [["css"]]
-          }
-        ],
-        "action": "npm run lint:css {$STAGED_FILES|of-type:css}"
+        "//": "Lint and fix all staged PHP files.",
+        "action": "vendor/bin/composer lint {$STAGED_FILES|of-type:php}"
+      },
+      {
+        "//": "Run prettier on all staged files",
+        "action": "npm run prettier:fix {$STAGED_FILES}"
+      },
+      {
+        "//": "Add changed files back to the git stage.",
+        "action": "git add {$STAGED_FILES}"
+      },
+      {
+        "//": "Static Analysis of all PHP files in the project.",
+        "action": "vendor/bin/composer analyse"
       }
     ]
   },

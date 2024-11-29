@@ -1,9 +1,9 @@
 ---
-id: 67a44f4a-2917-4c4b-93d0-fc6264cd727c
+id: c600de2d-4414-4741-866f-65ec6b72bbd4
 blueprint: client
 title: 'Thalia Theater'
-logo: clients/thalia-theater.svg
-logo_monotone: clients/monotone/thalia-theater.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715848854
+url: 'https://www.thalia-theater.de'
+logo: thalia-theater
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081941
 ---

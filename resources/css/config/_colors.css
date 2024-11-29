@@ -1,0 +1,44 @@
+:root {
+  --color-primary: var(--color-dark);
+  --color-secondary: var(--color-light);
+  --color-tertiary: var(--color-highlight);
+  --color-dark: 20 20 20;
+  --color-light: 255 255 255;
+  --color-highlight-1: 255 0 210; /* #ff00d2 */
+  --color-highlight-2: 191 41 221; /* #bf29dd */
+  --color-highlight-3: 118 87 234; /* #7657ea */
+  --color-light-gradient-1: 145 134 193; /* #9186C1 */
+  --color-light-gradient-2: 98 98 98; /* #626262 */
+  --color-dark-gradient-1: 28 21 35; /* #1C1523 */
+  --color-dark-gradient-2: 13 13 13; /* #0D0D0D */
+  --default-text-color: var(--color-dark);
+  --default-bg-color: var(--color-light);
+
+  &.dark,
+  .dark {
+    --default-text-color: var(--color-light);
+    --default-bg-color: var(--color-dark);
+  }
+}
+
+*,
+*::before,
+*::after {
+  /* Gradients */
+  --gradient-highlight: linear-gradient(
+    -43deg,
+    rgb(var(--color-highlight-1) / var(--color-gradation, 1)) 0%,
+    rgb(var(--color-highlight-2) / var(--color-gradation, 1)) 44%,
+    rgb(var(--color-highlight-3) / var(--color-gradation, 1)) 97%
+  );
+  --gradient-light: linear-gradient(
+    209deg,
+    rgb(var(--color-light-gradient-1) / var(--color-gradation, 1)) 0%,
+    rgb(var(--color-light-gradient-2) / var(--color-gradation, 1)) 100%
+  );
+  --gradient-dark: linear-gradient(
+    209deg,
+    rgb(var(--color-dark-gradient-1) / var(--color-gradation, 1)) 0%,
+    rgb(var(--color-dark-gradient-2) / var(--color-gradation, 1)) 100%
+  );
+}

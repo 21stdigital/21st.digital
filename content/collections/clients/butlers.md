@@ -1,9 +1,9 @@
 ---
-id: 48da77d6-ceb3-4d99-8008-f97cfa600a6f
+id: 9b11926e-08b3-4061-a987-e61a34739051
 blueprint: client
 title: Butlers
-logo: clients/butlers.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715701109
-logo_monotone: clients/monotone/butlers.svg
+url: 'https://www.butlers.com'
+logo: butlers
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081526
 ---

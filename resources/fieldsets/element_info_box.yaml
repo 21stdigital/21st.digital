@@ -1,0 +1,10 @@
+title: '02 - Element | Info Box'
+fields: 
+  -
+    handle: logo
+    field: common.logo
+  -
+    handle: text
+    field: common.text_basic
+    config:
+      display: Text

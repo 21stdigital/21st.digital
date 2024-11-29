@@ -13,13 +13,12 @@ tabs:
               validate:
                 - required
           -
-            import: modules
+            import: page_header
           -
-            handle: template
-            field:
-              type: template
-              display: Template
-              localizable: true
+            handle: layout_modules
+            field: common.layout_modules
+            config:
+              display: Content
   sidebar:
     display: Sidebar
     sections:
@@ -40,3 +39,34 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
+  settings:
+    display: Settings
+    sections:
+      -
+        display: Settings
+        fields:
+          -
+            handle: enable_cta_box
+            field:
+              default: true
+              type: toggle
+              display: 'Enable CTA Box'
+              width: 50
+          -
+            handle: cta_box
+            field:
+              type: group
+              display: 'CTA Box'
+              fields:
+                -
+                  handle: override_defaults
+                  field:
+                    type: toggle
+                    display: 'Override Defaults'
+                    width: 50
+                -
+                  handle: cta_box
+                  field: common.cta_box
+                  config:
+                    if:
+                      override_defaults: 'equals true'

@@ -1,0 +1,12 @@
+title: '02 - Element | Section Header'
+fields:
+  -
+    handle: overline
+    field:
+      type: text
+      display: 'Overline'
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline

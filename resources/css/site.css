@@ -1,25 +1,10 @@
+@import url('config/_init');
+@import url('config/_colors');
+@import url('config/_spaces');
+@import url('config/_sizes');
+@import url('config/_typography');
+@import url('config/_layout');
+@import url('config/_utilities');
 @import url('tailwindcss/base');
 @import url('tailwindcss/components');
 @import url('tailwindcss/utilities');
-@import url('modules.css');
-@import url('config/typography.css');
-@import url('config/spacing.css');
-@import url('components/border.css');
-@import url('components/button.css');
-
-:root {
-  /* A safety spacing between the container and browser window */
-  --w-layout-safety: 4vw;
-
-  /* The maximum width of the default container, including safety spacing */
-  --max-w-container: min(calc(100vw - 2 * var(--w-layout-safety)), 1600px);
-}
-
-/* This is all you. */
-@layer utilities {
-  .container {
-    @apply mx-auto;
-
-    max-width: var(--max-w-container);
-  }
-}

@@ -12,6 +12,13 @@ tabs:
               required: true
               validate:
                 - required
+          -
+            import: page_header
+          -
+            handle: layout_modules
+            field: common.layout_modules
+            config:
+              display: Content
   sidebar:
     display: Sidebar
     sections:
@@ -23,13 +30,45 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+          -
+            handle: icon
+            field: common.icon
   teaser:
     display: Teaser
     sections:
       -
         fields:
           -
-            handle: teaser_text
-            field: common.text
-            config:
-              display: 'Teaser Text'
+            handle: teaser
+            field: common.teaser
+  settings:
+    display: Settings
+    sections:
+      -
+        display: Settings
+        fields:
+          -
+            handle: enable_cta_box
+            field:
+              default: true
+              type: toggle
+              display: 'Enable CTA Box'
+              width: 50
+          -
+            handle: cta_box
+            field:
+              type: group
+              display: 'CTA Box'
+              fields:
+                -
+                  handle: override_defaults
+                  field:
+                    type: toggle
+                    display: 'Override Defaults'
+                    width: 50
+                -
+                  handle: cta_box
+                  field: common.cta_box
+                  config:
+                    if:
+                      override_defaults: 'equals true'

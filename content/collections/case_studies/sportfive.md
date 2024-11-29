@@ -1,188 +1,208 @@
 ---
-id: 51b59d61-c1a1-4094-b0f1-a54c242f99dd
+id: 804ef3d3-5716-4f29-8f26-06953a23d7ef
 blueprint: case_study
-title: 'Von der Vision zur Konversion'
-teaser_text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
-client: 4e44b30b-df14-4025-9bfa-edc245cc0560
-updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
-updated_at: 1722528810
-modules:
+title: SPORTFIVE.com
+teaser:
+  title: 'Von der Vision zur Konversion'
+  text: 'Entdecke, wie wir SPORTFIVE dabei unterstützt haben, seine digitale Präsenz neu zu gestalten und eine Website zu schaffen, die nicht nur informiert, sondern aktiv zur Kundengewinnung beiträgt.'
+updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
+updated_at: 1732813901
+logo: sportfive
+overline: SPORTFIVE.com
+headline: 'Von der Vision zur Konversion'
+copy: 'Mit SPORTFIVE haben wir eine digitale Strategie umgesetzt, die nicht nur ihre Markenpräsenz stärkt, sondern auch ihre Geschäftsentwicklung durch gezielte Lead-Generierung beschleunigt.'
+enable_cta_box: true
+cta_box:
+  override_defaults: true
+  cta_box:
+    headline: 'Du möchtest auch Deine digitale Präsenz transformieren?'
+    text: 'Lass uns gemeinsam eine Lösung entwickeln, die Deine Geschäftsziele erreicht und Deine Marke stärkt.'
+    expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
+layout_modules:
   -
-    id: lw97vzb8
+    id: m3hf24zf
+    overline: Herausforderung
+    headline: 'Von einer statischen Präsenz zu einem dynamischen Hub'
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Als weltweit führender Sportrechtevermarkter nutzt SPORTFIVE sein vielfältiges Dienstleistungsportfolio, um Marken und Rechteinhaber mit maßgeschneiderten, kreativen Lösungen zusammenzuführen und deren globale Reichweite sowie Sichtbarkeit effektiv zu steigern. Ursprünglich bestand die Webpräsenz von SPORTFIVE aus einer einfachen Single-Page-Website, ergänzt durch diverse themenspezifische Satellitenseiten, die nicht das volle Potenzial des Unternehmens ausschöpften.'
-    type: text
-    enabled: false
-    grid_position: start
-  -
-    id: lw95pbu6
-    quote: 'Unser Ziel war es, eine Online-Präsenz zu schaffen, die nicht nur informativ ist, sondern aktiv zur Kundengewinnung beiträgt und unsere Marktführerschaft unterstreicht'
-    author: 'David Rothenhäuser, Vice President und Head of Global Marketing Communications bei SPORTFIVE'
-    type: quote
-    enabled: true
-  -
-    id: lw9809f5
-    text:
+            text: 'SPORTFIVE stand vor der Herausforderung, eine multifunktionale Website zu entwickeln, die spezifische, landesweite Kampagnen unterstützt und effiziente Lead-Generierungsprozesse fördert.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Angesichts dieser Herausforderung entschied sich SPORTFIVE für eine grundlegende Überarbeitung seiner Online-Präsenz. Ziel war es, eine kohärente und ansprechende Online-Identität zu etablieren, die nicht nur als Informationsquelle dient, sondern auch als effektiver Vertriebskanal fungiert. Hierfür wählte SPORTFIVE mit 21st digital einen Partner, der in der Lage ist, die Webseite strategisch neu zu konzipieren und zu entwickeln.'
-    type: text
-    enabled: true
-    grid_position: end
-  -
-    id: lw98rgch
-    headline: Herausforderung
-    headline_appearance: default
-    text:
+            text: 'Ursprünglich bestand die Webpräsenz von SPORTFIVE aus einer einfachen Single-Page-Website, ergänzt durch diverse themenspezifische Satellitenseiten, die nicht das volle Potenzial des Unternehmens ausschöpften.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'SPORTFIVE stand vor der Herausforderung, eine multifunktionale Website zu entwickeln, die spezifische, landesweite Kampagnen unterstützt und effiziente Lead-Generierungsprozesse fördert. Das Ziel war, eine Website zu schaffen, die sich nahtlos in bestehende CRM-Systeme integriert und gleichzeitig attraktiv für neue Kunden ist.'
-    type: section_header
+            text: 'Angesichts dieser Herausforderung entschied sich SPORTFIVE für eine grundlegende Überarbeitung seiner Online-Präsenz.'
+    type: adaptive-split
     enabled: true
-  -
-    id: lw9dfkr0
-    headline: Lösung
-    headline_appearance: default
-    type: section_header
-    enabled: true
-  -
-    id: lw9dje7q
-    type: tiles
-    enabled: true
-    tiles:
+    head_elements:
       -
-        id: lw9dwxgy
-        type: text
-        enabled: true
-        headline: 'Analyse und Strategie'
+        id: m3hf4a43
+        logo: sportfive
         text:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Eine eingehende Analyse der bestehenden digitalen Assets war der erste Schritt, gefolgt von einer strategischen Neuplanung, die darauf abzielte, die Website als zentralen Touchpoint im digitalen Ökosystem von SPORTFIVE zu etablieren.'
-      -
-        id: lw9dxhcb
-        type: text
-        enabled: true
-        headline: 'Agile Entwicklung'
-        text:
+                text: 'SPORTFIVE ist eine weltweit führende Sportbusiness-Agentur, die sich auf die Vermittlung von Partnerschaften, Sponsoring und Medienrechten spezialisiert hat. Mit einem globalen Netzwerk und innovativen Lösungen unterstützt SPORTFIVE Marken, Rechtehalter und Organisationen dabei, nachhaltigen Erfolg im Sport zu erzielen.'
           -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Mit Hilfe der Scrum-Methodologie wurde das Redesign in zweiwöchigen Sprints durchgeführt, wobei regelmäßige Abstimmungen sicherstellten, dass alle Teammitglieder auf dem gleichen Stand waren und die Ziele effizient erreicht wurden.'
-      -
-        id: lw9ff0wy
-        headline: 'Design und User Experience'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Ein modernes und benutzerfreundliches Design stellte sicher, dass die Website nicht nur ansprechend aussah, sondern auch die Interaktion mit den Nutzern förderte und die Conversion Rate steigerte.'
-        video: case-studies/sportfive/sportfive-website-screencapture.mp4
-        video_position: right
-        type: text_with_video
-        enabled: true
-      -
-        id: lw9dy9do
-        headline: 'Integration und Automatisierung'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Die Implementierung eines flexiblen Content-Management-Systems und die Integration von Funktionen zur Lead-Generierung waren entscheidend für die Steigerung der Effizienz und die Erreichung der Geschäftsziele.'
-        image: case-studies/sportfive/sportfive-backend-screenshot.jpg
-        image_position: left
-        type: text_with_image
-        enabled: true
-        image_behavior: cover
-  -
-    id: lw98x9g1
-    headline: Ergebnisse
-    headline_appearance: default
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die neue '
-          -
-            type: text
-            marks:
-              -
+            type: set
+            attrs:
+              id: m3hf4ujg
+              values:
                 type: link
-                attrs:
-                  href: 'https://sportfive.com'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: Website
-          -
-            type: text
-            text: ' hat sich als entscheidend für die Stärkung der Online-Präsenz und die Förderung des Geschäftswachstums erwiesen. Das positive Feedback von Kunden und internen Stakeholdern sowie die signifikante Steigerung der Conversion Rate bestätigen den Erfolg der Initiative.'
-    type: section_header
-    enabled: true
+                cta: 'https://www.sportfive.com'
+                cta_label: 'Zur Website'
+        type: info-box
+        enabled: true
+    alignment: left
   -
-    id: lw98ytvb
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Implementierung des modularen Systems und die verbesserte Flexibilität im Content-Management haben es SPORTFIVE ermöglicht, schnell und autonom auf Marktveränderungen zu reagieren und spezifische Kampangen effektiv zu managen.'
-    grid_position: end
-    type: text
-    enabled: true
-  -
-    id: lw98yh89
-    quote: 'Die Website ist weit mehr als eine Visitenkarte – sie ist ein entscheidender Treiber für unser Geschäft. Durch die Neugestaltung konnten wir unsere Markenpräsenz signifikant steigern und effektiv neue Kundenbeziehungen aufbauen'
-    author: 'David Rothenhäuser, Vice President und Head of Global Marketing Communications bei SPORTFIVE'
+    id: m3hf7bx2
+    quote: 'Unser Ziel war es, eine Online-Präsenz zu schaffen, die nicht nur informativ ist, sondern aktiv zur Kundengewinnung beiträgt und unsere Marktführerschaft unterstreicht.'
+    author: 2614919e-60e0-4a09-9b61-c91d78ecccc4
     type: quote
     enabled: true
   -
-    id: lw99cshz
-    headline: 'Du willst auch eine Website, die zu Deiner Strategie passt?'
+    id: m3hfdab3
+    overline: Ziel
+    headline: 'Eine Website, die begeistert und konvertiert'
+    intro_text: 'SPORTFIVE setzte sich zum Ziel, die bestehende digitale Präsenz grundlegend zu transformieren, um die Lead-Generierung zu steigern und die Marke zu stärken.'
+    items:
+      -
+        id: m3hfeyi1
+        headline: 'Starke Markenpräsenz'
+        text:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Eine konsistente und attraktive Darstellung der Marke SPORTFIVE.'
+        type: info_item
+        enabled: true
+      -
+        id: m3hfgphy
+        headline: 'Effiziente Lead-Generierung'
+        text:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Integration von Tools zur effizienten Erfassung und Qualifizierung von Leads.'
+        type: info_item
+        enabled: true
+      -
+        id: m3hfi66r
+        headline: 'Nahtlose CRM-Integration'
+        text:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Eine Plattform, die sich nahtlos in bestehende CRM-Systeme integriert.'
+        type: info_item
+        enabled: true
+    type: item-list
+    enabled: true
+  -
+    id: m3hfvaij
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
+    type: adaptive-split
+    enabled: true
+    overline: Lösung
+    headline: 'Ein Webauftritt, der überzeugt'
+    alignment: left
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Wir helfen Dir bei Deinem Vorhaben. '
+            text: 'Unsere Lösung umfasste eine vollständige Überarbeitung der Website, um sie zu einem effektiven digitalen Werkzeug zu machen. Dazu gehörten die Entwicklung einer flexiblen Architektur, die Implementierung moderner Tools und eine CRM-Integration.'
+  -
+    id: m3hiwowp
+    overline: Ergebnisse
+    headline: 'Messbare Ergebnisse für nachhaltigen Erfolg'
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
+    alignment: inline
+    head_elements:
+      -
+        id: m3hixrh1
+        facts:
           -
-            type: hardBreak
+            id: m3hixt33
+            fact: +200%
+            description: 'Steigerung der Lead-Generierung innerhalb der ersten sechs Monate.'
+            type: fact
+            enabled: true
+          -
+            id: m3hiy3cz
+            fact: '99,9%'
+            description: 'Erhöhte Verfügbarkeit der Website dank neuer Infrastruktur.'
+            type: fact
+            enabled: true
+          -
+            id: m3hiyccb
+            fact: 3x
+            description: 'Höhere Conversion-Raten durch optimierte Benutzererfahrung.'
+            type: fact
+            enabled: true
+        type: facts
+        enabled: true
+    text:
+      -
+        type: paragraph
+        content:
           -
             type: text
-            text: 'Melde Dich dazu gerne bei unserem CTO Fabian.'
-    person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
-    type: team_cta
+            text: 'Die neue Website hat sich als entscheidend für die Stärkung der Online-Präsenz und die Förderung des Geschäftswachstums erwiesen. Das positive Feedback von Kunden und internen Stakeholdern sowie die signifikante Steigerung der Conversion Rate bestätigen den Erfolg der Initiative.'
+    type: adaptive-split
     enabled: true
-intro_text:
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Als weltweit führender Sportrechtevermarkter nutzt SPORTFIVE sein vielfältiges Dienstleistungsportfolio, um Marken und Rechteinhaber mit maßgeschneiderten, kreativen Lösungen zusammenzuführen und deren globale Reichweite sowie Sichtbarkeit effektiv zu steigern. Ursprünglich bestand die Webpräsenz von SPORTFIVE aus einer einfachen Single-Page-Website, ergänzt durch diverse themenspezifische Satellitenseiten, die nicht das volle Potenzial des Unternehmens ausschöpften.'
-project_url: 'https://sportfive.com'
+    id: m3hiv5he
+    quote: 'Die Website ist weit mehr als eine Visitenkarte – sie ist ein entscheidender Treiber für unser Geschäft. Durch die Neugestaltung konnten wir unsere Markenpräsenz signifikant steigern und effektiv neue Kundenbeziehungen aufbauen.'
+    author: 2614919e-60e0-4a09-9b61-c91d78ecccc4
+    type: quote
+    enabled: true
+  -
+    id: m3hiri4y
+    alignment: center
+    overline: 'Case Studies'
+    headline: 'Inspiration für Dein nächstes Projekt'
+    intro_text: 'Erfahre mehr darüber, wie wir anderen Unternehmen geholfen haben, ihre digitalen Herausforderungen zu meistern und ihre Geschäftsziele zu erreichen.'
+    type: section-header
+    enabled: true
+  -
+    id: m3hinmnb
+    compilation: by_hand
+    entries:
+      - 1a0a23a7-a783-4cc1-b188-be2942bf5343
+      - 16b4f2fb-640b-4915-adfb-8f8b99e0bd2f
+    type: case-study-teaser
+    enabled: true
 ---

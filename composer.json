@@ -24,10 +24,6 @@
       "@php artisan statamic:install --ansi"
     ],
     "post-install-cmd": [
-      "@php -r \"copy('fixtures/git-hooks/post-checkout', '.git/hooks/post-checkout');\"",
-      "@php -r \"copy('fixtures/git-hooks/post-commit', '.git/hooks/post-commit');\"",
-      "@php -r \"copy('fixtures/git-hooks/post-merge', '.git/hooks/post-merge');\"",
-      "@php -r \"copy('fixtures/git-hooks/pre-push', '.git/hooks/pre-push');\"",
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ],
     "post-update-cmd": [
@@ -36,13 +32,19 @@
   },
   "require": {
     "php": "^8.3",
+    "jonassiewertsen/statamic-livewire": "^3.8",
     "laravel/framework": "^11",
     "laravel/socialite": "^5.14",
     "laravel/tinker": "^2.9",
+    "league/flysystem-aws-s3-v3": "^3.28",
+    "livewire/livewire": "^3.5",
     "socialiteproviders/google": "^4.1",
     "spatie/fork": "^1.2",
+    "spatie/laravel-data": "^4.10",
+    "spatie/laravel-ray": "^1.37",
     "statamic/cms": "^5.0",
-    "statamic/ssg": "^3.0"
+    "statamic/ssg": "^3.0",
+    "stillat/relationships": "^2.2"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.8.1",

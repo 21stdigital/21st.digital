@@ -1,16 +1,19 @@
 {
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "blade.format.enable": true,
+  "css.validate": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit",
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "never"
   },
-
-  "laravel-pint.enable": true,
-  "[php]": {
-    "editor.defaultFormatter": "open-southeners.laravel-pint"
-  },
-
-  "css.lint.unknownAtRules": "ignore"
+  "emmet.triggerExpansionOnTab": true,
+  "laravel-pint.enable": true
 }

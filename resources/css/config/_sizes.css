@@ -1,0 +1,44 @@
+@layer base {
+  *,
+  ::before,
+  ::after {
+    /* button sizes */
+    --button-height: 4.2rem;
+
+    /* container sizes */
+    --container-width: calc(100vw * 352 / 393);
+    --container-padding: calc((100vw - var(--container-width)) / 2);
+
+    /* grid sizes */
+    --grid-columns: 12;
+    --grid-gap: 3.2rem;
+    --grid-gap-sum: calc(var(--grid-gap) * (var(--grid-columns) - 1));
+    --grid-col-width: calc((var(--container-width) - var(--grid-gap-sum)) / var(--grid-columns));
+
+    @screen sm {
+      /* container sizes */
+
+      /* --container-width: 52rem; */
+    }
+
+    @screen lg {
+      /* button sizes */
+      --button-height: 4.8rem;
+
+      /* container sizes */
+
+      /* --container-width: 92.8rem; */
+      --container-width: 90vw;
+    }
+
+    @screen 2xl {
+      /* button sizes */
+      --button-height: 5.3rem;
+
+      /* container sizes */
+
+      /* --container-width: 128.8rem; */
+      --container-width: min(85vw, 144rem);
+    }
+  }
+}

@@ -1,250 +1,419 @@
 ---
-id: 1eade1ef-0fdb-462c-b13c-c2b2ce2ff84f
+id: 16b4f2fb-640b-4915-adfb-8f8b99e0bd2f
 blueprint: case_study
-title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
-teaser_text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
-client: f9bc5963-e7f2-4f55-b366-446afaa8dd74
-updated_by: 4c551499-2949-4365-b0ac-08e8ac83ec40
-updated_at: 1723203811
-modules:
-  -
-    id: lwajdtfu
-    quote: 'Wir brauchten eine Lösung, die es unseren Standortleitern ermöglicht, ohne umständliche Suchprozesse die besten Dienstleister für unsere spezifischen Bedürfnisse schnell und einfach zu finden und zu beauftragen. Da andere Unternehmen vor den gleichen Herausforderungen standen, wurde OPTICERT geschaffen, um genau diese Lücke zu schließen.'
-    author: 'Göran Thälker, Head of Quality bei FIEGE Logistik'
-    type: quote
-    enabled: true
-  -
-    id: lwajgndw
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'OPTICERT ist eine innovative Web-Plattform, die Unternehmen ermöglicht, Angebote von Dienstleistern einfach zu vergleichen und zu beauftragen und ihnen dabei hilft, ihre gesetzlichen Anforderungen zu erfüllen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'FIEGE suchte nach einem Partner, der nicht nur das Geschäftsmodell entwickeln, sondern auch eine Plattform von Grund auf neu implementieren konnte.'
-    grid_position: end
-    type: text
-    enabled: true
-  -
-    id: lwajin54
-    headline: Herausforderung
-    headline_appearance: default
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Herausforderung bestand darin, eine Plattform zu schaffen, die es ermöglicht, Dienstleistungen im Bereich der Compliance einfach zu vermitteln und gesetzliche Anforderungen transparent zu machen. Das Konzept von OPTICERT war innovativ, aber bis dato unerprobt und die Akzeptanz bei Dienstleistern und Unternehmen zunächst unsicher.'
-    type: section_header
-    enabled: true
-  -
-    id: lwajkr0g
-    headline: Lösung
-    headline_appearance: default
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'In enger Zusammenarbeit mit FIEGE Logistik entwickelte 21st digital eine benutzerfreundliche Online-Plattform, die speziell darauf ausgerichtet ist, Unternehmen bei der Erfüllung ihrer Compliance-Anforderungen zu unterstützen und passende Dienstleister effizient zu vermitteln.'
-    type: section_header
-    enabled: true
-  -
-    id: lwajnhqv
-    tiles:
-      -
-        id: lzh5a7tm
-        headline: 'Lean Startup-Beratung und Markenentwicklung'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Das Beratungsteam von 21st digital unterstützte FIEGE Logistik durch eine umfassende Evaluierung der Geschäftsidee und des Geschäftsmodells mittels der Lean Startup-Methode. Sie entwickelten eine eigenständige Marke für OPTICERT und erarbeiteten ein provisionsbasiertes Geschäftsmodell, das nachhaltig und profitabel ist. Zur Optimierung der Prozesse führten sie effiziente Lösungen für die Verwaltung von Kunden, die Abrechnung und das Dienstleisternetzwerk ein. Ein entscheidender Schritt war der Launch eines Minimum Viable Products (MVP), um die Idee schnell zu validieren und wertvolles Nutzerfeedback zu sammeln, das in die Weiterentwicklung der Plattform einfloss.'
-        image: case-studies/opticert/opticert-hero.png
-        image_position: left
-        image_behavior: cover
-        type: text_with_image
-        enabled: true
-      -
-        id: lzcikua3
-        headline: 'Benutzerzentriertes Design und einheitliche Markenwelt'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Das UX & UI Design-Team von 21st digital schuf eine benutzerfreundliche und visuell ansprechende Plattform für OPTICERT. Eine einheitliche Marken- und Bildwelt verlieh der Plattform eine starke visuelle Identität. Durch die Erstellung von Prototypen und Durchführung von User Interviews wurde direktes Nutzerfeedback eingeholt und das Design kontinuierlich verbessert. Ein konsistentes Design System sorgte dafür, dass alle Designkomponenten harmonisch zusammenarbeiteten. Detaillierte Illustrationen erleichterten das Verständnis komplexer Prozesse und steigerten die Benutzerfreundlichkeit.'
-        image: case-studies/opticert/opticert-layout-collage.png
-        image_position: right
-        image_behavior: cover
-        type: text_with_image
-        enabled: true
-      -
-        id: lzl5zlfd
-        headline: 'Robuste und skalierbare Entwicklung'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Das Entwicklungsteam von 21st digital übernahm die vollständige Full Stack Entwicklung für die OPTICERT-Plattform sowie die zugehörige Administrationsanwendung. Durch den Einsatz moderner Technologien für Frontend und Backend wurde eine robuste und skalierbare Plattform geschaffen.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Ein wesentlicher Aspekt der Entwicklung war die Integration von SAP, um die Geschäftsprozesse zu optimieren und eine nahtlose Datenübertragung zu gewährleisten. Zusätzlich wurden APIs entwickelt, die eine einfache Anbindung und Erweiterbarkeit der Plattform ermöglichen.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Diese umfassenden technischen Lösungen stellten sicher, dass OPTICERT leistungsfähig und benutzerfreundlich ist, während gleichzeitig die Effizienz und Produktivität gesteigert wurden.'
-        video: case-studies/opticert/opticert-page-navigation-1.mp4
-        video_position: left
-        type: text_with_video
-        enabled: true
-      -
-        id: lzl9ua3q
-        headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Das Platform Engineering-Team von 21st digital war für den Aufbau der technischen Infrastruktur von OPTICERT verantwortlich. Durch den Einsatz modernster Technologien wurde eine robuste und skalierbare Infrastruktur geschaffen, die den Anforderungen der Plattform gerecht wird und eine hohe Verfügbarkeit sicherstellt.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Darüber hinaus bietet 21st digital fortlaufenden Support und Maintenance, um eine reibungslose Funktionalität der Plattform zu gewährleisten. Dies umfasst die Überwachung der Systeme, regelmäßige Updates und die schnelle Behebung von Problemen, um die Nutzererfahrung kontinuierlich zu optimieren.'
-        video: case-studies/opticert/opticert-page-navigation-2.mp4
-        video_position: right
-        type: text_with_video
-        enabled: true
-      -
-        id: lzh5vjo5
-        headline: 'Infrastrukturaufbau und Support für nachhaltigen Erfolg'
-        text:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Das Platform Engineering-Team von 21st digital war für den Aufbau der technischen Infrastruktur von OPTICERT verantwortlich. Durch den Einsatz modernster Technologien wurde eine robuste und skalierbare Infrastruktur geschaffen, die den Anforderungen der Plattform gerecht wird und eine hohe Verfügbarkeit sicherstellt.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Darüber hinaus bietet 21st digital fortlaufenden Support und Maintenance, um eine reibungslose Funktionalität der Plattform zu gewährleisten. Dies umfasst die Überwachung der Systeme, regelmäßige Updates und die schnelle Behebung von Problemen, um die Nutzererfahrung kontinuierlich zu optimieren.'
-        image: case-studies/opticert/opticert-wizard.png
-        image_position: right
-        image_behavior: cover
-        type: text_with_image
-        enabled: false
-    type: tiles
-    enabled: true
-  -
-    id: lwajxk1k
-    headline: Ergebnisse
-    headline_appearance: default
-    type: section_header
-    enabled: true
-  -
-    id: lwajxx8i
-    quote: 'Die Nutzung von OPTICERT hat zu einem beeindruckenden Anstieg bei den registrierten Dienstleistungen geführt, was unser Vertrauen in die Plattform bestätigt'
-    author: 'Göran Thälker'
-    type: quote
-    enabled: true
-  -
-    id: lwajyvwn
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Nach der Einführung von OPTICERT verzeichnete die Plattform signifikante Erfolge in Bezug auf Nutzerzahlen, Anzahl der Dienstleister und das vermittelte Auftragsvolumen. Die registrierten Unternehmer und Dienstleister auf der Plattform stiegen stetig an, was auf die hohe Akzeptanz und den wahrgenommenen Wert von OPTICERT im Markt hinweist. Eines der bemerkenswerten Ergebnisse war das vermittelte Auftragsvolumen, das ein deutliches Zeichen für das Vertrauen in die Plattform und ihre Fähigkeit, effektive Verbindungen zwischen Unternehmen und Dienstleistern herzustellen, darstellt.'
-    grid_position: start
-    type: text
-    enabled: true
-  -
-    id: lwak15a9
-    quote: 'Durch OPTICERT konnten wir unsere Kosten um über 30% senken und unsere Prozesse wesentlich effizienter gestalten.'
-    author: 'Jan Trulley, Senior Manager Quality bei FIEGE Logistik'
-    type: quote
-    enabled: true
-  -
-    id: lwajzbr0
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Die Möglichkeit, Angebote von Dienstleistern direkt auf der Plattform zu vergleichen, führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Darüber hinaus führte die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch die Plattform zu einer erheblichen Zeitersparnis für die Unternehmen.'
-    grid_position: end
-    type: text
-    enabled: true
-  -
-    id: lwb1upax
+title: OPTICERT
+teaser:
+  title: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro'
+  text: 'Entdecke, wie wir einem Logistikriesen geholfen haben, ein tragfähiges digitales Geschäftsmodell zu erarbeiten und erfolgreich umzusetzen.'
+updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
+updated_at: 1732807513
+logo: fiege
+overline: OPTICERT
+headline: 'Die transformative Compliance-Plattform von FIEGE Logistik'
+copy: 'Von der Geschäftsidee bis zum vermittelten Auftragsvolumen von über 2 Mio. Euro.'
+enable_cta_box: true
+cta_box:
+  override_defaults: true
+  cta_box:
     headline: 'Du hast auch eine Idee für ein digitales Geschäftsmodell?'
+    text: 'Lass uns gemeinsam eine Lösung entwickeln, die Dein Unternehmen voranbringt und Deine Geschäftsziele erreicht.'
+    expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
+layout_modules:
+  -
+    id: m3hf24zf
+    overline: Herausforderung
+    headline: 'Effiziente Compliance in einer globalen Logistikstruktur'
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Wir helfen Dir mit den richtigen Strategien die richtigen Entscheidungen zu treffen.'
-    person: db2dee11-1ab2-4b71-a7b1-670f575dc5dc
-    type: team_cta
-    enabled: true
-intro_text:
-  -
-    type: paragraph
-    content:
+            text: 'FIEGE Logistik musste an über 135 Standorten weltweit komplexe gesetzliche und normative Anforderungen in den Bereichen Arbeitssicherheit, Brandschutz, Gefahrstoffe, Arbeitsmedizin und Gefahrgut erfüllen. Dezentralisierte Prozesse führten jedoch zu ineffizienten Abläufen, uneinheitlicher Qualität und erhöhten Kosten.'
       -
-        type: text
-        text: 'Als globaler Logistikdienstleister mit über 25.000 Mitarbeitern und 135 Standorten weltweit, steht FIEGE Logistik täglich vor der Herausforderung, gesetzliche Anforderungen in den Bereichen Arbeitssicherheit, Arbeitsmedizin und Brandschutz effizient und zuverlässig zu erfüllen. Die bisherige Praxis, eigenständig und ohne zentrale Unterstützung Dienstleister zu suchen und zu vergleichen, war zeitaufwendig und ineffizient.'
-show_facts: true
-global_facts:
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Standortleiter waren für die Auswahl und Beauftragung geeigneter Dienstleister verantwortlich – ein zeitaufwändiger Prozess, der oft mangelnde Transparenz und suboptimale Ergebnisse mit sich brachte.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Eine zentrale Plattform sollte diese Herausforderungen überwinden und Effizienz sowie Qualität in den Compliance-Prozessen steigern.'
+    type: adaptive-split
+    enabled: true
+    head_elements:
+      -
+        id: m3hf4a43
+        logo: fiege
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'FIEGE Logistik ist einer der führenden Logistikdienstleister in Europa. Mit über 25.000 Mitarbeitern und 135 Standorten weltweit betreibt das Unternehmen Lager- und Distributionszentren in Europa und Asien. FIEGE ist bekannt für seine Innovationskraft im Bereich E-Commerce-Logistik und seine maßgeschneiderten Logistiklösungen, die auf die individuellen Bedürfnisse seiner Kunden zugeschnitten sind.'
+          -
+            type: set
+            attrs:
+              id: m3hf4ujg
+              values:
+                type: link
+                cta: 'https://www.fiege.com'
+                cta_label: 'Zur Website'
+        type: info-box
+        enabled: true
+    alignment: left
   -
-    id: lzl7w4zq
-    fact: '> 2.000.000'
-    description: 'Euro vermitteltes Auftragsvolumen'
-    type: fact
+    id: m3hf7bx2
+    quote: 'Wir benötigten eine Lösung, die es unseren Standortleitern ermöglicht, ohne umständliche Suchprozesse die besten Dienstleister für unsere spezifischen Bedürfnisse schnell und einfach zu finden und zu beauftragen.'
+    author: c782dd56-f2dd-49e6-ab55-60f7092bc692
+    type: quote
     enabled: true
   -
-    id: lzl7xah3
-    fact: '1000'
-    description: 'Registrierte Unternehmen'
-    type: fact
+    id: m3hfdab3
+    overline: Ziel
+    headline: 'Digitale Transformation als Treiber für Effizienz und neue Einnahmequellen'
+    intro_text: 'FIEGE Logistik setzte sich zum Ziel, durch Digitalisierung die Effizienz ihrer Compliance-Prozesse zu steigern, ihre Marktposition zu stärken und zusätzliche Einnahmequellen zu erschließen.'
+    items:
+      -
+        id: m3hfeyi1
+        headline: 'Erschließung neuer Einnahmequellen'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Vermarktung einer innovativen Lösung zur externen Nutzung, um neue Einnahmequellen zu schaffen und die Marktposition zu stärken.'
+        type: info_item
+        enabled: true
+      -
+        id: m3hfgphy
+        headline: 'Kostensenkung und Optimierung'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Reduzierung der Kosten durch eine optimierte Dienstleistersuche und zentrale Steuerung, ohne die Qualität zu beeinträchtigen.'
+        type: info_item
+        enabled: true
+      -
+        id: m3hfi66r
+        headline: 'Zentralisierung und Effizienzsteigerung'
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Entwicklung eines integrierten Systems zur Vereinheitlichung der bislang dezentral organisierten Prozesse zur Einhaltung gesetzlicher Anforderungen. Ziel war es, Synergieeffekte zu maximieren und die Effizienz an allen Standorten zu steigern.'
+        type: info_item
+        enabled: true
+    type: item-list
     enabled: true
   -
-    id: lzl7xrv0
-    fact: '200'
-    description: 'Qualifizierte Dienstleister'
-    type: fact
+    id: m3hfvaij
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Gemeinsam mit FIEGE entwickelten wir OPTICERT, eine digitale Plattform, die es ermöglicht, gesetzliche Compliance-Anforderungen effizient und zentralisiert zu managen. Diese Plattform bietet einen strukturierten Ansatz zur Auswahl und Verwaltung von Dienstleistern und unterstützt die Monetarisierung durch ein neues Geschäftsmodell.'
+    type: adaptive-split
+    enabled: true
+    head_elements:
+      -
+        id: m3hf4a43
+        logo: opticert
+        text:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'OPTICERT ist Deutschlands erste Web-Plattform, die Unternehmen ermöglicht, Angebote von Dienstleistern zu vergleichen und zu beauftragen, um gesetzliche Anforderungen effizient zu erfüllen.'
+          -
+            type: set
+            attrs:
+              id: m3hf4ujg
+              values:
+                type: link
+                cta: 'https://opticert.de'
+                cta_label: 'Zur Plattform'
+        type: info-box
+        enabled: true
+    overline: Lösung
+    headline: 'Entwicklung einer innovativen digitalen Plattform zur Compliance-Optimierung'
+    alignment: left
+  -
+    id: m3hgaom8
+    headline: 'Digital Strategy & Innovation Planning'
+    presentation: sticky_box
+    enable_head_section: false
+    enable_tail_section: false
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Wir entwickelten eine passgenaue digitale Strategie, die FIEGE dabei unterstützte, komplexe Compliance-Anforderungen zu bewältigen und gleichzeitig neue, zukunftsfähige Geschäftsmodelle erfolgreich zu etablieren.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erfahre, wie unsere Expertise auch Dein Projekt zum Erfolg führen kann.'
+      -
+        type: set
+        attrs:
+          id: m3hgbmxe
+          values:
+            type: link
+            cta: '#'
+            cta_label: 'Mehr erfahren'
+      -
+        type: paragraph
+    tail_elements:
+      -
+        id: m3hgcrn3
+        headline: 'Evaluierung und Validierung der Geschäftsidee'
+        text: 'Durchführung einer umfassenden Marktanalyse und Validierung des Konzepts durch ein Minimum Viable Product (MVP) und strukturierte Nutzer- und Kundeninterviews.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgf1pr
+        headline: 'Entwicklung eines nachhaltigen Geschäftsmodells'
+        text: 'Entwicklung eines provisionsbasierten Geschäftsmodells, das die Bedürfnisse von Dienstleistern und Nutzern berücksichtigt, unterstützt durch die Definition und das Monitoring von KPIs.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgfgt2
+        headline: 'Markenaufbau und Positionierung'
+        text: 'Aufbau einer starken Markenidentität und klaren Positionierung für OPTICERT im Markt, um Vertrauen und Bekanntheit bei der Zielgruppe zu etablieren.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgp2k2
+        headline: 'Prozessentwicklung und Kundenbindungsstrategien'
+        text: 'Definition effizienter Prozesse für die Verwaltung von Kunden und das Dienstleisternetzwerk sowie Entwicklung von Strategien zur Steigerung der Kundenbindung durch kontinuierliches Lernen und Optimierung.'
+        type: content-item
+        enabled: true
+    type: adaptive-split
+    enabled: false
+    alignment: left
+  -
+    id: m3hgql3o
+    headline: 'Experience & Interface Design'
+    presentation: sticky_box
+    enable_head_section: false
+    enable_tail_section: false
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Für OPTICERT entwickelten wir ein nutzerzentriertes Design, das die Marke stärkt und die Nutzererfahrung optimiert. Von einer klaren visuellen Identität und ansprechenden Illustrationen bis hin zu interaktiven Prototypen und einem Design System haben wir alles geschaffen, um eine konsistente, intuitive und überzeugende Plattform zu realisieren.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lass Dich inspirieren, wie nutzerzentriertes Design auch Dein Projekt bereichern kann.'
+      -
+        type: set
+        attrs:
+          id: m3hgbmxe
+          values:
+            type: link
+            cta: '#'
+            cta_label: 'Mehr erfahren'
+      -
+        type: paragraph
+    tail_elements:
+      -
+        id: m3hgcrn3
+        headline: 'Brand Design'
+        text: 'Entwicklung einer visuellen Identität für OPTICERT, einschließlich eines Logos, Farbpaletten und Typografie, um eine starke Markenwiedererkennung zu fördern und die Plattform im Markt zu positionieren.'
+        type: content-item
+        enabled: true
+        assets:
+          -
+            id: m3rpkqg9
+            image: case-studies/opticert/opticert-hero.png
+            type: image
+            enabled: true
+      -
+        id: m3hgf1pr
+        headline: 'Gestaltung der Bildwelt'
+        text: 'Auswahl und Anpassung einer Bildwelt, die die Markenwerte und die emotionale Ansprache von OPTICERT unterstützt. Diese visuelle Konsistenz fördert das Vertrauen der Nutzer und verstärkt die Markenidentität auf allen Kanälen.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgfgt2
+        headline: 'Durchführung von User Interviews'
+        text: 'Durchführung von Interviews mit verschiedenen Benutzergruppen (z. B. Endnutzern, interne Mitarbeiter), um tiefere Einblicke in ihre Bedürfnisse und Herausforderungen zu gewinnen. Die gewonnenen Erkenntnisse wurden genutzt, um das Interface iterativ zu verbessern und die Benutzerfreundlichkeit zu maximieren.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgp2k2
+        headline: 'Entwicklung von Prototypen'
+        text: 'Entwicklung interaktiver Prototypen mit Sketch und InVision, um Designkonzepte zu testen und Feedback zu sammeln. Diese Prototypen ermöglichten es uns, das Design iterativ zu verbessern und die Nutzererfahrung zu optimieren, bevor die endgültige Entwicklung stattfand.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgsu97
+        headline: 'Aufbau eines Design Systems'
+        text: 'Entwicklung eines umfassenden Design Systems, das alle visuellen und funktionalen Elemente standardisiert, um eine konsistente Benutzererfahrung zu gewährleisten und die Effizienz bei zukünftigen Design-Updates zu erhöhen.'
+        type: content-item
+        enabled: true
+      -
+        id: m3hgt1uj
+        headline: 'Gestaltung von Illustrationen'
+        text: 'Gestaltung von maßgeschneiderten Illustrationen, die nicht nur die Benutzeroberfläche bereichern, sondern auch komplexe Informationen klar und ansprechend darstellen, um die Benutzerführung zu verbessern.'
+        type: content-item
+        enabled: true
+        assets:
+          -
+            id: m3rqdxpm
+            image: case-studies/opticert/opticert-illustration.png
+            type: image
+            enabled: true
+    type: adaptive-split
+    enabled: false
+    alignment: left
+  -
+    id: m3rrb3yf
+    headline: 'Web Development'
+    presentation: sticky_box
+    enable_head_section: false
+    enable_tail_section: false
+    alignment: left
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Mit unseren maßgeschneiderten Weblösungen bieten wir Dir genau das, was Dein Unternehmen braucht. Von der Konzeption über die Entwicklung bis zur Optimierung stellen wir sicher, dass Deine Webanwendung nicht nur funktional, sondern auch zukunftssicher ist.'
+      -
+        type: set
+        attrs:
+          id: m3rre78t
+          values:
+            type: link
+            cta_label: 'Mehr erfahren'
+      -
+        type: paragraph
+    type: adaptive-split
+    enabled: false
+  -
+    id: m3zssv4b
+    headline: 'Infrastructure & DevOps'
+    presentation: sticky_box
+    enable_head_section: false
+    enable_tail_section: false
+    alignment: left
+    text:
+      -
+        type: paragraph
+      -
+        type: set
+        attrs:
+          id: m3rre78t
+          values:
+            type: link
+            cta_label: 'Mehr erfahren'
+      -
+        type: paragraph
+    type: adaptive-split
+    enabled: false
+  -
+    id: m3hiwowp
+    overline: Ergebnisse
+    headline: 'Erfolgreiche Markteinführung und nachhaltige Effizienzsteigerungen'
+    presentation: sticky_column
+    enable_head_section: true
+    enable_tail_section: false
+    alignment: inline
+    head_elements:
+      -
+        id: m3hixrh1
+        facts:
+          -
+            id: m3hixt33
+            fact: 200+
+            description: 'Qualifizierte Dienstleister'
+            type: fact
+            enabled: true
+          -
+            id: m3hiy3cz
+            fact: 1000+
+            description: 'Registrierte Nutzer'
+            type: fact
+            enabled: true
+          -
+            id: m3hiyccb
+            fact: 30%
+            description: Kostensenkung
+            type: fact
+            enabled: true
+          -
+            id: m3hiyl2l
+            fact: '2,5 Mio. Euro'
+            description: 'Vermitteltes Auftragsvolumen'
+            type: fact
+            enabled: true
+        type: facts
+        enabled: true
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nach der Einführung von OPTICERT verzeichnete die Plattform beeindruckende Erfolge in Bezug auf Nutzerzahlen, Dienstleister und vermitteltes Auftragsvolumen. Die stetig steigenden Registrierungen und das vermittelte Auftragsvolumen von über 2,5 Millionen Euro unterstreichen die hohe Marktakzeptanz von OPTICERT.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Unternehmen, die OPTICERT nutzen, berichteten von signifikanten Einsparungen bei der Erfüllung ihrer Compliance-Anforderungen. Der direkte Vergleich von Dienstleisterangeboten auf der Plattform führte zu wettbewerbsfähigeren Preisen und kosteneffizienteren Lösungen. Die effiziente Verwaltung und Abdeckung von Compliance-Anforderungen durch OPTICERT ermöglichte zudem erhebliche Zeitersparnisse für die Unternehmen. Dies zeigt, dass OPTICERT nicht nur eine Plattform zur Erfüllung gesetzlicher Anforderungen ist, sondern auch ein strategisches Werkzeug zur Effizienzsteigerung und Kostensenkung.'
+    type: adaptive-split
     enabled: true
   -
-    id: lzl7yc7g
-    fact: '300'
-    description: Dienstleistungen
-    type: fact
+    id: m3hiv5he
+    quote: 'Durch OPTICERT konnten wir unsere Kosten um über 30% senken und unsere Prozesse wesentlich effizienter gestalten. 21st digital war ein entscheidender Faktor für den Erfolg.'
+    author: c782dd56-f2dd-49e6-ab55-60f7092bc692
+    type: quote
+    enabled: true
+  -
+    id: m3hiri4y
+    alignment: center
+    overline: 'Case Studies'
+    headline: 'Inspiration für Dein nächstes Projekt'
+    intro_text: 'Erfahre mehr darüber, wie wir anderen Unternehmen geholfen haben, ihre digitalen Herausforderungen zu meistern und ihre Geschäftsziele zu erreichen.'
+    type: section-header
+    enabled: true
+  -
+    id: m3hinmnb
+    compilation: by_hand
+    entries:
+      - 804ef3d3-5716-4f29-8f26-06953a23d7ef
+      - 1a0a23a7-a783-4cc1-b188-be2942bf5343
+    type: case-study-teaser
     enabled: true
 ---

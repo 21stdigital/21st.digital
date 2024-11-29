@@ -1,9 +1,9 @@
 ---
-id: a0d5dbfa-b03e-4c72-a3f6-9f9759d0693c
+id: 92048385-7a01-4d02-a48e-abb6c14bcaeb
 blueprint: client
 title: 'Reeperbahn Festival'
-logo: clients/reeperbahn-festival.svg
-logo_monotone: clients/monotone/reeperbahn-festival.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715848826
+url: 'https://www.reeperbahnfestival.com'
+logo: reeperbahn-festival
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081866
 ---

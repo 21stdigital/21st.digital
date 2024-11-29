@@ -1,0 +1,8 @@
+title: 'Footer Primary'
+collections:
+  - pages
+  - case_studies
+  - services
+  - solutions
+  - foundations
+max_depth: 2

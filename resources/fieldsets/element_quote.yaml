@@ -1,0 +1,18 @@
+title: '02 - Element | Quote'
+fields:
+  -
+    handle: quote
+    field:
+      type: textarea
+      display: Quote
+      validate:
+        - required
+  -
+    handle: author
+    field:
+      max_items: 1
+      collections:
+        - representatives
+      type: entries
+      display: Author
+      create: false

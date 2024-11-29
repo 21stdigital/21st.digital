@@ -1,24 +1,364 @@
-title: Common
+title: '01 - Common'
 fields:
   -
-    handle: text
+    handle: teaser
+    field:
+      fullscreen: false
+      border: false
+      type: group
+      display: Teaser
+      hide_display: true
+      fields:
+        -
+          handle: title
+          field:
+            type: text
+            display: Title
+            instructions: 'Enter a catchy and concise title for the teaser. This should summarize the main point of the content to draw attention.'
+            validate:
+              - required
+        -
+          handle: text
+          field:
+            type: textarea
+            display: Text
+            instructions: 'Provide a brief summary or key details for the teaser. This text should give a quick overview of the content.'
+            validate:
+              - required
+  -
+    handle: url
+    field:
+      input_type: url
+      type: text
+      display: URL
+      instructions: 'Enter the full URL.'
+      validate:
+        - url
+        - 'starts_with:https://'
+      placeholder: 'https://...'
+  -
+    handle: client
+    field:
+      max_items: 1
+      mode: select
+      create: false
+      collections:
+        - clients
+      type: entries
+      display: Client
+      instructions: 'Choose the associated client from the list. Only one client can be selected per entry.'
+      duplicate: false
+      validate:
+        - required
+  -
+    handle: clients
+    field:
+      create: false
+      collections:
+        - clients
+      type: entries
+      display: Clients
+  -
+    handle: section_header
+    field:
+      type: group
+      display: 'Section Header'
+      fields:
+        -
+          handle: overline
+          field:
+            type: text
+            display: Overline
+        -
+          handle: headline
+          field:
+            type: text
+            display: Headline
+            validate:
+              - required
+  -
+    handle: text_basic
+    field:
+      buttons:
+        - removeformat
+        - anchor
+      remove_empty_nodes: false
+      link_noopener: true
+      link_noreferrer: true
+      target_blank: true
+      type: bard
+      display: 'Text Basic'
+      sets:
+        elements:
+          display: Elements
+          sets:
+            link:
+              display: Link
+              icon: link
+              fields:
+                -
+                  import: element_link
+  -
+    handle: text_default
     field:
       buttons:
         - h2
         - h3
         - bold
         - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
         - anchor
-      remove_empty_nodes: true
-      collapse: true
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      link_noopener: true
+      link_noreferrer: true
+      target_blank: true
       type: bard
-      display: Text
+      display: 'Text Default'
       sets:
-        new_set_group:
-          display: 'New Set Group'
+        components:
+          display: Components
+          icon: link
           sets:
-            button:
-              display: Button
+            link:
+              display: Link
+              icon: link
               fields:
                 -
-                  import: button
+                  import: element_link
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Image
+      validate:
+        - image
+  -
+    handle: video
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Video
+      validate:
+        - 'mimetypes:video/mp4'
+  -
+    handle: image_with_caption
+    field:
+      type: group
+      display: 'Image with caption'
+      fields:
+        -
+          handle: image
+          field: common.image
+          config:
+            validate:
+              - image
+        -
+          handle: caption
+          field:
+            type: text
+            display: Caption
+  -
+    handle: logo
+    field:
+      directory: public
+      folder: icons/logos
+      type: icon
+      display: Logo
+  -
+    handle: icon
+    field:
+      directory: public
+      folder: icons/collection
+      type: icon
+      display: Icon
+  -
+    handle: social_icon_field
+    field:
+      directory: public
+      folder: icons/social
+      type: icon
+      display: 'Social Icon'
+  -
+    handle: teaser_collection_selector
+    field:
+      options:
+        -
+          key: case_studies
+          value: 'Case Studies'
+        -
+          key: services
+          value: Services
+        -
+          key: solutions
+          value: Solutions
+      max_items: 1
+      type: select
+      display: 'Teaser Collection Selector'
+  -
+    handle: layout_modules
+    field:
+      type: replicator
+      display: 'Set | Layout Modules'
+      collapse: true
+      sets:
+        common:
+          display: Common
+          sets:
+            adaptive-split:
+              display: 'Adaptive Split'
+              icon: layout-two-columns
+              fields:
+                -
+                  import: layout_module_adaptive_split
+            facts:
+              display: Facts
+              icon: favorite-star
+              fields:
+                -
+                  import: layout_module_facts
+            section-header:
+              display: 'Section Header'
+              icon: layout-table-row-insert
+              fields:
+                -
+                  import: layout_module_section_header
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  import: layout_module_text
+            quote:
+              display: Quote
+              icon: text-formatting-quotation
+              fields:
+                -
+                  import: layout_module_quote
+            item-list:
+              display: 'Item List'
+              fields:
+                -
+                  import: layout_module_item_list
+            logo-wall:
+              display: 'Logo Wall'
+              icon: layout-display-split-quarters
+              fields:
+                -
+                  import: layout_module_logo_wall
+            testimonials:
+              display: Testimonials
+              icon: user-multiple
+              fields:
+                -
+                  import: layout_module_testimonials
+        teaser:
+          display: Teaser
+          sets:
+            case-study-teaser:
+              display: 'Case Study Teaser'
+              icon: text-formatting-image-right
+              fields:
+                -
+                  import: layout_module_case_study_teaser
+            services-teaser:
+              display: 'Services Teaser'
+              icon: text-formatting-image-right
+              fields:
+                -
+                  import: layout_module_services_teaser
+  -
+    handle: elements
+    field:
+      type: replicator
+      display: 'Set | Elements'
+      collapse: true
+      sets:
+        common:
+          display: Common
+          sets:
+            info-box:
+              display: 'Info Box'
+              icon: text-formatting-wrap-around-bounding-box
+              fields:
+                -
+                  import: element_info_box
+            text:
+              display: Text
+              icon: form-text-field
+              fields:
+                -
+                  handle: text
+                  field: common.text_default
+                  config:
+                    display: Text
+            facts:
+              display: Facts
+              fields:
+                -
+                  import: element_facts
+            content-item:
+              display: 'Content Item'
+              icon: file-content-list
+              fields:
+                -
+                  import: element_content_item
+        teaser:
+          display: Teaser
+          sets:
+            case-study-teaser:
+              display: 'Case Study Teaser List'
+              fields:
+                -
+                  import: element_teaser_list_case_study
+            service-teaser:
+              display: 'Service Teaser List'
+              fields:
+                -
+                  import: element_teaser_list_service
+            solution-teaser:
+              display: 'Solution Teaser List'
+              fields:
+                -
+                  import: element_teaser_list_solution
+  -
+    handle: cta_box
+    field:
+      type: group
+      display: 'CTA Box'
+      fields:
+        -
+          handle: headline
+          field:
+            type: text
+            display: Headline
+        -
+          handle: text
+          field:
+            type: textarea
+            display: Text
+        -
+          handle: expert
+          field:
+            max_items: 1
+            collections:
+              - experts
+            type: entries
+            display: Expert
+            create: false
+  -
+    handle: email
+    field:
+      input_type: email
+      type: text
+      display: Email
+      validate:
+        - email

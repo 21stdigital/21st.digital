@@ -1,9 +1,9 @@
 ---
-id: 84ab5ad5-fd75-4435-8524-c68b8b5be329
+id: 0711b0ac-5647-477a-9913-67a69a98266d
 blueprint: client
 title: Schaeffler
-logo: clients/schaeffler.svg
-logo_monotone: clients/monotone/schaeffler.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715848837
+url: 'https://www.schaeffler.com'
+logo: schaeffler
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081890
 ---

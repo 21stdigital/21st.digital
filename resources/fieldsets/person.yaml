@@ -1,0 +1,57 @@
+title: Person
+fields:
+  -
+    handle: forename
+    field:
+      type: text
+      display: Forename
+      instructions: 'Enter the first name of the person.'
+      autocomplete: given-name
+      width: 50
+      validate:
+        - required
+  -
+    handle: surname
+    field:
+      type: text
+      display: Surname
+      instructions: 'Enter the last name of the person.'
+      autocomplete: family-name
+      width: 50
+      validate:
+        - required
+  -
+    handle: job_title
+    field:
+      type: text
+      display: 'Job Title'
+      instructions: 'Enter the job title or position held by the person.'
+      width: 50
+      validate:
+        - required
+      listable: true
+  -
+    handle: linkedin_handle
+    field:
+      type: text
+      display: 'LinkedIn Handle'
+      instructions: 'Enter the LinkedIn username (the part of the URL after "https://www.linkedin.com/in/"). Do not include "https://www.linkedin.com/in/".'
+      width: 50
+      validate:
+        -
+          regex: '^[A-Za-z0-9_-]+$'
+          error: 'The LinkedIn handle should only contain letters, numbers, underscores, or hyphens.'
+  -
+    handle: email
+    field: common.email
+    config:
+      validate:
+        - email
+      width: 50
+  -
+    handle: calendly_handle
+    field:
+      type: text
+      display: 'Calendly Handle'
+      instructions: 'Enter the Calendly handle (the part of the URL after https://calendly.com/"). Do not include "https://calendly.com/".'
+      width: 50

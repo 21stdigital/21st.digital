@@ -1,5 +1,23 @@
-# Ignore all Statamic-related YAML files. Statamic's modifications on these files would trigger unnecessary rewrites.
-resources/**/*.yml
+# Ignore lock files as they are managed automatically by Composer.
+composer.lock
 
-# Ignore all markdown files in the content folder to prevent interference with Statamic's file modifications.
+# Ignore all Statamic-related YAML files. # This ensures that Statamic's automatic modifications won't be overwritten by Prettier.
+resources/**/*.yaml
+resources/**/*.yml
+content/**/*.yaml
+content/**/*.yml
+public/assets/**/*.yaml
+public/assets/**/*.yml
+**/.meta/*.yaml
+
+# Ignore all Markdown files in the content folder to prevent interference with Statamic's file modifications.
 content/**/*.md
+
+# Ignore dependency directories that do not require formatting.
+vendor/
+node_modules/
+
+# Ignore public vendor assets as they are third-party libraries.
+public/vendor/
+
+storage/

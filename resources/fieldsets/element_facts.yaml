@@ -1,0 +1,24 @@
+title: '02 - Element | Facts'
+fields:
+  -
+    handle: facts
+    field:
+      type: replicator
+      display: Facts
+      sets:
+        default:
+          display: Default
+          sets:
+            fact:
+              display: Fact
+              fields:
+                -
+                  handle: fact
+                  field:
+                    type: text
+                    display: Fact
+                -
+                  handle: description
+                  field:
+                    type: text
+                    display: Description

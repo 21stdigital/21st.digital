@@ -1,0 +1,18 @@
+title: '02 - Element | Info Item'
+fields:
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+      width: 66
+  -
+    handle: icon
+    field: common.icon
+    config:
+      width: 33
+  -
+    handle: text
+    field: common.text_basic
+    config:
+      display: Text

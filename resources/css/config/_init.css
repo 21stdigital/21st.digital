@@ -1,0 +1,11 @@
+@layer base {
+  html {
+    font-size: 62.5%;
+    text-rendering: optimizelegibility;
+
+    /* Devices smaller than 393px */
+    @media (width <= 24.5625em) {
+      font-size: calc(10 / 393 * 100vw);
+    }
+  }
+}

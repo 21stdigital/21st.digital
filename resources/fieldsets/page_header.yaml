@@ -1,0 +1,23 @@
+title: '04 - Layout Element | Page Header'
+fields:
+  -
+    handle: overline
+    field:
+      type: text
+      display: Overline
+      instructions: 'Enter a short overline text.'
+      validate: 'max:50'
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+      instructions: 'Enter the main headline.'
+      validate: 'required|max:100'
+  -
+    handle: copy
+    field:
+      type: textarea
+      display: Copy
+      instructions: 'Enter the main content.'
+      validate: required

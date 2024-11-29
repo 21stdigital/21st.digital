@@ -1,9 +1,9 @@
 ---
-id: 9e625ab9-0805-41af-8483-c4f6ff1c81df
-published: false
+id: f1352951-8235-4e2c-8814-9848530a9698
 blueprint: client
 title: Mercedes-Benz
-logo: clients/mercedes-benz.svg
-updated_by: 12d85a5e-1014-44db-a25a-d7a2f0a9b94e
-updated_at: 1715950677
+url: 'https://www.mercedes-benz.com'
+logo: mercedes-benz
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081716
 ---

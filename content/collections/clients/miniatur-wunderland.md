@@ -1,9 +1,9 @@
 ---
-id: 275e4c54-4f4c-45d6-b898-095d669bc2e3
+id: 9485c457-26e6-4e52-bf32-e951b5c2079a
 blueprint: client
 title: 'Miniatur Wunderland'
-logo: clients/miniatur-wunderland.svg
-logo_monotone: clients/monotone/miniatur-wunderland.svg
-updated_by: c6113137-f6a8-4c20-b0bd-4c52f58ab03e
-updated_at: 1715848776
+url: 'https://www.miniatur-wunderland.de'
+logo: miniatur-wunderland
+updated_by: 7b2bf1c2-0b8e-44d9-a774-98d3580bee37
+updated_at: 1729081800
 ---
