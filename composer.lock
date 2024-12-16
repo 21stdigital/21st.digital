@@ -33,10 +33,10 @@
             "type": "package",
             "extra": {
                 "laravel": {
-                    "dont-discover": [],
                     "providers": [
                         "Archetype\\ServiceProvider"
-                    ]
+                    ],
+                    "dont-discover": []
                 }
             },
             "autoload": {
@@ -3358,16 +3358,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.19.0",
+            "version": "9.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "f81df48a012a9e86d077e74eaff666fd15bfab88"
+                "reference": "553579df208641ada6ffb450b3a151e2fcfa4f31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f81df48a012a9e86d077e74eaff666fd15bfab88",
-                "reference": "f81df48a012a9e86d077e74eaff666fd15bfab88",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/553579df208641ada6ffb450b3a151e2fcfa4f31",
+                "reference": "553579df208641ada6ffb450b3a151e2fcfa4f31",
                 "shasum": ""
             },
             "require": {
@@ -3441,7 +3441,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-08T08:09:35+00:00"
+            "time": "2024-12-13T15:49:27+00:00"
         },
         {
             "name": "league/flysystem",
@@ -6924,16 +6924,16 @@
         },
         {
             "name": "spatie/error-solutions",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/error-solutions.git",
-                "reference": "ae7393122eda72eed7cc4f176d1e96ea444f2d67"
+                "reference": "d239a65235a1eb128dfa0a4e4c4ef032ea11b541"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/ae7393122eda72eed7cc4f176d1e96ea444f2d67",
-                "reference": "ae7393122eda72eed7cc4f176d1e96ea444f2d67",
+                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/d239a65235a1eb128dfa0a4e4c4ef032ea11b541",
+                "reference": "d239a65235a1eb128dfa0a4e4c4ef032ea11b541",
                 "shasum": ""
             },
             "require": {
@@ -6986,7 +6986,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/error-solutions/issues",
-                "source": "https://github.com/spatie/error-solutions/tree/1.1.1"
+                "source": "https://github.com/spatie/error-solutions/tree/1.1.2"
             },
             "funding": [
                 {
@@ -6994,7 +6994,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-25T11:06:04+00:00"
+            "time": "2024-12-11T09:51:56+00:00"
         },
         {
             "name": "spatie/flare-client-php",
@@ -7726,16 +7726,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.42.0",
+            "version": "v5.42.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "ed9161d874d7672823a8634412a45fb6fa1b2a3d"
+                "reference": "d62cc13484aa28ec532f814669630f8c5c4a3915"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/ed9161d874d7672823a8634412a45fb6fa1b2a3d",
-                "reference": "ed9161d874d7672823a8634412a45fb6fa1b2a3d",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d62cc13484aa28ec532f814669630f8c5c4a3915",
+                "reference": "d62cc13484aa28ec532f814669630f8c5c4a3915",
                 "shasum": ""
             },
             "require": {
@@ -7820,7 +7820,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.42.0"
+                "source": "https://github.com/statamic/cms/tree/v5.42.1"
             },
             "funding": [
                 {
@@ -7828,7 +7828,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-05T22:46:45+00:00"
+            "time": "2024-12-11T21:36:25+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -11161,12 +11161,12 @@
             "type": "library",
             "extra": {
                 "laravel": {
-                    "providers": [
-                        "Wilderborn\\Partyline\\ServiceProvider"
-                    ],
                     "aliases": {
                         "Partyline": "Wilderborn\\Partyline\\Facade"
-                    }
+                    },
+                    "providers": [
+                        "Wilderborn\\Partyline\\ServiceProvider"
+                    ]
                 }
             },
             "autoload": {
