@@ -21,7 +21,7 @@
                         title="{{ $client['title'] }}" href="{{ $client['url'] }}"
                         rel="noopener noreferrer" target="__blank">
 
-                        <x-utilities.svg :svg="$client['logo']"
+                        <s:svg :src="$client['logo']"
                             class='relative z-20 grid aspect-video w-[clamp(10rem,_1rem_+_40vmin,_30rem)] place-items-center' />
 
                     </a>

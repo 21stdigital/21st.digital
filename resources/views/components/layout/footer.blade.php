@@ -6,10 +6,7 @@
     <div class="border-highlight-3-600 page-layout border-b border-t">
         <div class="layout-content sm:py-84 grid grid-cols-1 gap-y-52 py-32 xl:grid-cols-3">
             <a href="/" title="21st digital - Deine digitale Spezialeinheit">
-                {!! Statamic::tag('svg')->params([
-                    'src' => 'icons/21st-digital-logo',
-                    'class' => 'text w-[9.5rem] sm:w-[13.6rem] h-auto'
-                ]) !!}
+                <s:svg src="icons/21st-digital-logo" class="text h-auto w-[9.5rem] sm:w-[13.6rem]" />
             </a>
             <nav class="xl:col-span-2">
                 <ul class="gap grid grid-cols-2 sm:grid-cols-4">
@@ -45,7 +42,7 @@
                 @foreach (Statamic::tag('nav:footer_tertiary') as $item)
                     <li class="flex flex-col gap-12">
                         <a href="{{ $item['url'] }}" title="{{ $item['title'] }}" class="text-c2">
-                            <x-utilities.svg :svg="$item['icon']" class="h-auto w-32 fill-current" />
+                            <s:svg :src="$item['icon']" class="h-auto w-32 fill-current" />
                         </a>
                     </li>
                 @endforeach

@@ -15,8 +15,7 @@
                 <li class="lg:col-span-1 sm:max-xl:[&:last-child:nth-child(odd)]:col-span-full">
                     <section class="grid-cols-info-item grid gap-20">
                         <header>
-                            <x-utilities.svg :svg="$entry['icon']"
-                                class="h-auto w-[4rem] fill-current" />
+                            <s:svg :src="$entry['icon']" class="h-auto w-[4rem]" />
                         </header>
                         <div class="space-y-4 sm:space-y-8">
                             <h3 class="text-h6">
