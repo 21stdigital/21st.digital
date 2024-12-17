@@ -53,24 +53,21 @@
                             @if ($testimonial->client_url)
                                 <a href="{{ $testimonial->client_url }}"
                                     class="w-[12rem] sm:flex sm:w-[16.6rem] sm:justify-end">
-
-                                    {!! Statamic::tag('svg')->params([
-                                        'src' => $testimonial->client_logo,
-                                        'class' => 'max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]'
-                                    ]) !!}
+                                    <!-- prettier-ignore -->
+                                    <s:svg :src="$testimonial->client_logo"
+                                    class="max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]"
+                                    />
                                 </a>
                             @else
                                 <div class="w-[12rem] sm:flex sm:w-[16.6rem] sm:justify-end">
-
-                                    {!! Statamic::tag('svg')->params([
-                                        'src' => $testimonial->client_logo,
-                                        'class' => 'max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]'
-                                    ]) !!}
-
+                                    <!-- prettier-ignore -->
+                                    <s:svg :src="$testimonial->client_logo"
+                                    class="max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]"
+                                    />
                                 </div>
                             @endif
                         @endif
-                        <x-utilities.svg svg="quote-gradient"
+                        <s:svg src="quote-gradient"
                             class="absolute -left-20 -top-8 -z-10 h-auto w-[5.9rem]" />
                     </footer>
                 </blockquote>

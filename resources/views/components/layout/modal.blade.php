@@ -9,7 +9,7 @@
             <button
                 class="bg-light-600 hover:bg-light-700 h-button text-button text-light inline-flex items-center justify-center gap-12 rounded-sm px-16 py-12 transition-all">
                 {{ $label ?? 'Öffnen' }}
-                <x-utilities.svg svg="cta-arrow-bold" class="h-auto w-[1.8rem]" />
+                <s:svg src="cta-arrow-bold" class="h-auto w-[1.8rem]" />
             </button>
         @endif
     </span>
@@ -30,7 +30,7 @@
 
                 <button type="button" x-on:click="open = false"
                     class="absolute right-0 top-0 p-8 max-sm:hidden">
-                    <x-utilities.svg svg="x-circle" class="h-auto w-[3.2rem] fill-none" />
+                    <s:svg src="x-circle" class="h-auto w-[3.2rem] fill-none" />
                 </button>
                 <div class="max-w-356 fixed bottom-12 left-12 right-12 m-auto">
                     <button type="button" x-on:click="open = false"

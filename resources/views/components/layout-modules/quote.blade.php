@@ -16,18 +16,18 @@
                 @if ($client_url)
                     <a href="{{ $client_url }}"
                         class="w-[12rem] sm:flex sm:justify-end md:w-[16.6rem]">
-                        <x-utilities.svg :svg="$client_logo"
+                        <s:svg :src="$client_logo"
                             class="size-full max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]" />
                     </a>
                 @else
                     <div class="w-[12rem] sm:flex sm:justify-end md:w-[16.6rem]">
-                        <x-utilities.svg :svg="$client_logo"
+                        <s:svg :src="$client_logo"
                             class="size-full max-h-[4.2rem] max-w-[12rem] md:max-h-[5.8rem] md:max-w-[16.6rem]" />
                     </div>
                 @endif
 
             @endif
-            <x-utilities.svg svg="quote-gradient"
+            <s:svg src="quote-gradient"
                 class="absolute -left-20 -top-12 -z-10 h-auto w-[10rem] sm:-left-32 sm:-top-20" />
         </footer>
     </blockquote>
