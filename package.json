@@ -16,7 +16,7 @@
     "@eslint/js": "9.16.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@shufo/prettier-plugin-blade": "1.14.1",
+    "@shufo/prettier-plugin-blade": "1.15.1",
     "@types/alpinejs": "3.13.11",
     "autoprefixer": "10.4.20",
     "conventional-changelog-conventionalcommits": "8.0.0",
