@@ -20,7 +20,7 @@
     "@types/alpinejs": "3.13.11",
     "autoprefixer": "10.4.20",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "eslint-plugin-prefer-arrow-functions": "3.4.1",
+    "eslint-plugin-prefer-arrow-functions": "3.6.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "globals": "15.14.0",
     "laravel-vite-plugin": "1.1.1",
