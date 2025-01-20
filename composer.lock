@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fb1d10c3fbd9352fb0c5a3c57677b8a",
+    "content-hash": "159e4e1e8d23ba2d5debb86dcf19f26d",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -12571,40 +12571,40 @@
         },
         {
             "name": "larastan/larastan",
-            "version": "v2.9.12",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larastan/larastan.git",
-                "reference": "19012b39fbe4dede43dbe0c126d9681827a5e908"
+                "reference": "b2e24e1605cff1d1097ccb6fb8af3bbd1dfe1c6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larastan/larastan/zipball/19012b39fbe4dede43dbe0c126d9681827a5e908",
-                "reference": "19012b39fbe4dede43dbe0c126d9681827a5e908",
+                "url": "https://api.github.com/repos/larastan/larastan/zipball/b2e24e1605cff1d1097ccb6fb8af3bbd1dfe1c6f",
+                "reference": "b2e24e1605cff1d1097ccb6fb8af3bbd1dfe1c6f",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/console": "^9.52.16 || ^10.28.0 || ^11.16",
-                "illuminate/container": "^9.52.16 || ^10.28.0 || ^11.16",
-                "illuminate/contracts": "^9.52.16 || ^10.28.0 || ^11.16",
-                "illuminate/database": "^9.52.16 || ^10.28.0 || ^11.16",
-                "illuminate/http": "^9.52.16 || ^10.28.0 || ^11.16",
-                "illuminate/pipeline": "^9.52.16 || ^10.28.0 || ^11.16",
-                "illuminate/support": "^9.52.16 || ^10.28.0 || ^11.16",
-                "php": "^8.0.2",
+                "illuminate/console": "^11.15.0",
+                "illuminate/container": "^11.15.0",
+                "illuminate/contracts": "^11.15.0",
+                "illuminate/database": "^11.15.0",
+                "illuminate/http": "^11.15.0",
+                "illuminate/pipeline": "^11.15.0",
+                "illuminate/support": "^11.15.0",
+                "php": "^8.2",
                 "phpmyadmin/sql-parser": "^5.9.0",
-                "phpstan/phpstan": "^1.12.11"
+                "phpstan/phpstan": "^2.0.2"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^12.0",
-                "laravel/framework": "^9.52.16 || ^10.28.0 || ^11.16",
-                "mockery/mockery": "^1.5.1",
-                "nikic/php-parser": "^4.19.1",
-                "orchestra/canvas": "^7.11.1 || ^8.11.0 || ^9.0.2",
-                "orchestra/testbench-core": "^7.33.0 || ^8.13.0 || ^9.0.9",
-                "phpstan/phpstan-deprecation-rules": "^1.2",
-                "phpunit/phpunit": "^9.6.13 || ^10.5.16"
+                "laravel/framework": "^11.15.0",
+                "mockery/mockery": "^1.6",
+                "nikic/php-parser": "^5.3",
+                "orchestra/canvas": "^v9.1.3",
+                "orchestra/testbench-core": "^9.5.2",
+                "phpstan/phpstan-deprecation-rules": "^2.0.0",
+                "phpunit/phpunit": "^10.5.16"
             },
             "suggest": {
                 "orchestra/testbench": "Using Larastan for analysing a package needs Testbench"
@@ -12639,7 +12639,7 @@
                     "email": "enunomaduro@gmail.com"
                 }
             ],
-            "description": "Larastan - Discover bugs in your code without running it. A phpstan/phpstan extension for Laravel",
+            "description": "Larastan - Discover bugs in your code without running it. A phpstan/phpstan wrapper for Laravel",
             "keywords": [
                 "PHPStan",
                 "code analyse",
@@ -12652,7 +12652,7 @@
             ],
             "support": {
                 "issues": "https://github.com/larastan/larastan/issues",
-                "source": "https://github.com/larastan/larastan/tree/v2.9.12"
+                "source": "https://github.com/larastan/larastan/tree/v3.0.2"
             },
             "funding": [
                 {
@@ -12660,7 +12660,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-26T23:09:02+00:00"
+            "time": "2024-11-26T23:15:21+00:00"
         },
         {
             "name": "laravel/pint",
@@ -13659,16 +13659,16 @@
         },
         {
             "name": "phpmyadmin/sql-parser",
-            "version": "5.10.1",
+            "version": "5.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmyadmin/sql-parser.git",
-                "reference": "b14fd66496a22d8dd7f7e2791edd9e8674422f17"
+                "reference": "5346664973d10cf1abff20837fb1183f3c11a055"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmyadmin/sql-parser/zipball/b14fd66496a22d8dd7f7e2791edd9e8674422f17",
-                "reference": "b14fd66496a22d8dd7f7e2791edd9e8674422f17",
+                "url": "https://api.github.com/repos/phpmyadmin/sql-parser/zipball/5346664973d10cf1abff20837fb1183f3c11a055",
+                "reference": "5346664973d10cf1abff20837fb1183f3c11a055",
                 "shasum": ""
             },
             "require": {
@@ -13742,24 +13742,24 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-11-10T04:10:31+00:00"
+            "time": "2025-01-19T04:14:02+00:00"
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.11",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0d1fc20a962a91be578bcfe7cf939e6e1a2ff733"
+                "reference": "cd6e973e04b4c2b94c86e8612b5a65f0da0e08e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0d1fc20a962a91be578bcfe7cf939e6e1a2ff733",
-                "reference": "0d1fc20a962a91be578bcfe7cf939e6e1a2ff733",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/cd6e973e04b4c2b94c86e8612b5a65f0da0e08e7",
+                "reference": "cd6e973e04b4c2b94c86e8612b5a65f0da0e08e7",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -13800,7 +13800,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-17T14:08:01+00:00"
+            "time": "2025-01-05T16:43:48+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
