@@ -4080,31 +4080,32 @@
         },
         {
             "name": "maennchen/zipstream-php",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maennchen/ZipStream-PHP.git",
-                "reference": "6187e9cc4493da94b9b63eb2315821552015fca9"
+                "reference": "aeadcf5c412332eb426c0f9b4485f6accba2a99f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/6187e9cc4493da94b9b63eb2315821552015fca9",
-                "reference": "6187e9cc4493da94b9b63eb2315821552015fca9",
+                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/aeadcf5c412332eb426c0f9b4485f6accba2a99f",
+                "reference": "aeadcf5c412332eb426c0f9b4485f6accba2a99f",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "ext-zlib": "*",
-                "php-64bit": "^8.1"
+                "php-64bit": "^8.2"
             },
             "require-dev": {
+                "brianium/paratest": "^7.7",
                 "ext-zip": "*",
                 "friendsofphp/php-cs-fixer": "^3.16",
                 "guzzlehttp/guzzle": "^7.5",
                 "mikey179/vfsstream": "^1.6",
                 "php-coveralls/php-coveralls": "^2.5",
-                "phpunit/phpunit": "^10.0",
-                "vimeo/psalm": "^5.0"
+                "phpunit/phpunit": "^11.0",
+                "vimeo/psalm": "^6.0"
             },
             "suggest": {
                 "guzzlehttp/psr7": "^2.4",
@@ -4145,7 +4146,7 @@
             ],
             "support": {
                 "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
-                "source": "https://github.com/maennchen/ZipStream-PHP/tree/3.1.1"
+                "source": "https://github.com/maennchen/ZipStream-PHP/tree/3.1.2"
             },
             "funding": [
                 {
@@ -4153,7 +4154,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-10T12:33:01+00:00"
+            "time": "2025-01-27T12:07:53+00:00"
         },
         {
             "name": "michelf/php-smartypants",
@@ -7536,16 +7537,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.45.1",
+            "version": "v5.46.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "8a2ad86a7b7ad8a76c37db3ee3ff71ecbad45627"
+                "reference": "7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/8a2ad86a7b7ad8a76c37db3ee3ff71ecbad45627",
-                "reference": "8a2ad86a7b7ad8a76c37db3ee3ff71ecbad45627",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210",
+                "reference": "7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210",
                 "shasum": ""
             },
             "require": {
@@ -7630,7 +7631,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.45.1"
+                "source": "https://github.com/statamic/cms/tree/v5.46.0"
             },
             "funding": [
                 {
@@ -7638,7 +7639,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-07T20:17:24+00:00"
+            "time": "2025-01-22T19:19:52+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -7759,16 +7760,16 @@
         },
         {
             "name": "stillat/blade-parser",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Stillat/blade-parser.git",
-                "reference": "959cdda611e7819f9db8a49d91c7d963d702fbd4"
+                "reference": "cc0c377ef951bcd51d97a2fdeccf64c97db0dbd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Stillat/blade-parser/zipball/959cdda611e7819f9db8a49d91c7d963d702fbd4",
-                "reference": "959cdda611e7819f9db8a49d91c7d963d702fbd4",
+                "url": "https://api.github.com/repos/Stillat/blade-parser/zipball/cc0c377ef951bcd51d97a2fdeccf64c97db0dbd6",
+                "reference": "cc0c377ef951bcd51d97a2fdeccf64c97db0dbd6",
                 "shasum": ""
             },
             "require": {
@@ -7801,7 +7802,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Stillat/blade-parser/issues",
-                "source": "https://github.com/Stillat/blade-parser/tree/v1.10.2"
+                "source": "https://github.com/Stillat/blade-parser/tree/v1.10.3"
             },
             "funding": [
                 {
@@ -7809,7 +7810,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-27T20:25:52+00:00"
+            "time": "2025-01-24T01:53:39+00:00"
         },
         {
             "name": "stillat/relationships",
