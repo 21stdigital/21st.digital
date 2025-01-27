@@ -23,7 +23,7 @@
     "eslint-plugin-prefer-arrow-functions": "3.6.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "globals": "15.14.0",
-    "laravel-vite-plugin": "1.1.1",
+    "laravel-vite-plugin": "1.2.0",
     "postcss": "8.5.1",
     "prettier": "3.4.2",
     "prettier-plugin-antlers": "2.0.5",
