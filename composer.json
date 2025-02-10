@@ -51,7 +51,7 @@
     "captainhook/captainhook": "^5.23",
     "captainhook/hook-installer": "^1.0",
     "fakerphp/faker": "^1.23",
-    "larastan/larastan": "^2.9",
+    "larastan/larastan": "^3.0",
     "laravel/pint": "^1.15",
     "laravel/sail": "^1.26",
     "mockery/mockery": "^1.6",
