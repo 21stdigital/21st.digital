@@ -7496,16 +7496,16 @@
         },
         {
             "name": "spatie/shiki-php",
-            "version": "2.2.2",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/shiki-php.git",
-                "reference": "05cbdd79180fdc71488047c27cfaf73be2b6c5fc"
+                "reference": "50919178a6865f1165bf1a8f08430b88ef3a53de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/shiki-php/zipball/05cbdd79180fdc71488047c27cfaf73be2b6c5fc",
-                "reference": "05cbdd79180fdc71488047c27cfaf73be2b6c5fc",
+                "url": "https://api.github.com/repos/spatie/shiki-php/zipball/50919178a6865f1165bf1a8f08430b88ef3a53de",
+                "reference": "50919178a6865f1165bf1a8f08430b88ef3a53de",
                 "shasum": ""
             },
             "require": {
@@ -7549,7 +7549,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/shiki-php/tree/2.2.2"
+                "source": "https://github.com/spatie/shiki-php/tree/2.3.0"
             },
             "funding": [
                 {
@@ -7557,20 +7557,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-06T09:52:06+00:00"
+            "time": "2025-02-10T15:41:13+00:00"
         },
         {
             "name": "statamic/cms",
-            "version": "v5.46.0",
+            "version": "v5.46.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210"
+                "reference": "779a92a223d16ee16f6af6de0b6a9acfc95be082"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210",
-                "reference": "7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/779a92a223d16ee16f6af6de0b6a9acfc95be082",
+                "reference": "779a92a223d16ee16f6af6de0b6a9acfc95be082",
                 "shasum": ""
             },
             "require": {
@@ -7655,7 +7655,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.46.0"
+                "source": "https://github.com/statamic/cms/tree/v5.46.1"
             },
             "funding": [
                 {
@@ -7663,7 +7663,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-22T19:19:52+00:00"
+            "time": "2025-02-04T15:32:24+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -10358,16 +10358,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.2.0",
+            "version": "v7.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "099581e99f557e9f16b43c5916c26380b54abb22"
+                "reference": "ac238f173df0c9c1120f862d0f599e17535a87ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/099581e99f557e9f16b43c5916c26380b54abb22",
-                "reference": "099581e99f557e9f16b43c5916c26380b54abb22",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/ac238f173df0c9c1120f862d0f599e17535a87ec",
+                "reference": "ac238f173df0c9c1120f862d0f599e17535a87ec",
                 "shasum": ""
             },
             "require": {
@@ -10410,7 +10410,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.2.0"
+                "source": "https://github.com/symfony/yaml/tree/v7.2.3"
             },
             "funding": [
                 {
@@ -10426,7 +10426,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-23T06:56:12+00:00"
+            "time": "2025-01-07T12:55:42+00:00"
         },
         {
             "name": "thecodingmachine/safe",
