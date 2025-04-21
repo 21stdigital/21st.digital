@@ -18,7 +18,7 @@
     "@semantic-release/git": "10.0.1",
     "@shufo/prettier-plugin-blade": "1.15.3",
     "@types/alpinejs": "3.13.11",
-    "autoprefixer": "10.4.20",
+    "autoprefixer": "10.4.21",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "eslint-plugin-prefer-arrow-functions": "3.6.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
