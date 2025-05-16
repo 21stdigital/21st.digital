@@ -47,7 +47,7 @@ layout_modules:
   -
     id: m3fresx5
     overline: Services
-    headline: 'Von der ersten Idee bis zur erfolgreichen Umsetzung'
+    headline: 'Von der Idee bis zur Umsetzung'
     intro_text: 'Wir bieten umfassende Services, die Deine digitalen Projekte voranbringen und nachhaltigen Erfolg sichern.'
     compilation: all
     type: services-teaser
