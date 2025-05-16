@@ -95,15 +95,16 @@ return [
     */
 
     'paths' => [
-        base_path('content'),
-        base_path('users'),
+        env('STATAMIC_GIT_CONTENT_PATH', base_path('content')),
+        env('STATAMIC_GIT_USERS_PATH', base_path('users')),
         resource_path('blueprints'),
         resource_path('fieldsets'),
         resource_path('forms'),
         resource_path('users'),
         resource_path('preferences.yaml'),
         storage_path('forms'),
-        public_path('assets'),
+        env('STATAMIC_GIT_PUBLIC_ASSETS_PATH', public_path('assets')),
+        env('STATAMIC_GIT_PUBLIC_ICONS_PATH', public_path('icons')),
     ],
 
     /*
