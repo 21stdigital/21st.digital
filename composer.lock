@@ -7624,16 +7624,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.56.0",
+            "version": "v5.57.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "bfd4050233d4ef0612f2d449fce2d64250580e3e"
+                "reference": "eba307923eb5fe9ce7b0954bf6ceecc0357be8c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/bfd4050233d4ef0612f2d449fce2d64250580e3e",
-                "reference": "bfd4050233d4ef0612f2d449fce2d64250580e3e",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/eba307923eb5fe9ce7b0954bf6ceecc0357be8c1",
+                "reference": "eba307923eb5fe9ce7b0954bf6ceecc0357be8c1",
                 "shasum": ""
             },
             "require": {
@@ -7718,7 +7718,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.56.0"
+                "source": "https://github.com/statamic/cms/tree/v5.57.0"
             },
             "funding": [
                 {
@@ -7726,7 +7726,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-20T19:06:31+00:00"
+            "time": "2025-06-04T17:04:56+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -10426,16 +10426,16 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v6.4.21",
+            "version": "v6.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "717e7544aa99752c54ecba5c0e17459c48317472"
+                "reference": "f28cf841f5654955c9f88ceaf4b9dc29571988a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/717e7544aa99752c54ecba5c0e17459c48317472",
-                "reference": "717e7544aa99752c54ecba5c0e17459c48317472",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/f28cf841f5654955c9f88ceaf4b9dc29571988a9",
+                "reference": "f28cf841f5654955c9f88ceaf4b9dc29571988a9",
                 "shasum": ""
             },
             "require": {
@@ -10483,7 +10483,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v6.4.21"
+                "source": "https://github.com/symfony/var-exporter/tree/v6.4.22"
             },
             "funding": [
                 {
@@ -10499,7 +10499,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-27T21:06:26+00:00"
+            "time": "2025-05-14T13:00:13+00:00"
         },
         {
             "name": "symfony/yaml",
