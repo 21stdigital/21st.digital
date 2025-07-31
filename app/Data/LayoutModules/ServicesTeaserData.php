@@ -69,7 +69,7 @@ final class ServicesTeaserData extends Data
 
         // Map each entry to a ServicesTeaserItemData instance
         $entries = $raw_entries->map(
-            fn ($entry) => ServicesTeaserItemData::from($entry)
+            fn ($entry) => ServicesTeaserItemData::fromEntry($entry)
         )->all();
 
         return new self($headline, $intro_text, $overline, $entries);
