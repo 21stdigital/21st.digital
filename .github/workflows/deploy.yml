@@ -21,7 +21,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
         with:
