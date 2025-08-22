@@ -185,5 +185,5 @@ cta_box:
     text: 'Wir helfen Dir, Deine Daten in smarte digitale Produkte zu verwandeln.'
     expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 updated_by: 6d9131f3-00d6-4705-b497-ce1e18f650fc
-updated_at: 1755877061
+updated_at: 1755877503
 ---
