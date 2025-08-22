@@ -27,7 +27,7 @@ layout_modules:
                 text: 'Als einer der weltweit führenden Automobilhersteller steht das Unternehmen für Innovation, Qualität und Premium-Mobilität. Neben der Entwicklung intelligenter Fahrzeuge setzt es verstärkt auf digitale Technologien und datenbasierte Services, um urbane Mobilität effizienter und nachhaltiger zu gestalten.'
         type: info-box
         enabled: true
-        logo: mercedes-benz
+        logo: car
     text:
       -
         type: paragraph
@@ -185,5 +185,5 @@ cta_box:
     text: 'Wir helfen Dir, Deine Daten in smarte digitale Produkte zu verwandeln.'
     expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 updated_by: 6d9131f3-00d6-4705-b497-ce1e18f650fc
-updated_at: 1738926775
+updated_at: 1755877061
 ---
