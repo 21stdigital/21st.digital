@@ -2,5 +2,6 @@
 
 return [
     App\Providers\AppServiceProvider::class,
-    \SocialiteProviders\Manager\ServiceProvider::class,
+    App\Providers\HorizonServiceProvider::class,
+    SocialiteProviders\Manager\ServiceProvider::class,
 ];
