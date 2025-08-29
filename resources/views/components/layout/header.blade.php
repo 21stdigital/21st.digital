@@ -13,6 +13,9 @@
             @endforeach
         </ul>
     </nav>
-    <x-elements.cta url="https://calendly.com/21stdigital/meeting" target="_blank"
-        rel="noopener noreferrer" label="Termin vereinbaren" />
+    <x-layout.modal label="Termin vereinbaren">
+
+        <x-utilities.calendly calendly_url="https://calendly.com/21stdigital/meeting" />
+
+    </x-layout.modal>
 </header>
