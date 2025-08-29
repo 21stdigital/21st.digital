@@ -27,7 +27,7 @@ layout_modules:
                 text: 'Als einer der weltweit führenden Automobilhersteller steht das Unternehmen für Innovation, Qualität und Premium-Mobilität. Neben der Entwicklung intelligenter Fahrzeuge setzt es verstärkt auf digitale Technologien und datenbasierte Services, um urbane Mobilität effizienter und nachhaltiger zu gestalten.'
         type: info-box
         enabled: true
-        logo: car3
+        logo: mercedes-benz-car-09-flip
     text:
       -
         type: paragraph
@@ -185,6 +185,6 @@ cta_box:
     text: 'Wir helfen Dir, Deine Daten in smarte digitale Produkte zu verwandeln.'
     expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
 updated_by: 8add638a-b7e4-4174-8ae1-67324443edc0
-updated_at: 1756110388
+updated_at: 1756476706
 logo: car3
 ---
