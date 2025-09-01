@@ -184,7 +184,7 @@ cta_box:
     headline: 'Du möchtest datenbasierte Innovationen beschleunigen?'
     text: 'Wir helfen Dir, Deine Daten in smarte digitale Produkte zu verwandeln.'
     expert: 81347864-bc8e-4d1a-96f0-a0b5280146c8
-updated_by: 8add638a-b7e4-4174-8ae1-67324443edc0
-updated_at: 1756476706
+updated_by: 1b9339be-2128-45e8-8549-606769d5ff32
+updated_at: 1756715382
 logo: car3
 ---
