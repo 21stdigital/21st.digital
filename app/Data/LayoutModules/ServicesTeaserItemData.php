@@ -40,7 +40,7 @@ final class ServicesTeaserItemData extends Data
     public static function fromEntry(Entry $entry): self
     {
         // Extract and prepare values from the Entry
-        $icon = SvgIconData::from($entry->augmentedValue('icon'));
+        $icon = SvgIconData::fromIconValue($entry->augmentedValue('icon'));
 
         // Access the `teaser` property directly, assuming it has the specified structure
         $headline = $entry->teaser->title;
