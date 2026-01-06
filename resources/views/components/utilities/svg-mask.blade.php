@@ -3,5 +3,5 @@
         'class' => 'mask-cover bg-current',
         'style' => "mask-image:url('{$image->absoluteUrl()}');"
     ]) }}>
-    <x-image :image="$image" class="invisible" />
+    <x-elements.image :image="$image" class="invisible" />
 </div>
