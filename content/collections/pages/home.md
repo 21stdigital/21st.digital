@@ -2,7 +2,7 @@
 id: fef89197-da0b-444e-bd11-fdc1fabe9820
 blueprint: page
 title: Home
-headline: 'Von Deiner Vision zur digitalen Erfolgsgeschichte!!!'
+headline: 'Von Deiner Vision zur digitalen Erfolgsgeschichte'
 copy: |-
   21st digital ist Dein erfahrener Partner für innovative digitale Produkte. Gemeinsam
   gestalten wir Deine digitale Transformation und schaffen Lösungen, die messbaren
@@ -11,7 +11,7 @@ enable_cta_box: true
 cta_box:
   override_defaults: false
 updated_by: 930b3d6b-982e-4ed8-aa86-e76db032286f
-updated_at: 1767709300
+updated_at: 1767717921
 layout_modules:
   -
     id: m3fr6tlb
