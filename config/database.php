@@ -163,6 +163,9 @@ return [
             'password' => env('REDIS_PASSWORD'),
             'port' => env('REDIS_PORT', '6379'),
             'database' => env('REDIS_CACHE_DB', '1'),
+            'options' => [
+                'prefix' => basename(base_path()).'_',
+            ],
         ],
 
     ],
