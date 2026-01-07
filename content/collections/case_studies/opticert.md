@@ -144,14 +144,6 @@ layout_modules:
               -
                 type: text
                 text: 'OPTICERT ist Deutschlands erste Web-Plattform, die Unternehmen ermöglicht, Angebote von Dienstleistern zu vergleichen und zu beauftragen, um gesetzliche Anforderungen effizient zu erfüllen.'
-          -
-            type: set
-            attrs:
-              id: m3hf4ujg
-              values:
-                type: link
-                cta: 'https://opticert.de'
-                cta_label: 'Zur Plattform'
         type: info-box
         enabled: true
     overline: Lösung

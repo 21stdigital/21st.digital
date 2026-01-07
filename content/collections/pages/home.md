@@ -10,12 +10,8 @@ copy: |-
 enable_cta_box: true
 cta_box:
   override_defaults: false
-  cta_box:
-    headline: null
-    text: null
-    expert: null
-updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732795571
+updated_by: 930b3d6b-982e-4ed8-aa86-e76db032286f
+updated_at: 1767717921
 layout_modules:
   -
     id: m3fr6tlb
@@ -47,7 +43,7 @@ layout_modules:
   -
     id: m3fresx5
     overline: Services
-    headline: 'Von der ersten Idee bis zur erfolgreichen Umsetzung'
+    headline: 'Von der Idee bis zur Umsetzung'
     intro_text: 'Wir bieten umfassende Services, die Deine digitalen Projekte voranbringen und nachhaltigen Erfolg sichern.'
     compilation: all
     type: services-teaser
