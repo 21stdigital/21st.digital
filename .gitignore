@@ -21,7 +21,7 @@ yarn-error.log
 /.fleet
 /.idea
 
-users/*
+/users
 
 .vscode/**/*
 !.vscode/extensions.json
