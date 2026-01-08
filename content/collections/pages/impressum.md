@@ -7,12 +7,8 @@ copy: 'Rechtliche Informationen zur 21st digital GmbH'
 enable_cta_box: false
 cta_box:
   override_defaults: false
-  cta_box:
-    headline: null
-    text: null
-    expert: null
-updated_by: 4eff3d75-2a16-42f6-b6c7-0671bd2e010b
-updated_at: 1732816618
+updated_by: 930b3d6b-982e-4ed8-aa86-e76db032286f
+updated_at: 1767864898
 layout_modules:
   -
     id: m41m2tzf

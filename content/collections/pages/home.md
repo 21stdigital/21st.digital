@@ -11,7 +11,7 @@ enable_cta_box: true
 cta_box:
   override_defaults: false
 updated_by: 930b3d6b-982e-4ed8-aa86-e76db032286f
-updated_at: 1767717921
+updated_at: 1767798315
 layout_modules:
   -
     id: m3fr6tlb
@@ -34,6 +34,7 @@ layout_modules:
         type: case-study-teaser
         enabled: true
         entries:
+          - 200b39fd-de6a-4e14-8b5e-2de9c2adb51f
           - 1a0a23a7-a783-4cc1-b188-be2942bf5343
           - 16b4f2fb-640b-4915-adfb-8f8b99e0bd2f
           - 804ef3d3-5716-4f29-8f26-06953a23d7ef
