@@ -4591,16 +4591,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495"
+                "reference": "16dbf9937da8d4528ceb2145c9c7c0bd29e26374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/1e0cd5370df5dd2e556a36b9c62f62e555870495",
-                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/16dbf9937da8d4528ceb2145c9c7c0bd29e26374",
+                "reference": "16dbf9937da8d4528ceb2145c9c7c0bd29e26374",
                 "shasum": ""
             },
             "require": {
@@ -4632,9 +4632,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.1"
             },
-            "time": "2025-08-30T15:50:23+00:00"
+            "time": "2026-01-12T11:33:04+00:00"
         },
         {
             "name": "pixelfear/composer-dist-plugin",
@@ -6500,16 +6500,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.70.0",
+            "version": "v5.71.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "4cc7da4dad596e4270d7c1c4f20909906cf9273c"
+                "reference": "d47e6558b9fa8b8e74d79fa887b4ea98b70f4ed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/4cc7da4dad596e4270d7c1c4f20909906cf9273c",
-                "reference": "4cc7da4dad596e4270d7c1c4f20909906cf9273c",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d47e6558b9fa8b8e74d79fa887b4ea98b70f4ed8",
+                "reference": "d47e6558b9fa8b8e74d79fa887b4ea98b70f4ed8",
                 "shasum": ""
             },
             "require": {
@@ -6518,7 +6518,7 @@
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
                 "james-heinrich/getid3": "^1.9.21",
-                "laravel/framework": "^10.48.29 || ^11.44.1 || ^12.1.1",
+                "laravel/framework": "^10.48.29 || ^11.44.1 || ^12.40.0",
                 "laravel/prompts": "^0.1.16 || ^0.2.0 || ^0.3.0",
                 "league/commonmark": "^2.2",
                 "league/csv": "^9.0",
@@ -6548,9 +6548,10 @@
                 "google/cloud-translate": "^1.6",
                 "laravel/pint": "1.16.0",
                 "mockery/mockery": "^1.6.10",
-                "orchestra/testbench": "^8.14 || ^9.2 || ^10.0",
+                "orchestra/testbench": "^8.36 || ^9.15 || ^10.8",
                 "phpunit/phpunit": "^10.5.35 || ^11.5.3",
-                "spatie/laravel-ray": "^1.37"
+                "sebastian/recursion-context": "^5.0.1 || ^6.0.3",
+                "spatie/laravel-ray": "^1.42"
             },
             "type": "library",
             "extra": {
@@ -6603,7 +6604,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.70.0"
+                "source": "https://github.com/statamic/cms/tree/v5.71.0"
             },
             "funding": [
                 {
@@ -6611,7 +6612,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-03T18:32:28+00:00"
+            "time": "2026-01-08T21:21:26+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -15665,5 +15666,5 @@
         "php": "^8.3"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
