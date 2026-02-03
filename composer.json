@@ -48,7 +48,7 @@
     "stillat/relationships": "^2.2"
   },
   "require-dev": {
-    "barryvdh/laravel-debugbar": "^3.8.1",
+    "barryvdh/laravel-debugbar": "^4.0.5",
     "captainhook/captainhook": "^5.23",
     "captainhook/hook-installer": "^1.0",
     "fakerphp/faker": "^1.23",
