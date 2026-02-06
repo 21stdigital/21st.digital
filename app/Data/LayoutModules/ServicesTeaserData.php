@@ -50,13 +50,12 @@ final class ServicesTeaserData extends Data
         $headline = $context->headline;
         $intro_text = $context->intro_text;
 
-        /** @var LabeledValue $c */
-        $c = $context->compilation;
-        /** @var ServicesTeaserCompilation|null $compilation */
-        $compilation = match ($c->value()) {
+        /** @var LabeledValue $compilationField */
+        $compilationField = $context->compilation;
+        $compilation = match ($compilationField->value()) {
             'all' => ServicesTeaserCompilation::ALL,
             'by_hand' => ServicesTeaserCompilation::BY_HAND,
-            default => throw new InvalidArgumentException('Ungültiger Wert für Compilation: '.$c->value()),
+            default => throw new InvalidArgumentException('Ungültiger Wert für Compilation: '.$compilationField->value()),
         };
 
         /** @var EntryCollection $raw_entries */
