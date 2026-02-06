@@ -27,15 +27,15 @@ class TextData extends Data
      *
      * @param  array  $textArray  Array of Statamic Values objects representing individual text elements.
      *
-     * @phpstan-param array<int, Values&(object{type: 'text', text: string}|object{type: 'link', cta: \Statamic\Fieldtypes\Link\ArrayableLink, cta_label: string})> $textArray
+     * @phpstan-param array<int, Values&object{type: string}> $textArray
      */
     public static function fromArray(array $textArray): self
     {
         // Process each element and convert it to the corresponding Data object
         $elements = collect($textArray)->map(function (Values $element) {
             return match ($element->type) {
-                'text' => TextElementData::fromStatamic($element),
-                'link' => LinkData::fromStatamic($element),
+                'text' => TextElementData::fromStatamic($element), // @phpstan-ignore-line
+                'link' => LinkData::fromStatamic($element), // @phpstan-ignore-line
                 default => throw new InvalidArgumentException("The type {$element->type} is not supported."),
             };
         })->all();

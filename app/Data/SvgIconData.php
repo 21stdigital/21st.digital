@@ -17,11 +17,11 @@ class SvgIconData extends Data
 
     public static function fromIconValue(Value $iconValue)
     {
-        /** @var Icon $iconFieldtype */
         $iconFieldtype = $iconValue->fieldtype();
         if (! ($iconFieldtype instanceof Icon)) {
             throw new \InvalidArgumentException('The $iconFieldtype must be an instance of Statamic\Fieldtypes\Icon.');
         }
+
         /** @var array $iconFieldtypeConfig */
         $iconFieldtypeConfig = $iconFieldtype->config();
         $directory = $iconFieldtypeConfig['directory'];
