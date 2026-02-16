@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a7147704ba5f7237471e78e82a6ca99",
+    "content-hash": "ee780d67ed730c3fe9d01f0431003b3e",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -3063,16 +3063,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.7.3",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "a5384df9fbd3eaf02e053bc49aabc8ace293fc1c"
+                "reference": "4697085e02a1f5f11410a1b5962400e3539f8843"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/a5384df9fbd3eaf02e053bc49aabc8ace293fc1c",
-                "reference": "a5384df9fbd3eaf02e053bc49aabc8ace293fc1c",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/4697085e02a1f5f11410a1b5962400e3539f8843",
+                "reference": "4697085e02a1f5f11410a1b5962400e3539f8843",
                 "shasum": ""
             },
             "require": {
@@ -3127,7 +3127,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.7.3"
+                "source": "https://github.com/livewire/livewire/tree/v4.1.4"
             },
             "funding": [
                 {
@@ -3135,7 +3135,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-19T02:00:29+00:00"
+            "time": "2026-02-09T22:59:54+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
