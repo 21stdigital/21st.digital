@@ -13,7 +13,24 @@ const config = {
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen', 'layer']
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'variants',
+          'responsive',
+          'screen',
+          'layer',
+          'theme',
+          'custom-variant',
+          'utility',
+          'variant'
+        ]
+      }
+    ],
+    'custom-property-pattern': [
+      '^([a-z][a-z0-9]*)(-{1,2}[a-z0-9]+)*(-\\*)?$',
+      {
+        message: 'Expected custom property name to be kebab-case, optionally ending with -*'
       }
     ],
     // Enforce kebab-case naming convention for CSS classes
@@ -25,12 +42,7 @@ const config = {
       }
     ],
     // Ignore unknown pseudo-classes with global being an exception (useful for CSS Modules)
-    'selector-pseudo-class-no-unknown': [
-      true,
-      {
-        ignorePseudoClasses: ['global']
-      }
-    ]
+    'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['global'] }]
   }
 }
 

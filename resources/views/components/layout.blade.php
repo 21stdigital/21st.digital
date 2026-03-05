@@ -22,7 +22,7 @@
     @vite(['resources/js/site.ts', 'resources/css/site.css'])
 </head>
 
-<body class="bg text">
+<body>
     <x-layout.header />
     <main>
         <x-layout.hero />

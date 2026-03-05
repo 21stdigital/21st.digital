@@ -1,7 +1,7 @@
 <article wire:init="updateEntries" class="space-y-20 sm:space-y-52">
     @foreach ($entries as $entry)
         <article
-            class="bg-gradient-dark-900 border-highlight-3-600 grid grid-cols-[auto_1fr] gap-20 border px-12 py-20 sm:px-20 sm:py-32">
+            class="bg-gradient-dark-900 border-highlight-3/32 grid grid-cols-[auto_1fr] gap-20 border px-12 py-20 sm:px-20 sm:py-32">
             <s:svg :src="$entry['icon']" class="h-auto w-[3.2rem] fill-current" />
             <div class="">
                 <h3 class="text-h6 mb-12">

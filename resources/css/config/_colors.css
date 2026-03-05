@@ -1,44 +1,85 @@
-:root {
+@theme {
+  /* COLORS */
   --color-primary: var(--color-dark);
   --color-secondary: var(--color-light);
   --color-tertiary: var(--color-highlight);
-  --color-dark: 20 20 20;
-  --color-light: 255 255 255;
-  --color-highlight-1: 255 0 210; /* #ff00d2 */
-  --color-highlight-2: 191 41 221; /* #bf29dd */
-  --color-highlight-3: 118 87 234; /* #7657ea */
-  --color-light-gradient-1: 145 134 193; /* #9186C1 */
-  --color-light-gradient-2: 98 98 98; /* #626262 */
-  --color-dark-gradient-1: 28 21 35; /* #1C1523 */
-  --color-dark-gradient-2: 13 13 13; /* #0D0D0D */
+  --color-dark: rgb(20 20 20);
+  --color-light: rgb(255 255 255);
+  --color-highlight-1: rgb(255 0 210); /* #ff00d2 */
+  --color-highlight-2: rgb(191 41 221); /* #bf29dd */
+  --color-highlight-3: rgb(118 87 234); /* #7657ea */
+  --color-light-gradient-1: rgb(145 134 193); /* #9186C1 */
+  --color-light-gradient-2: rgb(98 98 98); /* #626262 */
+  --color-dark-gradient-1: rgb(28 21 35); /* #1C1523 */
+  --color-dark-gradient-2: rgb(13 13 13); /* #0D0D0D */
   --default-text-color: var(--color-dark);
   --default-bg-color: var(--color-light);
-
-  &.dark,
-  .dark {
-    --default-text-color: var(--color-light);
-    --default-bg-color: var(--color-dark);
-  }
 }
 
-*,
-*::before,
-*::after {
-  /* Gradients */
-  --gradient-highlight: linear-gradient(
+@utility text-highlight-* {
+  --shade: --value(--shade-*);
+
+  background-image: linear-gradient(
     -43deg,
-    rgb(var(--color-highlight-1) / var(--color-gradation, 1)) 0%,
-    rgb(var(--color-highlight-2) / var(--color-gradation, 1)) 44%,
-    rgb(var(--color-highlight-3) / var(--color-gradation, 1)) 97%
+    color-mix(in oklab, var(--color-highlight-1) calc(var(--shade, 1) * 100%), transparent) 0%,
+    color-mix(in oklab, var(--color-highlight-2) calc(var(--shade, 1) * 100%), transparent) 44%,
+    color-mix(in oklab, var(--color-highlight-3) calc(var(--shade, 1) * 100%), transparent) 97%
   );
-  --gradient-light: linear-gradient(
+  background-clip: text;
+  color: transparent !important;
+}
+
+@utility bg-highlight-* {
+  --shade: --value(--shade-*);
+
+  background: linear-gradient(
+    -43deg,
+    color-mix(in oklab, var(--color-highlight-1) calc(var(--shade, 1) * 100%), transparent) 0%,
+    color-mix(in oklab, var(--color-highlight-2) calc(var(--shade, 1) * 100%), transparent) 44%,
+    color-mix(in oklab, var(--color-highlight-3) calc(var(--shade, 1) * 100%), transparent) 97%
+  );
+}
+
+@utility bg-gradient-light-* {
+  --shade: --value(--shade-*);
+
+  background: linear-gradient(
     209deg,
-    rgb(var(--color-light-gradient-1) / var(--color-gradation, 1)) 0%,
-    rgb(var(--color-light-gradient-2) / var(--color-gradation, 1)) 100%
+    color-mix(in oklab, var(--color-light-gradient-1) calc(var(--shade, 1) * 100%), transparent) 0%,
+    color-mix(in oklab, var(--color-light-gradient-2) calc(var(--shade, 1) * 100%), transparent)
+      100%
   );
-  --gradient-dark: linear-gradient(
+}
+
+@utility bg-gradient-dark-* {
+  --shade: --value(--shade-*);
+
+  background: linear-gradient(
     209deg,
-    rgb(var(--color-dark-gradient-1) / var(--color-gradation, 1)) 0%,
-    rgb(var(--color-dark-gradient-2) / var(--color-gradation, 1)) 100%
+    color-mix(in oklab, var(--color-dark-gradient-1) calc(var(--shade, 1) * 100%), transparent) 0%,
+    color-mix(in oklab, var(--color-dark-gradient-2) calc(var(--shade, 1) * 100%), transparent) 100%
   );
+}
+
+@utility border-gradient-highlight-* {
+  --shade: --value(--shade-*);
+
+  border-image-source: linear-gradient(
+    -43deg,
+    color-mix(in oklab, var(--color-highlight-1) calc(var(--shade, 1) * 100%), transparent) 0%,
+    color-mix(in oklab, var(--color-highlight-2) calc(var(--shade, 1) * 100%), transparent) 44%,
+    color-mix(in oklab, var(--color-highlight-3) calc(var(--shade, 1) * 100%), transparent) 97%
+  );
+  border-image-slice: 1;
+}
+
+@utility border-gradient-dark-* {
+  --shade: --value(--shade-*);
+
+  border-image-source: linear-gradient(
+    -43deg,
+    color-mix(in oklab, var(--color-dark-gradient-1) calc(var(--shade, 1) * 100%), transparent) 0%,
+    color-mix(in oklab, var(--color-dark-gradient-2) calc(var(--shade, 1) * 100%), transparent) 100%
+  );
+  border-image-slice: 1;
 }

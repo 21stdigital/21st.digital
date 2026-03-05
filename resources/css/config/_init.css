@@ -1,11 +1,23 @@
 @layer base {
+  :root {
+    --default-text-color: var(--color-dark);
+    --default-bg-color: var(--color-light);
+  }
+
   html {
+    background-color: color-mix(in oklab, var(--default-bg-color) 100%, transparent);
+    color: color-mix(in oklab, var(--default-text-color) 100%, transparent);
     font-size: 62.5%;
     text-rendering: optimizelegibility;
 
     /* Devices smaller than 393px */
     @media (width <= 24.5625em) {
       font-size: calc(10 / 393 * 100vw);
+    }
+
+    &.dark {
+      --default-text-color: var(--color-light);
+      --default-bg-color: var(--color-dark);
     }
   }
 }

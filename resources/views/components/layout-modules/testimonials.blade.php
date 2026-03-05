@@ -33,7 +33,7 @@
     <ul class="gap grid grid-cols-1 md:grid-cols-2">
 
         @foreach ($viewData->testimonials as $testimonial)
-            <li class="bg-gradient-dark-900 border-highlight-3-600 h-full border p-32">
+            <li class="bg-gradient-dark-900 border-highlight-3/32 h-full border p-32">
                 <blockquote class="relative isolate flex h-full flex-col justify-between">
                     <p class="text-c2 italic">
                         {{ $testimonial->quote }}
