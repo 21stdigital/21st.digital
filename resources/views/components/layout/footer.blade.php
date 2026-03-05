@@ -3,7 +3,7 @@
     @if ($enable_cta_box->value())
         <x-layout.cta-box class="mt-84" />
     @endif
-    <div class="border-highlight-3-600 page-layout border-b border-t">
+    <div class="border-highlight-3/32 page-layout border-b border-t">
         <div class="layout-content sm:py-84 grid grid-cols-1 gap-y-52 py-32 xl:grid-cols-3">
             <a href="/" title="21st digital - Deine digitale Spezialeinheit">
                 <s:svg src="icons/21st-digital-logo" class="text h-auto w-[9.5rem] sm:w-[13.6rem]" />

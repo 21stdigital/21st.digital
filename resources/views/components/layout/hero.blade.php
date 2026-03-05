@@ -8,7 +8,7 @@
             </p>
         @endif
         <h1
-            class="text-hero text-highlight col-start-1 -col-end-1 text-balance text-center sm:col-start-2 sm:-col-end-2 lg:col-start-1 lg:-col-end-1">
+            class="text-hero text-highlight-900 col-start-1 -col-end-1 text-balance text-center sm:col-start-2 sm:-col-end-2 lg:col-start-1 lg:-col-end-1">
             {{ $headline }}
         </h1>
         <p

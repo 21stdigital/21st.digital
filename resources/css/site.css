@@ -1,10 +1,76 @@
-@import url('config/_init');
-@import url('config/_colors');
-@import url('config/_spaces');
-@import url('config/_sizes');
-@import url('config/_typography');
-@import url('config/_layout');
-@import url('config/_utilities');
-@import url('tailwindcss/base');
-@import url('tailwindcss/components');
-@import url('tailwindcss/utilities');
+@import url('tailwindcss');
+@import url('./config/_init.css');
+@import url('./config/_colors.css');
+@import url('./config/_layout.css');
+@import url('./config/_typography.css');
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* CONTENT CONTAINER SIZES */
+  --container-width: calc(100vw * 352 / 393);
+  --container-padding: calc((100vw - var(--container-width)) / 2);
+
+  /* SPACES */
+  --spacing: 0.1rem;
+  --spacing-container: var(--container-padding);
+
+  /* BREAKPOINTS */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 46.5rem; /* 744px */
+  --breakpoint-md: 51.25rem; /* 820px */
+  --breakpoint-lg: 64.5rem; /* 1032px */
+  --breakpoint-xl: 86rem; /* 1376px */
+  --breakpoint-2xl: 94.5rem; /* 1512px */
+
+  /* BORDER RADIUS */
+  --radius-sm: 0.8rem;
+  --radius-md: 1.6rem;
+  --radius-lg: 3.2rem;
+  --radius-full: calc(infinity * 1px);
+
+  /* COLOR SHADES */
+  --shade-100: 0.03;
+  --shade-200: 0.05;
+  --shade-300: 0.08;
+  --shade-400: 0.13;
+  --shade-500: 0.19;
+  --shade-600: 0.32;
+  --shade-700: 0.48;
+  --shade-800: 0.72;
+  --shade-900: 1;
+
+  /* GRID */
+  --grid-gap: 3.2rem;
+  --grid-columns: 12;
+  --grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+  --grid-template-columns-global-header: auto 1fr auto;
+  --grid-template-columns-info-item: auto 1fr;
+
+  /* BUTTON HEIGHTS */
+  --height-button: 4.2rem;
+}
+
+@utility gap {
+  gap: var(--grid-gap);
+}
+
+@utility gap-x {
+  column-gap: var(--grid-gap);
+}
+
+@utility gap-y {
+  row-gap: var(--grid-gap);
+}
+
+:root {
+  @variant lg {
+    --container-width: 90vw;
+    --height-button: 4.8rem;
+  }
+
+  @variant 2xl {
+    --container-width: min(85vw, 144rem);
+    --height-button: 5.3rem;
+  }
+}

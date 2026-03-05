@@ -11,7 +11,7 @@
         aria-labelledby="contact-name" role="region">
         <div class="col-start-1 col-end-5 sm:col-start-3 sm:col-end-6 lg:col-end-5">
             <x-elements.image :image="$expert->image"
-                class="bg-dark-600 aspect-square w-full rounded-full" />
+                class="bg-dark/32 aspect-square w-full rounded-full" />
         </div>
         <div
             class="text-c1 gap col-start-5 -col-end-1 flex flex-wrap items-center justify-between gap-y-20 sm:col-start-6 sm:col-end-11 lg:col-start-5">
