@@ -73,7 +73,7 @@
       },
       {
         "//": "Lint and fix all staged PHP files.",
-        "action": "vendor/bin/composer lint {$STAGED_FILES|of-type:php}"
+        "action": "composer lint {$STAGED_FILES|of-type:php}"
       },
       {
         "//": "Run prettier on all staged files",
@@ -85,7 +85,7 @@
       },
       {
         "//": "Static Analysis of all PHP files in the project.",
-        "action": "vendor/bin/composer analyse"
+        "action": "composer analyse"
       }
     ]
   },
@@ -113,7 +113,7 @@
     "enabled": true,
     "actions": [
       {
-        "action": "vendor/bin/composer install",
+        "action": "composer install",
         "options": {},
         "conditions": [
           {
