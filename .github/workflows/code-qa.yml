@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Identify Changed Files
-        uses: dorny/paths-filter@v3
+        uses: dorny/paths-filter@v4
         id: filter
         with:
           filters: |
