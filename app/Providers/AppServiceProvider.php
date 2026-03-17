@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
+use SocialiteProviders\Google\Provider;
+use SocialiteProviders\Manager\SocialiteWasCalled;
 use Statamic\Facades\Collection;
 use Statamic\Statamic;
 
@@ -27,8 +29,8 @@ class AppServiceProvider extends ServiceProvider
         //     'resources/css/cp.css',
         // ]);
 
-        Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
-            $event->extendSocialite('google', \SocialiteProviders\Google\Provider::class);
+        Event::listen(function (SocialiteWasCalled $event) {
+            $event->extendSocialite('google', Provider::class);
         });
 
         Collection::computed('experts', 'calendly_url', function ($entry, $value) {
