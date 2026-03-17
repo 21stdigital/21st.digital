@@ -76,12 +76,21 @@ jobs:
       - name: Check Code Formatting with Prettier
         run: npm run prettier:check ${{ needs.detect_changes.outputs.changed_files }}
 
+      - name: Setup PHP Environment
+        if: ${{ needs.detect_changes.outputs.php == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: dom, curl, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick
+          coverage: none
+
+      - name: Install Composer Dependencies
+        if: ${{ needs.detect_changes.outputs.php == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
+        run: composer install --no-interaction --prefer-dist
+
       - name: Lint PHP Files
         if: ${{ needs.detect_changes.outputs.php == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
-        uses: aglipanci/laravel-pint-action@v2
-        with:
-          testMode: true
-          verboseMode: true
+        run: php vendor/bin/pint --test -v
 
       - name: Lint TypeScript Files
         if: ${{ needs.detect_changes.outputs.ts == 'true' || needs.detect_changes.outputs.dependencies == 'true' }}
