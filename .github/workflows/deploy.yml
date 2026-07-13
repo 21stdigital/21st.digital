@@ -36,6 +36,7 @@ jobs:
         run: composer global require laravel/forge-cli
       - name: Deploy Site
         run: |
+          forge organization:switch 21st-digital
           forge server:switch ${{ secrets.FORGE_SERVER_ID }}
           forge deploy ${{ secrets.FORGE_SITE_NAME }}
         env:
