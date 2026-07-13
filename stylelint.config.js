@@ -9,6 +9,9 @@ const config = {
   reportInvalidScopeDisables: true,
   reportNeedlessDisables: true,
   rules: {
+    // Tailwind v4 requires the bare-string @import form (e.g. `@import 'tailwindcss'`);
+    // the url() notation is no longer processed. stylelint-config-standard defaults to 'url'.
+    'import-notation': 'string',
     // Handle unknown at-rules by allowing Tailwind-specific ones
     'at-rule-no-unknown': [
       true,

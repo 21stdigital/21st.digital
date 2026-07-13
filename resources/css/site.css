@@ -1,8 +1,8 @@
-@import url('tailwindcss');
-@import url('./config/_init.css');
-@import url('./config/_colors.css');
-@import url('./config/_layout.css');
-@import url('./config/_typography.css');
+@import 'tailwindcss';
+@import './config/_init.css';
+@import './config/_colors.css';
+@import './config/_layout.css';
+@import './config/_typography.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
