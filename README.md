@@ -37,7 +37,8 @@ To run this project, ensure your local environment meets the following requireme
 
 - **PHP**: Version 8.3 or higher, for compatibility with the latest features and security updates.
 - **Composer**: Version 2.0 or higher, to manage PHP dependencies effectively.
-- **Node.js** and **NPM**: Latest stable versions, to handle frontend dependencies and build processes.
+- **Node.js**: The version pinned in [`.nvmrc`](.nvmrc), to handle frontend dependencies and build processes. Run `nvm use` to activate it. The accepted range is enforced via `engines` in `package.json`, so `npm ci` fails early on a mismatching version.
+- **NPM**: Version 11 or higher, which ships with the pinned Node.js version.
 
 Make sure all dependencies are installed and properly configured before proceeding with the setup. This ensures a smooth development and deployment process.
 
