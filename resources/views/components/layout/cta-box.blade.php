@@ -30,11 +30,7 @@
             </div>
 
             <div class="col-start-8 col-end-11">
-                <x-layout.modal label="Termin vereinbaren">
-
-                    <x-utilities.calendly :calendly_url="$expert->calendly_url" />
-
-                </x-layout.modal>
+                <x-utilities.calendly-modal :url="$expert->calendly_url" />
             </div>
         </div>
     </article>
