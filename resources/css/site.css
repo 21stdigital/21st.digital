@@ -3,6 +3,7 @@
 @import './config/_colors.css';
 @import './config/_layout.css';
 @import './config/_typography.css';
+@import './config/_modal.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 

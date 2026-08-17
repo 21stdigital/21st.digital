@@ -13,9 +13,5 @@
             @endforeach
         </ul>
     </nav>
-    <x-layout.modal label="Termin vereinbaren">
-
-        <x-utilities.calendly calendly_url="https://calendly.com/21stdigital/meeting" />
-
-    </x-layout.modal>
+    <x-utilities.calendly-modal url="https://calendly.com/21stdigital/meeting" />
 </header>

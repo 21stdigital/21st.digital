@@ -1,0 +1,50 @@
+@layer components {
+  /*
+   * Native <dialog> switches between `display: none` and `display: block`, so the
+   * fade needs `allow-discrete` plus a `@starting-style` entry point. Browsers
+   * without support simply skip the transition and snap open.
+   */
+  .modal {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: none;
+    padding: 0;
+    background-color: transparent;
+
+    /* The UA stylesheet gives <dialog> its own `color`, which cuts off inheritance. */
+    color: inherit;
+    opacity: 0;
+    transition:
+      opacity 200ms ease,
+      display 200ms allow-discrete,
+      overlay 200ms allow-discrete;
+
+    @starting-style {
+      &[open] {
+        opacity: 0;
+
+        &::backdrop {
+          opacity: 0;
+        }
+      }
+    }
+
+    &::backdrop {
+      background-color: color-mix(in oklab, var(--color-dark) 72%, transparent);
+      opacity: 0;
+      transition:
+        opacity 200ms ease,
+        display 200ms allow-discrete,
+        overlay 200ms allow-discrete;
+    }
+
+    &[open] {
+      opacity: 1;
+
+      &::backdrop {
+        opacity: 1;
+      }
+    }
+  }
+}
