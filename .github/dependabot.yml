@@ -2,6 +2,19 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+#
+# Grouping strategy: each ecosystem gets one group for patch+minor updates and a
+# separate one for majors. The patch/minor group is merged automatically by
+# .github/workflows/dependabot-auto-merge.yml, so it lands as a single PR per
+# week without manual work. Majors always require a human decision, so they are
+# collected into one PR per ecosystem instead of one PR per package -- otherwise
+# they pile up unnoticed, which is exactly how eight of them ended up sitting
+# open for half a year.
+#
+# `ignore` is reserved for updates that are technically impossible because a
+# dependency forbids them. Merely "not scheduled yet" is not a reason to ignore
+# an update -- those PRs stay visible. Every ignore entry must state its reason
+# and the condition under which it gets removed again.
 
 version: 2
 updates:
@@ -9,13 +22,65 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+    groups:
+      composer-minor-and-patch:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
+      composer-major:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'major'
 
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'weekly'
+    groups:
+      npm-minor-and-patch:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
+      npm-major:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'major'
+    ignore:
+      # TypeScript 7 dropped the stable programmatic compiler API, so
+      # typescript-eslint cannot read type information from it and pins its peer
+      # range to `<6.1.0`. Our eslint.config.js relies on strictTypeChecked, so
+      # upgrading would mean giving up type-aware linting. Microsoft targets the
+      # API for TypeScript 7.1.
+      # Remove this entry once typescript-eslint supports TypeScript 7.
+      - dependency-name: 'typescript'
+        update-types:
+          - 'version-update:semver-major'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'weekly'
+    groups:
+      actions-minor-and-patch:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
+      actions-major:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'major'
