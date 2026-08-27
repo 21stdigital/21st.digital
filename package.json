@@ -22,7 +22,7 @@
     "@shufo/prettier-plugin-blade": "1.16.2",
     "@tailwindcss/vite": "4.3.3",
     "@types/alpinejs": "3.13.11",
-    "eslint": "10.8.1",
+    "eslint": "10.9.1",
     "eslint-plugin-prefer-arrow-functions": "3.10.2",
     "eslint-plugin-simple-import-sort": "14.0.0",
     "globals": "17.11.0",
@@ -38,6 +38,6 @@
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
     "typescript-eslint": "8.67.0",
-    "vite": "8.2.1"
+    "vite": "8.2.2"
   }
 }
