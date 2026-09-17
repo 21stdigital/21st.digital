@@ -22,15 +22,15 @@
     "@shufo/prettier-plugin-blade": "1.16.2",
     "@tailwindcss/vite": "4.3.3",
     "@types/alpinejs": "3.13.11",
-    "eslint": "10.9.1",
+    "eslint": "10.10.0",
     "eslint-plugin-prefer-arrow-functions": "3.10.2",
     "eslint-plugin-simple-import-sort": "14.0.0",
-    "globals": "17.11.0",
+    "globals": "17.12.0",
     "laravel-vite-plugin": "3.2.0",
     "prettier": "3.9.6",
-    "prettier-plugin-antlers": "2.0.7",
+    "prettier-plugin-antlers": "2.0.8",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "stylelint": "17.14.1",
+    "stylelint": "17.15.0",
     "stylelint-config-hudochenkov": "13.0.2",
     "stylelint-config-standard": "40.0.0",
     "stylelint-order": "8.1.1",
@@ -38,6 +38,6 @@
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
     "typescript-eslint": "8.67.0",
-    "vite": "8.2.2"
+    "vite": "8.3.0"
   }
 }
